@@ -1,0 +1,59 @@
+
+Quartz3DB = {
+	["namespaces"] = {
+		["Swing"] = {
+		},
+		["Buff"] = {
+		},
+		["Interrupt"] = {
+		},
+		["Flight"] = {
+		},
+		["Pet"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 950.256469726562,
+				},
+			},
+		},
+		["Player"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 925.256469726562,
+				},
+			},
+		},
+		["EnemyCasts"] = {
+		},
+		["GCD"] = {
+		},
+		["Focus"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 950.256469726562,
+				},
+			},
+		},
+		["Target"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 950.256469726562,
+				},
+			},
+		},
+		["Mirror"] = {
+		},
+		["Range"] = {
+		},
+		["Latency"] = {
+		},
+	},
+	["profileKeys"] = {
+		["舒殉魂 - 埃基尔松"] = "Default",
+		["骨灰级吖 - 伊莫塔尔"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

@@ -1,0 +1,116 @@
+
+HPetSaves = {
+	["OnlyInPetInfo"] = false,
+	["FastForfeit"] = true,
+	["ShowBandageButton"] = true,
+	["ShowGrowInfo"] = true,
+	["ShowBreedID"] = true,
+	["PetBreedInfo"] = true,
+	["ShowMsg"] = true,
+	["Sound"] = true,
+	["EnemyAbility"] = true,
+	["AbScale"] = 0.75,
+	["ShowHideID"] = true,
+	["Tooltip"] = true,
+	["PetGreedInfo"] = true,
+	["HighGlow"] = true,
+	["AutoSaveAbility"] = true,
+	["BreedIDStyle"] = true,
+	["AbPoint"] = {
+		["Enemy2"] = {
+			"RIGHT", -- [1]
+			"HAbiFrameActiveEnemy", -- [2]
+			"LEFT", -- [3]
+			400, -- [4]
+			0, -- [5]
+		},
+		["Enemy3"] = {
+			"LEFT", -- [1]
+			"HAbiFrameActiveEnemy", -- [2]
+			"RIGHT", -- [3]
+			-400, -- [4]
+			0, -- [5]
+		},
+		["Ally3"] = {
+			"LEFT", -- [1]
+			"HAbiFrameActiveAlly", -- [2]
+			"RIGHT", -- [3]
+			-400, -- [4]
+			0, -- [5]
+		},
+		["ActiveAlly"] = {
+			nil, -- [1]
+			nil, -- [2]
+			nil, -- [3]
+			nil, -- [4]
+			440, -- [5]
+		},
+		["Ally2"] = {
+			"RIGHT", -- [1]
+			"HAbiFrameActiveAlly", -- [2]
+			"LEFT", -- [3]
+			400, -- [4]
+			0, -- [5]
+		},
+		["ActiveEnemy"] = {
+			"CENTER", -- [1]
+			nil, -- [2]
+			"CENTER", -- [3]
+			3.55589365959168, -- [4]
+			-296.703674316406, -- [5]
+		},
+	},
+	["Ver"] = "2.2.12",
+	["PetAbilitys"] = {
+		["BattlePet-0-000004BD11A0"] = "123",
+		["BattlePet-0-000004BD11F9"] = "423",
+		["BattlePet-0-000004BD119C"] = "153",
+		["BattlePet-0-00000638C4BA"] = "456",
+		["BattlePet-0-000004BD12BD"] = "453",
+		["BattlePet-0-000004BD1134"] = "126",
+		["BattlePet-0-00000638C346"] = "156",
+		["BattlePet-0-00000638C3F8"] = "123",
+		["BattlePet-0-000004BD12B6"] = "123",
+		["BattlePet-0-000004BD11A1"] = "426",
+		["BattlePet-0-000004BD1111"] = "153",
+		["BattlePet-0-00000638C35F"] = "453",
+		["BattlePet-0-000004BD1210"] = "123",
+		["BattlePet-0-00000638C3AC"] = "123",
+		["BattlePet-0-000004BD1357"] = "123",
+		["BattlePet-0-0000076FFDC9"] = "123",
+		["BattlePet-0-00000638C3AA"] = "126",
+		["BattlePet-0-00000638C437"] = "123",
+		["BattlePet-0-000004BD1130"] = "156",
+		["BattlePet-0-000004BD110E"] = "426",
+		["BattlePet-0-000004BD1240"] = "156",
+		["BattlePet-0-00000638C2A0"] = "426",
+		["BattlePet-0-000004BD1090"] = "156",
+		["BattlePet-0-0000076FFCBE"] = "153",
+		["BattlePet-0-0000076FFCB8"] = "123",
+		["BattlePet-0-0000076FFB3F"] = "153",
+		["BattlePet-0-000004BD11BA"] = "423",
+		["BattlePet-0-00000638C3AD"] = "123",
+		["BattlePet-0-0000076FFD59"] = "126",
+		["BattlePet-0-00000638C4BF"] = "123",
+		["BattlePet-0-000004BD1170"] = "126",
+		["BattlePet-0-0000076FFCB6"] = "123",
+		["BattlePet-0-000004BD1145"] = "123",
+		["BattlePet-0-000004BD10EB"] = "126",
+		["BattlePet-0-00000638C2A6"] = "426",
+		["BattlePet-0-000004BD1222"] = "156",
+		["BattlePet-0-00000638C44D"] = "156",
+		["BattlePet-0-000004BD1113"] = "153",
+		["BattlePet-0-000004BD110B"] = "426",
+		["BattlePet-0-000004BD114E"] = "123",
+		["BattlePet-0-00000638C440"] = "123",
+		["BattlePet-0-00000638C435"] = "453",
+		["BattlePet-0-00000638C3C4"] = "123",
+		["BattlePet-0-000004BD0F8F"] = "123",
+	},
+	["AllyAbility"] = false,
+	["MiniTip"] = false,
+	["LockAbilitys"] = true,
+	["ShowAbilitysName"] = true,
+	["OtherAbility"] = true,
+	["god"] = false,
+}

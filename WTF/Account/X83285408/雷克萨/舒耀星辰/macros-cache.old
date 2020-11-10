@@ -1,0 +1,56 @@
+VER 3 010000000000000C "保护之手" "SPELL_HOLY_SEALOFPROTECTION"
+#showtooltip 保护祝福
+/cast [target=mouseover,help][] 保护祝福
+END
+VER 3 0100000000000014 "公正之剑" "ABILITY_PALADIN_BLADEOFJUSTICE"
+#showtooltip 公正之剑
+/use 13
+/use 14
+/cast 公正之剑
+END
+VER 3 0100000000000013 "十字军打击" "SPELL_HOLY_CRUSADERSTRIKE"
+#showtooltip 十字军打击
+/use 13
+/use 14
+/cast 十字军打击
+END
+VER 3 0100000000000001 "圣光闪现" "SPELL_HOLY_FLASHHEAL"
+#showtooltip 圣光闪现
+/cast [target=mouseover,help][] 圣光闪现
+END
+VER 3 0100000000000015 "圣殿骑士的裁决" "SPELL_PALADIN_TEMPLARSVERDICT"
+#showtooltip 圣殿骑士的裁决
+/use 13
+/use 14
+/cast 复仇之怒
+/cast 圣殿骑士的裁决
+END
+VER 3 0100000000000004 "圣疗术" "SPELL_HOLY_LAYONHANDS"
+#showtooltip 圣疗术
+/cast [target=mouseover,help][] 圣疗术
+END
+VER 3 0100000000000016 "审判" "SPELL_HOLY_RIGHTEOUSFURY"
+#showtooltip 审判
+/use 13
+/use 14
+/cast 审判
+END
+VER 3 0100000000000011 "救赎" "SPELL_HOLY_RESURRECTION"
+#showtooltip 救赎
+/cast [target=mouseover,help][] 救赎
+END
+VER 3 0100000000000005 "清洁术" "SPELL_HOLY_PURIFY"
+#showtooltip 清洁术
+/cast [target=mouseover,help][] 清洁术
+END
+VER 3 0100000000000017 "神圣风暴" "ABILITY_PALADIN_DIVINESTORM"
+#showtooltip 神圣风暴
+/use 13
+/use 14
+/cast 复仇之怒
+/cast 神圣风暴
+END
+VER 3 0100000000000012 "自由祝福" "SPELL_HOLY_SEALOFVALOR"
+#showtooltip 自由祝福
+/cast [target=mouseover,help][] 自由祝福
+END

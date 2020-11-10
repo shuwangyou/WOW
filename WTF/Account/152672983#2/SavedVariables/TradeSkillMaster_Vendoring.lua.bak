@@ -1,0 +1,41 @@
+
+TradeSkillMaster_VendoringDB = {
+	["g@ @qsDestroyValue"] = "destroy",
+	["_scopeKeys"] = {
+		["char"] = {
+			"舒殉魂 - 埃基尔松", -- [1]
+			"骨灰级吖 - 伊莫塔尔", -- [2]
+		},
+		["factionrealm"] = {
+			"Horde - 埃基尔松", -- [1]
+			"Alliance - 伊莫塔尔", -- [2]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["realm"] = {
+			"埃基尔松", -- [1]
+			"伊莫塔尔", -- [2]
+		},
+	},
+	["g@ @helpPlatesShown"] = {
+	},
+	["_hash"] = 7791016,
+	["g@ @qsHideGrouped"] = true,
+	["_currentProfile"] = {
+		["舒殉魂 - 埃基尔松"] = "Default",
+		["骨灰级吖 - 伊莫塔尔"] = "Default",
+	},
+	["g@ @qsHideSoulbound"] = true,
+	["g@ @defaultPage"] = 1,
+	["g@ @qsBatchSize"] = 12,
+	["g@ @displayMoneyCollected"] = false,
+	["g@ @qsMarketValue"] = "dbmarket",
+	["g@ @autoSellTrash"] = false,
+	["g@ @defaultMerchantTab"] = false,
+	["g@ @qsMaxDestroyValue"] = "100g",
+	["g@ @qsMaxMarketValue"] = "100g",
+	["_version"] = 1,
+	["g@ @ignore"] = {
+	},
+}

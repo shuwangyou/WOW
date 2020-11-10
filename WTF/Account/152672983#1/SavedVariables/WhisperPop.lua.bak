@@ -1,0 +1,17 @@
+
+WhisperPopDB = {
+	["listHeight"] = 320,
+	["save"] = 1,
+	["listWidth"] = 200,
+	["sound"] = 1,
+	["applyFilters"] = 1,
+	["buttonScale"] = 100,
+	["history"] = {
+	},
+	["ignoreTags"] = 1,
+	["version"] = 4.12,
+	["foreignOnly"] = 1,
+	["listScale"] = 100,
+	["notifyButton"] = 1,
+	["time"] = 1,
+}

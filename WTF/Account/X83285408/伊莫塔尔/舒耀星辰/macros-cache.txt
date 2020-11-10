@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "救赎" "SPELL_HOLY_RESURRECTION"
+#showtooltips 救赎
+/cast [mouseover,help][]救赎
+END

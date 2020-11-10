@@ -1,0 +1,48 @@
+VER 3 0100000000000001 "1" "Ability_Druid_TreeofLife"
+#showtooltip 恢复
+/cast [target=mouseover,exists][] 恢复
+END
+VER 3 010000000000000C "元素冲击" "INV_MISC_QUESTIONMARK"
+/cast [@target,harm][@targettarget,harm][@targettargettarget,harm][@targettargettargettarget,harm][] 元素冲击
+END
+VER 3 0100000000000005 "先祖之魂" "SPELL_NATURE_REGENERATE"
+#showtooltip 先祖之魂
+/cast [target=mouseover,exists][] 先祖之魂
+END
+VER 3 0100000000000004 "净化术" "SPELL_NATURE_PURGE"
+#showtooltip 净化术
+/cast [target=mouseover,exists][] 净化术
+END
+VER 3 0100000000000007 "净化灵魂" "ABILITY_SHAMAN_CLEANSESPIRIT"
+#showtooltip 净化灵魂
+/cast [target=mouseover,exists][] 净化灵魂
+END
+VER 3 0100000000000003 "大地之盾" "SPELL_NATURE_SKINOFEARTH"
+#showtooltip 大地之盾
+/cast [target=mouseover,exists][] 大地之盾
+END
+VER 3 0100000000000008 "治疗之涌" "SPELL_NATURE_HEALINGWAY"
+#showtooltip 治疗之涌
+/cast [target=mouseover,exists][] 纳鲁的赐福
+/cast [target=mouseover,exists][] 治疗之涌
+END
+VER 3 0100000000000002 "治疗波" "SPELL_NATURE_MAGICIMMUNITY"
+#showtooltip 治疗波
+/cast [target=mouseover,exists][] 治疗波
+END
+VER 3 0100000000000009 "治疗链" "SPELL_NATURE_HEALINGWAVEGREATER"
+#showtooltip 治疗链
+/cast [target=mouseover,exists][] 治疗链
+END
+VER 3 010000000000000B "激流" "INV_MISC_QUESTIONMARK"
+#showtooltip 激流
+/cast [target=mouseover,exists][] 激流
+END
+VER 3 0100000000000006 "纳鲁的赐福" "INV_MISC_QUESTIONMARK"
+/cast [@targettarget,help,exists][@mouseover,help][] 生命释放
+END
+VER 3 010000000000000A "风剪" "SPELL_NATURE_CYCLONE"
+#showtooltip 风剪
+/stopcasting
+/cast 风剪
+END

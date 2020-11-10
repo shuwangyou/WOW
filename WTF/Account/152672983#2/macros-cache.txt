@@ -1,0 +1,162 @@
+VER 3 0000000000000004 "BB攻击" "ABILITY_DUALWIELD"
+/petattack
+END
+VER 3 0000000000000038 "BF_Mount" "ability_mount_charger"
+/bfmount
+END
+VER 3 0000000000000037 "Decursive" "INV_MISC_QUESTIONMARK"
+/script DecursiveRootTable.Dcr:Println('没有相关技能')
+END
+VER 3 0000000000000030 "一口价" "ACHIEVEMENT_GUILDPERK_MOBILEBANKING"
+/click TSMAuctioningPostButton
+/click TSMAuctioningCancelButton
+/click TSMAHTabBuyoutButton
+/click TSMAHConfirmationActionButton
+END
+VER 3 0000000000000032 "冰封之韧" "SPELL_DEATHKNIGHT_ICEBOUNDFORTITUDE"
+#showtooltip 冰封之韧
+/cast 冰封之韧
+/咆哮
+/s 阿尔萨斯附体！
+/s \ {rt8}
+/s   {rt6}>
+/s  /  \
+/s 12s真男人！冰封之韧！
+END
+VER 3 0000000000000034 "冰霜打击" "SPELL_DEATHKNIGHT_EMPOWERRUNEBLADE2"
+#showtooltips 冰霜打击
+/cast 冰霜之柱
+/cast 冰霜打击
+/cast 活力分流
+END
+VER 3 0000000000000035 "凛风冲击" "SPELL_FROST_ARCTICWINDS"
+#showtooltip 凛风冲击
+/cast 冰霜之柱
+/cast 凛风冲击
+/cast 活力分流
+END
+VER 3 0000000000000015 "凛风冲击" "SPELL_FROST_ARCTICWINDS"
+#showtooltip 凛风冲击
+/cast [target=focus] 凛风冲击
+END
+VER 3 0000000000000023 "凯帕琥珀" "INV_ENCHANT_SHARDGLIMMERINGLARGE"
+#showtooltip 选矿
+/tsm destroy
+/use 闪耀碎片
+/click TSMDestroyButton
+END
+VER 3 000000000000002F "取消保护" "ACHIEVEMENT_GUILDPERK_QUICK AND DEAD"
+/cancelaura 保护之手
+END
+VER 3 0000000000000019 "吸血鬼之血" "SPELL_SHADOW_LIFEDRAIN"
+#showtooltip 吸血鬼之血
+/cast [nopet] 亡者复生
+/cast 吸血鬼之血
+/cast 符文分流
+END
+VER 3 0000000000000029 "吸血鬼之血" "SPELL_SHADOW_LIFEDRAIN"
+#showtooltip 吸血鬼之血
+/cast 吸血鬼之血
+/cast 符文分流
+END
+VER 3 000000000000000E "坐下" "SPELL_SHADOW_TELEPORT"
+/坐下
+END
+VER 3 0000000000000001 "坐骑" "Ability_Mount_Charger"
+/RandomMount
+END
+VER 3 000000000000001B "复活盟友" "SPELL_SHADOW_DEADOFNIGHT"
+#showtooltip 复活盟友
+/cast [target=mouseover][] 复活盟友
+END
+VER 3 0000000000000012 "天灾契约" "SPELL_SHADOW_DEATHPACT"
+#showtooltip 亡者复生
+/cast 亡者复生
+/cast 天灾契约
+END
+VER 3 0000000000000024 "宠物日常" "ACHIEVEMENT_GUILDPERK_GMAIL"
+/dtc
+END
+VER 3 0000000000000026 "寒冬号角" "INV_MISC_HORN_02"
+#showtooltip 寒冬号角
+/use 庆祝包裹
+/dismount
+/use 狂乱水晶
+/use 过度生长的睡莲
+/cast 白骨之盾
+/cast 寒冬号角
+END
+VER 3 0000000000000010 "寒冬号角" "INV_MISC_HORN_02"
+#showtooltip 寒冬号角
+/dismount
+/cast [nopet] 亡者复生
+/use 狂乱水晶
+/cast 白骨之盾
+/cast 寒冬号角
+END
+VER 3 000000000000002B "幻灭踢" "ABILITY_MONK_ROUNDHOUSEKICK"
+#showtooltips 幻灭踢
+/castsequence reset=0 0,幻灭踢
+/castsequence reset=0 旭日东升踢,0
+END
+VER 3 0000000000000009 "开怪" "ACHIEVEMENT_FACTION_SERPENTRIDERS"
+/dbm pull 7
+END
+VER 3 0000000000000036 "暗影打击" "SPELL_DEATHKNIGHT_EMPOWERRUNEBLADE"
+#showtooltip 暗影打击
+/castsequence reset=0 0,暗影打击
+/castsequence reset=0 吸血瘟疫,0
+END
+VER 3 000000000000001D "杀戮射击" "ABILITY_HUNTER_ASSASSINATE2"
+#showtooltip 杀戮射击
+/stopcasting
+/stopcasting
+/cast 杀戮射击
+END
+VER 3 000000000000000F "湮没" "SPELL_DEATHKNIGHT_CLASSICON"
+#showtooltip 湮没
+/cast 冰霜灵气
+/cast 冰霜之柱
+/cast 湮没
+/cast 活力分流
+END
+VER 3 0000000000000017 "灵界打击" "SPELL_DEATHKNIGHT_BUTCHER2"
+#showtooltip 灵界打击
+/cast 鲜血灵气
+/cast 符文刃舞
+/cast 灵界打击
+END
+VER 3 0000000000000016 "焦点打断" "ABILITY_DUALWIELD"
+#showtooltip 心灵冰冻
+/cast [target=focus] 心灵冰冻
+END
+VER 3 0000000000000014 "焦点额外" "SPELL_MAGIC_MANAGAIN"
+/target focus
+/click ExtraActionButton1
+END
+VER 3 000000000000002A "真气波" "ABILITY_MONK_CHIWAVE"
+#showtooltips 真气波
+/cast 豪能酒
+/cast 虎眼酒
+/cast 真气波
+END
+VER 3 0000000000000018 "符文打击" "SPELL_DEATHKNIGHT_DARKCONVICTION"
+#showtooltip 符文打击
+/cast 白骨之盾
+/cast 符文打击
+END
+VER 3 000000000000002C "贯日击" "INV_MISC_QUESTIONMARK"
+#showtooltips 贯日击
+/castsequence reset=0 0,贯日击
+/castsequence reset=0 移花接木,0
+END
+VER 3 000000000000001A "钓鱼" "INV_SCROLL_11"
+/use 骨质鱼竿
+/cast 钓鱼
+END
+VER 3 0000000000000031 "随机宠物" "INV_MISC_TRINKETPANDA_11"
+/rfp
+END
+VER 3 000000000000000D "额外动作按钮" "SPELL_SHADOW_TELEPORT"
+/click ExtraActionButton1
+END

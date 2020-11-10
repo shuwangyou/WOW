@@ -1,0 +1,63 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["舒预言 - 伊莫塔尔"] = "舒预言 - 伊莫塔尔",
+		["舒唤天 - 伊莫塔尔"] = "舒唤天 - 伊莫塔尔",
+	},
+	["profiles"] = {
+		["舒预言 - 伊莫塔尔"] = {
+			["MainWindowVis"] = false,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 231.931579589844,
+					["x"] = -885.606735229492,
+					["w"] = 285.504333496094,
+					["h"] = 182.49609375,
+				},
+			},
+			["DetailWindowX"] = 831.521545410156,
+			["LastInstanceName"] = "翡翠梦魇",
+			["GlobalDataCollect"] = false,
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -372.91455078125,
+			["MainWindowHeight"] = 182.49609375,
+			["MainWindowWidth"] = 285.504333496094,
+			["HideCollect"] = true,
+		},
+		["舒唤天 - 伊莫塔尔"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 234.119689941406,
+					["x"] = -888.341888427734,
+					["w"] = 290.974273681641,
+					["h"] = 189.059951782227,
+				},
+			},
+			["MainWindowHeight"] = 189.059951782227,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["MainWindowVis"] = false,
+			["LastInstanceName"] = "埃索达之战",
+			["CurDataSet"] = "LastFightData",
+			["MainWindowWidth"] = 290.974212646484,
+		},
+	},
+}

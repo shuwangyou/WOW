@@ -1,0 +1,19 @@
+VER 3 0100000000000014 "1" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/dismount
+/startattack [combat]
+/use 庆祝包裹
+/use 炽燃之翼
+/use 圣光微粒
+/use 扭曲骸骨
+/use 改装的邪能焦镜
+/use 奥拉留斯的低语水晶
+/use 狂乱水晶
+/use 审判官的邪恶之眼
+END
+VER 3 0100000000000015 "投掷利刃" "INV_MISC_QUESTIONMARK"
+#showtooltip 投掷利刃
+/startattack
+/cast 投掷利刃
+/use 12
+END

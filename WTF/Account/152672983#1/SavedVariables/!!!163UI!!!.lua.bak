@@ -1,0 +1,15 @@
+
+U1DBG = {
+	["minimapDefaultPos"] = 65,
+	["quest_font_height"] = 15,
+	["profiles"] = {
+		["auto"] = {
+		},
+		["manual"] = {
+		},
+	},
+	["friendlist"] = {
+		["伊莫塔尔 - 舒伯利斯"] = {
+		},
+	},
+}

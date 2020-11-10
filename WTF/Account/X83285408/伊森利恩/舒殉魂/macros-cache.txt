@@ -1,0 +1,36 @@
+VER 3 0100000000000014 "凤凰烈焰" "ARTIFACTABILITY_FIREMAGE_PHOENIXBOLT"
+#showtooltips 凤凰烈焰
+/stopcasting
+/stopcasting
+/cast 凤凰烈焰
+END
+VER 3 0100000000000013 "寒冰护体" "SPELL_ICE_LAMENT"
+#showtooltip 寒冰护体
+/use 庆祝包裹
+/dismount
+/use 奥拉留斯的低语水晶
+/use 炽燃之翼
+/cast 寒冰护体
+END
+VER 3 0100000000000016 "寒冰箭" "SPELL_FROST_FROSTBOLT02"
+#showtooltips 寒冰箭
+/cast [nopet]召唤水元素
+/use 13
+/use 14
+/cast 冰冷血脉
+/cast 寒冰箭
+/cast 水流喷射
+END
+VER 3 0100000000000012 "烈焰飞舞" "INV_HELM_CIRCLET_FIRELANDS_D_01"
+#showtooltips 烈焰飞舞
+/stopcasting
+/stopcasting
+/cast 烈焰飞舞
+/cast 火焰冲击
+END
+VER 3 0100000000000015 "燃烧" "SPELL_FIRE_SEALOFFIRE"
+#showtooltips 燃烧
+/use 13
+/use 14
+/cast 燃烧
+END

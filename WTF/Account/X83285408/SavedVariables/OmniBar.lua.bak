@@ -1,0 +1,55 @@
+
+OmniBarDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["version"] = 3,
+	["profileKeys"] = {
+		["舒预言 - 伊莫塔尔"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["bars"] = {
+				["OmniBar1"] = {
+					["glow"] = true,
+					["yOfs"] = -120,
+					["xOfs"] = -145,
+					["tooltips"] = true,
+					["names"] = false,
+					["multiple"] = true,
+					["ratedBattleground"] = true,
+					["highlightFocus"] = false,
+					["center"] = true,
+					["locked"] = false,
+					["growUpward"] = true,
+					["padding"] = 1,
+					["size"] = 40,
+					["cooldownCount"] = true,
+					["highlightTarget"] = false,
+					["columns"] = 8,
+					["unusedAlpha"] = 0.4,
+					["align"] = "CENTER",
+					["showUnused"] = false,
+					["swipeAlpha"] = 0.7,
+					["adaptive"] = true,
+					["maxIcons"] = 500,
+					["ashran"] = true,
+					["name"] = "OmniBar",
+					["position"] = {
+						["relativeTo"] = "UIParent",
+						["point"] = "CENTER",
+						["relativePoint"] = "CENTER",
+						["yOfs"] = -150,
+						["xOfs"] = 0,
+						["frameStrata"] = "MEDIUM",
+					},
+					["world"] = true,
+					["arena"] = true,
+					["border"] = false,
+					["battleground"] = true,
+				},
+			},
+		},
+	},
+}

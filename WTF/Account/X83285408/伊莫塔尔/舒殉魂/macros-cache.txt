@@ -1,0 +1,60 @@
+VER 3 0100000000000008 "冰川尖刺" "INV_MISC_QUESTIONMARK"
+#showtooltips 冰川尖刺
+/startattack [combat]
+/cast 冰川尖刺
+/cast 冰冷血脉
+/use 14
+END
+VER 3 0100000000000005 "冰枪" "INV_MISC_QUESTIONMARK"
+#showtooltips 冰枪术
+/startattack [combat]
+/cast 冰枪术
+/cast 冰冷血脉
+/use 14
+END
+VER 3 0100000000000006 "冰风暴" "INV_MISC_QUESTIONMARK"
+#showtooltips 冰风暴
+/startattack [combat]
+/cast 冰风暴
+/cast 冰冷血脉
+/use 14
+END
+VER 3 0100000000000001 "寒冰护体" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/dismount
+/startattack [combat]
+/cast 寒冰护体
+/use 庆祝包裹
+/use 炽燃之翼
+/use 圣光微粒
+/use 扭曲骸骨
+/use 改装的邪能焦镜
+/use 奥拉留斯的低语水晶
+/use 狂乱水晶
+/use 审判官的邪恶之眼
+END
+VER 3 0100000000000003 "寒冰箭" "INV_MISC_QUESTIONMARK"
+#showtooltips 寒冰箭
+/startattack [combat]
+/cast 寒冰箭
+/cast 冰冷血脉
+/use 14
+END
+VER 3 0100000000000009 "彗星风暴" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/startattack [combat]
+/cast 彗星风暴
+/cast 冰冷血脉
+/use 14
+END
+VER 3 0100000000000002 "暴风雪" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [@enermy,exists]暴风雪;暴风雪
+END
+VER 3 0100000000000007 "黑冰箭" "INV_MISC_QUESTIONMARK"
+#showtooltips 黑冰箭
+/startattack [combat]
+/cast 黑冰箭
+/cast 冰冷血脉
+/use 14
+END

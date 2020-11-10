@@ -1,0 +1,17 @@
+
+RelicInspectorCharDB = {
+	["profileKeys"] = {
+		["舒预言 - 冰风岗"] = "舒预言 - 冰风岗",
+	},
+	["char"] = {
+		["舒预言 - 冰风岗"] = {
+			["artifactCache"] = {
+				[128292] = {
+					["timestamp"] = 3756.306,
+					["crucibled"] = false,
+					["level"] = 60,
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,89 @@
+VER 3 0100000000000010 "1" "ACHIEVEMENT_GUILDPERK_GMAIL"
+/s \ {rt8}
+/s   {rt6}>
+/s  /  \
+/s 作为一个布甲T，我的压力很大！
+END
+VER 3 010000000000000B "冰冻术" "SPELL_FROST_FROSTNOVA"
+#showtooltip 冰冻术
+/cast [nopet]召唤水元素
+/cast 冰冻术
+END
+VER 3 0100000000000009 "冰枪术" "SPELL_FROST_FROSTBLAST"
+#showtooltip 冰枪术
+/stopcasting
+/cast 冰枪术
+END
+VER 3 0100000000000001 "奥术冲击" "SPELL_ARCANE_BLAST"
+#showtooltip 奥术冲击
+/cast 气定神闲
+/cast 奥术冲击
+END
+VER 3 010000000000000F "寒冰宝珠" "SPELL_FROST_FROZENORB"
+#showtooltip
+/cast 寒冰宝珠
+/use 白雪之花
+END
+VER 3 010000000000000D "寒冰屏障" "SPELL_FROST_FROST"
+#showtooltip
+/cast 寒冰屏障
+/cast 纳鲁的赐福
+END
+VER 3 0100000000000006 "寒冰护体" "SPELL_ICE_LAMENT"
+#showtooltip 寒冰护体
+/dismount
+/equip 尊崇公会战袍
+/use 过度生长的睡莲
+/use 狂乱水晶
+/use 炼金师的合剂
+/cast 寒冰护体
+END
+VER 3 0100000000000004 "寒冰箭" "INV_MISC_QUESTIONMARK"
+#showtooltip 寒冰箭
+/castsequence reset=0 0,寒冰箭
+/castsequence reset=0 寒冰炸弹,0
+END
+VER 3 010000000000000A "时光护盾" "SPELL_MAGE_TEMPORALSHIELD"
+#showtooltip 时光护盾
+/use 庆祝包裹
+/use 炼金师的合剂
+/cast 时光护盾
+END
+VER 3 0100000000000003 "法力宝石" "INV_MISC_GEM_SAPPHIRE_02"
+#showtooltip 法力宝石
+/use 法力宝石
+/cast 制造法力宝石
+END
+VER 3 0100000000000008 "法术反制" "SPELL_FROST_ICESHOCK"
+#showtooltip 法术反制
+/stopcasting
+/cast 法术反制
+END
+VER 3 010000000000000C "活动炸弹" "ABILITY_MAGE_LIVINGBOMB"
+#showtooltip 活动炸弹
+/stopcasting
+/cast 活动炸弹
+END
+VER 3 0100000000000007 "炼狱冲击" "SPELL_MAGE_INFERNOBLAST"
+#showtooltip 炼狱冲击
+/stopcasting
+/cast 炼狱冲击
+/int 1
+/cast 燃烧
+END
+VER 3 0100000000000002 "解除诅咒" "SPELL_NATURE_REMOVECURSE"
+#showtooltip 解除诅咒
+/cast [target=mouseover,help][] 解除诅咒
+END
+VER 3 010000000000000E "镜像" "SPELL_MAGIC_LESSERINVISIBILTY"
+#showtooltip 镜像
+/cast 冰冷血脉
+/cast 镜像
+END
+VER 3 0100000000000005 "霜火之箭" "ABILITY_MAGE_FROSTFIREBOLT"
+#showtooltip 霜火之箭
+/stopcasting
+/use 炼金师的合剂
+/cast 气定神闲
+/cast 霜火之箭
+END

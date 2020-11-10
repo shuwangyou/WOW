@@ -1,0 +1,7 @@
+
+tdDropDownDB = {
+	["BuyName"] = {
+	},
+	["SendMailNameEditBox"] = {
+	},
+}

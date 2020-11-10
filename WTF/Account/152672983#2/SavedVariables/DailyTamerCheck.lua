@@ -1,0 +1,2 @@
+
+DailyTamerCheck_Options = nil

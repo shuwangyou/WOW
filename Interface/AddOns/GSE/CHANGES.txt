@@ -1,0 +1,16 @@
+lightweight tag 8b63660ffe4b380f6920a417a6268f3618d1a308 GSE_2.4.04
+Author:	Timothy Minahan <timothy@minahan.net>
+Date:	Fri Jan 11 08:04:19 2019 +1030
+
+commit 8b63660ffe4b380f6920a417a6268f3618d1a308
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 11 08:04:19 2019 +1030
+
+    #493 use a random icon for LDB
+
+commit 6fe92052c1863ea6195a01fb4c4e24512ab63d44
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 11 08:03:48 2019 +1030
+
+    #494 typo
+

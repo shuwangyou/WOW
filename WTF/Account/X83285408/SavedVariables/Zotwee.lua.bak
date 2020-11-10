@@ -1,0 +1,11 @@
+
+ZotweeDB = {
+	["profileKeys"] = {
+		["舒预言 - 伊莫塔尔"] = "Default",
+	},
+	["realm"] = {
+		["伊莫塔尔"] = {
+			["time"] = 10,
+		},
+	},
+}

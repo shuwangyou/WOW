@@ -1,0 +1,3629 @@
+
+RCLootCouncilDB = {
+	["namespaces"] = {
+		["ExtraUtilities"] = {
+		},
+	},
+	["profileKeys"] = {
+		["舒预言 - 伊莫塔尔"] = "Default",
+		["舒墨兰 - 伊莫塔尔"] = "Default",
+		["舒预言 - 冰风岗"] = "Default",
+	},
+	["global"] = {
+		["localizedSubTypes"] = {
+			["战刃"] = "Warglaives",
+			["双手斧"] = "Two-Handed Axes",
+			["弩"] = "Crossbows",
+			["双手锤"] = "Two-Handed Maces",
+			["皮甲"] = "Leather",
+			["单手斧"] = "One-Handed Axes",
+			["弓"] = "Bows",
+			["created"] = true,
+			["板甲"] = "Plate",
+			["布甲"] = "Cloth",
+			["神器圣物"] = "Artifact Relic",
+			["法杖"] = "Staves",
+			["长柄武器"] = "Polearms",
+			["单手锤"] = "One-Handed Maces",
+			["单手剑"] = "One-Handed Swords",
+			["锁甲"] = "Mail",
+			["枪械"] = "Guns",
+			["匕首"] = "Daggers",
+			["拳套"] = "Fist Weapons",
+			["魔杖"] = "Wands",
+			["双手剑"] = "Two-Handed Swords",
+			["盾牌"] = "Shields",
+		},
+		["verTestCandidates"] = {
+			["嗗頭-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["踩油门丶-伊莫塔尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["织田丶-冰风岗"] = "2.4.4-nil: - 舒预言-冰风岗",
+			["一九五八-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["潴灬牛气冲天-冰风岗"] = "2.4.3-nil: - 舒预言-冰风岗",
+			["嗨森部落-伊莫塔尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["乄骨頭-冰风岗"] = "2.4.3-nil: - 舒预言-冰风岗",
+			["灼乄雅-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["丿人丿次卟-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["我喜欢泡泡-冰风岗"] = "2.4.3-nil: - 舒预言-冰风岗",
+			["笔直的铅笔-伊莫塔尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["办丨证-伊莫塔尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["毛二狗-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["毛尖-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["丑的想毁容-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["毛主席说我牛-冰风岗"] = "2.4.3-nil: - 舒预言-冰风岗",
+			["拉菲丶曾-萨尔"] = "2.2.5-nil: - 舒预言-伊莫塔尔",
+			["Suen-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["超一季流年-冰风岗"] = "2.4.3-nil: - 舒预言-冰风岗",
+			["猛牛来啦-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["火影部落-伊莫塔尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["圣天之怒-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["毛小尖-冰风岗"] = "2.4.3-nil: - 舒预言-冰风岗",
+			["一更帅一-冰风岗"] = "2.4.3-nil: - 舒预言-冰风岗",
+			["弑丶戰-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["一九五八-冰风岗"] = "2.4.3-nil: - 舒预言-冰风岗",
+			["泽拉丿-冰风岗"] = "2.4.3-nil: - 舒预言-冰风岗",
+			["Shadowheart-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["上手刀-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["乄骨头-冰风岗"] = "2.4.3-nil: - 舒预言-冰风岗",
+			["骨頭-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["天天熬夜-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["舒预言-冰风岗"] = "2.4.4-nil: - 舒预言-冰风岗",
+			["妞妞有劲-冰风岗"] = "2.4.3-nil: - 舒预言-冰风岗",
+			["下手剑-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["聖光大天使-冰风岗"] = "2.4.4-nil: - 舒预言-冰风岗",
+			["只怪嫂太诱人-伊莫塔尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["倔脾气-萨尔"] = "2.2.5-nil: - 舒预言-伊莫塔尔",
+			["老砍刀-冰风岗"] = "2.4.3-nil: - 舒预言-冰风岗",
+			["潴灬玉兔呈祥-冰风岗"] = "2.4.3-nil: - 舒预言-冰风岗",
+			["Boneknight-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["毛肚-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["小白呀咩嗲-冰风岗"] = "2.4.0-nil: - 舒预言-冰风岗",
+			["鸡儿永不放假-萨尔"] = "2.4.3-nil: - 舒墨兰-伊莫塔尔",
+			["吻殇-萨尔"] = "2.2.5-nil: - 舒预言-伊莫塔尔",
+			["湿漉漉的神棍-冰风岗"] = "2.4.3-nil: - 舒预言-冰风岗",
+			["妞妞有劲-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["火影部落-冰风岗"] = "2.4.3-nil: - 舒预言-冰风岗",
+			["爆脾氣-萨尔"] = "2.2.5-nil: - 舒预言-伊莫塔尔",
+			["Playeridgmda-冰风岗"] = "2.4.3-nil: - 舒预言-冰风岗",
+			["立地丶-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["东北鸭王-冰风岗"] = "2.4.0-nil: - 舒预言-冰风岗",
+			["毛二狗-冰风岗"] = "2.4.3-nil: - 舒预言-冰风岗",
+			["舒墨兰-伊莫塔尔"] = "2.4.4-nil: - 舒墨兰-伊莫塔尔",
+			["Udtom-萨尔"] = "2.4.3-nil: - 舒墨兰-伊莫塔尔",
+			["舒预言-伊莫塔尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["一个欧皇猎-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["双马尾小布丁-冰风岗"] = "2.4.3-nil: - 舒预言-冰风岗",
+			["扌比丶马蚤-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["一更帅一-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["猛牛来啦-冰风岗"] = "2.4.3-nil: - 舒预言-冰风岗",
+			["可可子西-冰风岗"] = "2.4.3-nil: - 舒预言-冰风岗",
+			["夏瓣微凉-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["烂骨頭-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["Milkcolate-冰风岗"] = "2.4.3-nil: - 舒预言-冰风岗",
+			["丨战神-伊莫塔尔"] = "2.4.3-nil: - 舒墨兰-伊莫塔尔",
+			["堃堃-伊莫塔尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["不二橙-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["潴灬三羊开泰-冰风岗"] = "2.4.3-nil: - 舒预言-冰风岗",
+			["可可子西-萨尔"] = "2.4.3-nil: - 舒预言-伊莫塔尔",
+			["弑丶戰-冰风岗"] = "2.4.3-nil: - 舒预言-冰风岗",
+		},
+		["version"] = "2.4.3",
+		["log"] = {
+			"01:08:18 - LootMethod =  (personalloot)", -- [1]
+			"01:08:18 - GetPlayersGuildRank()", -- [2]
+			"01:08:18 - Found Guild Rank: M团（储备）", -- [3]
+			"01:08:19 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [4]
+			"01:09:10 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (乄骨頭) (distri:) (GUILD)", -- [5]
+			"01:15:36 - Event: (PLAYER_ENTERING_WORLD)", -- [6]
+			"01:15:36 - GetML()", -- [7]
+			"01:15:36 - LootMethod =  (personalloot)", -- [8]
+			"01:23:16 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (乄骨頭) (distri:) (GUILD)", -- [9]
+			"01:30:50 - Event: (PLAYER_ENTERING_WORLD)", -- [10]
+			"01:30:50 - GetML()", -- [11]
+			"01:30:50 - LootMethod =  (personalloot)", -- [12]
+			"01:47:00 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [13]
+			"01:47:00 - GetML()", -- [14]
+			"01:47:00 - LootMethod =  (personalloot)", -- [15]
+			"01:47:40 - Event: (PLAYER_ENTERING_WORLD)", -- [16]
+			"01:47:40 - GetML()", -- [17]
+			"01:47:40 - LootMethod =  (personalloot)", -- [18]
+			"01:51:37 - Event: (RAID_INSTANCE_WELCOME) (英灵殿（史诗）) (450502) (0) (0)", -- [19]
+			"01:51:37 - Event: (PLAYER_ENTERING_WORLD)", -- [20]
+			"01:51:37 - GetML()", -- [21]
+			"01:51:37 - LootMethod =  (personalloot)", -- [22]
+			"07/15/17", -- [23]
+			"02:00:37 - Logged In", -- [24]
+			"02:00:37 - ML initialized!", -- [25]
+			"02:00:37 - Using ExtraUtilities (0.5.0)", -- [26]
+			"02:00:37 - EU:UpdateGuildInfo", -- [27]
+			"02:00:37 - GroupGear (1.2.3) (enabled)", -- [28]
+			"02:00:42 - 舒预言-冰风岗 (2.4.4) (nil)", -- [29]
+			"02:00:43 - Event: (PLAYER_ENTERING_WORLD)", -- [30]
+			"02:00:43 - GetML()", -- [31]
+			"02:00:43 - LootMethod =  (personalloot)", -- [32]
+			"02:00:45 - GetPlayersGuildRank()", -- [33]
+			"02:00:45 - Found Guild Rank: M团（储备）", -- [34]
+			"02:00:45 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [35]
+			"02:00:45 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [36]
+			"02:00:45 - GetML()", -- [37]
+			"02:00:45 - LootMethod =  (personalloot)", -- [38]
+			"02:10:35 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (火影部落) (distri:) (GUILD)", -- [39]
+			"02:12:00 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (火影部落) (distri:) (GUILD)", -- [40]
+			"02:24:10 - Event: (PLAYER_ENTERING_WORLD)", -- [41]
+			"02:24:10 - GetML()", -- [42]
+			"02:24:10 - LootMethod =  (personalloot)", -- [43]
+			"07/15/17", -- [44]
+			"02:26:59 - Logged In", -- [45]
+			"02:26:59 - ML initialized!", -- [46]
+			"02:26:59 - Using ExtraUtilities (0.5.0)", -- [47]
+			"02:26:59 - EU:UpdateGuildInfo", -- [48]
+			"02:26:59 - GroupGear (1.2.3) (enabled)", -- [49]
+			"02:27:05 - 舒预言-冰风岗 (2.4.4) (nil)", -- [50]
+			"02:27:06 - Event: (PLAYER_ENTERING_WORLD)", -- [51]
+			"02:27:06 - GetML()", -- [52]
+			"02:27:06 - LootMethod =  (personalloot)", -- [53]
+			"02:27:07 - GetPlayersGuildRank()", -- [54]
+			"02:27:07 - Found Guild Rank: M团（储备）", -- [55]
+			"02:27:07 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [56]
+			"02:28:34 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (火影部落) (distri:) (GUILD)", -- [57]
+			"02:38:36 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [58]
+			"02:38:36 - GetML()", -- [59]
+			"02:38:36 - LootMethod =  (personalloot)", -- [60]
+			"02:39:08 - Event: (PLAYER_ENTERING_WORLD)", -- [61]
+			"02:39:08 - GetML()", -- [62]
+			"02:39:08 - LootMethod =  (personalloot)", -- [63]
+			"02:41:08 - Event: (PLAYER_ENTERING_WORLD)", -- [64]
+			"02:41:08 - GetML()", -- [65]
+			"02:41:08 - LootMethod =  (personalloot)", -- [66]
+			"02:41:26 - Event: (RAID_INSTANCE_WELCOME) (重返卡拉赞（史诗）) (447513) (0) (0)", -- [67]
+			"02:41:26 - Event: (PLAYER_ENTERING_WORLD)", -- [68]
+			"02:41:26 - GetML()", -- [69]
+			"02:41:26 - LootMethod =  (personalloot)", -- [70]
+			"03:10:06 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (弑丶戰) (distri:) (GUILD)", -- [71]
+			"03:15:11 - Event: (PLAYER_ENTERING_WORLD)", -- [72]
+			"03:15:11 - GetML()", -- [73]
+			"03:15:11 - LootMethod =  (personalloot)", -- [74]
+			"03:16:48 - Event: (PLAYER_ENTERING_WORLD)", -- [75]
+			"03:16:48 - GetML()", -- [76]
+			"03:16:48 - LootMethod =  (personalloot)", -- [77]
+			"03:17:26 - Event: (PLAYER_ENTERING_WORLD)", -- [78]
+			"03:17:26 - GetML()", -- [79]
+			"03:17:26 - LootMethod =  (personalloot)", -- [80]
+			"03:17:51 - Event: (RAID_INSTANCE_WELCOME) (重返卡拉赞（史诗）) (445328) (0) (0)", -- [81]
+			"03:17:51 - Event: (PLAYER_ENTERING_WORLD)", -- [82]
+			"03:17:51 - GetML()", -- [83]
+			"03:17:51 - LootMethod =  (personalloot)", -- [84]
+			"03:45:02 - Event: (PLAYER_ENTERING_WORLD)", -- [85]
+			"03:45:02 - GetML()", -- [86]
+			"03:45:02 - LootMethod =  (personalloot)", -- [87]
+			"03:49:36 - Event: (RAID_INSTANCE_WELCOME) (噬魂之喉（史诗）) (443423) (0) (0)", -- [88]
+			"03:49:36 - Event: (PLAYER_ENTERING_WORLD)", -- [89]
+			"03:49:36 - GetML()", -- [90]
+			"03:49:36 - LootMethod =  (personalloot)", -- [91]
+			"04:12:01 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (毛二狗) (distri:) (GUILD)", -- [92]
+			"04:12:49 - Event: (PLAYER_ENTERING_WORLD)", -- [93]
+			"04:12:49 - GetML()", -- [94]
+			"04:12:49 - LootMethod =  (personalloot)", -- [95]
+			"04:15:38 - Event: (RAID_INSTANCE_WELCOME) (群星庭院（史诗）) (441861) (0) (0)", -- [96]
+			"04:15:38 - Event: (PLAYER_ENTERING_WORLD)", -- [97]
+			"04:15:38 - GetML()", -- [98]
+			"04:15:38 - LootMethod =  (personalloot)", -- [99]
+			"04:21:21 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (毛二狗) (distri:) (GUILD)", -- [100]
+			"04:24:07 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (毛二狗) (distri:) (GUILD)", -- [101]
+			"04:25:18 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (毛二狗) (distri:) (GUILD)", -- [102]
+			"04:47:39 - Event: (PLAYER_ENTERING_WORLD)", -- [103]
+			"04:47:39 - GetML()", -- [104]
+			"04:47:39 - LootMethod =  (personalloot)", -- [105]
+			"04:48:37 - Event: (PLAYER_ENTERING_WORLD)", -- [106]
+			"04:48:37 - GetML()", -- [107]
+			"04:48:37 - LootMethod =  (personalloot)", -- [108]
+			"04:51:24 - Event: (PLAYER_ENTERING_WORLD)", -- [109]
+			"04:51:24 - GetML()", -- [110]
+			"04:51:24 - LootMethod =  (personalloot)", -- [111]
+			"05:36:47 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (毛二狗) (distri:) (GUILD)", -- [112]
+			"07/15/17", -- [113]
+			"05:53:59 - Logged In", -- [114]
+			"05:53:59 - ML initialized!", -- [115]
+			"05:53:59 - Using ExtraUtilities (0.5.0)", -- [116]
+			"05:53:59 - EU:UpdateGuildInfo", -- [117]
+			"05:53:59 - GroupGear (1.2.3) (enabled)", -- [118]
+			"05:54:04 - 舒预言-冰风岗 (2.4.4) (nil)", -- [119]
+			"05:54:06 - Event: (PLAYER_ENTERING_WORLD)", -- [120]
+			"05:54:06 - GetML()", -- [121]
+			"05:54:06 - LootMethod =  (personalloot)", -- [122]
+			"05:54:06 - GetPlayersGuildRank()", -- [123]
+			"05:54:06 - Found Guild Rank: M团（储备）", -- [124]
+			"05:54:06 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [125]
+			"05:57:40 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [126]
+			"05:57:40 - GetML()", -- [127]
+			"05:57:40 - LootMethod =  (personalloot)", -- [128]
+			"05:57:53 - Event: (PLAYER_ENTERING_WORLD)", -- [129]
+			"05:57:53 - GetML()", -- [130]
+			"05:57:53 - LootMethod =  (personalloot)", -- [131]
+			"06:03:27 - Event: (RAID_INSTANCE_WELCOME) (萨格拉斯之墓（普通）) (435392) (0) (0)", -- [132]
+			"06:03:28 - Event: (PLAYER_ENTERING_WORLD)", -- [133]
+			"06:03:28 - GetML()", -- [134]
+			"06:03:28 - LootMethod =  (personalloot)", -- [135]
+			"07:39:12 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (弑丶戰) (distri:) (GUILD)", -- [136]
+			"07:45:53 - BONUS_ROLL_RESULT (artifact_power) (|cff0070dd|Hitem:147581::::::::110:251:8388608:3::41:::|h[枯竭的艾萨拉印记]|h|r) (1) (0) (2) (false)", -- [137]
+			"07:45:53 - Comm received:^1^SEUBonusRoll^T^N1^S舒预言-冰风岗^N2^Sartifact_power^N3^S|cff0070dd|Hitem:147581::::::::110:251:8388608:3::41:::|h[枯竭的艾萨拉印记]|h|r^t^^ (from:) (舒预言) (distri:) (RAID)", -- [138]
+			"07:47:23 - Event: (PLAYER_ENTERING_WORLD)", -- [139]
+			"07:47:23 - GetML()", -- [140]
+			"07:47:23 - LootMethod =  (personalloot)", -- [141]
+			"07:50:52 - Event: (PLAYER_ENTERING_WORLD)", -- [142]
+			"07:50:52 - GetML()", -- [143]
+			"07:50:52 - LootMethod =  (personalloot)", -- [144]
+			"07:53:49 - Event: (PLAYER_ENTERING_WORLD)", -- [145]
+			"07:53:49 - GetML()", -- [146]
+			"07:53:49 - LootMethod =  (personalloot)", -- [147]
+			"07:56:31 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [148]
+			"07:56:31 - GetML()", -- [149]
+			"07:56:31 - LootMethod =  (personalloot)", -- [150]
+			"07:56:56 - Event: (PLAYER_ENTERING_WORLD)", -- [151]
+			"07:56:56 - GetML()", -- [152]
+			"07:56:56 - LootMethod =  (personalloot)", -- [153]
+			"07:57:46 - Event: (RAID_INSTANCE_WELCOME) (暗夜要塞（英雄）) (428533) (0) (0)", -- [154]
+			"07:57:46 - Event: (PLAYER_ENTERING_WORLD)", -- [155]
+			"07:57:46 - GetML()", -- [156]
+			"07:57:46 - LootMethod =  (personalloot)", -- [157]
+			"08:15:03 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (乄骨头) (distri:) (GUILD)", -- [158]
+			"08:23:53 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (乄骨头) (distri:) (GUILD)", -- [159]
+			"08:24:25 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (一更帅一) (distri:) (GUILD)", -- [160]
+			"08:31:16 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (乄骨頭) (distri:) (GUILD)", -- [161]
+			"08:56:55 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (playerIDGMDA) (distri:) (GUILD)", -- [162]
+			"07/15/17", -- [163]
+			"09:28:34 - Logged In", -- [164]
+			"09:28:34 - ML initialized!", -- [165]
+			"09:28:34 - Using ExtraUtilities (0.5.0)", -- [166]
+			"09:28:34 - EU:UpdateGuildInfo", -- [167]
+			"09:28:34 - GroupGear (1.2.3) (enabled)", -- [168]
+			"09:28:39 - 舒预言-冰风岗 (2.4.4) (nil)", -- [169]
+			"09:28:40 - Event: (PLAYER_ENTERING_WORLD)", -- [170]
+			"09:28:40 - GetML()", -- [171]
+			"09:28:40 - LootMethod =  (personalloot)", -- [172]
+			"09:28:43 - GetPlayersGuildRank()", -- [173]
+			"09:28:43 - Found Guild Rank: M团（储备）", -- [174]
+			"09:28:43 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [175]
+			"09:29:06 - Event: (PLAYER_ENTERING_WORLD)", -- [176]
+			"09:29:06 - GetML()", -- [177]
+			"09:29:06 - LootMethod =  (personalloot)", -- [178]
+			"09:29:44 - Event: (PLAYER_ENTERING_WORLD)", -- [179]
+			"09:29:44 - GetML()", -- [180]
+			"09:29:44 - LootMethod =  (personalloot)", -- [181]
+			"09:32:08 - Event: (PLAYER_ENTERING_WORLD)", -- [182]
+			"09:32:08 - GetML()", -- [183]
+			"09:32:08 - LootMethod =  (personalloot)", -- [184]
+			"09:59:45 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [185]
+			"09:59:45 - GetML()", -- [186]
+			"09:59:45 - LootMethod =  (personalloot)", -- [187]
+			"09:59:50 - Event: (RAID_INSTANCE_WELCOME) (奈萨里奥的巢穴（英雄）) (75609) (0) (0)", -- [188]
+			"09:59:51 - Event: (PLAYER_ENTERING_WORLD)", -- [189]
+			"09:59:51 - GetML()", -- [190]
+			"09:59:51 - LootMethod =  (personalloot)", -- [191]
+			"10:04:53 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (乄骨頭) (distri:) (GUILD)", -- [192]
+			"07/15/17", -- [193]
+			"10:05:46 - Logged In", -- [194]
+			"10:05:46 - ML initialized!", -- [195]
+			"10:05:46 - Using ExtraUtilities (0.5.0)", -- [196]
+			"10:05:46 - EU:UpdateGuildInfo", -- [197]
+			"10:05:46 - GroupGear (1.2.3) (enabled)", -- [198]
+			"10:05:48 - 舒预言-冰风岗 (2.4.4) (nil)", -- [199]
+			"10:05:50 - Event: (PLAYER_ENTERING_WORLD)", -- [200]
+			"10:05:50 - GetML()", -- [201]
+			"10:05:50 - LootMethod =  (personalloot)", -- [202]
+			"10:05:50 - GetPlayersGuildRank()", -- [203]
+			"10:05:50 - Found Guild Rank: M团（储备）", -- [204]
+			"10:05:51 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [205]
+			"10:09:06 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (弑丶戰) (distri:) (GUILD)", -- [206]
+			"10:10:03 - Event: (PLAYER_ENTERING_WORLD)", -- [207]
+			"10:10:03 - GetML()", -- [208]
+			"10:10:03 - LootMethod =  (personalloot)", -- [209]
+			"07/15/17", -- [210]
+			"10:11:59 - Logged In", -- [211]
+			"10:11:59 - ML initialized!", -- [212]
+			"10:11:59 - Using ExtraUtilities (0.5.0)", -- [213]
+			"10:11:59 - EU:UpdateGuildInfo", -- [214]
+			"10:11:59 - GroupGear (1.2.3) (enabled)", -- [215]
+			"10:12:04 - 舒预言-冰风岗 (2.4.4) (nil)", -- [216]
+			"10:12:06 - Event: (PLAYER_ENTERING_WORLD)", -- [217]
+			"10:12:06 - GetML()", -- [218]
+			"10:12:06 - LootMethod =  (personalloot)", -- [219]
+			"10:12:06 - GetPlayersGuildRank()", -- [220]
+			"10:12:06 - Found Guild Rank: M团（储备）", -- [221]
+			"10:12:06 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [222]
+			"10:25:09 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (妞妞有劲) (distri:) (GUILD)", -- [223]
+			"10:53:57 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (弑丶戰) (distri:) (GUILD)", -- [224]
+			"10:54:30 - Event: (PLAYER_ENTERING_WORLD)", -- [225]
+			"10:54:30 - GetML()", -- [226]
+			"10:54:30 - LootMethod =  (personalloot)", -- [227]
+			"10:55:37 - Event: (PLAYER_ENTERING_WORLD)", -- [228]
+			"10:55:37 - GetML()", -- [229]
+			"10:55:37 - LootMethod =  (personalloot)", -- [230]
+			"10:56:36 - Event: (PLAYER_ENTERING_WORLD)", -- [231]
+			"10:56:36 - GetML()", -- [232]
+			"10:56:36 - LootMethod =  (personalloot)", -- [233]
+			"11:02:35 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [234]
+			"11:02:35 - GetML()", -- [235]
+			"11:02:35 - LootMethod =  (personalloot)", -- [236]
+			"11:02:56 - Event: (PLAYER_ENTERING_WORLD)", -- [237]
+			"11:02:56 - GetML()", -- [238]
+			"11:02:56 - LootMethod =  (personalloot)", -- [239]
+			"11:04:06 - Event: (RAID_INSTANCE_WELCOME) (暗夜要塞（史诗）) (417353) (0) (0)", -- [240]
+			"11:04:06 - Event: (PLAYER_ENTERING_WORLD)", -- [241]
+			"11:04:06 - GetML()", -- [242]
+			"11:04:06 - LootMethod =  (personalloot)", -- [243]
+			"11:04:38 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (湿漉漉的神棍) (distri:) (GUILD)", -- [244]
+			"07/15/17", -- [245]
+			"11:08:08 - Logged In", -- [246]
+			"11:08:08 - ML initialized!", -- [247]
+			"11:08:08 - Using ExtraUtilities (0.5.0)", -- [248]
+			"11:08:08 - EU:UpdateGuildInfo", -- [249]
+			"11:08:08 - GroupGear (1.2.3) (enabled)", -- [250]
+			"11:08:14 - 舒预言-冰风岗 (2.4.4) (nil)", -- [251]
+			"11:08:15 - Event: (PLAYER_ENTERING_WORLD)", -- [252]
+			"11:08:15 - GetML()", -- [253]
+			"11:08:15 - LootMethod =  (personalloot)", -- [254]
+			"11:08:16 - GetPlayersGuildRank()", -- [255]
+			"11:08:16 - Found Guild Rank: M团（储备）", -- [256]
+			"11:08:16 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [257]
+			"11:08:16 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [258]
+			"11:08:16 - GetML()", -- [259]
+			"11:08:16 - LootMethod =  (personalloot)", -- [260]
+			"11:10:55 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (湿漉漉的神棍) (distri:) (GUILD)", -- [261]
+			"11:19:15 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (弑丶戰) (distri:) (GUILD)", -- [262]
+			"11:29:55 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (弑丶戰) (distri:) (GUILD)", -- [263]
+			"12:02:48 - Event: (PLAYER_ENTERING_WORLD)", -- [264]
+			"12:02:48 - GetML()", -- [265]
+			"12:02:48 - LootMethod =  (personalloot)", -- [266]
+			"12:02:57 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [267]
+			"12:02:57 - GetML()", -- [268]
+			"12:02:57 - LootMethod =  (personalloot)", -- [269]
+			"12:04:20 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [270]
+			"12:04:20 - GetML()", -- [271]
+			"12:04:20 - LootMethod =  (personalloot)", -- [272]
+			"12:06:40 - Event: (RAID_INSTANCE_WELCOME) (暗夜要塞（普通）) (413599) (0) (0)", -- [273]
+			"12:06:40 - Event: (PLAYER_ENTERING_WORLD)", -- [274]
+			"12:06:40 - GetML()", -- [275]
+			"12:06:40 - LootMethod =  (personalloot)", -- [276]
+			"13:10:28 - Event: (PLAYER_ENTERING_WORLD)", -- [277]
+			"13:10:28 - GetML()", -- [278]
+			"13:10:28 - LootMethod =  (personalloot)", -- [279]
+			"13:13:34 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (毛二狗) (distri:) (GUILD)", -- [280]
+			"13:40:27 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [281]
+			"13:40:27 - GetML()", -- [282]
+			"13:40:27 - LootMethod =  (group)", -- [283]
+			"13:40:31 - Event: (PLAYER_ENTERING_WORLD)", -- [284]
+			"13:40:31 - GetML()", -- [285]
+			"13:40:31 - LootMethod =  (group)", -- [286]
+			"13:48:26 - Event: (PLAYER_ENTERING_WORLD)", -- [287]
+			"13:48:26 - GetML()", -- [288]
+			"13:48:26 - LootMethod =  (group)", -- [289]
+			"13:48:47 - Event: (PLAYER_ENTERING_WORLD)", -- [290]
+			"13:48:47 - GetML()", -- [291]
+			"13:48:47 - LootMethod =  (personalloot)", -- [292]
+			"14:00:29 - Event: (PLAYER_ENTERING_WORLD)", -- [293]
+			"14:00:29 - GetML()", -- [294]
+			"14:00:29 - LootMethod =  (personalloot)", -- [295]
+			"07/15/17", -- [296]
+			"14:05:08 - Logged In", -- [297]
+			"14:05:08 - ML initialized!", -- [298]
+			"14:05:08 - Using ExtraUtilities (0.5.0)", -- [299]
+			"14:05:08 - EU:UpdateGuildInfo", -- [300]
+			"14:05:08 - GroupGear (1.2.3) (enabled)", -- [301]
+			"14:05:10 - 舒预言-冰风岗 (2.4.4) (nil)", -- [302]
+			"14:05:12 - Event: (PLAYER_ENTERING_WORLD)", -- [303]
+			"14:05:12 - GetML()", -- [304]
+			"14:05:12 - LootMethod =  (personalloot)", -- [305]
+			"14:05:12 - GetPlayersGuildRank()", -- [306]
+			"14:05:12 - Found Guild Rank: M团（储备）", -- [307]
+			"14:05:13 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [308]
+			"14:26:28 - Event: (PLAYER_ENTERING_WORLD)", -- [309]
+			"14:26:28 - GetML()", -- [310]
+			"14:26:28 - LootMethod =  (personalloot)", -- [311]
+			"14:28:50 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [312]
+			"14:28:50 - GetML()", -- [313]
+			"14:28:50 - LootMethod =  (personalloot)", -- [314]
+			"14:29:24 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (毛二狗) (distri:) (GUILD)", -- [315]
+			"14:30:03 - Event: (PLAYER_ENTERING_WORLD)", -- [316]
+			"14:30:03 - GetML()", -- [317]
+			"14:30:03 - LootMethod =  (personalloot)", -- [318]
+			"14:30:30 - Event: (RAID_INSTANCE_WELCOME) (勇气试炼（史诗）) (404969) (0) (0)", -- [319]
+			"14:30:30 - Event: (PLAYER_ENTERING_WORLD)", -- [320]
+			"14:30:30 - GetML()", -- [321]
+			"14:30:30 - LootMethod =  (personalloot)", -- [322]
+			"07/15/17", -- [323]
+			"14:31:19 - Logged In", -- [324]
+			"14:31:19 - ML initialized!", -- [325]
+			"14:31:19 - Using ExtraUtilities (0.5.0)", -- [326]
+			"14:31:19 - EU:UpdateGuildInfo", -- [327]
+			"14:31:19 - GroupGear (1.2.3) (enabled)", -- [328]
+			"14:31:22 - 舒预言-冰风岗 (2.4.4) (nil)", -- [329]
+			"14:31:23 - Event: (PLAYER_ENTERING_WORLD)", -- [330]
+			"14:31:23 - GetML()", -- [331]
+			"14:31:23 - LootMethod =  (personalloot)", -- [332]
+			"14:31:24 - GetPlayersGuildRank()", -- [333]
+			"14:31:24 - Found Guild Rank: M团（储备）", -- [334]
+			"14:31:24 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [335]
+			"14:31:24 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [336]
+			"14:31:24 - GetML()", -- [337]
+			"14:31:24 - LootMethod =  (personalloot)", -- [338]
+			"15:01:27 - Event: (PLAYER_ENTERING_WORLD)", -- [339]
+			"15:01:27 - GetML()", -- [340]
+			"15:01:27 - LootMethod =  (personalloot)", -- [341]
+			"15:01:32 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [342]
+			"15:01:32 - GetML()", -- [343]
+			"15:01:32 - LootMethod =  (personalloot)", -- [344]
+			"15:02:16 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [345]
+			"15:02:16 - GetML()", -- [346]
+			"15:02:16 - LootMethod =  (personalloot)", -- [347]
+			"15:07:00 - Event: (RAID_INSTANCE_WELCOME) (勇气试炼（英雄）) (402779) (0) (0)", -- [348]
+			"15:07:01 - Event: (PLAYER_ENTERING_WORLD)", -- [349]
+			"15:07:01 - GetML()", -- [350]
+			"15:07:01 - LootMethod =  (personalloot)", -- [351]
+			"15:10:09 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (毛二狗) (distri:) (GUILD)", -- [352]
+			"15:26:28 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (猛牛来啦) (distri:) (GUILD)", -- [353]
+			"07/15/17", -- [354]
+			"15:34:04 - Logged In", -- [355]
+			"15:34:04 - ML initialized!", -- [356]
+			"15:34:04 - Using ExtraUtilities (0.5.0)", -- [357]
+			"15:34:04 - EU:UpdateGuildInfo", -- [358]
+			"15:34:04 - GroupGear (1.2.3) (enabled)", -- [359]
+			"15:34:06 - 舒预言-冰风岗 (2.4.4) (nil)", -- [360]
+			"15:34:08 - Event: (PLAYER_ENTERING_WORLD)", -- [361]
+			"15:34:08 - GetML()", -- [362]
+			"15:34:08 - LootMethod =  (personalloot)", -- [363]
+			"15:34:09 - GetPlayersGuildRank()", -- [364]
+			"15:34:09 - Found Guild Rank: M团（储备）", -- [365]
+			"15:34:09 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [366]
+			"07/15/17", -- [367]
+			"15:51:09 - Logged In", -- [368]
+			"15:51:09 - ML initialized!", -- [369]
+			"15:51:09 - Using ExtraUtilities (0.5.0)", -- [370]
+			"15:51:09 - EU:UpdateGuildInfo", -- [371]
+			"15:51:09 - GroupGear (1.2.3) (enabled)", -- [372]
+			"15:51:15 - 舒预言-冰风岗 (2.4.4) (nil)", -- [373]
+			"15:51:17 - Event: (PLAYER_ENTERING_WORLD)", -- [374]
+			"15:51:17 - GetML()", -- [375]
+			"15:51:17 - LootMethod =  (personalloot)", -- [376]
+			"15:51:17 - GetPlayersGuildRank()", -- [377]
+			"15:51:17 - Found Guild Rank: M团（储备）", -- [378]
+			"15:51:17 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [379]
+			"15:51:51 - Event: (PLAYER_ENTERING_WORLD)", -- [380]
+			"15:51:51 - GetML()", -- [381]
+			"15:51:51 - LootMethod =  (personalloot)", -- [382]
+			"15:52:26 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [383]
+			"15:52:26 - GetML()", -- [384]
+			"15:52:26 - LootMethod =  (personalloot)", -- [385]
+			"15:55:23 - Event: (RAID_INSTANCE_WELCOME) (勇气试炼（普通）) (399876) (0) (0)", -- [386]
+			"15:55:23 - Event: (PLAYER_ENTERING_WORLD)", -- [387]
+			"15:55:23 - GetML()", -- [388]
+			"15:55:23 - LootMethod =  (personalloot)", -- [389]
+			"16:09:19 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [390]
+			"16:09:19 - GetML()", -- [391]
+			"16:09:19 - LootMethod =  (personalloot)", -- [392]
+			"16:09:33 - Event: (PLAYER_ENTERING_WORLD)", -- [393]
+			"16:09:33 - GetML()", -- [394]
+			"16:09:33 - LootMethod =  (personalloot)", -- [395]
+			"16:16:19 - Comm received:^1^SverTest^T^N1^S2.4.0^t^^ (from:) (小白呀咩嗲) (distri:) (GUILD)", -- [396]
+			"16:23:06 - Event: (RAID_INSTANCE_WELCOME) (翡翠梦魇（史诗）) (398213) (0) (0)", -- [397]
+			"16:23:06 - Event: (PLAYER_ENTERING_WORLD)", -- [398]
+			"16:23:06 - GetML()", -- [399]
+			"16:23:06 - LootMethod =  (personalloot)", -- [400]
+			"16:40:07 - Event: (PLAYER_ENTERING_WORLD)", -- [401]
+			"16:40:07 - GetML()", -- [402]
+			"16:40:07 - LootMethod =  (personalloot)", -- [403]
+			"16:44:25 - Event: (PLAYER_ENTERING_WORLD)", -- [404]
+			"16:44:25 - GetML()", -- [405]
+			"16:44:25 - LootMethod =  (personalloot)", -- [406]
+			"16:53:00 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [407]
+			"16:53:00 - GetML()", -- [408]
+			"16:53:00 - LootMethod =  (personalloot)", -- [409]
+			"16:53:04 - Event: (PLAYER_ENTERING_WORLD)", -- [410]
+			"16:53:04 - GetML()", -- [411]
+			"16:53:04 - LootMethod =  (personalloot)", -- [412]
+			"16:56:51 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (一更帅一) (distri:) (GUILD)", -- [413]
+			"16:58:58 - Event: (PLAYER_ENTERING_WORLD)", -- [414]
+			"16:58:58 - GetML()", -- [415]
+			"16:58:58 - LootMethod =  (personalloot)", -- [416]
+			"17:00:36 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [417]
+			"17:00:36 - GetML()", -- [418]
+			"17:00:36 - LootMethod =  (personalloot)", -- [419]
+			"17:06:11 - Event: (RAID_INSTANCE_WELCOME) (翡翠梦魇（英雄）) (395628) (0) (0)", -- [420]
+			"17:06:12 - Event: (PLAYER_ENTERING_WORLD)", -- [421]
+			"17:06:12 - GetML()", -- [422]
+			"17:06:12 - LootMethod =  (personalloot)", -- [423]
+			"17:40:50 - Event: (PLAYER_ENTERING_WORLD)", -- [424]
+			"17:40:50 - GetML()", -- [425]
+			"17:40:50 - LootMethod =  (personalloot)", -- [426]
+			"17:42:09 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [427]
+			"17:42:09 - GetML()", -- [428]
+			"17:42:09 - LootMethod =  (personalloot)", -- [429]
+			"17:44:01 - Event: (RAID_INSTANCE_WELCOME) (翡翠梦魇（普通）) (393358) (0) (0)", -- [430]
+			"17:44:02 - Event: (PLAYER_ENTERING_WORLD)", -- [431]
+			"17:44:02 - GetML()", -- [432]
+			"17:44:02 - LootMethod =  (personalloot)", -- [433]
+			"17:45:05 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (潴灬玉兔呈祥) (distri:) (GUILD)", -- [434]
+			"18:10:30 - Event: (PLAYER_ENTERING_WORLD)", -- [435]
+			"18:10:30 - GetML()", -- [436]
+			"18:10:30 - LootMethod =  (personalloot)", -- [437]
+			"18:14:36 - Event: (PLAYER_ENTERING_WORLD)", -- [438]
+			"18:14:36 - GetML()", -- [439]
+			"18:14:36 - LootMethod =  (personalloot)", -- [440]
+			"18:14:49 - Event: (PLAYER_ENTERING_WORLD)", -- [441]
+			"18:14:49 - GetML()", -- [442]
+			"18:14:49 - LootMethod =  (personalloot)", -- [443]
+			"07/15/17", -- [444]
+			"18:17:49 - Logged In", -- [445]
+			"18:17:49 - ML initialized!", -- [446]
+			"18:17:49 - Using ExtraUtilities (0.5.0)", -- [447]
+			"18:17:49 - EU:UpdateGuildInfo", -- [448]
+			"18:17:49 - GroupGear (1.2.3) (enabled)", -- [449]
+			"18:17:50 - 舒预言-冰风岗 (2.4.4) (nil)", -- [450]
+			"18:17:52 - Event: (PLAYER_ENTERING_WORLD)", -- [451]
+			"18:17:52 - GetML()", -- [452]
+			"18:17:52 - LootMethod =  (personalloot)", -- [453]
+			"18:17:53 - GetPlayersGuildRank()", -- [454]
+			"18:17:53 - Found Guild Rank: M团（储备）", -- [455]
+			"18:17:53 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [456]
+			"18:21:21 - Event: (PLAYER_ENTERING_WORLD)", -- [457]
+			"18:21:21 - GetML()", -- [458]
+			"18:21:21 - LootMethod =  (personalloot)", -- [459]
+			"18:23:03 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (老砍刀) (distri:) (GUILD)", -- [460]
+			"18:27:33 - Event: (PLAYER_ENTERING_WORLD)", -- [461]
+			"18:27:33 - GetML()", -- [462]
+			"18:27:33 - LootMethod =  (personalloot)", -- [463]
+			"07/16/17", -- [464]
+			"03:23:56 - Logged In", -- [465]
+			"03:23:56 - ML initialized!", -- [466]
+			"03:23:56 - Using ExtraUtilities (0.5.0)", -- [467]
+			"03:23:56 - EU:UpdateGuildInfo", -- [468]
+			"03:23:56 - GroupGear (1.2.3) (enabled)", -- [469]
+			"03:24:22 - 舒预言-冰风岗 (2.4.4) (nil)", -- [470]
+			"03:24:27 - Event: (PLAYER_ENTERING_WORLD)", -- [471]
+			"03:24:27 - GetML()", -- [472]
+			"03:24:27 - LootMethod =  (personalloot)", -- [473]
+			"03:24:28 - GetPlayersGuildRank()", -- [474]
+			"03:24:28 - Found Guild Rank: M团（储备）", -- [475]
+			"03:24:28 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [476]
+			"07/16/17", -- [477]
+			"03:24:51 - Logged In", -- [478]
+			"03:24:51 - ML initialized!", -- [479]
+			"03:24:51 - Using ExtraUtilities (0.5.0)", -- [480]
+			"03:24:51 - EU:UpdateGuildInfo", -- [481]
+			"03:24:51 - GroupGear (1.2.3) (enabled)", -- [482]
+			"03:24:52 - 舒预言-冰风岗 (2.4.4) (nil)", -- [483]
+			"03:24:54 - Event: (PLAYER_ENTERING_WORLD)", -- [484]
+			"03:24:54 - GetML()", -- [485]
+			"03:24:54 - LootMethod =  (personalloot)", -- [486]
+			"03:24:54 - GetPlayersGuildRank()", -- [487]
+			"03:24:54 - Found Guild Rank: M团（储备）", -- [488]
+			"03:24:55 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [489]
+			"07/16/17", -- [490]
+			"03:28:44 - Logged In", -- [491]
+			"03:28:44 - ML initialized!", -- [492]
+			"03:28:44 - Using ExtraUtilities (0.5.0)", -- [493]
+			"03:28:44 - EU:UpdateGuildInfo", -- [494]
+			"03:28:44 - GroupGear (1.2.3) (enabled)", -- [495]
+			"03:28:45 - 舒预言-冰风岗 (2.4.4) (nil)", -- [496]
+			"03:28:47 - Event: (PLAYER_ENTERING_WORLD)", -- [497]
+			"03:28:47 - GetML()", -- [498]
+			"03:28:47 - LootMethod =  (personalloot)", -- [499]
+			"03:28:47 - GetPlayersGuildRank()", -- [500]
+			"03:28:47 - Found Guild Rank: M团（储备）", -- [501]
+			"03:28:48 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [502]
+			"07/16/17", -- [503]
+			"03:33:38 - Logged In", -- [504]
+			"03:33:38 - ML initialized!", -- [505]
+			"03:33:38 - Using ExtraUtilities (0.5.0)", -- [506]
+			"03:33:38 - EU:UpdateGuildInfo", -- [507]
+			"03:33:38 - GroupGear (1.2.3) (enabled)", -- [508]
+			"03:33:39 - 舒预言-冰风岗 (2.4.4) (nil)", -- [509]
+			"03:33:41 - Event: (PLAYER_ENTERING_WORLD)", -- [510]
+			"03:33:41 - GetML()", -- [511]
+			"03:33:41 - LootMethod =  (personalloot)", -- [512]
+			"03:33:42 - GetPlayersGuildRank()", -- [513]
+			"03:33:42 - Found Guild Rank: M团（储备）", -- [514]
+			"03:33:42 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [515]
+			"03:34:56 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (弑丶戰) (distri:) (GUILD)", -- [516]
+			"03:35:59 - Event: (PLAYER_ENTERING_WORLD)", -- [517]
+			"03:35:59 - GetML()", -- [518]
+			"03:35:59 - LootMethod =  (personalloot)", -- [519]
+			"03:46:02 - Event: (PLAYER_ENTERING_WORLD)", -- [520]
+			"03:46:02 - GetML()", -- [521]
+			"03:46:02 - LootMethod =  (personalloot)", -- [522]
+			"03:48:22 - Event: (PLAYER_ENTERING_WORLD)", -- [523]
+			"03:48:22 - GetML()", -- [524]
+			"03:48:22 - LootMethod =  (personalloot)", -- [525]
+			"03:55:07 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [526]
+			"03:55:07 - GetML()", -- [527]
+			"03:55:07 - LootMethod =  (personalloot)", -- [528]
+			"03:59:30 - Event: (RAID_INSTANCE_WELCOME) (萨格拉斯之墓（英雄）) (356429) (0) (0)", -- [529]
+			"03:59:30 - Event: (PLAYER_ENTERING_WORLD)", -- [530]
+			"03:59:30 - GetML()", -- [531]
+			"03:59:30 - LootMethod =  (personalloot)", -- [532]
+			"04:31:27 - BONUS_ROLL_RESULT (item) (|cffa335ee|Hitem:147088::::::::110:251::5:3:3562:1497:3528:::|h[阴燃夹棍]|h|r) (1) (0) (2) (false)", -- [533]
+			"04:31:27 - Comm received:^1^SEUBonusRoll^T^N1^S舒预言-冰风岗^N2^Sitem^N3^S|cffa335ee|Hitem:147088::::::::110:251::5:3:3562:1497:3528:::|h[阴燃夹棍]|h|r^t^^ (from:) (舒预言) (distri:) (RAID)", -- [534]
+			"04:42:06 - BONUS_ROLL_RESULT (artifact_power) (|cff0070dd|Hitem:147581::::::::110:251:8388608:5::41:::|h[枯竭的艾萨拉印记]|h|r) (1) (0) (2) (false)", -- [535]
+			"04:42:07 - Comm received:^1^SEUBonusRoll^T^N1^S舒预言-冰风岗^N2^Sartifact_power^N3^S|cff0070dd|Hitem:147581::::::::110:251:8388608:5::41:::|h[枯竭的艾萨拉印记]|h|r^t^^ (from:) (舒预言) (distri:) (RAID)", -- [536]
+			"04:43:23 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (弑丶戰) (distri:) (GUILD)", -- [537]
+			"06:09:33 - BONUS_ROLL_RESULT (artifact_power) (|cff0070dd|Hitem:147581::::::::110:251:8388608:5::41:::|h[枯竭的艾萨拉印记]|h|r) (1) (0) (2) (false)", -- [538]
+			"06:09:33 - Comm received:^1^SEUBonusRoll^T^N1^S舒预言-冰风岗^N2^Sartifact_power^N3^S|cff0070dd|Hitem:147581::::::::110:251:8388608:5::41:::|h[枯竭的艾萨拉印记]|h|r^t^^ (from:) (舒预言) (distri:) (RAID)", -- [539]
+			"06:50:13 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [540]
+			"06:50:13 - GetML()", -- [541]
+			"06:50:13 - LootMethod =  (personalloot)", -- [542]
+			"06:50:21 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [543]
+			"06:50:21 - GetML()", -- [544]
+			"06:50:21 - LootMethod =  (personalloot)", -- [545]
+			"06:50:51 - Event: (PLAYER_ENTERING_WORLD)", -- [546]
+			"06:50:51 - GetML()", -- [547]
+			"06:50:51 - LootMethod =  (personalloot)", -- [548]
+			"06:50:57 - Event: (PLAYER_ENTERING_WORLD)", -- [549]
+			"06:50:57 - GetML()", -- [550]
+			"06:50:57 - LootMethod =  (personalloot)", -- [551]
+			"07:32:04 - Event: (PLAYER_ENTERING_WORLD)", -- [552]
+			"07:32:04 - GetML()", -- [553]
+			"07:32:04 - LootMethod =  (personalloot)", -- [554]
+			"07:32:19 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (乄骨头) (distri:) (GUILD)", -- [555]
+			"07:48:59 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (乄骨头) (distri:) (GUILD)", -- [556]
+			"08:03:08 - Event: (PLAYER_ENTERING_WORLD)", -- [557]
+			"08:03:08 - GetML()", -- [558]
+			"08:03:08 - LootMethod =  (personalloot)", -- [559]
+			"08:06:07 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [560]
+			"08:06:07 - GetML()", -- [561]
+			"08:06:07 - LootMethod =  (personalloot)", -- [562]
+			"08:06:34 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (乄骨头) (distri:) (GUILD)", -- [563]
+			"08:07:18 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (乄骨头) (distri:) (GUILD)", -- [564]
+			"08:07:37 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [565]
+			"08:07:37 - GetML()", -- [566]
+			"08:07:37 - LootMethod =  (personalloot)", -- [567]
+			"08:13:25 - Event: (RAID_INSTANCE_WELCOME) (艾萨拉之眼（史诗）) (341194) (0) (0)", -- [568]
+			"08:13:26 - Event: (PLAYER_ENTERING_WORLD)", -- [569]
+			"08:13:26 - GetML()", -- [570]
+			"08:13:26 - LootMethod =  (personalloot)", -- [571]
+			"08:29:04 - Event: (PLAYER_ENTERING_WORLD)", -- [572]
+			"08:29:04 - GetML()", -- [573]
+			"08:29:04 - LootMethod =  (personalloot)", -- [574]
+			"08:46:21 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [575]
+			"08:46:21 - GetML()", -- [576]
+			"08:46:21 - LootMethod =  (personalloot)", -- [577]
+			"08:52:46 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (猛牛来啦) (distri:) (GUILD)", -- [578]
+			"08:53:04 - Event: (RAID_INSTANCE_WELCOME) (黑心林地（史诗）) (338815) (0) (0)", -- [579]
+			"08:53:04 - Event: (PLAYER_ENTERING_WORLD)", -- [580]
+			"08:53:04 - GetML()", -- [581]
+			"08:53:04 - LootMethod =  (personalloot)", -- [582]
+			"09:06:47 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (老砍刀) (distri:) (GUILD)", -- [583]
+			"09:08:47 - Event: (PLAYER_ENTERING_WORLD)", -- [584]
+			"09:08:47 - GetML()", -- [585]
+			"09:08:47 - LootMethod =  (personalloot)", -- [586]
+			"09:18:12 - Event: (PLAYER_ENTERING_WORLD)", -- [587]
+			"09:18:12 - GetML()", -- [588]
+			"09:18:12 - LootMethod =  (personalloot)", -- [589]
+			"09:25:10 - Event: (PLAYER_ENTERING_WORLD)", -- [590]
+			"09:25:10 - GetML()", -- [591]
+			"09:25:10 - LootMethod =  (personalloot)", -- [592]
+			"09:29:09 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [593]
+			"09:29:09 - GetML()", -- [594]
+			"09:29:09 - LootMethod =  (personalloot)", -- [595]
+			"09:29:37 - Event: (PLAYER_ENTERING_WORLD)", -- [596]
+			"09:29:37 - GetML()", -- [597]
+			"09:29:37 - LootMethod =  (personalloot)", -- [598]
+			"09:30:00 - Event: (RAID_INSTANCE_WELCOME) (英灵殿（史诗）) (336599) (0) (0)", -- [599]
+			"09:30:01 - Event: (PLAYER_ENTERING_WORLD)", -- [600]
+			"09:30:01 - GetML()", -- [601]
+			"09:30:01 - LootMethod =  (personalloot)", -- [602]
+			"07/16/17", -- [603]
+			"09:32:06 - Logged In", -- [604]
+			"09:32:06 - ML initialized!", -- [605]
+			"09:32:06 - Using ExtraUtilities (0.5.0)", -- [606]
+			"09:32:06 - EU:UpdateGuildInfo", -- [607]
+			"09:32:06 - GroupGear (1.2.3) (enabled)", -- [608]
+			"09:32:09 - 舒预言-冰风岗 (2.4.4) (nil)", -- [609]
+			"09:32:11 - Event: (PLAYER_ENTERING_WORLD)", -- [610]
+			"09:32:11 - GetML()", -- [611]
+			"09:32:11 - LootMethod =  (personalloot)", -- [612]
+			"09:32:11 - GetPlayersGuildRank()", -- [613]
+			"09:32:11 - Found Guild Rank: M团（储备）", -- [614]
+			"09:32:11 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [615]
+			"09:32:11 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [616]
+			"09:32:11 - GetML()", -- [617]
+			"09:32:11 - LootMethod =  (personalloot)", -- [618]
+			"09:48:17 - Event: (PLAYER_ENTERING_WORLD)", -- [619]
+			"09:48:17 - GetML()", -- [620]
+			"09:48:17 - LootMethod =  (personalloot)", -- [621]
+			"09:50:06 - Event: (PLAYER_ENTERING_WORLD)", -- [622]
+			"09:50:06 - GetML()", -- [623]
+			"09:50:06 - LootMethod =  (personalloot)", -- [624]
+			"10:04:18 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [625]
+			"10:04:18 - GetML()", -- [626]
+			"10:04:18 - LootMethod =  (personalloot)", -- [627]
+			"10:04:22 - Event: (PLAYER_ENTERING_WORLD)", -- [628]
+			"10:04:22 - GetML()", -- [629]
+			"10:04:22 - LootMethod =  (personalloot)", -- [630]
+			"10:18:13 - Event: (PLAYER_ENTERING_WORLD)", -- [631]
+			"10:18:13 - GetML()", -- [632]
+			"10:18:13 - LootMethod =  (personalloot)", -- [633]
+			"07/16/17", -- [634]
+			"13:18:32 - Logged In", -- [635]
+			"13:18:32 - ML initialized!", -- [636]
+			"13:18:32 - Using ExtraUtilities (0.5.0)", -- [637]
+			"13:18:32 - EU:UpdateGuildInfo", -- [638]
+			"13:18:32 - GroupGear (1.2.3) (enabled)", -- [639]
+			"13:19:31 - 舒预言-冰风岗 (2.4.4) (nil)", -- [640]
+			"13:19:41 - Event: (PLAYER_ENTERING_WORLD)", -- [641]
+			"13:19:41 - GetML()", -- [642]
+			"13:19:41 - LootMethod =  (personalloot)", -- [643]
+			"13:19:42 - GetPlayersGuildRank()", -- [644]
+			"13:19:42 - Found Guild Rank: M团（储备）", -- [645]
+			"13:19:42 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [646]
+			"13:33:00 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [647]
+			"13:33:00 - GetML()", -- [648]
+			"13:33:00 - LootMethod =  (personalloot)", -- [649]
+			"13:40:01 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [650]
+			"13:40:01 - GetML()", -- [651]
+			"13:40:01 - LootMethod =  (personalloot)", -- [652]
+			"13:40:31 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [653]
+			"13:40:31 - GetML()", -- [654]
+			"13:40:31 - LootMethod =  (personalloot)", -- [655]
+			"13:41:26 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (老砍刀) (distri:) (GUILD)", -- [656]
+			"13:46:32 - Event: (PLAYER_ENTERING_WORLD)", -- [657]
+			"13:46:32 - GetML()", -- [658]
+			"13:46:32 - LootMethod =  (personalloot)", -- [659]
+			"13:47:14 - Event: (RAID_INSTANCE_WELCOME) (奈萨里奥的巢穴（史诗）) (321165) (0) (0)", -- [660]
+			"13:47:15 - Event: (PLAYER_ENTERING_WORLD)", -- [661]
+			"13:47:15 - GetML()", -- [662]
+			"13:47:15 - LootMethod =  (personalloot)", -- [663]
+			"14:00:43 - Event: (PLAYER_ENTERING_WORLD)", -- [664]
+			"14:00:43 - GetML()", -- [665]
+			"14:00:43 - LootMethod =  (personalloot)", -- [666]
+			"14:02:38 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (老砍刀) (distri:) (GUILD)", -- [667]
+			"14:16:21 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [668]
+			"14:16:21 - GetML()", -- [669]
+			"14:16:21 - LootMethod =  (personalloot)", -- [670]
+			"14:17:38 - Event: (RAID_INSTANCE_WELCOME) (萨格拉斯之墓（英雄）) (319341) (1) (0)", -- [671]
+			"14:17:39 - Event: (PLAYER_ENTERING_WORLD)", -- [672]
+			"14:17:39 - GetML()", -- [673]
+			"14:17:39 - LootMethod =  (personalloot)", -- [674]
+			"14:25:15 - Comm received:^1^SEUBonusRoll^T^N1^S梦呓八宝阿夕-雷霆之王^N2^Sartifact_power^N3^S|cff0070dd|Hitem:147581::::::::110:62:8388608:5::41:::|h[枯竭的艾萨拉印记]|h|r^t^^ (from:) (梦呓八宝阿夕-雷霆之王) (distri:) (RAID)", -- [675]
+			"14:25:20 - Comm received:^1^SEUBonusRoll^T^N1^S太阳井之星-雷霆之王^N2^Sartifact_power^N3^S|cff0070dd|Hitem:147581::::::::110:63:8388608:5::41:::|h[枯竭的艾萨拉印记]|h|r^t^^ (from:) (太阳井之星-雷霆之王) (distri:) (RAID)", -- [676]
+			"14:47:21 - Comm received:^1^SEUBonusRoll^T^N1^S丶點兒丶-雷霆之王^N2^Sartifact_power^N3^S|cff0070dd|Hitem:147581::::::::110:253:8388608:5::41:::|h[枯竭的艾萨拉印记]|h|r^t^^ (from:) (丶點兒丶-雷霆之王) (distri:) (RAID)", -- [677]
+			"14:47:42 - Comm received:^1^SEUBonusRoll^T^N1^S太阳井之星-雷霆之王^N2^Sitem^N3^S|cffa335ee|Hitem:146995::::::::110:63::5:4:3562:41:1497:3528:::|h[灵魂之王的仪式长袍]|h|r^t^^ (from:) (太阳井之星-雷霆之王) (distri:) (RAID)", -- [678]
+			"15:01:30 - Comm received:^1^SverTest^T^N1^S2.4.0^t^^ (from:) (小白六溜遛) (distri:) (GUILD)", -- [679]
+			"15:02:20 - Comm received:^1^SverTest^T^N1^S2.4.0^t^^ (from:) (小白呀咩嗲) (distri:) (GUILD)", -- [680]
+			"15:05:49 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (老砍刀) (distri:) (GUILD)", -- [681]
+			"15:09:08 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (老砍刀) (distri:) (GUILD)", -- [682]
+			"15:10:39 - Comm received:^1^SEUBonusRoll^T^N1^S太阳井之星-雷霆之王^N2^Sartifact_power^N3^S|cff0070dd|Hitem:147581::::::::110:63:8388608:5::41:::|h[枯竭的艾萨拉印记]|h|r^t^^ (from:) (太阳井之星-雷霆之王) (distri:) (RAID)", -- [683]
+			"15:10:54 - Comm received:^1^SEUBonusRoll^T^N1^S梦呓八宝阿夕-雷霆之王^N2^Sartifact_power^N3^S|cff0070dd|Hitem:147581::::::::110:62:8388608:5::41:::|h[枯竭的艾萨拉印记]|h|r^t^^ (from:) (梦呓八宝阿夕-雷霆之王) (distri:) (RAID)", -- [684]
+			"15:23:57 - Comm received:^1^SverTest^T^N1^S2.4.0^t^^ (from:) (小白呀咩嗲) (distri:) (GUILD)", -- [685]
+			"15:24:27 - Comm received:^1^SverTest^T^N1^S2.4.0^t^^ (from:) (小白呀咩嗲) (distri:) (GUILD)", -- [686]
+			"15:31:02 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (湿漉漉的神棍) (distri:) (GUILD)", -- [687]
+			"17:11:30 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (超一季流年) (distri:) (GUILD)", -- [688]
+			"17:15:42 - BONUS_ROLL_RESULT (artifact_power) (|cff0070dd|Hitem:147581::::::::110:251:8388608:5::41:::|h[枯竭的艾萨拉印记]|h|r) (1) (0) (2) (false)", -- [689]
+			"17:15:42 - Comm received:^1^SEUBonusRoll^T^N1^S舒预言-冰风岗^N2^Sartifact_power^N3^S|cff0070dd|Hitem:147581::::::::110:251:8388608:5::41:::|h[枯竭的艾萨拉印记]|h|r^t^^ (from:) (舒预言) (distri:) (RAID)", -- [690]
+			"17:16:47 - Event: (PLAYER_ENTERING_WORLD)", -- [691]
+			"17:16:47 - GetML()", -- [692]
+			"17:16:47 - LootMethod =  (personalloot)", -- [693]
+			"17:24:20 - Event: (PLAYER_ENTERING_WORLD)", -- [694]
+			"17:24:20 - GetML()", -- [695]
+			"17:24:20 - LootMethod =  (personalloot)", -- [696]
+			"17:25:15 - Event: (PLAYER_ENTERING_WORLD)", -- [697]
+			"17:25:15 - GetML()", -- [698]
+			"17:25:15 - LootMethod =  (personalloot)", -- [699]
+			"07/16/17", -- [700]
+			"17:32:01 - Logged In", -- [701]
+			"17:32:01 - ML initialized!", -- [702]
+			"17:32:01 - Using ExtraUtilities (0.5.0)", -- [703]
+			"17:32:01 - EU:UpdateGuildInfo", -- [704]
+			"17:32:01 - GroupGear (1.2.3) (enabled)", -- [705]
+			"17:32:03 - 舒预言-冰风岗 (2.4.4) (nil)", -- [706]
+			"17:32:05 - Event: (PLAYER_ENTERING_WORLD)", -- [707]
+			"17:32:05 - GetML()", -- [708]
+			"17:32:05 - LootMethod =  (personalloot)", -- [709]
+			"17:32:05 - GetPlayersGuildRank()", -- [710]
+			"17:32:05 - Found Guild Rank: M团（储备）", -- [711]
+			"17:32:07 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [712]
+			"07/16/17", -- [713]
+			"18:18:22 - Logged In", -- [714]
+			"18:18:22 - ML initialized!", -- [715]
+			"18:18:22 - Using ExtraUtilities (0.5.0)", -- [716]
+			"18:18:22 - EU:UpdateGuildInfo", -- [717]
+			"18:18:22 - GroupGear (1.2.3) (enabled)", -- [718]
+			"18:18:24 - 舒预言-冰风岗 (2.4.4) (nil)", -- [719]
+			"18:18:26 - Event: (PLAYER_ENTERING_WORLD)", -- [720]
+			"18:18:26 - GetML()", -- [721]
+			"18:18:26 - LootMethod =  (personalloot)", -- [722]
+			"18:18:27 - GetPlayersGuildRank()", -- [723]
+			"18:18:27 - Found Guild Rank: M团（储备）", -- [724]
+			"18:18:27 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [725]
+			"07/16/17", -- [726]
+			"18:23:53 - Logged In", -- [727]
+			"18:23:53 - ML initialized!", -- [728]
+			"18:23:53 - Using ExtraUtilities (0.5.0)", -- [729]
+			"18:23:53 - EU:UpdateGuildInfo", -- [730]
+			"18:23:53 - GroupGear (1.2.3) (enabled)", -- [731]
+			"18:23:54 - 舒预言-冰风岗 (2.4.4) (nil)", -- [732]
+			"18:23:56 - Event: (PLAYER_ENTERING_WORLD)", -- [733]
+			"18:23:56 - GetML()", -- [734]
+			"18:23:56 - LootMethod =  (personalloot)", -- [735]
+			"18:23:57 - GetPlayersGuildRank()", -- [736]
+			"18:23:57 - Found Guild Rank: M团（储备）", -- [737]
+			"18:23:57 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [738]
+			"18:30:35 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (潴灬玉兔呈祥) (distri:) (GUILD)", -- [739]
+			"18:31:31 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [740]
+			"18:31:31 - GetML()", -- [741]
+			"18:31:31 - LootMethod =  (personalloot)", -- [742]
+			"18:31:57 - Event: (PLAYER_ENTERING_WORLD)", -- [743]
+			"18:31:57 - GetML()", -- [744]
+			"18:31:57 - LootMethod =  (personalloot)", -- [745]
+			"18:34:55 - Event: (RAID_INSTANCE_WELCOME) (突袭紫罗兰监狱（史诗）) (303904) (0) (0)", -- [746]
+			"18:34:55 - Event: (PLAYER_ENTERING_WORLD)", -- [747]
+			"18:34:55 - GetML()", -- [748]
+			"18:34:55 - LootMethod =  (personalloot)", -- [749]
+			"18:45:21 - Event: (PLAYER_ENTERING_WORLD)", -- [750]
+			"18:45:21 - GetML()", -- [751]
+			"18:45:21 - LootMethod =  (personalloot)", -- [752]
+			"07/16/17", -- [753]
+			"18:52:43 - Logged In", -- [754]
+			"18:52:43 - ML initialized!", -- [755]
+			"18:52:43 - Using ExtraUtilities (0.5.0)", -- [756]
+			"18:52:43 - EU:UpdateGuildInfo", -- [757]
+			"18:52:43 - GroupGear (1.2.3) (enabled)", -- [758]
+			"18:52:51 - 舒预言-冰风岗 (2.4.4) (nil)", -- [759]
+			"18:52:53 - Event: (PLAYER_ENTERING_WORLD)", -- [760]
+			"18:52:53 - GetML()", -- [761]
+			"18:52:53 - LootMethod =  (personalloot)", -- [762]
+			"18:52:53 - GetPlayersGuildRank()", -- [763]
+			"18:52:53 - Found Guild Rank: M团（储备）", -- [764]
+			"18:52:53 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [765]
+			"18:54:15 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (弑丶戰) (distri:) (GUILD)", -- [766]
+			"07/16/17", -- [767]
+			"18:54:23 - Logged In", -- [768]
+			"18:54:23 - ML initialized!", -- [769]
+			"18:54:23 - Using ExtraUtilities (0.5.0)", -- [770]
+			"18:54:23 - EU:UpdateGuildInfo", -- [771]
+			"18:54:23 - GroupGear (1.2.3) (enabled)", -- [772]
+			"18:54:24 - 舒预言-冰风岗 (2.4.4) (nil)", -- [773]
+			"18:54:26 - Event: (PLAYER_ENTERING_WORLD)", -- [774]
+			"18:54:26 - GetML()", -- [775]
+			"18:54:26 - LootMethod =  (personalloot)", -- [776]
+			"18:54:26 - GetPlayersGuildRank()", -- [777]
+			"18:54:26 - Found Guild Rank: M团（储备）", -- [778]
+			"18:54:27 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [779]
+			"18:56:58 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [780]
+			"18:56:58 - GetML()", -- [781]
+			"18:56:58 - LootMethod =  (personalloot)", -- [782]
+			"18:59:26 - Event: (PLAYER_ENTERING_WORLD)", -- [783]
+			"18:59:26 - GetML()", -- [784]
+			"18:59:26 - LootMethod =  (personalloot)", -- [785]
+			"19:01:02 - Event: (PLAYER_ENTERING_WORLD)", -- [786]
+			"19:01:02 - GetML()", -- [787]
+			"19:01:02 - LootMethod =  (personalloot)", -- [788]
+			"19:02:46 - Event: (RAID_INSTANCE_WELCOME) (守望者地窟（史诗）) (302233) (0) (0)", -- [789]
+			"19:02:46 - Event: (PLAYER_ENTERING_WORLD)", -- [790]
+			"19:02:46 - GetML()", -- [791]
+			"19:02:46 - LootMethod =  (personalloot)", -- [792]
+			"19:06:16 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (聖光大天使) (distri:) (GUILD)", -- [793]
+			"07/16/17", -- [794]
+			"19:07:33 - Logged In", -- [795]
+			"19:07:33 - ML initialized!", -- [796]
+			"19:07:33 - Using ExtraUtilities (0.5.0)", -- [797]
+			"19:07:33 - EU:UpdateGuildInfo", -- [798]
+			"19:07:33 - GroupGear (1.2.3) (enabled)", -- [799]
+			"19:07:39 - 舒预言-冰风岗 (2.4.4) (nil)", -- [800]
+			"19:07:40 - Event: (PLAYER_ENTERING_WORLD)", -- [801]
+			"19:07:40 - GetML()", -- [802]
+			"19:07:40 - LootMethod =  (personalloot)", -- [803]
+			"19:07:40 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [804]
+			"19:07:40 - GetML()", -- [805]
+			"19:07:40 - LootMethod =  (personalloot)", -- [806]
+			"19:07:41 - GetPlayersGuildRank()", -- [807]
+			"19:07:41 - Found Guild Rank: M团（储备）", -- [808]
+			"19:07:41 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [809]
+			"19:19:59 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (老砍刀) (distri:) (GUILD)", -- [810]
+			"19:23:18 - Event: (PLAYER_ENTERING_WORLD)", -- [811]
+			"19:23:18 - GetML()", -- [812]
+			"19:23:18 - LootMethod =  (personalloot)", -- [813]
+			"19:24:05 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [814]
+			"19:24:05 - GetML()", -- [815]
+			"19:24:05 - LootMethod =  (personalloot)", -- [816]
+			"19:24:21 - Event: (PLAYER_ENTERING_WORLD)", -- [817]
+			"19:24:21 - GetML()", -- [818]
+			"19:24:21 - LootMethod =  (personalloot)", -- [819]
+			"19:24:48 - Event: (RAID_INSTANCE_WELCOME) (黑鸦堡垒（史诗）) (300911) (0) (0)", -- [820]
+			"19:24:49 - Event: (PLAYER_ENTERING_WORLD)", -- [821]
+			"19:24:49 - GetML()", -- [822]
+			"19:24:49 - LootMethod =  (personalloot)", -- [823]
+			"19:29:16 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (老砍刀) (distri:) (GUILD)", -- [824]
+			"19:30:44 - Comm received:^1^SverTest^T^N1^S2.4.0^t^^ (from:) (小白呀咩嗲) (distri:) (GUILD)", -- [825]
+			"19:33:24 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (一九五八) (distri:) (GUILD)", -- [826]
+			"19:37:33 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [827]
+			"19:37:33 - GetML()", -- [828]
+			"19:37:33 - LootMethod =  (personalloot)", -- [829]
+			"19:38:30 - Event: (PLAYER_ENTERING_WORLD)", -- [830]
+			"19:38:30 - GetML()", -- [831]
+			"19:38:30 - LootMethod =  (personalloot)", -- [832]
+			"19:38:58 - Event: (RAID_INSTANCE_WELCOME) (黑鸦堡垒（史诗）) (300061) (1) (0)", -- [833]
+			"19:38:59 - Event: (PLAYER_ENTERING_WORLD)", -- [834]
+			"19:38:59 - GetML()", -- [835]
+			"19:38:59 - LootMethod =  (personalloot)", -- [836]
+			"19:46:52 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (潴灬牛气冲天) (distri:) (GUILD)", -- [837]
+			"19:49:34 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (妞妞有劲) (distri:) (GUILD)", -- [838]
+			"19:50:34 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [839]
+			"19:50:34 - GetML()", -- [840]
+			"19:50:34 - LootMethod =  (personalloot)", -- [841]
+			"19:50:45 - Event: (PLAYER_ENTERING_WORLD)", -- [842]
+			"19:50:45 - GetML()", -- [843]
+			"19:50:45 - LootMethod =  (personalloot)", -- [844]
+			"19:56:15 - Event: (RAID_INSTANCE_WELCOME) (噬魂之喉（史诗）) (299024) (0) (0)", -- [845]
+			"19:56:16 - Event: (PLAYER_ENTERING_WORLD)", -- [846]
+			"19:56:16 - GetML()", -- [847]
+			"19:56:16 - LootMethod =  (personalloot)", -- [848]
+			"07/16/17", -- [849]
+			"19:58:55 - Logged In", -- [850]
+			"19:58:55 - ML initialized!", -- [851]
+			"19:58:55 - Using ExtraUtilities (0.5.0)", -- [852]
+			"19:58:55 - EU:UpdateGuildInfo", -- [853]
+			"19:58:55 - GroupGear (1.2.3) (enabled)", -- [854]
+			"19:58:59 - 舒预言-冰风岗 (2.4.4) (nil)", -- [855]
+			"19:59:00 - Event: (PLAYER_ENTERING_WORLD)", -- [856]
+			"19:59:00 - GetML()", -- [857]
+			"19:59:00 - LootMethod =  (personalloot)", -- [858]
+			"19:59:00 - GetPlayersGuildRank()", -- [859]
+			"19:59:00 - Found Guild Rank: M团（储备）", -- [860]
+			"19:59:00 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [861]
+			"19:59:00 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [862]
+			"19:59:00 - GetML()", -- [863]
+			"19:59:00 - LootMethod =  (personalloot)", -- [864]
+			"20:04:30 - Event: (PLAYER_ENTERING_WORLD)", -- [865]
+			"20:04:30 - GetML()", -- [866]
+			"20:04:30 - LootMethod =  (personalloot)", -- [867]
+			"20:05:04 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [868]
+			"20:05:04 - GetML()", -- [869]
+			"20:05:04 - LootMethod =  (personalloot)", -- [870]
+			"20:05:16 - Event: (PLAYER_ENTERING_WORLD)", -- [871]
+			"20:05:16 - GetML()", -- [872]
+			"20:05:16 - LootMethod =  (personalloot)", -- [873]
+			"20:07:38 - Event: (RAID_INSTANCE_WELCOME) (群星庭院（史诗）) (298341) (0) (0)", -- [874]
+			"20:07:39 - Event: (PLAYER_ENTERING_WORLD)", -- [875]
+			"20:07:39 - GetML()", -- [876]
+			"20:07:39 - LootMethod =  (personalloot)", -- [877]
+			"20:10:11 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (毛二狗) (distri:) (GUILD)", -- [878]
+			"20:19:09 - Event: (PLAYER_ENTERING_WORLD)", -- [879]
+			"20:19:09 - GetML()", -- [880]
+			"20:19:09 - LootMethod =  (personalloot)", -- [881]
+			"20:20:57 - Event: (RAID_INSTANCE_WELCOME) (魔法回廊（史诗）) (297542) (0) (0)", -- [882]
+			"20:20:57 - Event: (PLAYER_ENTERING_WORLD)", -- [883]
+			"20:20:57 - GetML()", -- [884]
+			"20:20:57 - LootMethod =  (personalloot)", -- [885]
+			"20:24:13 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (毛二狗) (distri:) (GUILD)", -- [886]
+			"20:27:23 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (毛二狗) (distri:) (GUILD)", -- [887]
+			"20:28:34 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (火影部落) (distri:) (GUILD)", -- [888]
+			"20:30:40 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (毛二狗) (distri:) (GUILD)", -- [889]
+			"20:37:51 - Event: (PLAYER_ENTERING_WORLD)", -- [890]
+			"20:37:51 - GetML()", -- [891]
+			"20:37:51 - LootMethod =  (personalloot)", -- [892]
+			"20:37:53 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [893]
+			"20:37:53 - GetML()", -- [894]
+			"20:37:53 - LootMethod =  (personalloot)", -- [895]
+			"20:39:08 - Event: (RAID_INSTANCE_WELCOME) (永夜大教堂（史诗）) (296451) (0) (0)", -- [896]
+			"20:39:08 - Event: (PLAYER_ENTERING_WORLD)", -- [897]
+			"20:39:08 - GetML()", -- [898]
+			"20:39:08 - LootMethod =  (personalloot)", -- [899]
+			"20:53:27 - Event: (PLAYER_ENTERING_WORLD)", -- [900]
+			"20:53:27 - GetML()", -- [901]
+			"20:53:27 - LootMethod =  (personalloot)", -- [902]
+			"20:54:44 - Event: (PLAYER_ENTERING_WORLD)", -- [903]
+			"20:54:44 - GetML()", -- [904]
+			"20:54:44 - LootMethod =  (personalloot)", -- [905]
+			"20:57:24 - Event: (PLAYER_ENTERING_WORLD)", -- [906]
+			"20:57:24 - GetML()", -- [907]
+			"20:57:24 - LootMethod =  (personalloot)", -- [908]
+			"20:59:57 - Event: (PLAYER_ENTERING_WORLD)", -- [909]
+			"20:59:57 - GetML()", -- [910]
+			"20:59:57 - LootMethod =  (personalloot)", -- [911]
+			"21:02:21 - Event: (PLAYER_ENTERING_WORLD)", -- [912]
+			"21:02:21 - GetML()", -- [913]
+			"21:02:21 - LootMethod =  (personalloot)", -- [914]
+			"07/16/17", -- [915]
+			"21:13:31 - Logged In", -- [916]
+			"21:13:31 - ML initialized!", -- [917]
+			"21:13:31 - Using ExtraUtilities (0.5.0)", -- [918]
+			"21:13:31 - EU:UpdateGuildInfo", -- [919]
+			"21:13:31 - GroupGear (1.2.3) (enabled)", -- [920]
+			"21:13:39 - 舒墨兰-伊莫塔尔 (2.4.4) (nil)", -- [921]
+			"21:13:40 - Event: (PLAYER_ENTERING_WORLD)", -- [922]
+			"21:13:40 - GetML()", -- [923]
+			"21:13:40 - LootMethod =  (personalloot)", -- [924]
+			"21:13:41 - GetPlayersGuildRank()", -- [925]
+			"21:13:41 - Found Guild Rank: 招牌技师", -- [926]
+			"21:13:41 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒墨兰) (distri:) (GUILD)", -- [927]
+			"07/16/17", -- [928]
+			"21:15:18 - Logged In", -- [929]
+			"21:15:18 - ML initialized!", -- [930]
+			"21:15:18 - Using ExtraUtilities (0.5.0)", -- [931]
+			"21:15:18 - EU:UpdateGuildInfo", -- [932]
+			"21:15:18 - GroupGear (1.2.3) (enabled)", -- [933]
+			"21:15:20 - 舒墨兰-伊莫塔尔 (2.4.4) (nil)", -- [934]
+			"21:15:22 - Event: (PLAYER_ENTERING_WORLD)", -- [935]
+			"21:15:22 - GetML()", -- [936]
+			"21:15:22 - LootMethod =  (personalloot)", -- [937]
+			"21:15:22 - GetPlayersGuildRank()", -- [938]
+			"21:15:22 - Found Guild Rank: 招牌技师", -- [939]
+			"21:15:22 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒墨兰) (distri:) (GUILD)", -- [940]
+			"07/16/17", -- [941]
+			"21:22:27 - Logged In", -- [942]
+			"21:22:27 - ML initialized!", -- [943]
+			"21:22:27 - Using ExtraUtilities (0.5.0)", -- [944]
+			"21:22:27 - EU:UpdateGuildInfo", -- [945]
+			"21:22:27 - GroupGear (1.2.3) (enabled)", -- [946]
+			"21:22:28 - 舒墨兰-伊莫塔尔 (2.4.4) (nil)", -- [947]
+			"21:22:30 - Event: (PLAYER_ENTERING_WORLD)", -- [948]
+			"21:22:30 - GetML()", -- [949]
+			"21:22:30 - LootMethod =  (personalloot)", -- [950]
+			"21:22:30 - GetPlayersGuildRank()", -- [951]
+			"21:22:30 - Found Guild Rank: 招牌技师", -- [952]
+			"21:22:31 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (舒墨兰) (distri:) (GUILD)", -- [953]
+			"21:39:15 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (堃堃) (distri:) (GUILD)", -- [954]
+			"21:42:38 - Event: (PLAYER_ENTERING_WORLD)", -- [955]
+			"21:42:38 - GetML()", -- [956]
+			"21:42:38 - LootMethod =  (personalloot)", -- [957]
+			"21:43:36 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [958]
+			"21:43:36 - GetML()", -- [959]
+			"21:43:36 - LootMethod =  (personalloot)", -- [960]
+			"21:43:40 - Event: (PLAYER_ENTERING_WORLD)", -- [961]
+			"21:43:40 - GetML()", -- [962]
+			"21:43:40 - LootMethod =  (personalloot)", -- [963]
+			"21:52:32 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [964]
+			"21:52:32 - GetML()", -- [965]
+			"21:52:32 - LootMethod =  (personalloot)", -- [966]
+			"21:52:34 - Event: (RAID_INSTANCE_WELCOME) (突袭紫罗兰监狱（英雄）) (32845) (0) (0)", -- [967]
+			"21:52:34 - Event: (PLAYER_ENTERING_WORLD)", -- [968]
+			"21:52:34 - GetML()", -- [969]
+			"21:52:34 - LootMethod =  (personalloot)", -- [970]
+			"22:04:46 - Event: (PLAYER_ENTERING_WORLD)", -- [971]
+			"22:04:46 - GetML()", -- [972]
+			"22:04:46 - LootMethod =  (personalloot)", -- [973]
+			"22:04:55 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [974]
+			"22:04:55 - GetML()", -- [975]
+			"22:04:55 - LootMethod =  (personalloot)", -- [976]
+			"22:04:59 - Event: (PLAYER_ENTERING_WORLD)", -- [977]
+			"22:04:59 - GetML()", -- [978]
+			"22:04:59 - LootMethod =  (personalloot)", -- [979]
+			"22:05:11 - Event: (PLAYER_ENTERING_WORLD)", -- [980]
+			"22:05:11 - GetML()", -- [981]
+			"22:05:11 - LootMethod =  (personalloot)", -- [982]
+			"07/17/17", -- [983]
+			"08:45:35 - Logged In", -- [984]
+			"08:45:35 - ML initialized!", -- [985]
+			"08:45:35 - Using ExtraUtilities (0.5.0)", -- [986]
+			"08:45:35 - EU:UpdateGuildInfo", -- [987]
+			"08:45:35 - GroupGear (1.2.3) (enabled)", -- [988]
+			"08:46:27 - 舒预言-冰风岗 (2.4.3) (nil)", -- [989]
+			"08:46:28 - Event: (PLAYER_ENTERING_WORLD)", -- [990]
+			"08:46:28 - GetML()", -- [991]
+			"08:46:28 - LootMethod =  (personalloot)", -- [992]
+			"08:46:30 - GetPlayersGuildRank()", -- [993]
+			"08:46:30 - Found Guild Rank: M团（储备）", -- [994]
+			"08:46:30 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [995]
+			"08:47:44 - Event: (PLAYER_ENTERING_WORLD)", -- [996]
+			"08:47:44 - GetML()", -- [997]
+			"08:47:44 - LootMethod =  (personalloot)", -- [998]
+			"07/17/17", -- [999]
+			"08:52:44 - Logged In", -- [1000]
+			"08:52:44 - ML initialized!", -- [1001]
+			"08:52:44 - Using ExtraUtilities (0.5.0)", -- [1002]
+			"08:52:44 - EU:UpdateGuildInfo", -- [1003]
+			"08:52:44 - GroupGear (1.2.3) (enabled)", -- [1004]
+			"08:52:45 - 舒预言-冰风岗 (2.4.3) (nil)", -- [1005]
+			"08:52:48 - Event: (PLAYER_ENTERING_WORLD)", -- [1006]
+			"08:52:48 - GetML()", -- [1007]
+			"08:52:48 - LootMethod =  (personalloot)", -- [1008]
+			"08:52:48 - GetPlayersGuildRank()", -- [1009]
+			"08:52:48 - Found Guild Rank: M团（储备）", -- [1010]
+			"08:52:49 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [1011]
+			"07/17/17", -- [1012]
+			"09:05:53 - Logged In", -- [1013]
+			"09:05:53 - ML initialized!", -- [1014]
+			"09:05:53 - Using ExtraUtilities (0.5.0)", -- [1015]
+			"09:05:53 - EU:UpdateGuildInfo", -- [1016]
+			"09:05:53 - GroupGear (1.2.3) (enabled)", -- [1017]
+			"09:05:55 - 舒预言-冰风岗 (2.4.3) (nil)", -- [1018]
+			"09:05:57 - Event: (PLAYER_ENTERING_WORLD)", -- [1019]
+			"09:05:57 - GetML()", -- [1020]
+			"09:05:57 - LootMethod =  (personalloot)", -- [1021]
+			"09:05:58 - GetPlayersGuildRank()", -- [1022]
+			"09:05:58 - Found Guild Rank: M团（储备）", -- [1023]
+			"09:05:59 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [1024]
+			"09:09:13 - Event: (PLAYER_ENTERING_WORLD)", -- [1025]
+			"09:09:13 - GetML()", -- [1026]
+			"09:09:13 - LootMethod =  (personalloot)", -- [1027]
+			"09:23:10 - Event: (PLAYER_ENTERING_WORLD)", -- [1028]
+			"09:23:10 - GetML()", -- [1029]
+			"09:23:10 - LootMethod =  (personalloot)", -- [1030]
+			"07/17/17", -- [1031]
+			"09:42:37 - Logged In", -- [1032]
+			"09:42:37 - ML initialized!", -- [1033]
+			"09:42:37 - Using ExtraUtilities (0.5.0)", -- [1034]
+			"09:42:37 - EU:UpdateGuildInfo", -- [1035]
+			"09:42:37 - GroupGear (1.2.3) (enabled)", -- [1036]
+			"09:42:39 - 舒预言-冰风岗 (2.4.3) (nil)", -- [1037]
+			"09:42:41 - Event: (PLAYER_ENTERING_WORLD)", -- [1038]
+			"09:42:41 - GetML()", -- [1039]
+			"09:42:41 - LootMethod =  (personalloot)", -- [1040]
+			"09:42:42 - GetPlayersGuildRank()", -- [1041]
+			"09:42:42 - Found Guild Rank: M团（储备）", -- [1042]
+			"09:42:43 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [1043]
+			"09:44:53 - Event: (PLAYER_ENTERING_WORLD)", -- [1044]
+			"09:44:53 - GetML()", -- [1045]
+			"09:44:53 - LootMethod =  (personalloot)", -- [1046]
+			"09:52:13 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1047]
+			"09:52:13 - GetML()", -- [1048]
+			"09:52:13 - LootMethod =  (personalloot)", -- [1049]
+			"09:52:19 - Event: (PLAYER_ENTERING_WORLD)", -- [1050]
+			"09:52:19 - GetML()", -- [1051]
+			"09:52:19 - LootMethod =  (personalloot)", -- [1052]
+			"10:01:15 - Event: (PLAYER_ENTERING_WORLD)", -- [1053]
+			"10:01:15 - GetML()", -- [1054]
+			"10:01:15 - LootMethod =  (personalloot)", -- [1055]
+			"07/17/17", -- [1056]
+			"10:28:52 - Logged In", -- [1057]
+			"10:28:52 - ML initialized!", -- [1058]
+			"10:28:52 - Using ExtraUtilities (0.5.0)", -- [1059]
+			"10:28:52 - EU:UpdateGuildInfo", -- [1060]
+			"10:28:52 - GroupGear (1.2.3) (enabled)", -- [1061]
+			"10:28:56 - 舒预言-冰风岗 (2.4.3) (nil)", -- [1062]
+			"10:28:59 - Event: (PLAYER_ENTERING_WORLD)", -- [1063]
+			"10:28:59 - GetML()", -- [1064]
+			"10:28:59 - LootMethod =  (personalloot)", -- [1065]
+			"10:28:59 - GetPlayersGuildRank()", -- [1066]
+			"10:28:59 - Found Guild Rank: M团（储备）", -- [1067]
+			"10:29:00 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [1068]
+			"07/17/17", -- [1069]
+			"10:30:00 - Logged In", -- [1070]
+			"10:30:00 - ML initialized!", -- [1071]
+			"10:30:00 - Using ExtraUtilities (0.5.0)", -- [1072]
+			"10:30:00 - EU:UpdateGuildInfo", -- [1073]
+			"10:30:00 - GroupGear (1.2.3) (enabled)", -- [1074]
+			"10:30:02 - 舒预言-冰风岗 (2.4.3) (nil)", -- [1075]
+			"10:30:04 - Event: (PLAYER_ENTERING_WORLD)", -- [1076]
+			"10:30:04 - GetML()", -- [1077]
+			"10:30:04 - LootMethod =  (personalloot)", -- [1078]
+			"10:30:04 - GetPlayersGuildRank()", -- [1079]
+			"10:30:04 - Found Guild Rank: M团（储备）", -- [1080]
+			"10:30:05 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [1081]
+			"07/17/17", -- [1082]
+			"10:32:28 - Logged In", -- [1083]
+			"10:32:28 - ML initialized!", -- [1084]
+			"10:32:28 - Using ExtraUtilities (0.5.0)", -- [1085]
+			"10:32:28 - EU:UpdateGuildInfo", -- [1086]
+			"10:32:28 - GroupGear (1.2.3) (enabled)", -- [1087]
+			"10:32:30 - 舒预言-冰风岗 (2.4.3) (nil)", -- [1088]
+			"10:32:32 - Event: (PLAYER_ENTERING_WORLD)", -- [1089]
+			"10:32:32 - GetML()", -- [1090]
+			"10:32:32 - LootMethod =  (personalloot)", -- [1091]
+			"10:32:32 - GetPlayersGuildRank()", -- [1092]
+			"10:32:32 - Found Guild Rank: M团（储备）", -- [1093]
+			"10:32:33 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [1094]
+			"07/17/17", -- [1095]
+			"10:33:27 - Logged In", -- [1096]
+			"10:33:27 - ML initialized!", -- [1097]
+			"10:33:27 - Using ExtraUtilities (0.5.0)", -- [1098]
+			"10:33:27 - EU:UpdateGuildInfo", -- [1099]
+			"10:33:27 - GroupGear (1.2.3) (enabled)", -- [1100]
+			"10:33:28 - 舒预言-冰风岗 (2.4.3) (nil)", -- [1101]
+			"10:33:30 - Event: (PLAYER_ENTERING_WORLD)", -- [1102]
+			"10:33:30 - GetML()", -- [1103]
+			"10:33:30 - LootMethod =  (personalloot)", -- [1104]
+			"10:33:31 - GetPlayersGuildRank()", -- [1105]
+			"10:33:31 - Found Guild Rank: M团（储备）", -- [1106]
+			"10:33:32 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [1107]
+			"07/17/17", -- [1108]
+			"10:37:39 - Logged In", -- [1109]
+			"10:37:39 - ML initialized!", -- [1110]
+			"10:37:39 - Using ExtraUtilities (0.5.0)", -- [1111]
+			"10:37:39 - EU:UpdateGuildInfo", -- [1112]
+			"10:37:39 - GroupGear (1.2.3) (enabled)", -- [1113]
+			"10:37:40 - 舒预言-冰风岗 (2.4.3) (nil)", -- [1114]
+			"10:37:42 - Event: (PLAYER_ENTERING_WORLD)", -- [1115]
+			"10:37:42 - GetML()", -- [1116]
+			"10:37:42 - LootMethod =  (personalloot)", -- [1117]
+			"10:37:43 - GetPlayersGuildRank()", -- [1118]
+			"10:37:43 - Found Guild Rank: M团（储备）", -- [1119]
+			"10:37:43 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (舒预言) (distri:) (GUILD)", -- [1120]
+			"07/17/17", -- [1121]
+			"11:27:18 - Logged In", -- [1122]
+			"11:27:18 - ML initialized!", -- [1123]
+			"11:27:18 - Using ExtraUtilities (0.5.0)", -- [1124]
+			"11:27:18 - EU:UpdateGuildInfo", -- [1125]
+			"11:27:18 - GroupGear (1.2.3) (enabled)", -- [1126]
+			"11:27:31 - 舒墨兰-伊莫塔尔 (2.4.3) (nil)", -- [1127]
+			"11:27:33 - Event: (PLAYER_ENTERING_WORLD)", -- [1128]
+			"11:27:33 - GetML()", -- [1129]
+			"11:27:33 - LootMethod =  (personalloot)", -- [1130]
+			"11:27:33 - GetPlayersGuildRank()", -- [1131]
+			"11:27:33 - Found Guild Rank: 招牌技师", -- [1132]
+			"11:27:33 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (舒墨兰) (distri:) (GUILD)", -- [1133]
+			"07/17/17", -- [1134]
+			"11:30:59 - Logged In", -- [1135]
+			"11:30:59 - ML initialized!", -- [1136]
+			"11:30:59 - Using ExtraUtilities (0.5.0)", -- [1137]
+			"11:30:59 - EU:UpdateGuildInfo", -- [1138]
+			"11:30:59 - GroupGear (1.2.3) (enabled)", -- [1139]
+			"11:31:01 - 舒墨兰-伊莫塔尔 (2.4.3) (nil)", -- [1140]
+			"11:31:05 - Event: (PLAYER_ENTERING_WORLD)", -- [1141]
+			"11:31:05 - GetML()", -- [1142]
+			"11:31:05 - LootMethod =  (personalloot)", -- [1143]
+			"11:31:06 - GetPlayersGuildRank()", -- [1144]
+			"11:31:06 - Found Guild Rank: 招牌技师", -- [1145]
+			"11:31:06 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (舒墨兰) (distri:) (GUILD)", -- [1146]
+			"11:32:33 - Event: (PLAYER_ENTERING_WORLD)", -- [1147]
+			"11:32:33 - GetML()", -- [1148]
+			"11:32:33 - LootMethod =  (personalloot)", -- [1149]
+			"07/17/17", -- [1150]
+			"11:41:47 - Logged In", -- [1151]
+			"11:41:47 - ML initialized!", -- [1152]
+			"11:41:47 - Using ExtraUtilities (0.5.0)", -- [1153]
+			"11:41:47 - EU:UpdateGuildInfo", -- [1154]
+			"11:41:47 - GroupGear (1.2.3) (enabled)", -- [1155]
+			"11:41:49 - 舒墨兰-伊莫塔尔 (2.4.3) (nil)", -- [1156]
+			"11:41:51 - Event: (PLAYER_ENTERING_WORLD)", -- [1157]
+			"11:41:51 - GetML()", -- [1158]
+			"11:41:51 - LootMethod =  (personalloot)", -- [1159]
+			"11:41:51 - GetPlayersGuildRank()", -- [1160]
+			"11:41:51 - Found Guild Rank: 招牌技师", -- [1161]
+			"11:41:52 - Comm received:^1^SverTest^T^N1^S2.4.3^t^^ (from:) (舒墨兰) (distri:) (GUILD)", -- [1162]
+		},
+		["oldVersion"] = "2.4.3",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+RCLootCouncilLootDB = {
+	["profileKeys"] = {
+		["舒预言 - 伊莫塔尔"] = "舒预言 - 伊莫塔尔",
+		["舒墨兰 - 伊莫塔尔"] = "舒墨兰 - 伊莫塔尔",
+		["舒预言 - 冰风岗"] = "舒预言 - 冰风岗",
+	},
+	["factionrealm"] = {
+		["Horde - 伊莫塔尔"] = {
+			["毛尖-萨尔"] = {
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147055::::::::110:254::3:3:3561:1482:3528:::|h[尖叫熔渣腰带]|h|r",
+					["mapID"] = 1676,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "HUNTER",
+					["isAwardReason"] = false,
+					["response"] = "主天赋/需求",
+					["boss"] = "女祭司月葬",
+					["votes"] = 0,
+					["time"] = "23:07:25",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147056::::::::110:261::3:3:3561:1502:3337:::|h[无尽联合护腰]|h|r",
+					["responseID"] = 1,
+					["groupSize"] = 27,
+					["date"] = "06/07/17",
+				}, -- [1]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:138344::::::::110:254::5:3:3516:1507:3337:::|h[鹰爪护腿]|h|r",
+					["mapID"] = 1676,
+					["color"] = {
+						1, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "HUNTER",
+					["isAwardReason"] = false,
+					["response"] = "没有及时回应",
+					["boss"] = "堕落的化身",
+					["votes"] = 0,
+					["time"] = "23:44:52",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147052::::::::110:261::3:4:3561:1808:1497:3337:::|h[虹吸之力护腿]|h|r",
+					["responseID"] = "TIMEOUT",
+					["groupSize"] = 25,
+					["date"] = "06/07/17",
+				}, -- [2]
+			},
+			["毛肚-萨尔"] = {
+				{
+					["mapID"] = 1676,
+					["instance"] = "萨格拉斯之墓-普通",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DRUID",
+					["response"] = "主天赋/需求",
+					["groupSize"] = 19,
+					["boss"] = "阿提甘",
+					["votes"] = 0,
+					["time"] = "20:07:30",
+					["lootWon"] = "|cffa335ee|Hitem:147077::::::::110:261::3:3:3561:1482:3528:::|h[不变真理灵液]|h|r",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["difficultyID"] = 14,
+					["date"] = "30/06/17",
+				}, -- [1]
+				{
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["class"] = "DRUID",
+					["groupSize"] = 19,
+					["boss"] = "阿提甘",
+					["time"] = "19:58:35",
+					["itemReplaced1"] = "|cffa335ee|Hitem:138330::::::::110:105::5:3:3516:1492:3336:::|h[星界守护者兜帽]|h|r",
+					["instance"] = "萨格拉斯之墓-英雄",
+					["response"] = "4th Tier Piece",
+					["tokenRoll"] = true,
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:147322::::::::110:261::5:1:570:::|h[先遣胜利者的头盔]|h|r",
+					["tierToken"] = "HeadSlot",
+					["votes"] = 0,
+					["responseID"] = 1,
+					["color"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["isAwardReason"] = false,
+				}, -- [2]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:140839::::::::110:105::6:3:3518:1502:3528:::|h[寄生孢子]|h|r",
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["response"] = "主天赋/需求",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DRUID",
+					["boss"] = "女祭司月葬",
+					["groupSize"] = 24,
+					["votes"] = 0,
+					["difficultyID"] = 15,
+					["time"] = "21:10:46",
+					["lootWon"] = "|cffa335ee|Hitem:147105::::::::110:261::5:3:3562:1497:3528:::|h[月爪之羽]|h|r",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:147106::::::::110:105::5:3:3562:1497:3528:::|h[发光的祈祷蜡烛]|h|r",
+					["instance"] = "萨格拉斯之墓-英雄",
+				}, -- [3]
+			},
+			["嗗頭-萨尔"] = {
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:141482::::::::110:258::43:3:3573:1497:3336:::|h[不稳定的奥术水晶]|h|r",
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["response"] = "主天赋/需求",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "PRIEST",
+					["boss"] = "主母萨丝琳",
+					["groupSize"] = 22,
+					["votes"] = 0,
+					["difficultyID"] = 15,
+					["time"] = "20:49:30",
+					["lootWon"] = "|cffa335ee|Hitem:147016::::::::110:261::5:3:3562:1497:3528:::|h[地底恐惧]|h|r",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:147018::::::::110:258::3:3:3561:1482:3528:::|h[幽魂香炉]|h|r",
+					["instance"] = "萨格拉斯之墓-英雄",
+				}, -- [1]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:138319::::::::110:258::5:4:3516:43:1492:3336:::|h[圣洁者祭服]|h|r",
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["instance"] = "萨格拉斯之墓-英雄",
+					["class"] = "PRIEST",
+					["boss"] = "绝望的聚合体",
+					["response"] = "副天赋/贪婪",
+					["isAwardReason"] = false,
+					["votes"] = 0,
+					["time"] = "21:43:22",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:146995::::::::110:261::5:3:3562:1497:3528:::|h[灵魂之王的仪式长袍]|h|r",
+					["responseID"] = 2,
+					["groupSize"] = 21,
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [2]
+				{
+					["mapID"] = 1676,
+					["color"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["class"] = "PRIEST",
+					["groupSize"] = 22,
+					["boss"] = "戒卫侍女",
+					["time"] = "22:01:23",
+					["itemReplaced1"] = "|cffa335ee|Hitem:138319::::::::110:258::5:4:3516:43:1492:3336:::|h[圣洁者祭服]|h|r",
+					["instance"] = "萨格拉斯之墓-英雄",
+					["response"] = "4th Tier Piece",
+					["tierToken"] = "ChestSlot",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:147317::::::::110:261::5:1:570:::|h[先遣征服者的胸甲]|h|r",
+					["date"] = "06/07/17",
+					["votes"] = 0,
+					["responseID"] = 1,
+					["tokenRoll"] = true,
+					["isAwardReason"] = false,
+				}, -- [3]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:133608::::::::110:258::34:3:3418:1567:3337:::|h[缚雾海拉加尔裹足]|h|r",
+					["mapID"] = 1676,
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "PRIEST",
+					["isAwardReason"] = false,
+					["response"] = "放弃",
+					["boss"] = "女祭司月葬",
+					["votes"] = 0,
+					["time"] = "23:07:36",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:146987::::::::110:261::3:3:3561:1482:3528:::|h[永恒警戒便鞋]|h|r",
+					["responseID"] = "PASS",
+					["groupSize"] = 27,
+					["date"] = "06/07/17",
+				}, -- [4]
+				{
+					["mapID"] = 1676,
+					["itemReplaced1"] = "|cffff8000|Hitem:144438:5436:::::::110:258:::3:3529:3459:3570:::|h[扎克斯的灭绝令]|h|r",
+					["date"] = "07/07/17",
+					["instance"] = "萨格拉斯之墓-英雄",
+					["class"] = "PRIEST",
+					["boss"] = "堕落的化身",
+					["groupSize"] = 15,
+					["time"] = "21:44:26",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:147193::::::::110:261::5:4:3562:1808:1497:3528:::|h[盲目怒火披风]|h|r",
+					["isAwardReason"] = false,
+					["votes"] = 0,
+					["responseID"] = "PASS",
+					["response"] = "放弃",
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+				}, -- [5]
+			},
+			["弑丶戰-萨尔"] = {
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147065::::::::110:72::5:3:3562:1497:3528:::|h[熔岩沼泽护腿]|h|r",
+					["mapID"] = 1676,
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "WARRIOR",
+					["isAwardReason"] = false,
+					["response"] = "放弃",
+					["difficultyID"] = 14,
+					["votes"] = 0,
+					["time"] = "19:58:56",
+					["lootWon"] = "|cffa335ee|Hitem:147065::::::::110:261::3:3:3561:1482:3528:::|h[熔岩沼泽护腿]|h|r",
+					["boss"] = "格罗斯",
+					["responseID"] = "PASS",
+					["groupSize"] = 19,
+					["date"] = "30/06/17",
+				}, -- [1]
+				{
+					["tierToken"] = "HandsSlot",
+					["date"] = "30/06/17",
+					["class"] = "WARRIOR",
+					["groupSize"] = 19,
+					["boss"] = "哈亚坦",
+					["time"] = "20:15:23",
+					["itemReplaced1"] = "|cffa335ee|Hitem:138354::::::::110:72::5:3:3516:1487:3528:::|h[黑曜守护者手甲]|h|r",
+					["instance"] = "萨格拉斯之墓-普通",
+					["response"] = "4th Tier Piece",
+					["mapID"] = 1676,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147321::::::::110:261::3::::|h[先遣保卫者的护手]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["tokenRoll"] = true,
+					["votes"] = 0,
+				}, -- [2]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:140817::::::::110:72::5:3:3517:1507:3337:::|h[狮头翻领扣]|h|r",
+					["mapID"] = 1676,
+					["instance"] = "萨格拉斯之墓-普通",
+					["date"] = "30/06/17",
+					["class"] = "WARRIOR",
+					["difficultyID"] = 14,
+					["response"] = "副天赋/贪婪",
+					["boss"] = "女祭司月葬",
+					["isAwardReason"] = false,
+					["time"] = "20:35:12",
+					["lootWon"] = "|cffa335ee|Hitem:147101::::::::110:259::3:3:3561:1482:3528:::|h[鲜明星光]|h|r",
+					["votes"] = 0,
+					["responseID"] = 2,
+					["groupSize"] = 18,
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [3]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:136773::::::::110:72::16:3:3418:1557:3337:::|h[霸权重型腰带]|h|r",
+					["mapID"] = 1676,
+					["instance"] = "萨格拉斯之墓-普通",
+					["date"] = "30/06/17",
+					["class"] = "WARRIOR",
+					["difficultyID"] = 14,
+					["response"] = "主天赋/需求",
+					["boss"] = "基尔加丹",
+					["isAwardReason"] = false,
+					["time"] = "21:44:28",
+					["lootWon"] = "|cffa335ee|Hitem:147072::::::::110:259::3:3:3561:1492:3528:::|h[裂魂者的重型腰带]|h|r",
+					["votes"] = 0,
+					["responseID"] = 1,
+					["groupSize"] = 14,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [4]
+				{
+					["mapID"] = 1676,
+					["date"] = "03/07/17",
+					["class"] = "WARRIOR",
+					["groupSize"] = 24,
+					["votes"] = 0,
+					["time"] = "21:37:47",
+					["itemReplaced1"] = "|cffa335ee|Hitem:138351::::::::110:72::5:3:3516:1492:3336:::|h[黑曜守护者胸甲]|h|r",
+					["instance"] = "萨格拉斯之墓-英雄",
+					["response"] = "4th Tier Piece",
+					["tokenRoll"] = true,
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:147318::::::::110:261::5:1:570:::|h[先遣保卫者的胸甲]|h|r",
+					["tierToken"] = "ChestSlot",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["boss"] = "戒卫侍女",
+					["color"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+				}, -- [5]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:138363::::::::110:72::5:3:3516:1487:3528:::|h[黑曜守护者肩甲]|h|r",
+					["mapID"] = 1676,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-英雄",
+					["class"] = "WARRIOR",
+					["votes"] = 0,
+					["response"] = "主天赋/需求",
+					["isAwardReason"] = false,
+					["difficultyID"] = 15,
+					["time"] = "19:47:25",
+					["groupSize"] = 20,
+					["lootWon"] = "|cffa335ee|Hitem:147069::::::::110:261::5:3:3562:1497:3528:::|h[爆鸣烈焰肩甲]|h|r",
+					["responseID"] = 1,
+					["boss"] = "格罗斯",
+					["date"] = "06/07/17",
+				}, -- [6]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:140808::::::::110:72::5:3:3517:1492:3528:::|h[灵魂之引]|h|r",
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["response"] = "主天赋/需求",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "WARRIOR",
+					["boss"] = "阿提甘",
+					["groupSize"] = 19,
+					["votes"] = 0,
+					["difficultyID"] = 15,
+					["time"] = "19:58:56",
+					["lootWon"] = "|cffa335ee|Hitem:147010::::::::110:261::5:3:3562:1502:3336:::|h[痛苦摇篮]|h|r",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:134234::::::::110:72::43:4:3573:604:1547:3336:::|h[长满藤壶的艾萨拉徽记]|h|r",
+					["instance"] = "萨格拉斯之墓-英雄",
+				}, -- [7]
+				{
+					["mapID"] = 1676,
+					["color"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["class"] = "WARRIOR",
+					["groupSize"] = 21,
+					["boss"] = "绝望的聚合体",
+					["time"] = "21:43:13",
+					["itemReplaced1"] = "|cffff8000|Hitem:137053:5434:::::::110:72:::2:3459:3570:::|h[卡扎拉克斯，弗吉达之怒]|h|r",
+					["instance"] = "萨格拉斯之墓-英雄",
+					["response"] = "4th Tier Piece",
+					["tierToken"] = "BackSlot",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:147333::::::::110:261::5:1:570:::|h[先遣保卫者的披风]|h|r",
+					["date"] = "06/07/17",
+					["votes"] = 0,
+					["responseID"] = 1,
+					["tokenRoll"] = true,
+					["isAwardReason"] = false,
+				}, -- [8]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147069::::::::110:72::5:3:3562:1497:3528:::|h[爆鸣烈焰肩甲]|h|r",
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "WARRIOR",
+					["boss"] = "格罗斯",
+					["response"] = "放弃",
+					["isAwardReason"] = false,
+					["votes"] = 0,
+					["time"] = "22:28:26",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147069::::::::110:261::3:3:3561:1482:3528:::|h[爆鸣烈焰肩甲]|h|r",
+					["responseID"] = "PASS",
+					["groupSize"] = 24,
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+				}, -- [9]
+				{
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["class"] = "WARRIOR",
+					["groupSize"] = 25,
+					["votes"] = 0,
+					["time"] = "22:56:12",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147065::::::::110:72::5:3:3562:1497:3528:::|h[熔岩沼泽护腿]|h|r",
+					["instance"] = "萨格拉斯之墓-普通",
+					["response"] = "4th Tier Piece",
+					["tokenRoll"] = true,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147327::::::::110:261::3::::|h[先遣保卫者的护腿]|h|r",
+					["tierToken"] = "LegsSlot",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["color"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["boss"] = "主母萨丝琳",
+				}, -- [10]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147100::::::::110:71::3:3:3561:1482:3528:::|h[钙化藤壶]|h|r",
+					["difficultyID"] = 15,
+					["groupSize"] = 15,
+					["instance"] = "萨格拉斯之墓-英雄",
+					["class"] = "WARRIOR",
+					["boss"] = "堕落的化身",
+					["response"] = "主天赋/需求",
+					["isAwardReason"] = false,
+					["votes"] = 0,
+					["lootWon"] = "|cffa335ee|Hitem:147102::::::::110:261::5:3:3562:1497:3528:::|h[应激晶塔盒]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["time"] = "21:44:40",
+					["responseID"] = 1,
+					["date"] = "07/07/17",
+					["mapID"] = 1676,
+				}, -- [11]
+			},
+			["妞妞有劲-萨尔"] = {
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:144465::::::::110:268::16:3:3418:1542:3528:::|h[军团风暴精华]|h|r",
+					["mapID"] = 1676,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "MONK",
+					["isAwardReason"] = false,
+					["response"] = "主天赋/需求",
+					["boss"] = "戒卫侍女",
+					["votes"] = 0,
+					["time"] = "23:28:34",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147115::::::::110:261::3:3:3561:1497:3337:::|h[展露的起源]|h|r",
+					["responseID"] = 1,
+					["groupSize"] = 27,
+					["date"] = "06/07/17",
+				}, -- [1]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:140832::::::::110:270::5:3:3516:1487:3528:::|h[冰霜之心]|h|r",
+					["mapID"] = 1676,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "MONK",
+					["isAwardReason"] = false,
+					["response"] = "主天赋/需求",
+					["boss"] = "基尔加丹",
+					["votes"] = 0,
+					["time"] = "00:07:03",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147095::::::::110:261::3:3:3561:1492:3528:::|h[熵能之球]|h|r",
+					["responseID"] = 1,
+					["groupSize"] = 26,
+					["date"] = "07/07/17",
+				}, -- [2]
+			},
+			["Shadowheart-萨尔"] = {
+				{
+					["mapID"] = 1676,
+					["date"] = "03/07/17",
+					["class"] = "DEMONHUNTER",
+					["groupSize"] = 24,
+					["votes"] = 0,
+					["time"] = "21:38:02",
+					["itemReplaced1"] = "|cffa335ee|Hitem:138376::130219::::::110:577::5:4:3516:1808:1507:3337:::|h[灵异之眼外套]|h|r",
+					["instance"] = "萨格拉斯之墓-英雄",
+					["response"] = "4th Tier Piece",
+					["tokenRoll"] = true,
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:147317::::::::110:261::5:1:570:::|h[先遣征服者的胸甲]|h|r",
+					["tierToken"] = "ChestSlot",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["boss"] = "戒卫侍女",
+					["color"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+				}, -- [1]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:140899::::::::110:577::6:4:3518:1808:1502:3528:::|h[贝勒隆的痛苦项圈]|h|r",
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["instance"] = "萨格拉斯之墓-英雄",
+					["class"] = "DEMONHUNTER",
+					["boss"] = "绝望的聚合体",
+					["response"] = "主天赋/需求",
+					["isAwardReason"] = false,
+					["votes"] = 0,
+					["time"] = "21:43:53",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:147014::::::::110:261::5:4:3562:1808:1502:3336:::|h[裂魂吊坠]|h|r",
+					["responseID"] = 1,
+					["groupSize"] = 21,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [2]
+			},
+			["毛二狗-萨尔"] = {
+				{
+					["tierToken"] = "HeadSlot",
+					["color"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["class"] = "PALADIN",
+					["groupSize"] = 25,
+					["boss"] = "阿提甘",
+					["time"] = "22:35:41",
+					["itemReplaced1"] = "|cffa335ee|Hitem:133629::::::::110:70::35:3:3536:1582:3337:::|h[陨落诸王之冠]|h|r",
+					["instance"] = "萨格拉斯之墓-普通",
+					["response"] = "4th Tier Piece",
+					["tokenRoll"] = true,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147323::::::::110:261::3::::|h[先遣征服者的头盔]|h|r",
+					["date"] = "06/07/17",
+					["votes"] = 0,
+					["responseID"] = 1,
+					["mapID"] = 1676,
+					["isAwardReason"] = false,
+				}, -- [1]
+				{
+					["tierToken"] = "HandsSlot",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["class"] = "PALADIN",
+					["groupSize"] = 25,
+					["boss"] = "哈亚坦",
+					["time"] = "22:42:38",
+					["itemReplaced1"] = "|cffa335ee|Hitem:138353::::::::110:70::5:3:3516:1497:3336:::|h[大领主手甲]|h|r",
+					["instance"] = "萨格拉斯之墓-普通",
+					["response"] = "2nd Tier Piece",
+					["tokenRoll"] = true,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147320::::::::110:261::3::::|h[先遣征服者的护手]|h|r",
+					["date"] = "06/07/17",
+					["votes"] = 0,
+					["responseID"] = 2,
+					["mapID"] = 1676,
+					["isAwardReason"] = false,
+				}, -- [2]
+			},
+			["卢本伟大人-伊莫塔尔"] = {
+				{
+					["mapID"] = 1676,
+					["instance"] = "萨格拉斯之墓-普通",
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["class"] = "ROGUE",
+					["response"] = "离线或未安装RCLootCouncil",
+					["groupSize"] = 19,
+					["boss"] = "阿提甘",
+					["votes"] = 0,
+					["time"] = "20:06:43",
+					["lootWon"] = "|cffa335ee|Hitem:147010::::::::110:261::3:3:3561:1482:3528:::|h[痛苦摇篮]|h|r",
+					["isAwardReason"] = false,
+					["responseID"] = "NOTHING",
+					["difficultyID"] = 14,
+					["date"] = "30/06/17",
+				}, -- [1]
+				{
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["instance"] = "萨格拉斯之墓-英雄",
+					["class"] = "ROGUE",
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["groupSize"] = 21,
+					["boss"] = "戒卫侍女",
+					["votes"] = 0,
+					["time"] = "21:59:53",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:151189::::::::110:261::5:3:3562:1497:3528:::|h[侍女之泪]|h|r",
+					["responseID"] = "NOTHING",
+					["isAwardReason"] = false,
+					["response"] = "离线或未安装RCLootCouncil",
+				}, -- [2]
+				{
+					["tierToken"] = "HeadSlot",
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "ROGUE",
+					["boss"] = "阿提甘",
+					["response"] = "离线或未安装RCLootCouncil",
+					["isAwardReason"] = false,
+					["votes"] = 0,
+					["time"] = "22:35:38",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147322::::::::110:261::3::::|h[先遣胜利者的头盔]|h|r",
+					["responseID"] = "NOTHING",
+					["groupSize"] = 25,
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+				}, -- [3]
+				{
+					["mapID"] = 1676,
+					["tierToken"] = "LegsSlot",
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "ROGUE",
+					["isAwardReason"] = false,
+					["response"] = "离线或未安装RCLootCouncil",
+					["boss"] = "主母萨丝琳",
+					["votes"] = 0,
+					["time"] = "22:53:23",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147325::::::::110:261::3::::|h[先遣胜利者的护腿]|h|r",
+					["responseID"] = "NOTHING",
+					["groupSize"] = 25,
+					["date"] = "06/07/17",
+				}, -- [4]
+				{
+					["tierToken"] = "BackSlot",
+					["mapID"] = 1676,
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "ROGUE",
+					["isAwardReason"] = false,
+					["response"] = "离线或未安装RCLootCouncil",
+					["boss"] = "绝望的聚合体",
+					["votes"] = 0,
+					["time"] = "23:18:05",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147331::::::::110:261::3::::|h[先遣胜利者的披风]|h|r",
+					["responseID"] = "NOTHING",
+					["groupSize"] = 26,
+					["date"] = "06/07/17",
+				}, -- [5]
+				{
+					["tierToken"] = "ChestSlot",
+					["mapID"] = 1676,
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "ROGUE",
+					["isAwardReason"] = false,
+					["response"] = "离线或未安装RCLootCouncil",
+					["boss"] = "戒卫侍女",
+					["votes"] = 0,
+					["time"] = "23:28:40",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147316::::::::110:261::3::::|h[先遣胜利者的胸甲]|h|r",
+					["responseID"] = "NOTHING",
+					["groupSize"] = 27,
+					["date"] = "06/07/17",
+				}, -- [6]
+				{
+					["tierToken"] = "ChestSlot",
+					["mapID"] = 1676,
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "ROGUE",
+					["isAwardReason"] = false,
+					["response"] = "离线或未安装RCLootCouncil",
+					["boss"] = "戒卫侍女",
+					["votes"] = 0,
+					["time"] = "23:29:09",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147316::::::::110:261::3::::|h[先遣胜利者的胸甲]|h|r",
+					["responseID"] = "NOTHING",
+					["groupSize"] = 27,
+					["date"] = "06/07/17",
+				}, -- [7]
+				{
+					["mapID"] = 1676,
+					["instance"] = "萨格拉斯之墓-普通",
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["class"] = "ROGUE",
+					["isAwardReason"] = false,
+					["groupSize"] = 27,
+					["votes"] = 0,
+					["boss"] = "堕落的化身",
+					["time"] = "23:43:39",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147030::::::::110:261::3:3:3561:1482:3528:::|h[邪景寻路者]|h|r",
+					["responseID"] = "NOTHING",
+					["response"] = "离线或未安装RCLootCouncil",
+					["date"] = "06/07/17",
+				}, -- [8]
+			},
+			["爆脾氣-萨尔"] = {
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:138346::130222::::::110:264::6:4:3518:1808:1502:3528:::|h[元素之缚祭服]|h|r",
+					["mapID"] = 1676,
+					["color"] = {
+						1, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "SHAMAN",
+					["isAwardReason"] = false,
+					["response"] = "没有及时回应",
+					["difficultyID"] = 14,
+					["votes"] = 0,
+					["time"] = "20:15:11",
+					["lootWon"] = "|cffa335ee|Hitem:147043::::::::110:261::3:3:3561:1482:3528:::|h[冰冻迷雾半身甲]|h|r",
+					["boss"] = "哈亚坦",
+					["responseID"] = "TIMEOUT",
+					["groupSize"] = 19,
+					["date"] = "30/06/17",
+				}, -- [1]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:137518::::::::110:264::33:3:3417:1542:3336:::|h[噬人之环护腿]|h|r",
+					["mapID"] = 1676,
+					["instance"] = "萨格拉斯之墓-普通",
+					["date"] = "30/06/17",
+					["class"] = "SHAMAN",
+					["difficultyID"] = 14,
+					["response"] = "没有及时回应",
+					["boss"] = "堕落的化身",
+					["isAwardReason"] = false,
+					["time"] = "21:17:29",
+					["lootWon"] = "|cffa335ee|Hitem:147052::::::::110:259::3:3:3561:1482:3528:::|h[虹吸之力护腿]|h|r",
+					["votes"] = 0,
+					["responseID"] = "TIMEOUT",
+					["groupSize"] = 20,
+					["color"] = {
+						1, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [2]
+			},
+			["办丨证-伊莫塔尔"] = {
+				{
+					["mapID"] = 1676,
+					["itemReplaced1"] = "|cffa335ee|Hitem:140821::::::::110:265::3:3:3443:1467:1813:::|h[永恒绝境]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["groupSize"] = 19,
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "WARLOCK",
+					["difficultyID"] = 14,
+					["response"] = "主天赋/需求",
+					["lootWon"] = "|cffa335ee|Hitem:147109::::::::110:261::3:3:3561:1482:3528:::|h[哈亚坦的斜眼]|h|r",
+					["votes"] = 0,
+					["time"] = "20:13:22",
+					["boss"] = "哈亚坦",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:140821::::::::110:265::5:3:3444:1482:1813:::|h[永恒绝境]|h|r",
+					["date"] = "30/06/17",
+				}, -- [1]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:138323::::::::110:265::3:3:3514:1477:3336:::|h[阿兹亚基护肩]|h|r",
+					["mapID"] = 1676,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "WARLOCK",
+					["isAwardReason"] = false,
+					["response"] = "主天赋/需求",
+					["difficultyID"] = 14,
+					["votes"] = 0,
+					["time"] = "20:33:54",
+					["lootWon"] = "|cffa335ee|Hitem:146997::::::::110:259::3:3:3561:1482:3528:::|h[暮光低语护肩]|h|r",
+					["boss"] = "女祭司月葬",
+					["responseID"] = 1,
+					["groupSize"] = 19,
+					["date"] = "30/06/17",
+				}, -- [2]
+				{
+					["mapID"] = 1676,
+					["itemReplaced1"] = "|cffa335ee|Hitem:140852::::::::110:265::5:3:3516:1487:1813:::|h[战斗大法师的绑腿]|h|r",
+					["instance"] = "萨格拉斯之墓-英雄",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "WARLOCK",
+					["isAwardReason"] = false,
+					["groupSize"] = 20,
+					["lootWon"] = "|cffa335ee|Hitem:146992::::::::110:261::5:3:3562:1502:3336:::|h[融合厌恶裹腿]|h|r",
+					["boss"] = "格罗斯",
+					["time"] = "19:47:15",
+					["response"] = "主天赋/需求",
+					["difficultyID"] = 15,
+					["responseID"] = 1,
+					["votes"] = 0,
+					["date"] = "06/07/17",
+				}, -- [3]
+				{
+					["mapID"] = 1676,
+					["color"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["class"] = "WARLOCK",
+					["groupSize"] = 22,
+					["boss"] = "主母萨丝琳",
+					["time"] = "20:50:28",
+					["itemReplaced1"] = "|cffa335ee|Hitem:146992::::::::110:265::5:3:3562:1502:3336:::|h[融合厌恶裹腿]|h|r",
+					["instance"] = "萨格拉斯之墓-英雄",
+					["response"] = "4th Tier Piece",
+					["date"] = "06/07/17",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:147326::::::::110:261::5:1:570:::|h[先遣征服者的护腿]|h|r",
+					["votes"] = 0,
+					["tokenRoll"] = true,
+					["responseID"] = 1,
+					["tierToken"] = "LegsSlot",
+					["isAwardReason"] = false,
+				}, -- [4]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:146999::::::::110:265::5:4:3562:40:1497:3528:::|h[激荡之谜腰带]|h|r",
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["instance"] = "萨格拉斯之墓-英雄",
+					["class"] = "WARLOCK",
+					["boss"] = "戒卫侍女",
+					["response"] = "主天赋/需求",
+					["isAwardReason"] = false,
+					["votes"] = 0,
+					["time"] = "22:00:27",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:146999::::::::110:261::5:3:3562:1507:3336:::|h[激荡之谜腰带]|h|r",
+					["responseID"] = 1,
+					["groupSize"] = 21,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [5]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:137535:5890:130222::::::110:265::33:4:3534:1808:1527:1813:::|h[裂火吊坠]|h|r",
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "WARLOCK",
+					["boss"] = "阿提甘",
+					["response"] = "放弃",
+					["isAwardReason"] = false,
+					["votes"] = 0,
+					["time"] = "22:36:33",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147013::::::::110:261::3:3:3561:1482:3528:::|h[夺牙系绳]|h|r",
+					["responseID"] = "PASS",
+					["groupSize"] = 25,
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+				}, -- [6]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:140792::::::::110:265::5:3:3444:1482:1813:::|h[变速节拍器]|h|r",
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["response"] = "主天赋/需求",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "WARLOCK",
+					["boss"] = "哈亚坦",
+					["groupSize"] = 25,
+					["votes"] = 0,
+					["difficultyID"] = 14,
+					["time"] = "22:44:05",
+					["lootWon"] = "|cffa335ee|Hitem:147002::::::::110:261::3:4:3561:1808:1502:3337:::|h[涨潮符咒]|h|r",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:137398::::::::110:265::35:3:3536:1582:3337:::|h[便携式魔力裂化器]|h|r",
+					["instance"] = "萨格拉斯之墓-普通",
+				}, -- [7]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:137535:5890:130222::::::110:265::33:4:3534:1808:1527:1813:::|h[裂火吊坠]|h|r",
+					["mapID"] = 1676,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "WARLOCK",
+					["isAwardReason"] = false,
+					["response"] = "主天赋/需求",
+					["boss"] = "绝望的聚合体",
+					["votes"] = 0,
+					["time"] = "23:19:15",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147014::::::::110:261::3:3:3561:1487:3336:::|h[裂魂吊坠]|h|r",
+					["responseID"] = 1,
+					["groupSize"] = 27,
+					["date"] = "06/07/17",
+				}, -- [8]
+			},
+			["嗨森部落-伊莫塔尔"] = {
+				{
+					["mapID"] = 1676,
+					["itemReplaced1"] = "|cffa335ee|Hitem:142167::::::::110:577::35:3:3418:1527:3337:::|h[命令之眼]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["groupSize"] = 19,
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "DEMONHUNTER",
+					["difficultyID"] = 14,
+					["response"] = "主天赋/需求",
+					["lootWon"] = "|cffa335ee|Hitem:147009::::::::110:261::3:3:3561:1502:3337:::|h[地狱火余烬]|h|r",
+					["votes"] = 0,
+					["time"] = "19:58:14",
+					["boss"] = "格罗斯",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:134335::::::::110:577::43:5:3573:40:605:1572:3337:::|h[法力水晶碎片]|h|r",
+					["date"] = "30/06/17",
+				}, -- [1]
+				{
+					["mapID"] = 1676,
+					["color"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DEMONHUNTER",
+					["groupSize"] = 19,
+					["votes"] = 0,
+					["time"] = "20:46:41",
+					["itemReplaced1"] = "|cffa335ee|Hitem:138375:5432:::::::110:577::6:3:3518:1502:3528:::|h[灵异之眼斗篷]|h|r",
+					["instance"] = "萨格拉斯之墓-普通",
+					["response"] = "4th Tier Piece",
+					["date"] = "30/06/17",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147332::::::::110:259::3::::|h[先遣征服者的披风]|h|r",
+					["boss"] = "绝望的聚合体",
+					["tokenRoll"] = true,
+					["responseID"] = 1,
+					["tierToken"] = "BackSlot",
+					["isAwardReason"] = false,
+				}, -- [2]
+			},
+			["卡布德尔-萨尔"] = {
+				{
+					["tierToken"] = "ShoulderSlot",
+					["mapID"] = 1676,
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "DRUID",
+					["isAwardReason"] = false,
+					["response"] = "离线或未安装RCLootCouncil",
+					["boss"] = "堕落的化身",
+					["votes"] = 0,
+					["time"] = "23:44:40",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147328::::::::110:261::3::::|h[先遣胜利者的护肩]|h|r",
+					["responseID"] = "NOTHING",
+					["groupSize"] = 27,
+					["date"] = "06/07/17",
+				}, -- [1]
+			},
+			["咩咩天然萌-伊莫塔尔"] = {
+				{
+					["mapID"] = 1676,
+					["instance"] = "萨格拉斯之墓-普通",
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["response"] = "离线或未安装RCLootCouncil",
+					["groupSize"] = 19,
+					["boss"] = "格罗斯",
+					["votes"] = 0,
+					["time"] = "19:58:38",
+					["lootWon"] = "|cffa335ee|Hitem:146986::::::::110:261::3:3:3561:1482:3528:::|h[播烬者便鞋]|h|r",
+					["isAwardReason"] = false,
+					["responseID"] = "NOTHING",
+					["difficultyID"] = 14,
+					["date"] = "30/06/17",
+				}, -- [1]
+				{
+					["tierToken"] = "HandsSlot",
+					["mapID"] = 1676,
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "MAGE",
+					["isAwardReason"] = false,
+					["response"] = "离线或未安装RCLootCouncil",
+					["difficultyID"] = 14,
+					["votes"] = 0,
+					["time"] = "20:13:44",
+					["lootWon"] = "|cffa335ee|Hitem:147319::::::::110:261::3::::|h[先遣胜利者的护手]|h|r",
+					["boss"] = "哈亚坦",
+					["responseID"] = "NOTHING",
+					["groupSize"] = 19,
+					["date"] = "30/06/17",
+				}, -- [2]
+				{
+					["mapID"] = 1676,
+					["instance"] = "萨格拉斯之墓-普通",
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["response"] = "离线或未安装RCLootCouncil",
+					["groupSize"] = 18,
+					["votes"] = 0,
+					["boss"] = "绝望的聚合体",
+					["time"] = "20:48:40",
+					["lootWon"] = "|cffa335ee|Hitem:147018::::::::110:259::3:3:3561:1482:3528:::|h[幽魂香炉]|h|r",
+					["date"] = "30/06/17",
+					["responseID"] = "NOTHING",
+					["difficultyID"] = 14,
+					["isAwardReason"] = false,
+				}, -- [3]
+				{
+					["tierToken"] = "ShoulderSlot",
+					["mapID"] = 1676,
+					["instance"] = "萨格拉斯之墓-普通",
+					["date"] = "30/06/17",
+					["class"] = "MAGE",
+					["difficultyID"] = 14,
+					["response"] = "离线或未安装RCLootCouncil",
+					["boss"] = "堕落的化身",
+					["isAwardReason"] = false,
+					["time"] = "21:16:25",
+					["lootWon"] = "|cffa335ee|Hitem:147328::::::::110:259::3::::|h[先遣胜利者的护肩]|h|r",
+					["votes"] = 0,
+					["responseID"] = "NOTHING",
+					["groupSize"] = 20,
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+				}, -- [4]
+				{
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "MAGE",
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["groupSize"] = 24,
+					["boss"] = "格罗斯",
+					["votes"] = 0,
+					["time"] = "22:28:19",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:146986::::::::110:261::3:3:3561:1482:3528:::|h[播烬者便鞋]|h|r",
+					["responseID"] = "NOTHING",
+					["isAwardReason"] = false,
+					["response"] = "离线或未安装RCLootCouncil",
+				}, -- [5]
+				{
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["groupSize"] = 25,
+					["response"] = "离线或未安装RCLootCouncil",
+					["boss"] = "哈亚坦",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:147000::::::::110:261::3:3:3561:1487:3336:::|h[贪婪信徒护腕]|h|r",
+					["time"] = "22:45:02",
+					["instance"] = "萨格拉斯之墓-普通",
+					["responseID"] = "NOTHING",
+					["difficultyID"] = 14,
+					["votes"] = 0,
+				}, -- [6]
+			},
+			["一个欧皇猎-萨尔"] = {
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:142204::::::::110:253::35:3:3418:1522:3337:::|h[虚伪承诺长靴]|h|r",
+					["mapID"] = 1676,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "HUNTER",
+					["isAwardReason"] = false,
+					["response"] = "主天赋/需求",
+					["boss"] = "基尔加丹",
+					["votes"] = 0,
+					["time"] = "00:08:04",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147046::::::::110:261::3:3:3561:1492:3528:::|h[猎星者便鞋]|h|r",
+					["responseID"] = 1,
+					["groupSize"] = 19,
+					["date"] = "07/07/17",
+				}, -- [1]
+			},
+			["扌比丶马蚤-萨尔"] = {
+				{
+					["tierToken"] = "ChestSlot",
+					["mapID"] = 1676,
+					["instance"] = "萨格拉斯之墓-普通",
+					["date"] = "30/06/17",
+					["class"] = "WARRIOR",
+					["difficultyID"] = 14,
+					["response"] = "离线或未安装RCLootCouncil",
+					["boss"] = "戒卫侍女",
+					["isAwardReason"] = false,
+					["time"] = "21:03:20",
+					["lootWon"] = "|cffa335ee|Hitem:147318::::::::110:259::3::::|h[先遣保卫者的胸甲]|h|r",
+					["votes"] = 0,
+					["responseID"] = "NOTHING",
+					["groupSize"] = 20,
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+				}, -- [1]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:140891::::::::110:72::5:3:3516:1497:3336:::|h[既定命运战靴]|h|r",
+					["mapID"] = 1676,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "WARRIOR",
+					["isAwardReason"] = false,
+					["response"] = "主天赋/需求",
+					["boss"] = "戒卫侍女",
+					["votes"] = 0,
+					["time"] = "23:28:27",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147060::::::::110:261::3:3:3561:1497:3337:::|h[坚定净化者战靴]|h|r",
+					["responseID"] = 1,
+					["groupSize"] = 27,
+					["date"] = "06/07/17",
+				}, -- [2]
+			},
+			["猛牛来啦-萨尔"] = {
+				{
+					["mapID"] = 1676,
+					["color"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DRUID",
+					["groupSize"] = 19,
+					["votes"] = 0,
+					["time"] = "20:46:56",
+					["itemReplaced1"] = "|cffa335ee|Hitem:138366:5436:130216::::::110:105::6:4:3518:1808:1502:1813:::|h[星界守护者斗篷]|h|r",
+					["instance"] = "萨格拉斯之墓-普通",
+					["response"] = "4th Tier Piece",
+					["date"] = "30/06/17",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147331::::::::110:259::3::::|h[先遣胜利者的披风]|h|r",
+					["boss"] = "绝望的聚合体",
+					["tokenRoll"] = true,
+					["responseID"] = 1,
+					["tierToken"] = "BackSlot",
+					["isAwardReason"] = false,
+				}, -- [1]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:137509:5447:::::::110:105::35:3:3536:1582:3337:::|h[战刃大师的镶钉护手]|h|r",
+					["mapID"] = 1676,
+					["instance"] = "萨格拉斯之墓-普通",
+					["date"] = "30/06/17",
+					["class"] = "DRUID",
+					["difficultyID"] = 14,
+					["response"] = "副天赋/贪婪",
+					["boss"] = "戒卫侍女",
+					["isAwardReason"] = false,
+					["time"] = "21:04:12",
+					["lootWon"] = "|cffa335ee|Hitem:147032::::::::110:259::3:3:3561:1482:3528:::|h[任性压迫手套]|h|r",
+					["votes"] = 0,
+					["responseID"] = 2,
+					["groupSize"] = 20,
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [2]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:140831::::::::110:105::5:3:3444:1497:3337:::|h[浮空的暗夜井水滴]|h|r",
+					["mapID"] = 1676,
+					["instance"] = "萨格拉斯之墓-普通",
+					["date"] = "30/06/17",
+					["class"] = "DRUID",
+					["difficultyID"] = 14,
+					["response"] = "较小提升",
+					["boss"] = "基尔加丹",
+					["isAwardReason"] = false,
+					["time"] = "21:44:56",
+					["lootWon"] = "|cffa335ee|Hitem:147095::::::::110:259::3:3:3561:1497:3336:::|h[熵能之球]|h|r",
+					["votes"] = 0,
+					["responseID"] = 3,
+					["groupSize"] = 11,
+					["color"] = {
+						0, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+				}, -- [3]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:140795::::::::110:105::5:3:3516:1492:3336:::|h[奥鲁瑞尔的镜子]|h|r",
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["response"] = "主天赋/需求",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DRUID",
+					["boss"] = "主母萨丝琳",
+					["groupSize"] = 22,
+					["votes"] = 0,
+					["difficultyID"] = 15,
+					["time"] = "20:49:40",
+					["lootWon"] = "|cffa335ee|Hitem:147004::::::::110:261::5:3:3562:1497:3528:::|h[深海主母的海星]|h|r",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:137419::::::::110:105::35:3:3418:1557:3337:::|h[时光碎片]|h|r",
+					["instance"] = "萨格拉斯之墓-英雄",
+				}, -- [4]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:138330::::::::110:105::5:4:3516:41:1497:3336:::|h[星界守护者兜帽]|h|r",
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["instance"] = "萨格拉斯之墓-英雄",
+					["class"] = "DRUID",
+					["boss"] = "女祭司月葬",
+					["response"] = "主天赋/需求",
+					["isAwardReason"] = false,
+					["votes"] = 0,
+					["time"] = "21:10:58",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:147033::::::::110:261::5:3:3562:1497:3528:::|h[月怒头盔]|h|r",
+					["responseID"] = 1,
+					["groupSize"] = 23,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [5]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:138324::::::::110:105::6:3:3518:1502:3528:::|h[星界守护者长袍]|h|r",
+					["mapID"] = 1676,
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "DRUID",
+					["isAwardReason"] = false,
+					["response"] = "副天赋/贪婪",
+					["boss"] = "主母萨丝琳",
+					["votes"] = 0,
+					["time"] = "22:55:17",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147028::::::::110:261::3:3:3561:1487:3336:::|h[深渊巨兽之皮]|h|r",
+					["responseID"] = 2,
+					["groupSize"] = 25,
+					["date"] = "06/07/17",
+				}, -- [6]
+			},
+			["一九五八-萨尔"] = {
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:151190::130247::::::110:261::5:4:3562:1808:1507:3528:::|h[背叛幽灵]|h|r",
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["response"] = "主天赋/需求",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "ROGUE",
+					["boss"] = "女祭司月葬",
+					["groupSize"] = 24,
+					["votes"] = 0,
+					["difficultyID"] = 15,
+					["time"] = "21:10:28",
+					["lootWon"] = "|cffa335ee|Hitem:147012::::::::110:261::5:3:3562:1522:3337:::|h[阴影月刃]|h|r",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:140806::::::::110:261::5:3:3516:1497:3336:::|h[凝结的命运]|h|r",
+					["instance"] = "萨格拉斯之墓-英雄",
+				}, -- [1]
+			},
+			["火影部落-伊莫塔尔"] = {
+				{
+					["mapID"] = 1676,
+					["itemReplaced1"] = "|cffa335ee|Hitem:140808::::::::110:72::6:3:3519:1517:3336:::|h[灵魂之引]|h|r",
+					["date"] = "30/06/17",
+					["groupSize"] = 10,
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "WARRIOR",
+					["boss"] = "基尔加丹",
+					["response"] = "没有及时回应",
+					["lootWon"] = "|cffa335ee|Hitem:151190::::::::110:259::3:3:3561:1492:3528:::|h[背叛幽灵]|h|r",
+					["isAwardReason"] = false,
+					["time"] = "21:47:36",
+					["votes"] = 0,
+					["difficultyID"] = 14,
+					["responseID"] = "TIMEOUT",
+					["itemReplaced2"] = "|cffa335ee|Hitem:140806::::::::110:72::5:3:3516:1487:3528:::|h[凝结的命运]|h|r",
+					["color"] = {
+						1, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [1]
+				{
+					["mapID"] = 1676,
+					["date"] = "03/07/17",
+					["class"] = "WARRIOR",
+					["groupSize"] = 24,
+					["votes"] = 0,
+					["time"] = "21:36:39",
+					["itemReplaced1"] = "|cffa335ee|Hitem:138351::::::::110:72::6:4:3518:43:1512:3336:::|h[黑曜守护者胸甲]|h|r",
+					["instance"] = "萨格拉斯之墓-英雄",
+					["response"] = "4th Tier Piece",
+					["tokenRoll"] = true,
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:147318::::::::110:261::5:1:570:::|h[先遣保卫者的胸甲]|h|r",
+					["tierToken"] = "ChestSlot",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["boss"] = "戒卫侍女",
+					["color"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+				}, -- [2]
+				{
+					["mapID"] = 1676,
+					["color"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["class"] = "WARRIOR",
+					["groupSize"] = 22,
+					["boss"] = "主母萨丝琳",
+					["time"] = "20:50:57",
+					["itemReplaced1"] = "|cffa335ee|Hitem:138360::::::::110:72::5:3:3516:1497:3336:::|h[黑曜守护者腿甲]|h|r",
+					["instance"] = "萨格拉斯之墓-英雄",
+					["response"] = "4th Tier Piece",
+					["date"] = "06/07/17",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:147327::::::::110:261::5:1:570:::|h[先遣保卫者的护腿]|h|r",
+					["votes"] = 0,
+					["tokenRoll"] = true,
+					["responseID"] = 1,
+					["tierToken"] = "LegsSlot",
+					["isAwardReason"] = false,
+				}, -- [3]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:140817::::::::110:72::5:3:3517:1512:3337:::|h[狮头翻领扣]|h|r",
+					["mapID"] = 1676,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "WARRIOR",
+					["isAwardReason"] = false,
+					["response"] = "主天赋/需求",
+					["boss"] = "哈亚坦",
+					["votes"] = 0,
+					["time"] = "22:46:26",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147100::::::::110:261::3:3:3561:1482:3528:::|h[钙化藤壶]|h|r",
+					["responseID"] = 1,
+					["groupSize"] = 25,
+					["date"] = "06/07/17",
+				}, -- [4]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:140817::::::::110:72::5:3:3517:1512:3337:::|h[狮头翻领扣]|h|r",
+					["mapID"] = 1676,
+					["color"] = {
+						1, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "WARRIOR",
+					["isAwardReason"] = false,
+					["response"] = "没有及时回应",
+					["boss"] = "女祭司月葬",
+					["votes"] = 0,
+					["time"] = "23:07:45",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147101::::::::110:261::3:3:3561:1482:3528:::|h[鲜明星光]|h|r",
+					["responseID"] = "TIMEOUT",
+					["groupSize"] = 27,
+					["date"] = "06/07/17",
+				}, -- [5]
+			},
+			["丿人丿次卟-萨尔"] = {
+				{
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "HUNTER",
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["groupSize"] = 24,
+					["boss"] = "格罗斯",
+					["votes"] = 0,
+					["time"] = "22:28:35",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147055::::::::110:261::3:3:3561:1482:3528:::|h[尖叫熔渣腰带]|h|r",
+					["responseID"] = "NOTHING",
+					["isAwardReason"] = false,
+					["response"] = "离线或未安装RCLootCouncil",
+				}, -- [1]
+				{
+					["mapID"] = 1676,
+					["instance"] = "萨格拉斯之墓-普通",
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["class"] = "HUNTER",
+					["isAwardReason"] = false,
+					["groupSize"] = 25,
+					["votes"] = 0,
+					["boss"] = "主母萨丝琳",
+					["time"] = "22:55:29",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147049::::::::110:261::3:3:3561:1487:3336:::|h[蔚蓝塑风师头盔]|h|r",
+					["responseID"] = "NOTHING",
+					["response"] = "离线或未安装RCLootCouncil",
+					["date"] = "06/07/17",
+				}, -- [2]
+				{
+					["mapID"] = 1676,
+					["instance"] = "萨格拉斯之墓-普通",
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["class"] = "HUNTER",
+					["isAwardReason"] = false,
+					["groupSize"] = 27,
+					["votes"] = 0,
+					["boss"] = "女祭司月葬",
+					["time"] = "23:08:01",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147021::::::::110:261::3:3:3561:1482:3528:::|h[亚萨的扳指]|h|r",
+					["responseID"] = "NOTHING",
+					["response"] = "离线或未安装RCLootCouncil",
+					["date"] = "06/07/17",
+				}, -- [3]
+			},
+			["舒预言-伊莫塔尔"] = {
+				{
+					["mapID"] = 1676,
+					["color"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DEATHKNIGHT",
+					["groupSize"] = 21,
+					["boss"] = "绝望的聚合体",
+					["time"] = "21:41:32",
+					["itemReplaced1"] = "|cffa335ee|Hitem:144468:5434:::::::110:251::35:3:3535:1577:3337:::|h[邪剪的裹布]|h|r",
+					["instance"] = "萨格拉斯之墓-英雄",
+					["response"] = "4th Tier Piece",
+					["tierToken"] = "BackSlot",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:147331::::::::110:261::5:1:570:::|h[先遣胜利者的披风]|h|r",
+					["date"] = "06/07/17",
+					["votes"] = 0,
+					["responseID"] = 1,
+					["tokenRoll"] = true,
+					["isAwardReason"] = false,
+				}, -- [1]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:137528::::::::110:252::16:3:3536:1562:3528:::|h[虚幻负担护腿]|h|r",
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "DEATHKNIGHT",
+					["boss"] = "格罗斯",
+					["response"] = "副天赋/贪婪",
+					["isAwardReason"] = false,
+					["votes"] = 0,
+					["time"] = "22:28:44",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147065::::::::110:261::3:3:3561:1482:3528:::|h[熔岩沼泽护腿]|h|r",
+					["responseID"] = 2,
+					["groupSize"] = 24,
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [2]
+				{
+					["mapID"] = 1676,
+					["date"] = "07/07/17",
+					["class"] = "DEATHKNIGHT",
+					["groupSize"] = 15,
+					["votes"] = 0,
+					["time"] = "21:45:26",
+					["itemReplaced1"] = "|cffa335ee|Hitem:134228:5883:::::::110:251::35:4:3418:41:1572:3337:::|h[珊瑚肩甲]|h|r",
+					["instance"] = "萨格拉斯之墓-英雄",
+					["response"] = "4th Tier Piece",
+					["boss"] = "堕落的化身",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:147328::::::::110:261::5:1:570:::|h[先遣胜利者的护肩]|h|r",
+					["color"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["tierToken"] = "ShoulderSlot",
+					["tokenRoll"] = true,
+				}, -- [3]
+			},
+			["立地丶-萨尔"] = {
+				{
+					["mapID"] = 1676,
+					["instance"] = "萨格拉斯之墓-普通",
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DEATHKNIGHT",
+					["response"] = "离线或未安装RCLootCouncil",
+					["groupSize"] = 19,
+					["boss"] = "格罗斯",
+					["votes"] = 0,
+					["time"] = "19:58:48",
+					["lootWon"] = "|cffa335ee|Hitem:147065::::::::110:261::3:4:3561:1808:1482:3528:::|h[熔岩沼泽护腿]|h|r",
+					["isAwardReason"] = false,
+					["responseID"] = "NOTHING",
+					["difficultyID"] = 14,
+					["date"] = "30/06/17",
+				}, -- [1]
+				{
+					["mapID"] = 1676,
+					["instance"] = "萨格拉斯之墓-普通",
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DEATHKNIGHT",
+					["response"] = "离线或未安装RCLootCouncil",
+					["groupSize"] = 20,
+					["votes"] = 0,
+					["boss"] = "堕落的化身",
+					["time"] = "21:17:43",
+					["lootWon"] = "|cffa335ee|Hitem:147062::::::::110:259::3:3:3561:1482:3528:::|h[碎地者之握]|h|r",
+					["date"] = "30/06/17",
+					["responseID"] = "NOTHING",
+					["difficultyID"] = 14,
+					["isAwardReason"] = false,
+				}, -- [2]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:133632::::::::110:250::35:3:3416:1547:3336:::|h[灵媒腕甲]|h|r",
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "DEATHKNIGHT",
+					["boss"] = "阿提甘",
+					["response"] = "主天赋/需求",
+					["isAwardReason"] = false,
+					["votes"] = 0,
+					["time"] = "22:35:13",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147073::::::::110:261::3:3:3561:1487:3336:::|h[骨壳臂甲]|h|r",
+					["responseID"] = 1,
+					["groupSize"] = 25,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [3]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:140789::::::::110:250::6:3:3445:1497:3528:::|h[活性骨壳]|h|r",
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["groupSize"] = 27,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DEATHKNIGHT",
+					["votes"] = 0,
+					["response"] = "主天赋/需求",
+					["difficultyID"] = 14,
+					["isAwardReason"] = false,
+					["time"] = "23:28:19",
+					["lootWon"] = "|cffa335ee|Hitem:147025::::::::110:261::3:3:3561:1482:3528:::|h[重新编译的守护者模块]|h|r",
+					["boss"] = "戒卫侍女",
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:147022::::::::110:250::5:3:3562:1497:3528:::|h[狂热甲壳]|h|r",
+					["instance"] = "萨格拉斯之墓-普通",
+				}, -- [4]
+			},
+			["一更帅一-萨尔"] = {
+				{
+					["mapID"] = 1676,
+					["color"] = {
+						0.5, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MONK",
+					["groupSize"] = 21,
+					["boss"] = "绝望的聚合体",
+					["time"] = "21:43:09",
+					["itemReplaced1"] = "|cffa335ee|Hitem:138367:5435:::::::110:269::5:4:3516:40:1487:1813:::|h[隐乱斗篷]|h|r",
+					["instance"] = "萨格拉斯之墓-英雄",
+					["response"] = "Upgrade to existing tier/random upgrade",
+					["tierToken"] = "BackSlot",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:147333::::::::110:261::5:1:570:::|h[先遣保卫者的披风]|h|r",
+					["date"] = "06/07/17",
+					["votes"] = 0,
+					["responseID"] = 4,
+					["tokenRoll"] = true,
+					["isAwardReason"] = false,
+				}, -- [1]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:138328::::::::110:269::5:4:3516:41:1487:3528:::|h[隐乱手套]|h|r",
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["instance"] = "萨格拉斯之墓-英雄",
+					["class"] = "MONK",
+					["boss"] = "戒卫侍女",
+					["response"] = "较小提升",
+					["isAwardReason"] = false,
+					["votes"] = 0,
+					["time"] = "22:00:41",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:147032::::::::110:261::5:3:3562:1497:3528:::|h[任性压迫手套]|h|r",
+					["responseID"] = 3,
+					["groupSize"] = 21,
+					["color"] = {
+						0, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+				}, -- [2]
+				{
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["class"] = "MONK",
+					["groupSize"] = 25,
+					["votes"] = 0,
+					["time"] = "22:54:36",
+					["itemReplaced1"] = "|cffa335ee|Hitem:138334::::::::110:270::4:3:3520:1462:3336:::|h[隐乱护腿]|h|r",
+					["instance"] = "萨格拉斯之墓-普通",
+					["response"] = "4th Tier Piece",
+					["tokenRoll"] = true,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147327::::::::110:261::3::::|h[先遣保卫者的护腿]|h|r",
+					["tierToken"] = "LegsSlot",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["color"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["boss"] = "主母萨丝琳",
+				}, -- [3]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:141256::::::::110:270::26:3:1825:1522:3336:::|h[重生的许诺]|h|r",
+					["mapID"] = 1676,
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "MONK",
+					["isAwardReason"] = false,
+					["response"] = "副天赋/贪婪",
+					["boss"] = "堕落的化身",
+					["votes"] = 0,
+					["time"] = "23:43:48",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147107::::::::110:261::3:3:3561:1482:3528:::|h[希望与勇气之火]|h|r",
+					["responseID"] = 2,
+					["groupSize"] = 27,
+					["date"] = "06/07/17",
+				}, -- [4]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:144405::::::::110:270::6:3:3445:1497:3528:::|h[背德之力腰带]|h|r",
+					["mapID"] = 1676,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "MONK",
+					["isAwardReason"] = false,
+					["response"] = "主天赋/需求",
+					["boss"] = "基尔加丹",
+					["votes"] = 0,
+					["time"] = "00:07:09",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147347::::::::110:261::3:3:3561:1497:3336:::|h[亵渎谎言护腰]|h|r",
+					["responseID"] = 1,
+					["groupSize"] = 25,
+					["date"] = "07/07/17",
+				}, -- [5]
+			},
+			["笔直的铅笔-伊莫塔尔"] = {
+				{
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["groupSize"] = 20,
+					["instance"] = "萨格拉斯之墓-英雄",
+					["class"] = "SHAMAN",
+					["difficultyID"] = 15,
+					["response"] = "主天赋/需求",
+					["boss"] = "格罗斯",
+					["votes"] = 0,
+					["lootWon"] = "|cffa335ee|Hitem:147055::::::::110:261::5:4:3562:43:1512:3337:::|h[尖叫熔渣腰带]|h|r",
+					["isAwardReason"] = false,
+					["time"] = "19:46:58",
+					["responseID"] = 1,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["itemReplaced1"] = "|cffa335ee|Hitem:144406::::::::110:262::6:3:3445:1507:3336:::|h[陈旧的暮色卫队腰带]|h|r",
+				}, -- [1]
+				{
+					["mapID"] = 1676,
+					["color"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["class"] = "SHAMAN",
+					["groupSize"] = 23,
+					["boss"] = "主母萨丝琳",
+					["time"] = "20:51:58",
+					["itemReplaced1"] = "|cffa335ee|Hitem:134474::130220::::::110:264::35:4:3418:1808:1557:3337:::|h[断层护腿]|h|r",
+					["instance"] = "萨格拉斯之墓-英雄",
+					["response"] = "4th Tier Piece",
+					["date"] = "06/07/17",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:147327::::::::110:261::5:1:570:::|h[先遣保卫者的护腿]|h|r",
+					["votes"] = 0,
+					["tokenRoll"] = true,
+					["responseID"] = 1,
+					["tierToken"] = "LegsSlot",
+					["isAwardReason"] = false,
+				}, -- [2]
+				{
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["class"] = "SHAMAN",
+					["groupSize"] = 25,
+					["isAwardReason"] = false,
+					["time"] = "22:45:52",
+					["itemReplaced1"] = "|cffa335ee|Hitem:138341::::::::110:264::5:3:3516:1492:3336:::|h[元素之缚护手]|h|r",
+					["instance"] = "萨格拉斯之墓-普通",
+					["response"] = "4th Tier Piece",
+					["tokenRoll"] = true,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147321::::::::110:261::3::::|h[先遣保卫者的护手]|h|r",
+					["tierToken"] = "HandsSlot",
+					["color"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["votes"] = 0,
+					["boss"] = "哈亚坦",
+				}, -- [3]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:142166::::::::110:264::23:3:3454:1477:3336:::|h[虚灵之瓶]|h|r",
+					["mapID"] = 1676,
+					["date"] = "07/07/17",
+					["groupSize"] = 22,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "SHAMAN",
+					["votes"] = 0,
+					["response"] = "主天赋/需求",
+					["difficultyID"] = 14,
+					["isAwardReason"] = false,
+					["time"] = "00:07:38",
+					["lootWon"] = "|cffa335ee|Hitem:147007::::::::110:261::3:3:3561:1507:3337:::|h[欺诈者的伟大蓝图]|h|r",
+					["boss"] = "基尔加丹",
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffff8000|Hitem:144258::::::::110:264:::2:3459:3530:::|h[维伦的未来预言]|h|r",
+					["instance"] = "萨格拉斯之墓-普通",
+				}, -- [4]
+			},
+			["丑的想毁容-萨尔"] = {
+				{
+					["tierToken"] = "ChestSlot",
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["instance"] = "萨格拉斯之墓-英雄",
+					["class"] = "WARRIOR",
+					["boss"] = "戒卫侍女",
+					["response"] = "离线或未安装RCLootCouncil",
+					["isAwardReason"] = false,
+					["votes"] = 0,
+					["time"] = "22:00:13",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:147318::::::::110:261::5:1:570:::|h[先遣保卫者的胸甲]|h|r",
+					["responseID"] = "NOTHING",
+					["groupSize"] = 21,
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+				}, -- [1]
+				{
+					["tierToken"] = "ShoulderSlot",
+					["mapID"] = 1676,
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "WARRIOR",
+					["isAwardReason"] = false,
+					["response"] = "离线或未安装RCLootCouncil",
+					["boss"] = "堕落的化身",
+					["votes"] = 0,
+					["time"] = "23:45:15",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147330::::::::110:261::3::::|h[先遣保卫者的护肩]|h|r",
+					["responseID"] = "NOTHING",
+					["groupSize"] = 25,
+					["date"] = "06/07/17",
+				}, -- [2]
+			},
+			["卍卡梅伦卍-萨尔"] = {
+				{
+					["tierToken"] = "HeadSlot",
+					["mapID"] = 1676,
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "PRIEST",
+					["isAwardReason"] = false,
+					["response"] = "离线或未安装RCLootCouncil",
+					["difficultyID"] = 14,
+					["votes"] = 0,
+					["time"] = "20:04:53",
+					["lootWon"] = "|cffa335ee|Hitem:147323::::::::110:261::3::::|h[先遣征服者的头盔]|h|r",
+					["boss"] = "阿提甘",
+					["responseID"] = "NOTHING",
+					["groupSize"] = 19,
+					["date"] = "30/06/17",
+				}, -- [1]
+				{
+					["tierToken"] = "ChestSlot",
+					["mapID"] = 1676,
+					["instance"] = "萨格拉斯之墓-普通",
+					["date"] = "30/06/17",
+					["class"] = "PRIEST",
+					["difficultyID"] = 14,
+					["response"] = "离线或未安装RCLootCouncil",
+					["boss"] = "戒卫侍女",
+					["isAwardReason"] = false,
+					["time"] = "21:03:44",
+					["lootWon"] = "|cffa335ee|Hitem:147317::::::::110:259::3::::|h[先遣征服者的胸甲]|h|r",
+					["votes"] = 0,
+					["responseID"] = "NOTHING",
+					["groupSize"] = 20,
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+				}, -- [2]
+				{
+					["mapID"] = 1676,
+					["instance"] = "萨格拉斯之墓-普通",
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["class"] = "PRIEST",
+					["response"] = "离线或未安装RCLootCouncil",
+					["groupSize"] = 20,
+					["votes"] = 0,
+					["boss"] = "戒卫侍女",
+					["time"] = "21:04:34",
+					["lootWon"] = "|cffa335ee|Hitem:147098::::::::110:259::3:3:3561:1482:3528:::|h[恩惠碎片]|h|r",
+					["date"] = "30/06/17",
+					["responseID"] = "NOTHING",
+					["difficultyID"] = 14,
+					["isAwardReason"] = false,
+				}, -- [3]
+			},
+			["不二橙-萨尔"] = {
+				{
+					["mapID"] = 1676,
+					["itemReplaced1"] = "|cffa335ee|Hitem:134490::::::::110:253::16:3:3418:1567:3337:::|h[蔑视指轮]|h|r",
+					["date"] = "30/06/17",
+					["groupSize"] = 19,
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "HUNTER",
+					["boss"] = "女祭司月葬",
+					["response"] = "较小提升",
+					["lootWon"] = "|cffa335ee|Hitem:147021::::::::110:259::3:3:3561:1482:3528:::|h[亚萨的扳指]|h|r",
+					["isAwardReason"] = false,
+					["time"] = "20:34:18",
+					["votes"] = 0,
+					["difficultyID"] = 14,
+					["responseID"] = 3,
+					["itemReplaced2"] = "|cffa335ee|Hitem:142172::::::::110:253::16:3:3411:1492:3336:::|h[特雷斯坦的玺戒]|h|r",
+					["color"] = {
+						0, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+				}, -- [1]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:140841::::::::110:253::5:3:3516:1487:3528:::|h[天堂风暴]|h|r",
+					["mapID"] = 1676,
+					["instance"] = "萨格拉斯之墓-普通",
+					["date"] = "30/06/17",
+					["class"] = "HUNTER",
+					["difficultyID"] = 14,
+					["response"] = "主天赋/需求",
+					["boss"] = "绝望的聚合体",
+					["isAwardReason"] = false,
+					["time"] = "20:47:03",
+					["lootWon"] = "|cffa335ee|Hitem:147114::::::::110:259::3:3:3561:1482:3528:::|h[珍藏的星光熏香]|h|r",
+					["votes"] = 0,
+					["responseID"] = 1,
+					["groupSize"] = 19,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [2]
+				{
+					["tokenRoll"] = true,
+					["color"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["class"] = "HUNTER",
+					["groupSize"] = 20,
+					["votes"] = 0,
+					["time"] = "21:20:12",
+					["itemReplaced1"] = "|cffa335ee|Hitem:139245::::::::110:253::35:3:3413:1542:3337:::|h[暗影射手肩甲]|h|r",
+					["instance"] = "萨格拉斯之墓-普通",
+					["response"] = "4th Tier Piece",
+					["tierToken"] = "ShoulderSlot",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147330::::::::110:259::3::::|h[先遣保卫者的护肩]|h|r",
+					["date"] = "30/06/17",
+					["boss"] = "堕落的化身",
+					["responseID"] = 1,
+					["mapID"] = 1676,
+					["isAwardReason"] = false,
+				}, -- [3]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147427::::::::110:253::5:3:3562:1502:3336:::|h[完好无损的月铸腰带]|h|r",
+					["mapID"] = 1676,
+					["instance"] = "萨格拉斯之墓-英雄",
+					["date"] = "06/07/17",
+					["class"] = "HUNTER",
+					["votes"] = 0,
+					["response"] = "放弃",
+					["lootWon"] = "|cffa335ee|Hitem:147055::::::::110:261::5:3:3562:1502:3336:::|h[尖叫熔渣腰带]|h|r",
+					["boss"] = "格罗斯",
+					["time"] = "19:47:09",
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["isAwardReason"] = false,
+					["responseID"] = "PASS",
+					["groupSize"] = 20,
+					["difficultyID"] = 15,
+				}, -- [4]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:140813::::::::110:253::5:3:3516:1497:3336:::|h[魔能十字架]|h|r",
+					["mapID"] = 1676,
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "HUNTER",
+					["isAwardReason"] = false,
+					["response"] = "放弃",
+					["boss"] = "女祭司月葬",
+					["votes"] = 0,
+					["time"] = "23:07:56",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147078::::::::110:261::3:3:3561:1487:3336:::|h[弥漫星体微粒]|h|r",
+					["responseID"] = "PASS",
+					["groupSize"] = 27,
+					["date"] = "06/07/17",
+				}, -- [5]
+			},
+			["可可子西-萨尔"] = {
+				{
+					["tierToken"] = "BackSlot",
+					["mapID"] = 1676,
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "MAGE",
+					["isAwardReason"] = false,
+					["response"] = "离线或未安装RCLootCouncil",
+					["boss"] = "绝望的聚合体",
+					["votes"] = 0,
+					["time"] = "23:18:15",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147331::::::::110:261::3::::|h[先遣胜利者的披风]|h|r",
+					["responseID"] = "NOTHING",
+					["groupSize"] = 26,
+					["date"] = "06/07/17",
+				}, -- [1]
+			},
+			["Lullabye-伊莫塔尔"] = {
+				{
+					["mapID"] = 1676,
+					["date"] = "06/07/17",
+					["instance"] = "萨格拉斯之墓-普通",
+					["class"] = "DEMONHUNTER",
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["groupSize"] = 25,
+					["boss"] = "阿提甘",
+					["votes"] = 0,
+					["time"] = "22:35:52",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147041::::::::110:261::3:4:3561:41:1482:3528:::|h[镶筋护腕]|h|r",
+					["responseID"] = "NOTHING",
+					["isAwardReason"] = false,
+					["response"] = "离线或未安装RCLootCouncil",
+				}, -- [1]
+				{
+					["mapID"] = 1676,
+					["instance"] = "萨格拉斯之墓-普通",
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DEMONHUNTER",
+					["isAwardReason"] = false,
+					["groupSize"] = 27,
+					["votes"] = 0,
+					["boss"] = "绝望的聚合体",
+					["time"] = "23:19:34",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147086::::::::110:261::3:3:3561:1482:3528:::|h[被污染的艾露恩雕像]|h|r",
+					["responseID"] = "NOTHING",
+					["response"] = "离线或未安装RCLootCouncil",
+					["date"] = "06/07/17",
+				}, -- [2]
+				{
+					["mapID"] = 1676,
+					["instance"] = "萨格拉斯之墓-普通",
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DEMONHUNTER",
+					["isAwardReason"] = false,
+					["groupSize"] = 14,
+					["votes"] = 0,
+					["boss"] = "基尔加丹",
+					["time"] = "00:08:36",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:147034::::::::110:261::3:3:3561:1497:3336:::|h[影痕护额]|h|r",
+					["responseID"] = "NOTHING",
+					["response"] = "离线或未安装RCLootCouncil",
+					["date"] = "07/07/17",
+				}, -- [3]
+			},
+		},
+	},
+}

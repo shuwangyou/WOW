@@ -1,0 +1,24 @@
+
+BFCDB = {
+	["namespaces"] = {
+		["CHATFRAME"] = {
+		},
+		["ICONFRAME"] = {
+		},
+	},
+	["profileKeys"] = {
+		["舒春丽 - 伊莫塔尔"] = "Default",
+		["舒元 - 伊莫塔尔"] = "Default",
+		["舒孑影 - 伊莫塔尔"] = "Default",
+		["舒炎 - 伊莫塔尔"] = "Default",
+		["舒唤天 - 伊莫塔尔"] = "Default",
+		["舒墨兰 - 伊莫塔尔"] = "Default",
+		["舒殉魂 - 伊森利恩"] = "Default",
+		["舒预言 - 冰风岗"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+BFCSystemCacheDB = nil

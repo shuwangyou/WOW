@@ -1,0 +1,17 @@
+
+MasterPlanAG = {
+	["伊莫塔尔"] = {
+		["骨灰级吖"] = {
+			["class"] = "DRUID",
+			["faction"] = "Alliance",
+		},
+	},
+	["埃基尔松"] = {
+		["舒殉魂"] = {
+			["faction"] = "Horde",
+			["class"] = "MAGE",
+		},
+	},
+}
+SV_GarrisonMissionManager = {
+}

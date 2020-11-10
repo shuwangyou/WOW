@@ -1,0 +1,10 @@
+
+MEETINGSTONE_CHARACTER_DB = {
+	["profileKeys"] = {
+		["舒耀星辰 - 伊莫塔尔"] = "舒耀星辰 - 伊莫塔尔",
+	},
+	["profiles"] = {
+		["舒耀星辰 - 伊莫塔尔"] = {
+		},
+	},
+}

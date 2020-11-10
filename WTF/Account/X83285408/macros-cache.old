@@ -1,0 +1,176 @@
+VER 3 0000000000000054 "1" "INV_MISC_QUESTIONMARK"
+/g 阿尔萨斯附体！
+/g \ {rt8}
+/g   {rt6}>
+/g  /  \
+/g 8s真男人！冰封之韧！
+END
+VER 3 0000000000000030 "AH" "ACHIEVEMENT_GUILDPERK_MOBILEBANKING"
+/click TSMAuctioningPostButton
+/click TSMAHTabPostButton
+/click TSMAuctioningCancelButton
+END
+VER 3 0000000000000040 "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] 清除腐蚀;  [@mouseover,exists,mod:ctrl] 清除腐蚀; [@mouseover,exists,mod:shift] 清除腐蚀
+END
+VER 3 0000000000000062 "TSMMacro" "Achievement_Faction_GoldenLotus"
+/click TSMCancelAuctionBtn
+/click TSMDestroyBtn
+/click TSMShoppingBuyoutBtn
+/click TSMSniperBtn
+/click TSMAuctioningBtn
+/click TSMVendoringSellAllButton
+/click TSMCraftingBtn
+END
+VER 3 0000000000000058 "亡者大军" "237511"
+#showtooltips 亡者大军
+/use 延时之力药水
+/cast 亡者大军
+END
+VER 3 0000000000000032 "冰封之韧" "SPELL_DEATHKNIGHT_ICEBOUNDFORTITUDE"
+#showtooltip 冰封之韧
+/cast 冰封之韧
+/咆哮
+/s 阿尔萨斯附体！
+/s \ {rt8}
+/s  ...{rt6}>
+/s  ../  \
+/s 8s真男人！冰封之韧！
+END
+VER 3 0000000000000018 "凋零缠绕" "SPELL_SHADOW_DEATHCOIL"
+#showtooltip 凋零缠绕
+/startattack
+/cast 凋零缠绕
+/use 12
+END
+VER 3 000000000000002F "取消保护" "ACHIEVEMENT_GUILDPERK_QUICK AND DEAD"
+/cancelaura 保护之手
+END
+VER 3 0000000000000059 "召唤石像鬼" "458967"
+#showtooltip 召唤石像鬼
+/cast 召唤石像鬼
+/cast 狂暴
+END
+VER 3 000000000000004E "吸血鬼之血" "SPELL_SHADOW_LIFEDRAIN"
+#showtooltips 吸血鬼之血
+/cast 吸血鬼之血
+/cast 符文分流
+END
+VER 3 0000000000000039 "喊话-世界" "INV_MISC_NOTE_05"
+/script T,F=T or 0,F or CreateFrame("frame")if X then print("off") X=nil else print("on") X=function()local t=GetTime()if t-T>10 then SendChatMessage(ps,"channel",nil,3)T=t end end end F:SetScript("OnUpdate",X)
+END
+VER 3 0000000000000038 "喊话内容" "INV_MISC_NOTE_05"
+/script ps="{rt1}{rt1} 25PTAG 9-13速推G 团   {rt1}{rt1} 2h搞定 装备0.5 1 1.5  战火不加打工来570+的 团刷 SS    欢迎各种躺尸老板 23=2";sc=SendChatMessage;
+END
+VER 3 000000000000001B "复活盟友" "SPELL_SHADOW_DEADOFNIGHT"
+#showtooltip
+/cast [target=mouseover][] 复活盟友
+END
+VER 3 000000000000005F "大精华" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast 聚能艾泽里特射线(艾泽里特精华)
+END
+VER 3 0000000000000051 "振翅" "INV_FEATHER_12"
+#showtooltip 振翅
+/cast [nostance:4]枭兽形态
+/cast 振翅
+END
+VER 3 000000000000005C "无敌炉石" "INV_MISC_QUESTIONMARK"
+/#showtooltips
+/use 开裂的恶魔钥石
+/use 达拉然炉石
+/use 炉石
+/use 要塞炉石
+END
+VER 3 0000000000000026 "死疽打击" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/dismount
+/startattack [combat]
+/cast [combat]死疽打击(荣誉天赋)
+/cast [combat]寒冰锁链
+/use [combat]1
+/use 庆祝包裹
+/use 炽燃之翼
+/use 圣光微粒
+/use 扭曲骸骨
+/use 改装的邪能焦镜
+/use 奥拉留斯的低语水晶
+/use 狂乱水晶
+/use 审判官的邪恶之眼
+END
+VER 3 0000000000000055 "治疗石" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/use 治疗石
+/use 拳手的古代治疗药水
+/use 深渊治疗药水
+/use 海滨治疗药水
+/cast 袋里乾坤(种族特长)
+END
+VER 3 000000000000005E "潜行" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/dismount
+/cast [combat]阳炎之怒
+/cast [swimming,nostance:3,nostealth][outdoors,nostance:3,nostealth]旅行形态(变形);[nostance:2/3,nostealth]猎豹形态
+/cast !潜行
+/use 庆祝包裹
+/use 炽燃之翼
+/use 圣光微粒
+/use 扭曲骸骨
+/use 改装的邪能焦镜
+/use 奥拉留斯的低语水晶
+/use 狂乱水晶
+/use 审判官的邪恶之眼
+END
+VER 3 000000000000005A "灵龟守护" "132199"
+#showtooltips
+/cast 灵龟守护
+/cancelaura 灵龟守护
+/cancelaura 保护祝福
+END
+VER 3 0000000000000014 "焦点额外" "SPELL_MAGIC_MANAGAIN"
+/target focus
+/click ExtraActionButton1
+END
+VER 3 000000000000004F "痛击2" "SPELL_DRUID_THRASH"
+#showtooltips 痛击
+/cast [nostance:1]熊形态
+/cast [harm]野性冲锋
+/castsequence reset=combat 月火术,X
+/cast 乌索尔的印记
+/castsequence reset=3 痛击,横扫,横扫
+END
+VER 3 0000000000000056 "真言术：盾" "INV_MISC_QUESTIONMARK"
+#showtooltip 真言术：盾
+/use 庆祝包裹
+/dismount
+/use 炽燃之翼
+/use 奥拉留斯的低语水晶
+/use 狂乱水晶
+/use 审判官的邪恶之眼
+/cast 真言术：盾
+/cancelaura 圣光回响
+END
+VER 3 000000000000004D "脓疮打击" "SPELL_DEATHKNIGHT_FESTERING_STRIKE"
+#showtooltip 脓疮打击
+/equip 天启
+/startattack
+/petattack
+/cast 凋零符文武器
+/cast 脓疮打击
+/use 12
+END
+VER 3 000000000000004A "血肉之盾" "INV_MISC_QUESTIONMARK"
+#showtooltip 血肉之盾
+/cast 护体胆汁
+/cast 血肉之盾
+END
+VER 3 000000000000001A "钓鱼" "INV_SCROLL_11"
+/equip 幽光鱼竿
+/use 浮标：猫头
+/cast 钓鱼
+END
+VER 3 0000000000000031 "随机收藏宠物" "INV_MISC_TRINKETPANDA_11"
+/rfp
+END

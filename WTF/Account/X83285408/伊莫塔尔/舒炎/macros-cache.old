@@ -1,0 +1,79 @@
+VER 3 0100000000000003 "1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/dismount
+/startattack [combat]
+/cast [combat]死亡之箭
+/cast [nopet]召唤地狱猎犬
+/use 庆祝包裹
+/use 炽燃之翼
+/use 圣光微粒
+/use 扭曲骸骨
+/use 改装的邪能焦镜
+/use 奥拉留斯的低语水晶
+/use 狂乱水晶
+/use 审判官的邪恶之眼
+END
+VER 3 010000000000000A "恶魔之怒" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 恶魔之怒
+/cast 魔刃风暴
+/use 12
+/use 14
+END
+VER 3 0100000000000002 "暗影箭" "INV_MISC_QUESTIONMARK"
+#showtooltip 暗影箭
+/cast 暗影箭
+/cast 吞噬魔法
+/use 12
+/use 14
+END
+VER 3 010000000000000B "末日降临" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [combat]
+/petattack
+/castsequence reset=2 末日降临,恶魔增效
+END
+VER 3 0100000000000007 "残废术" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [combat]
+/petattack
+/castsequence reset=2 残废术
+END
+VER 3 0100000000000005 "法术封锁" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [combat]
+/petattack
+/castsequence reset=2 暗影封印
+END
+VER 3 0100000000000008 "灵魂收割" "INV_MISC_QUESTIONMARK"
+#showtooltip 灵魂收割
+/cast 夺魂
+/cast 灵魂收割
+END
+VER 3 0100000000000006 "灵魂石" "INV_MISC_QUESTIONMARK"
+#showtooltip 灵魂石
+/cast [target=mouseover,help,nodead] [target=target,help,nodead] [target=targettarget,help,nodead] [target=player] 灵魂石
+/y 灵魂石： %t
+END
+VER 3 0100000000000009 "痛楚" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [combat]
+/petattack
+/castsequence reset=1 痛楚,生命虹吸,腐蚀术,痛苦无常
+END
+VER 3 010000000000000C "痛苦起手" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [combat]
+/petattack
+/castsequence reset=5 鬼影缠身,痛楚,生命虹吸,腐蚀术,诡异魅影,痛苦无常,痛苦无常,痛苦无常,召唤黑眼,死亡之箭,暗影箭,暗影箭,暗影箭,暗影箭,鬼影缠身,痛苦无常,暗影箭,暗影箭,暗影箭,暗影箭,暗影箭,暗影箭,暗影箭,暗影箭,暗影箭,暗影箭,暗影箭
+END
+VER 3 0100000000000004 "面包" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/use 魔法汉堡
+END
+VER 3 010000000000000D "鬼影缠身" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [combat]
+/petattack
+/castsequence reset=1 鬼影缠身,诡异魅影
+END

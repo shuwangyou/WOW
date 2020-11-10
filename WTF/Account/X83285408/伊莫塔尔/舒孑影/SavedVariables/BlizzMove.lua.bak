@@ -1,0 +1,110 @@
+
+BlizzMoveDB = {
+	["TradeSkillFrame"] = {
+	},
+	["RaidParentFrame"] = {
+	},
+	["ClassTrainerFrame"] = {
+	},
+	["VideoOptionsFrame"] = {
+	},
+	["CharacterFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -116.000007629395,
+			["xOfs"] = 557,
+		},
+		["relativePoint"] = "TOP",
+		["yOfs"] = -135.692321777344,
+		["xOfs"] = -38.3676643371582,
+		["point"] = "TOP",
+	},
+	["MailFrame"] = {
+	},
+	["MacroFrame"] = {
+	},
+	["BarberShopFrame"] = {
+	},
+	["CollectionsJournal"] = {
+		["save"] = true,
+	},
+	["AchievementFrame"] = {
+		["save"] = true,
+	},
+	["BlackMarketFrame"] = {
+	},
+	["PlayerTalentFrame"] = {
+	},
+	["GuildBankFrame"] = {
+		["save"] = true,
+	},
+	["SpellBookFrame"] = {
+	},
+	["version"] = "201109013",
+	["QuestFrame"] = {
+	},
+	["TradeFrame"] = {
+	},
+	["CalendarFrame"] = {
+		["save"] = true,
+	},
+	["InterfaceOptionsFrame"] = {
+	},
+	["InspectFrame"] = {
+	},
+	["AuctionFrame"] = {
+		["save"] = true,
+	},
+	["LFRParentFrame"] = {
+	},
+	["BankFrame"] = {
+	},
+	["FriendsFrame"] = {
+	},
+	["GossipFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -116.000007629395,
+			["xOfs"] = 16,
+		},
+		["relativePoint"] = "TOP",
+		["yOfs"] = -126.940116882324,
+		["xOfs"] = -262.453002929688,
+		["point"] = "TOP",
+	},
+	["MerchantFrame"] = {
+	},
+	["DressUpFrame"] = {
+	},
+	["WorldMapFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -77.3333282470703,
+			["xOfs"] = 10.6666669845581,
+		},
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -34.3020133972168,
+		["xOfs"] = 12.8547163009644,
+		["point"] = "TOPLEFT",
+	},
+	["LootFrame"] = {
+	},
+	["PVEFrame"] = {
+	},
+	["LFDParentFrame"] = {
+	},
+	["KeyBindingFrame"] = {
+	},
+	["EncounterJournal"] = {
+	},
+	["GameMenuFrame"] = {
+	},
+	["HelpFrame"] = {
+	},
+}

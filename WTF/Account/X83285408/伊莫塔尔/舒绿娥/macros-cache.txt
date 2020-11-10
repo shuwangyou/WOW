@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "痛楚" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence reset=3 痛楚,腐蚀术
+END

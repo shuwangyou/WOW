@@ -1,0 +1,46 @@
+VER 3 0100000000000015 "作茧缚命" "ABILITY_MONK_CHICOCOON"
+#showtooltips 作茧缚命
+/cast [@mouseover,help][target][]作茧缚命
+END
+VER 3 0100000000000001 "嚎镇八方" "ABILITY_MONK_PROVOKE"
+#showtooltip 嚎镇八方
+/cast [@player]玄牛雕像
+/cast 嚎镇八方
+END
+VER 3 0100000000000014 "复苏之雾" "ABILITY_MONK_RENEWINGMISTS"
+#showtooltips 复苏之雾
+/cast [@mouseover,help][target][]复苏之雾
+END
+VER 3 0100000000000016 "幻灭踢" "ABILITY_MONK_ROUNDHOUSEKICK"
+#showtooltips 幻灭踢
+/castsequence reset=11 旭日东升踢,幻灭踢,猛虎掌,幻灭踢,猛虎掌,幻灭踢,猛虎掌,幻灭踢
+END
+VER 3 0100000000000013 "氤氲之雾" "SPELL_MONK_ENVELOPINGMIST"
+#showtooltips 氤氲之雾
+/cast [@mouseover,help][target][]氤氲之雾
+END
+VER 3 0100000000000012 "活血术" "ABILITY_MONK_VIVIFY"
+#showtooltips 活血术
+/cast [@mouseover,help][target][]活血术
+END
+VER 3 0100000000000010 "活血酒" "INV_MISC_BEER_06"
+#showtooltips 活血酒
+/cast 活血酒
+/cast 铁骨酒
+END
+VER 3 0100000000000011 "清创生血" "ABILITY_ROGUE_IMROVEDRECUPERATE"
+#showtooltips 清创生血
+/cast [@mouseover,help][target][]清创生血
+END
+VER 3 010000000000000D "猛虎掌踏风" "ABILITY_MONK_TIGERPALM"
+#showtooltips 猛虎掌
+/use 13
+/use 14
+/castsequence reset=1 猛虎掌,幻灭踢
+END
+VER 3 010000000000000F "猛虎掌酒仙" "ABILITY_MONK_TIGERPALM"
+#showtooltips 猛虎掌
+/use 13
+/use 14
+/castsequence reset=7 醉酿投,碧玉疾风,幻灭猛击,猛虎掌,幻灭猛击,碧玉疾风,醉酿投,幻灭猛击,猛虎掌,碧玉疾风,幻灭猛击,猛虎掌
+END

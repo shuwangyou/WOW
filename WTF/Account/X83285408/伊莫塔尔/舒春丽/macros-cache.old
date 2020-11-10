@@ -1,0 +1,15 @@
+VER 3 010000000000000E "1" "ABILITY_MONK_TIGERPALM"
+/tar 审讯者阿瑞纳尔
+/castsequence reset=3 猛虎掌,幻灭踢
+/use 庆祝包裹
+END
+VER 3 0100000000000001 "嚎镇八方" "ABILITY_MONK_PROVOKE"
+#showtooltip 嚎镇八方
+/咆哮
+/s 谁能挡我！
+/cast 嚎镇八方
+END
+VER 3 010000000000000D "猛虎掌" "ABILITY_MONK_TIGERPALM"
+#showtooltips 猛虎掌
+/castsequence reset=3 猛虎掌,幻灭踢
+END

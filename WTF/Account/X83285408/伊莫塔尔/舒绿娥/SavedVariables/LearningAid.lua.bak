@@ -1,0 +1,11 @@
+
+LearningAid_Character = {
+	["dataVersion"] = 1,
+	["version"] = "1.13a1",
+	["actions"] = {
+		{
+			[61] = 232670,
+			[71] = 69070,
+		}, -- [1]
+	},
+}

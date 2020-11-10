@@ -1,0 +1,24 @@
+
+LearningAid_Saved = {
+	["enabled"] = true,
+	["dataVersion"] = 1,
+	["totem"] = true,
+	["debugFlags"] = {
+	},
+	["shapeshift"] = true,
+	["version"] = "1.13a1",
+	["locked"] = false,
+	["macros"] = true,
+	["autoAttack"] = false,
+	["ignore"] = {
+		["DEATHKNIGHT"] = {
+		},
+		["race"] = {
+		},
+		["guild"] = {
+		},
+		["profession"] = {
+		},
+	},
+	["restoreActions"] = true,
+}

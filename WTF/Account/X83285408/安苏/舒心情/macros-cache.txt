@@ -1,0 +1,49 @@
+VER 3 010000000000000A "主人的召唤" "ABILITY_HUNTER_MASTERSCALL"
+#showtooltip 主人的召唤
+/cast [target=舒心情] 主人的召唤
+END
+VER 3 0100000000000007 "反制射击" "INV_AMMO_ARROW_03"
+#showtooltip 反制射击
+/stopcasting
+/stopcasting
+/cast 反制射击
+END
+VER 3 0100000000000009 "嗜血" "INV_MISC_QUESTIONMARK"
+#showtooltip 远古狂乱
+/cast 远古狂乱
+END
+VER 3 0100000000000006 "奥术射击" "ABILITY_HUNTER_KILLCOMMAND"
+#showtooltip 杀戮命令
+/castsequence reset=0 ,杀戮命令
+/castsequence reset=0 凶暴野兽,
+/cast 狂野怒火
+END
+VER 3 0100000000000005 "杀戮射击" "ABILITY_HUNTER_ASSASSINATE2"
+#showtooltip 杀戮射击
+/stopcasting
+/stopcasting
+/cast 杀戮射击
+END
+VER 3 0100000000000004 "毒蛇钉刺" "ABILITY_HUNTER_QUICKSHOT"
+#showtooltip 毒蛇钉刺
+/dismount
+/petattack
+/castsequence reset=0 ,毒蛇钉刺
+/castsequence reset=0 飞刃,
+/cast 狂野怒火
+END
+VER 3 0100000000000003 "治疗宠物" "ABILITY_HUNTER_MENDPET"
+#showtooltip 治疗宠物
+/dismount
+/cast 治疗宠物
+END
+VER 3 0100000000000001 "眼镜蛇射击" "INV_MISC_QUESTIONMARK"
+#showtooltip 眼镜蛇射击
+/cast 眼镜蛇射击
+/cast 奥术洪流
+/cast 狂野怒火
+END
+VER 3 010000000000000B "误导" "INV_MISC_QUESTIONMARK"
+#showtooltip 误导
+/cast [target=focus,help] 误导
+END

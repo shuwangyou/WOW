@@ -1,0 +1,85 @@
+
+BlizzMoveDB = {
+	["TradeSkillFrame"] = {
+	},
+	["RaidParentFrame"] = {
+	},
+	["ClassTrainerFrame"] = {
+	},
+	["VideoOptionsFrame"] = {
+	},
+	["CharacterFrame"] = {
+	},
+	["MailFrame"] = {
+	},
+	["MacroFrame"] = {
+	},
+	["CollectionsJournal"] = {
+	},
+	["AchievementFrame"] = {
+		["save"] = true,
+	},
+	["BlackMarketFrame"] = {
+	},
+	["PlayerTalentFrame"] = {
+	},
+	["GuildBankFrame"] = {
+		["save"] = true,
+	},
+	["SpellBookFrame"] = {
+	},
+	["version"] = "201109013",
+	["QuestFrame"] = {
+	},
+	["TradeFrame"] = {
+	},
+	["CalendarFrame"] = {
+		["save"] = true,
+	},
+	["InterfaceOptionsFrame"] = {
+	},
+	["InspectFrame"] = {
+	},
+	["AuctionFrame"] = {
+		["save"] = true,
+	},
+	["LFRParentFrame"] = {
+	},
+	["BankFrame"] = {
+	},
+	["FriendsFrame"] = {
+	},
+	["GossipFrame"] = {
+	},
+	["MerchantFrame"] = {
+	},
+	["DressUpFrame"] = {
+	},
+	["WorldMapFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -77.3333282470703,
+			["xOfs"] = 10.6666669845581,
+		},
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -16.7977046966553,
+		["xOfs"] = 20.8774757385254,
+		["point"] = "TOPLEFT",
+	},
+	["LootFrame"] = {
+	},
+	["PVEFrame"] = {
+	},
+	["KeyBindingFrame"] = {
+	},
+	["GameMenuFrame"] = {
+	},
+	["EncounterJournal"] = {
+	},
+	["LFDParentFrame"] = {
+	},
+	["HelpFrame"] = {
+	},
+}

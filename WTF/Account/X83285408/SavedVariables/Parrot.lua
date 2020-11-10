@@ -1,0 +1,758 @@
+
+ParrotDB = {
+	["namespaces"] = {
+		["CombatEvents"] = {
+			["profiles"] = {
+				["网易有爱-简洁"] = {
+					["hideSkillNames"] = true,
+					["Notification"] = {
+						["Currency gains"] = {
+							["disabled"] = false,
+						},
+						["Player killing blows"] = {
+							["disabled"] = false,
+						},
+						["Power gain"] = {
+							["disabled"] = true,
+						},
+						["Pet debuff gains"] = {
+							["disabled"] = true,
+						},
+						["Experience gains"] = {
+							["disabled"] = false,
+							["sticky"] = false,
+						},
+						["Debuff fades"] = {
+							["disabled"] = true,
+						},
+						["Pet buff gains"] = {
+							["disabled"] = true,
+						},
+						["Reputation losses"] = {
+							["disabled"] = false,
+						},
+						["Enemy buff gains"] = {
+							["disabled"] = true,
+						},
+						["Combo points full"] = {
+							["disabled"] = true,
+						},
+						["Debuff gains"] = {
+							["disabled"] = true,
+						},
+						["Reputation gains"] = {
+							["disabled"] = false,
+						},
+						["Buff stack gains"] = {
+							["disabled"] = true,
+						},
+						["Enemy buff fades"] = {
+							["disabled"] = true,
+						},
+						["Enter combat"] = {
+							["disabled"] = false,
+						},
+						["Item buff fades"] = {
+							["disabled"] = true,
+						},
+						["Item buff gains"] = {
+							["disabled"] = true,
+						},
+						["Combo point gain"] = {
+							["disabled"] = true,
+						},
+						["Pet debuff fades"] = {
+							["disabled"] = true,
+						},
+						["Power loss"] = {
+							["disabled"] = true,
+						},
+						["Buff gains"] = {
+							["disabled"] = true,
+						},
+						["Target buff stack gains"] = {
+							["disabled"] = true,
+						},
+						["Skill cooldown finish"] = {
+							["disabled"] = true,
+						},
+						["Skill gains"] = {
+							["disabled"] = false,
+						},
+						["Target buff gains"] = {
+							["disabled"] = true,
+						},
+						["Leave combat"] = {
+							["disabled"] = false,
+						},
+						["Pet buff fades"] = {
+							["disabled"] = true,
+						},
+						["Extra attacks"] = {
+							["disabled"] = false,
+						},
+						["NPC killing blows"] = {
+							["disabled"] = false,
+						},
+						["Buff fades"] = {
+							["disabled"] = true,
+						},
+						["Enemy debuff fades"] = {
+							["disabled"] = true,
+						},
+						["Enemy debuff gains"] = {
+							["disabled"] = true,
+						},
+						["Debuff stack gains"] = {
+							["disabled"] = true,
+						},
+					},
+					["disabled"] = false,
+					["modifier"] = {
+						["overheal"] = {
+							["enabled"] = false,
+						},
+						["absorb"] = {
+							["enabled"] = false,
+						},
+						["vulnerable"] = {
+							["enabled"] = false,
+						},
+						["block"] = {
+							["enabled"] = false,
+						},
+						["resist"] = {
+							["enabled"] = false,
+						},
+						["overkill"] = {
+							["enabled"] = false,
+						},
+					},
+					["dbver"] = 5,
+					["Outgoing"] = {
+						["Pet skill parries"] = {
+							["disabled"] = true,
+						},
+						["Pet skill evades"] = {
+							["disabled"] = true,
+						},
+						["Pet melee blocks"] = {
+							["disabled"] = true,
+						},
+						["Pet heals over time"] = {
+							["disabled"] = true,
+						},
+						["Pet melee parries"] = {
+							["disabled"] = true,
+						},
+						["Pet melee immunes"] = {
+							["disabled"] = true,
+						},
+						["Pet skill DoTs"] = {
+							["disabled"] = true,
+						},
+						["Pet skill blocks"] = {
+							["disabled"] = true,
+						},
+						["Pet skill deflects"] = {
+							["disabled"] = true,
+						},
+						["Pet skill absorbs"] = {
+							["disabled"] = true,
+						},
+						["Pet skill dodges"] = {
+							["disabled"] = true,
+						},
+						["Pet melee reflects"] = {
+							["disabled"] = true,
+						},
+						["Pet melee evades"] = {
+							["disabled"] = true,
+						},
+						["Pet skill reflects"] = {
+							["disabled"] = true,
+						},
+						["Pet melee dodges"] = {
+							["disabled"] = true,
+						},
+						["Pet skill immunes"] = {
+							["disabled"] = true,
+						},
+						["Pet melee deflects"] = {
+							["disabled"] = true,
+						},
+						["Pet melee misses"] = {
+							["disabled"] = true,
+						},
+						["Pet skill resists"] = {
+							["disabled"] = true,
+						},
+						["Pet melee resists"] = {
+							["disabled"] = true,
+						},
+						["Pet melee damage"] = {
+							["disabled"] = true,
+						},
+						["Pet skill misses"] = {
+							["disabled"] = true,
+						},
+						["Pet melee absorbs"] = {
+							["disabled"] = true,
+						},
+					},
+					["Incoming"] = {
+						["Pet skill parries"] = {
+							["disabled"] = true,
+						},
+						["Pet skill evades"] = {
+							["disabled"] = true,
+						},
+						["Pet melee blocks"] = {
+							["disabled"] = true,
+						},
+						["Pet melee damage"] = {
+							["disabled"] = true,
+						},
+						["Heals over time"] = {
+							["disabled"] = true,
+						},
+						["Pet melee parries"] = {
+							["disabled"] = true,
+						},
+						["Pet melee immunes"] = {
+							["disabled"] = true,
+						},
+						["Pet skill DoTs"] = {
+							["disabled"] = true,
+						},
+						["Pet skill blocks"] = {
+							["disabled"] = true,
+						},
+						["Pet skill misses"] = {
+							["disabled"] = true,
+						},
+						["Pet skill deflects"] = {
+							["disabled"] = true,
+						},
+						["Self heals over time"] = {
+							["disabled"] = true,
+						},
+						["Pet skill absorbs"] = {
+							["disabled"] = true,
+						},
+						["Pet skill dodges"] = {
+							["disabled"] = true,
+						},
+						["Skill DoTs"] = {
+							["disabled"] = true,
+						},
+						["Pet melee reflects"] = {
+							["disabled"] = true,
+						},
+						["Pet heals over time"] = {
+							["disabled"] = true,
+						},
+						["Pet skill reflects"] = {
+							["disabled"] = true,
+						},
+						["Pet skill immunes"] = {
+							["disabled"] = true,
+						},
+						["Pet melee dodges"] = {
+							["disabled"] = true,
+						},
+						["Pet melee deflects"] = {
+							["disabled"] = true,
+						},
+						["Pet melee evades"] = {
+							["disabled"] = true,
+						},
+						["Pet skill resists"] = {
+							["disabled"] = true,
+						},
+						["Pet melee resists"] = {
+							["disabled"] = true,
+						},
+						["Pet melee misses"] = {
+							["disabled"] = true,
+						},
+						["Pet skill damage"] = {
+							["disabled"] = true,
+						},
+						["Pet melee absorbs"] = {
+							["disabled"] = true,
+						},
+					},
+					["filters"] = {
+						["Incoming heals"] = 1,
+						["Power gain"] = 1,
+						["Incoming damage"] = 1,
+					},
+				},
+				["Default"] = {
+					["dbver"] = 5,
+					["disabled"] = false,
+					["shortenAmountType"] = 2,
+				},
+				["有爱-简洁"] = {
+					["disabled"] = false,
+					["Notification"] = {
+						["Currency gains"] = {
+							["disabled"] = false,
+						},
+						["Player killing blows"] = {
+							["disabled"] = false,
+						},
+						["Power gain"] = {
+							["disabled"] = true,
+						},
+						["Pet debuff gains"] = {
+							["disabled"] = true,
+						},
+						["Experience gains"] = {
+							["disabled"] = false,
+							["sticky"] = false,
+						},
+						["Debuff fades"] = {
+							["disabled"] = true,
+						},
+						["Pet buff gains"] = {
+							["disabled"] = true,
+						},
+						["Reputation losses"] = {
+							["disabled"] = false,
+						},
+						["Enemy buff gains"] = {
+							["disabled"] = true,
+						},
+						["Combo points full"] = {
+							["disabled"] = true,
+						},
+						["Debuff gains"] = {
+							["disabled"] = true,
+						},
+						["Reputation gains"] = {
+							["disabled"] = false,
+						},
+						["Buff stack gains"] = {
+							["disabled"] = true,
+						},
+						["Enemy buff fades"] = {
+							["disabled"] = true,
+						},
+						["Enter combat"] = {
+							["disabled"] = false,
+						},
+						["Item buff fades"] = {
+							["disabled"] = true,
+						},
+						["Item buff gains"] = {
+							["disabled"] = true,
+						},
+						["Combo point gain"] = {
+							["disabled"] = true,
+						},
+						["Pet debuff fades"] = {
+							["disabled"] = true,
+						},
+						["Power loss"] = {
+							["disabled"] = true,
+						},
+						["Buff gains"] = {
+							["disabled"] = true,
+						},
+						["Target buff stack gains"] = {
+							["disabled"] = true,
+						},
+						["Skill cooldown finish"] = {
+							["disabled"] = true,
+						},
+						["Skill gains"] = {
+							["disabled"] = false,
+						},
+						["Target buff gains"] = {
+							["disabled"] = true,
+						},
+						["Leave combat"] = {
+							["disabled"] = false,
+						},
+						["Enemy debuff gains"] = {
+							["disabled"] = true,
+						},
+						["Extra attacks"] = {
+							["disabled"] = false,
+						},
+						["Enemy debuff fades"] = {
+							["disabled"] = true,
+						},
+						["Buff fades"] = {
+							["disabled"] = true,
+						},
+						["NPC killing blows"] = {
+							["disabled"] = false,
+						},
+						["Pet buff fades"] = {
+							["disabled"] = true,
+						},
+						["Debuff stack gains"] = {
+							["disabled"] = true,
+						},
+					},
+					["modifier"] = {
+						["overheal"] = {
+							["enabled"] = false,
+						},
+						["absorb"] = {
+							["enabled"] = false,
+						},
+						["overkill"] = {
+							["enabled"] = false,
+						},
+						["resist"] = {
+							["enabled"] = false,
+						},
+						["vulnerable"] = {
+							["enabled"] = false,
+						},
+						["block"] = {
+							["enabled"] = false,
+						},
+					},
+					["dbver"] = 5,
+					["filters"] = {
+						["Incoming heals"] = 1,
+						["Power gain"] = 1,
+						["Incoming damage"] = 1,
+					},
+					["Outgoing"] = {
+						["Pet skill parries"] = {
+							["disabled"] = true,
+						},
+						["Pet melee damage"] = {
+							["disabled"] = true,
+						},
+						["Pet skill deflects"] = {
+							["disabled"] = true,
+						},
+						["Pet skill dodges"] = {
+							["disabled"] = true,
+						},
+						["Pet skill reflects"] = {
+							["disabled"] = true,
+						},
+						["Pet melee deflects"] = {
+							["disabled"] = true,
+						},
+						["Pet skill resists"] = {
+							["disabled"] = true,
+						},
+						["Pet skill evades"] = {
+							["disabled"] = true,
+						},
+						["Pet melee blocks"] = {
+							["disabled"] = true,
+						},
+						["Pet melee evades"] = {
+							["disabled"] = true,
+						},
+						["Pet melee parries"] = {
+							["disabled"] = true,
+						},
+						["Pet melee immunes"] = {
+							["disabled"] = true,
+						},
+						["Pet skill DoTs"] = {
+							["disabled"] = true,
+						},
+						["Pet skill blocks"] = {
+							["disabled"] = true,
+						},
+						["Pet skill absorbs"] = {
+							["disabled"] = true,
+						},
+						["Pet skill misses"] = {
+							["disabled"] = true,
+						},
+						["Pet melee reflects"] = {
+							["disabled"] = true,
+						},
+						["Pet skill immunes"] = {
+							["disabled"] = true,
+						},
+						["Pet heals over time"] = {
+							["disabled"] = true,
+						},
+						["Pet melee misses"] = {
+							["disabled"] = true,
+						},
+						["Pet melee resists"] = {
+							["disabled"] = true,
+						},
+						["Pet melee dodges"] = {
+							["disabled"] = true,
+						},
+						["Pet melee absorbs"] = {
+							["disabled"] = true,
+						},
+					},
+					["Incoming"] = {
+						["Pet skill parries"] = {
+							["disabled"] = true,
+						},
+						["Pet skill deflects"] = {
+							["disabled"] = true,
+						},
+						["Pet skill dodges"] = {
+							["disabled"] = true,
+						},
+						["Skill DoTs"] = {
+							["disabled"] = true,
+						},
+						["Pet skill reflects"] = {
+							["disabled"] = true,
+						},
+						["Pet melee deflects"] = {
+							["disabled"] = true,
+						},
+						["Pet skill resists"] = {
+							["disabled"] = true,
+						},
+						["Pet skill evades"] = {
+							["disabled"] = true,
+						},
+						["Pet melee blocks"] = {
+							["disabled"] = true,
+						},
+						["Pet heals over time"] = {
+							["disabled"] = true,
+						},
+						["Pet melee parries"] = {
+							["disabled"] = true,
+						},
+						["Pet melee immunes"] = {
+							["disabled"] = true,
+						},
+						["Pet skill DoTs"] = {
+							["disabled"] = true,
+						},
+						["Pet skill blocks"] = {
+							["disabled"] = true,
+						},
+						["Self heals over time"] = {
+							["disabled"] = true,
+						},
+						["Pet skill absorbs"] = {
+							["disabled"] = true,
+						},
+						["Pet skill misses"] = {
+							["disabled"] = true,
+						},
+						["Pet melee reflects"] = {
+							["disabled"] = true,
+						},
+						["Pet skill immunes"] = {
+							["disabled"] = true,
+						},
+						["Pet melee evades"] = {
+							["disabled"] = true,
+						},
+						["Heals over time"] = {
+							["disabled"] = true,
+						},
+						["Pet melee misses"] = {
+							["disabled"] = true,
+						},
+						["Pet melee damage"] = {
+							["disabled"] = true,
+						},
+						["Pet melee resists"] = {
+							["disabled"] = true,
+						},
+						["Pet melee dodges"] = {
+							["disabled"] = true,
+						},
+						["Pet skill damage"] = {
+							["disabled"] = true,
+						},
+						["Pet melee absorbs"] = {
+							["disabled"] = true,
+						},
+					},
+					["hideSkillNames"] = true,
+				},
+			},
+		},
+		["Suppressions"] = {
+		},
+		["ScrollAreas"] = {
+			["profiles"] = {
+				["网易有爱-简洁"] = {
+					["areas"] = {
+						["Notification"] = {
+							["stickyDirection"] = "UP;CENTER",
+							["direction"] = "DOWN;LEFT",
+							["stickyAnimationStyle"] = "Pow",
+							["xOffset"] = 180,
+							["size"] = 150,
+							["animationStyle"] = "Straight",
+							["yOffset"] = -100,
+						},
+						["Incoming"] = {
+							["stickyDirection"] = "DOWN;RIGHT",
+							["direction"] = "DOWN;RIGHT",
+							["stickyAnimationStyle"] = "Pow",
+							["iconSide"] = "RIGHT",
+							["xOffset"] = -130,
+							["size"] = 150,
+							["animationStyle"] = "Straight",
+							["yOffset"] = -100,
+						},
+						["Outgoing"] = {
+							["direction"] = "UP;RIGHT",
+							["xOffset"] = 140,
+							["yOffset"] = 190,
+							["stickyDirection"] = "UP;LEFT",
+							["iconSide"] = "RIGHT",
+							["speed"] = 2,
+							["stickyAnimationStyle"] = "Pow",
+							["animationStyle"] = "Straight",
+							["size"] = 80,
+						},
+					},
+				},
+				["Default"] = {
+					["areas"] = {
+						["Notification"] = {
+							["stickyDirection"] = "UP;CENTER",
+							["direction"] = "UP;CENTER",
+							["stickyAnimationStyle"] = "Pow",
+							["xOffset"] = 0,
+							["size"] = 150,
+							["animationStyle"] = "Straight",
+							["yOffset"] = 175,
+						},
+						["Incoming"] = {
+							["stickyDirection"] = "DOWN;RIGHT",
+							["direction"] = "DOWN;LEFT",
+							["stickyAnimationStyle"] = "Pow",
+							["iconSide"] = "RIGHT",
+							["xOffset"] = -60,
+							["size"] = 260,
+							["animationStyle"] = "Parabola",
+							["yOffset"] = -30,
+						},
+						["Outgoing"] = {
+							["stickyDirection"] = "DOWN;LEFT",
+							["direction"] = "DOWN;RIGHT",
+							["stickyAnimationStyle"] = "Pow",
+							["xOffset"] = 60,
+							["size"] = 260,
+							["animationStyle"] = "Parabola",
+							["yOffset"] = -30,
+						},
+					},
+				},
+				["有爱-简洁"] = {
+					["areas"] = {
+						["Notification"] = {
+							["stickyDirection"] = "UP;CENTER",
+							["direction"] = "DOWN;LEFT",
+							["yOffset"] = 10.2222595214844,
+							["xOffset"] = 190.666748046875,
+							["size"] = 150,
+							["animationStyle"] = "Straight",
+							["stickyAnimationStyle"] = "Pow",
+						},
+						["Outgoing"] = {
+							["direction"] = "UP;RIGHT",
+							["xOffset"] = 187.111206054688,
+							["yOffset"] = 182.888824462891,
+							["stickyDirection"] = "UP;LEFT",
+							["iconSide"] = "RIGHT",
+							["speed"] = 2,
+							["size"] = 80,
+							["animationStyle"] = "Straight",
+							["stickyAnimationStyle"] = "Pow",
+						},
+						["Incoming"] = {
+							["stickyDirection"] = "DOWN;RIGHT",
+							["direction"] = "DOWN;RIGHT",
+							["yOffset"] = 9.33343505859375,
+							["iconSide"] = "RIGHT",
+							["xOffset"] = -191.333435058594,
+							["size"] = 150,
+							["animationStyle"] = "Straight",
+							["stickyAnimationStyle"] = "Pow",
+						},
+					},
+				},
+			},
+		},
+		["Cooldowns"] = {
+		},
+		["Display"] = {
+			["profiles"] = {
+				["网易有爱-简洁"] = {
+					["fontOutline"] = "OUTLINE",
+				},
+				["有爱-简洁"] = {
+					["fontOutline"] = "OUTLINE",
+				},
+			},
+		},
+		["Triggers"] = {
+			["profiles"] = {
+				["网易有爱-简洁"] = {
+					["dbver"] = 9,
+					["triggers2"] = {
+						[1009] = {
+							["conditions"] = {
+								["Unit power"] = {
+									{
+										["powerType"] = 0,
+									}, -- [1]
+								},
+							},
+						},
+					},
+				},
+				["Default"] = {
+					["dbver"] = 9,
+					["triggers2"] = {
+						[1009] = {
+							["conditions"] = {
+								["Unit power"] = {
+									{
+										["powerType"] = 0,
+									}, -- [1]
+								},
+							},
+						},
+					},
+				},
+				["有爱-简洁"] = {
+					["dbver"] = 9,
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["舒预言 - 伊莫塔尔"] = "有爱-简洁",
+		["舒孑影 - 伊莫塔尔"] = "有爱-简洁",
+		["舒殉魂 - 伊莫塔尔"] = "有爱-简洁",
+		["舒预言 - 冰风岗"] = "有爱-简洁",
+		["舒心情 - 国王之谷"] = "有爱-简洁",
+		["Jackiexu - 伊莫塔尔"] = "有爱-简洁",
+		["舒预言 - 死亡之翼"] = "有爱-简洁",
+		["舒孑影 - 安苏"] = "有爱-简洁",
+		["舒墨兰 - 伊莫塔尔"] = "有爱-简洁",
+	},
+	["profiles"] = {
+		["网易有爱-简洁"] = {
+		},
+		["Default"] = {
+		},
+		["有爱-简洁"] = {
+		},
+	},
+}

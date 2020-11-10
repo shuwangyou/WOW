@@ -1,0 +1,20 @@
+## Interface: 80300
+## Title: OmniBar
+## Notes: Tracks enemy cooldowns
+## Version: v10.7
+## Author: Jordon
+## DefaultState: Enabled
+## SavedVariables: OmniBarDB
+## OptionalDeps: Masque, LibStub, CallbackHandler-1.0, Ace3, LibDualSpec-1.0
+## X-Curse-Project-ID: 85814
+
+
+Locales\Locales.xml
+OmniBar.xml
+Retail.lua
+Classic.lua
+OmniBar.lua
+Options.lua
+
+## Title: |cff880303[爱不易]|r OmniBar 敌方冷却监控
+## X-Vendor: AbyUI

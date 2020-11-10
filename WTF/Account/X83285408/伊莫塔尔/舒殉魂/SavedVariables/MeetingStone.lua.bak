@@ -1,0 +1,25 @@
+
+MEETINGSTONE_CHARACTER_DB = {
+	["profileKeys"] = {
+		["舒殉魂 - 伊莫塔尔"] = "舒殉魂 - 伊莫塔尔",
+	},
+	["profiles"] = {
+		["舒殉魂 - 伊莫塔尔"] = {
+			["settings"] = {
+				["panelLock"] = true,
+				["storage"] = {
+					["y"] = -151.153518676758,
+					["x"] = 308.376190185547,
+					["point"] = "LEFT",
+					["scale"] = 1,
+				},
+			},
+			["lastSearchCode"] = "6-0-0-0",
+			["version"] = "80000.04",
+			["advShine"] = "80000.04",
+			["searchHistoryList"] = {
+				"6-0-0-0", -- [1]
+			},
+		},
+	},
+}

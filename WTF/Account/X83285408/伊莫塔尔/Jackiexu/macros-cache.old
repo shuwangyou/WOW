@@ -1,0 +1,112 @@
+VER 3 0100000000000014 "割裂" "ABILITY_GHOULFRENZY"
+#showtooltips 割裂
+/use 13
+/use 14
+/cast 猛虎之怒
+/cast 狂暴
+/cast 割裂
+END
+VER 3 0100000000000015 "回春术" "SPELL_NATURE_REJUVENATION"
+#showtooltip 回春术
+/cast [nostance:5]树人形态
+/cast [@mouseover,exists,help][] 回春术
+END
+VER 3 010000000000000F "复生" "SPELL_NATURE_REINCARNATION"
+#showtooltip 复生
+/cast [target=mouseover][] 复生
+END
+VER 3 0100000000000016 "愈合" "SPELL_NATURE_RESISTNATURE"
+#showtooltip 愈合
+/cast [@mouseover,exists,help][] 愈合
+END
+VER 3 0100000000000011 "撕碎" "SPELL_SHADOW_VAMPIRICAURA"
+#showtooltips 撕碎
+/cast [nostance:2]猎豹形态
+/stopcasting
+/stopcasting
+/cast 猛虎之怒
+/use 13
+/use 14
+/cast 狂暴
+/cast 撕碎
+END
+VER 3 0100000000000017 "斜掠" "ABILITY_DRUID_DISEMBOWEL"
+#showtooltips 斜掠
+/cast [nostance:2]猎豹形态
+/stopcasting
+/stopcasting
+/startattack
+/cast 斜掠
+END
+VER 3 010000000000001D "明月打击" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/startattack
+/cast [nostance:4]枭兽形态
+/castsequence [@cursor] reset=3 星辰坠落,明月打击,明月打击,明月打击,明月打击,星辰坠落,明月打击,明月打击,明月打击,明月打击
+END
+VER 3 0100000000000002 "星辰耀斑" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/startattack
+/castsequence reset=target 星辰耀斑,月火术,阳炎术
+END
+VER 3 010000000000000D "树皮术" "SPELL_NATURE_STONECLAWTOTEM"
+#showtooltip 树皮术
+/cast 树皮术
+/cast 铁鬃
+END
+VER 3 010000000000001F "潜行" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/dismount
+/cast [combat]阳炎之怒
+/cast [swimming,nostance:3,nostealth][outdoors,nostance:3,nostealth]旅行形态(变形);[nostance:2/3,nostealth]猎豹形态
+/cast !潜行
+/use 庆祝包裹
+/use 炽燃之翼
+/use 圣光微粒
+/use 扭曲骸骨
+/use 改装的邪能焦镜
+/use 奥拉留斯的低语水晶
+/use 狂乱水晶
+/use 审判官的邪恶之眼
+END
+VER 3 0100000000000019 "生命绽放" "INV_MISC_HERB_FELBLOSSOM"
+#showtooltip 生命绽放
+/cast [@mouseover,exists,help][] 生命绽放
+END
+VER 3 010000000000001E "生存本能" "INV_MISC_QUESTIONMARK"
+#showtooltip 生存本能
+/cast 生存本能
+/cast 铁鬃
+END
+VER 3 0100000000000007 "痛击1" "INV_MISC_QUESTIONMARK"
+#showtooltips 痛击
+/startattack
+/cast [nostance:1]熊形态
+/cast [harm]野性冲锋
+/castsequence reset=combat 月火术,X
+/cast 铁鬃
+/castsequence reset=3 痛击,横扫,横扫
+/use 13
+/use 14
+END
+VER 3 0100000000000008 "裂伤" "ABILITY_DRUID_MANGLE2"
+#showtooltip 裂伤
+/use 13
+/use 14
+/cast 裂伤
+/cast 铁鬃
+END
+VER 3 0100000000000003 "迅捷治愈" "INV_RELICS_IDOLOFREJUVENATION"
+#showtooltip 迅捷治愈
+/cast [@mouseover,exists,help][] 迅捷治愈
+END
+VER 3 010000000000001B "野性成长" "ABILITY_DRUID_FLOURISH"
+#showtooltip 野性成长
+/cast [@mouseover,exists,help][] 野性成长
+END
+VER 3 0100000000000001 "阳炎之怒" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/startattack
+/cast [nostance:4]枭兽形态
+/castsequence reset=3 明月打击,阳炎之怒,星涌术,阳炎之怒,明月打击,阳炎之怒,明月打击,阳炎之怒,星涌术,阳炎之怒,明月打击,阳炎之怒
+END

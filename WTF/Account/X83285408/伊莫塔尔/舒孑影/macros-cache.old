@@ -1,0 +1,70 @@
+VER 3 0100000000000003 "偷袭" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [stealth]搜索
+/cast [stealth]偷袭;影袭
+/cast [@targettarget,help,combat]嫁祸诀窍
+/use 13
+/use 14
+END
+VER 3 010000000000000A "冲动" "136206"
+#showtooltips
+/startattack
+/cast 冲动
+/cast 清醒梦境之忆
+END
+VER 3 0100000000000007 "影舞步" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/startattack
+/cast 刀锋冲刺
+END
+VER 3 0100000000000002 "影袭" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [stealth]搜索
+/cast [stealth]偷袭;影袭
+END
+VER 3 0100000000000004 "手枪射击" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/startattack
+/cast 手枪射击
+END
+VER 3 0100000000000006 "斩击" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/startattack
+/cast 斩击
+/use 13
+/use 14
+END
+VER 3 0100000000000005 "正中眉心" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/startattack
+/cast [stealth]搜索
+/cast [stealth]伏击;正中眉心
+END
+VER 3 0100000000000001 "潜行" "INV_MISC_QUESTIONMARK"
+#showtooltips [stealth]闷棍;[combat]凿击;潜行
+/dismount
+/cast [stealth]搜索
+/cast [stealth]闷棍
+/cast [combat]凿击
+/use 庆祝包裹
+/use 炽燃之翼
+/use 圣光微粒
+/use 扭曲骸骨
+/use 改装的邪能焦镜
+/use 奥拉留斯的低语水晶
+/use 狂乱水晶
+/use 审判官的邪恶之眼
+/cast !潜行
+END
+VER 3 0100000000000008 "猩红之瓶" "INV_MISC_QUESTIONMARK"
+#showtooltips 猩红之瓶
+/use 猩红之瓶
+/use 猩红之瓶
+/cast 猩红之瓶
+/use 猩红之瓶
+END
+VER 3 0100000000000009 "致盲" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast 致盲
+/stopattack
+END

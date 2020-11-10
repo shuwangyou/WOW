@@ -1,0 +1,120 @@
+VER 3 0100000000000011 "14" "INV_MISC_QUESTIONMARK"
+/use 14
+END
+VER 3 010000000000000D "假死" "132293"
+#showtooltips 假死
+/cast 装死
+/cast 假死
+END
+VER 3 010000000000000E "冰冻陷阱" "135834"
+#showtooltips 冰冻陷阱
+/cast [@target,harm][]冰冻陷阱
+END
+VER 3 0100000000000001 "凶暴野兽" "ABILITY_HUNTER_LONGEVITY"
+#showtooltips 凶暴野兽
+/use 庆祝包裹
+/dismount
+/use 炽燃之翼
+/use 圣光微粒
+/use 扭曲骸骨
+/use 改装的邪能焦镜
+/use 奥拉留斯的低语水晶
+/use 狂乱水晶
+/startattack [combat]
+/cast [@pet,dead]凤凰之心;[nopet]召唤宠物 5
+/cast [combat]凶暴野兽
+/use 13
+END
+VER 3 0100000000000007 "响尾蛇" "ABILITY_HUNTER_SERPENTSWIFTNESS"
+#showtooltips 响尾蛇
+/use 庆祝包裹
+/dismount
+/use 奥拉留斯的低语水晶
+/use 狂乱水晶
+/use 炽燃之翼
+/cast 响尾蛇
+END
+VER 3 0100000000000012 "多重射击" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/startattack
+/cast 多重射击
+END
+VER 3 0100000000000010 "夺命黑鸦" "645217"
+#showtooltips
+/startattack
+/cast 夺命黑鸦
+END
+VER 3 0100000000000006 "战复" "136080"
+#showtooltips 赤精之赐
+/cast [@mouseover][]赤精之赐
+END
+VER 3 0100000000000004 "杀戮命令" "ABILITY_HUNTER_KILLCOMMAND"
+#showtooltips 杀戮命令
+/startattack
+/use 13
+/use 1
+/cast [@pet,dead][nopet]凤凰之心
+/cast 杀戮命令
+/cast [@focus,help][@target,help][@pet][]误导
+/cast 泰坦之雷
+END
+VER 3 0100000000000009 "标记设计" "ABILITY_HUNTER_MARKEDSHOT"
+#showtooltips 标记射击
+/use 13
+/use 14
+/cast 标记射击
+END
+VER 3 0100000000000003 "治疗宠物" "ABILITY_HUNTER_MENDPET"
+#showtooltips 治疗宠物
+/use 庆祝包裹
+/dismount
+/use 奥拉留斯的低语水晶
+/use 狂乱水晶
+/use 炽燃之翼
+/cast [@pet,dead][nopet]复活宠物;治疗宠物
+END
+VER 3 010000000000000F "焦油陷阱" "576309"
+#showtooltips 焦油陷阱
+/cast [@target,harm][@player]焦油陷阱
+END
+VER 3 0100000000000002 "狂野怒火" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast 狂野怒火
+/cast 泰坦之雷
+END
+VER 3 010000000000000B "猛禽一击" "ABILITY_HUNTER_RAPTORSTRIKE"
+#showtooltips 猛禽一击
+/use 13
+/use 14
+/cast [@pet,dead][nopet]复活宠物
+/cast 猛禽一击
+END
+VER 3 010000000000000A "猫鼬撕咬" "ABILITY_HUNTER_MONGOOSEBITE"
+#showtooltips 猫鼬撕咬
+/use 13
+/use 14
+/cast [@pet,dead][nopet]复活宠物
+/cast 猫鼬撕咬
+END
+VER 3 0100000000000005 "眼镜蛇射击" "ABILITY_HUNTER_COBRASHOT"
+#showtooltips 眼镜蛇射击
+/startattack
+/use 13
+/use 1
+/cast [@pet,dead][nopet]凤凰之心
+/cast 眼镜蛇射击
+/cast 泰坦之雷
+END
+VER 3 0100000000000008 "瞄准射击" "INV_SPEAR_07"
+#showtooltips 瞄准射击
+/use 13
+/use 14
+/cast 瞄准射击
+END
+VER 3 010000000000000C "雄鹰之怒" "INV_MISC_QUESTIONMARK"
+#showtooltips 雄鹰之怒
+/use 13
+/use 14
+/cast [@pet,dead][nopet]复活宠物
+/castsequence reset=3 毒蛇猎手,猫鼬撕咬,猫鼬撕咬,猫鼬撕咬,雄鹰之怒
+END

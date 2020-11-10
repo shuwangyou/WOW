@@ -1,0 +1,45 @@
+
+_NPCScanOptions = {
+	["NPCs"] = {
+		[64004] = "幽灵熊猫人渔夫",
+		[50410] = "神秘的骆驼雕像",
+		[50409] = "神秘的骆驼雕像",
+		[64191] = "幽灵熊猫人木匠",
+	},
+	["Version"] = 3,
+	["NPCWorldIDs"] = {
+		[64004] = "潘达利亚",
+		[50410] = "卡利姆多",
+		[50409] = "卡利姆多",
+		[64191] = "潘达利亚",
+	},
+	["IgnoreList"] = {
+		["NPCs"] = {
+		},
+		["MapName"] = {
+		},
+		["WorldID"] = {
+		},
+	},
+	["ChangeAlertShown"] = true,
+}
+_NPCScanProfiles = {
+	["profileKeys"] = {
+		["舒预言 - 伊莫塔尔"] = "Default",
+		["舒绿娥 - 埃德萨拉"] = "Default",
+		["舒唤天 - 伊莫塔尔"] = "Default",
+		["舒春丽 - 伊莫塔尔"] = "Default",
+		["舒心情 - 国王之谷"] = "Default",
+		["舒殉魂 - 安苏"] = "Default",
+		["舒耀星辰 - 伊莫塔尔"] = "Default",
+		["舒耀星辰 - 雷克萨"] = "Default",
+		["舒绿娥 - 伊莫塔尔"] = "Default",
+		["舒墨兰 - 伊莫塔尔"] = "Default",
+		["舒殉魂 - 伊森利恩"] = "Default",
+		["舒忘忧 - 伊莫塔尔"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

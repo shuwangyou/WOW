@@ -1,0 +1,45 @@
+
+TradeSkillMaster_AuctioningDB = {
+	["g@ @confirmCompleteSound"] = "TSM_NO_SOUND",
+	["g@ @roundNormalPrice"] = false,
+	["f@Horde - 埃基尔松@whitelist"] = {
+	},
+	["f@Alliance - 伊莫塔尔@player"] = {
+		["骨灰级吖"] = true,
+	},
+	["_scopeKeys"] = {
+		["char"] = {
+			"舒殉魂 - 埃基尔松", -- [1]
+			"骨灰级吖 - 伊莫塔尔", -- [2]
+		},
+		["factionrealm"] = {
+			"Horde - 埃基尔松", -- [1]
+			"Alliance - 伊莫塔尔", -- [2]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["realm"] = {
+			"埃基尔松", -- [1]
+			"伊莫塔尔", -- [2]
+		},
+	},
+	["g@ @priceColumn"] = 1,
+	["f@Alliance - 伊莫塔尔@whitelist"] = {
+	},
+	["g@ @helpPlatesShown"] = {
+	},
+	["g@ @scanCompleteSound"] = "TSM_NO_SOUND",
+	["_hash"] = 5870975,
+	["g@ @matchWhitelist"] = true,
+	["g@ @cancelWithBid"] = false,
+	["f@Horde - 埃基尔松@player"] = {
+		["舒殉魂"] = true,
+	},
+	["g@ @disableInvalidMsg"] = false,
+	["_version"] = 1,
+	["_currentProfile"] = {
+		["舒殉魂 - 埃基尔松"] = "Default",
+		["骨灰级吖 - 伊莫塔尔"] = "Default",
+	},
+}

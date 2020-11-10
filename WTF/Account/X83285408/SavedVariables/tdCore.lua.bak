@@ -1,0 +1,255 @@
+
+TDDB_TDCORE = {
+	["舒春丽 - 伊莫塔尔"] = {
+		["minimapAngles"] = {
+			["tdCore"] = -152,
+			["tdPack"] = -253,
+		},
+		["minimapButtons"] = {
+			["tdPack"] = true,
+		},
+		["minimapGroups"] = {
+			["tdPack"] = true,
+		},
+	},
+	["舒唤天 - 伊莫塔尔"] = {
+		["minimapAngles"] = {
+			["tdCore"] = -152,
+			["tdPack"] = -253,
+		},
+		["minimapButtons"] = {
+			["tdPack"] = true,
+		},
+		["minimapGroups"] = {
+			["tdPack"] = true,
+		},
+	},
+	["舒预言 - 冰风岗"] = {
+		["minimapAngles"] = {
+			["tdCore"] = -152,
+			["tdPack"] = -253,
+		},
+		["minimapButtons"] = {
+			["tdPack"] = true,
+		},
+		["minimapGroups"] = {
+			["tdPack"] = true,
+		},
+	},
+	["舒耀星辰 - 伊莫塔尔"] = {
+		["minimapAngles"] = {
+			["tdCore"] = -152,
+			["tdPack"] = -253,
+		},
+		["minimapButtons"] = {
+			["tdPack"] = true,
+		},
+		["minimapGroups"] = {
+			["tdPack"] = true,
+		},
+	},
+	["舒战宇 - 伊莫塔尔"] = {
+		["minimapAngles"] = {
+			["tdCore"] = -152,
+			["tdPack"] = -253,
+		},
+		["minimapButtons"] = {
+			["tdPack"] = true,
+		},
+		["minimapGroups"] = {
+			["tdPack"] = true,
+		},
+	},
+	["舒忘忧 - 伊莫塔尔"] = {
+		["minimapAngles"] = {
+			["tdCore"] = -152,
+			["tdPack"] = -253,
+		},
+		["minimapButtons"] = {
+			["tdPack"] = true,
+		},
+		["minimapGroups"] = {
+			["tdPack"] = true,
+		},
+	},
+	["舒预言 - 伊莫塔尔"] = {
+		["minimapAngles"] = {
+			["tdCore"] = -152,
+			["tdPack"] = -253,
+		},
+		["minimapButtons"] = {
+			["tdPack"] = true,
+		},
+		["minimapGroups"] = {
+			["tdPack"] = true,
+		},
+	},
+	["舒耀星辰 - 雷克萨"] = {
+		["minimapAngles"] = {
+			["tdCore"] = -152,
+			["tdPack"] = -253,
+		},
+		["minimapButtons"] = {
+			["tdPack"] = true,
+		},
+		["minimapGroups"] = {
+			["tdPack"] = true,
+		},
+	},
+	["舒孑影 - 伊莫塔尔"] = {
+		["minimapAngles"] = {
+			["tdCore"] = -152,
+			["tdPack"] = -253,
+		},
+		["minimapButtons"] = {
+			["tdPack"] = true,
+		},
+		["minimapGroups"] = {
+			["tdPack"] = true,
+		},
+	},
+	["舒孑影 - 瓦里安"] = {
+		["minimapAngles"] = {
+			["tdCore"] = -152,
+			["tdPack"] = -253,
+		},
+		["minimapButtons"] = {
+			["tdPack"] = true,
+		},
+		["minimapGroups"] = {
+			["tdPack"] = true,
+		},
+	},
+	["Jackiexu - 伊莫塔尔"] = {
+		["minimapAngles"] = {
+			["tdCore"] = -152,
+			["tdPack"] = -253,
+		},
+		["minimapButtons"] = {
+			["tdPack"] = true,
+		},
+		["minimapGroups"] = {
+			["tdPack"] = true,
+		},
+	},
+	["舒殉魂 - 伊森利恩"] = {
+		["minimapAngles"] = {
+			["tdCore"] = -152,
+			["tdPack"] = -253,
+		},
+		["minimapButtons"] = {
+			["tdPack"] = true,
+		},
+		["minimapGroups"] = {
+			["tdPack"] = true,
+		},
+	},
+	["舒心情 - 伊森利恩"] = {
+		["minimapAngles"] = {
+			["tdCore"] = -152,
+			["tdPack"] = -253,
+		},
+		["minimapButtons"] = {
+			["tdPack"] = true,
+		},
+		["minimapGroups"] = {
+			["tdPack"] = true,
+		},
+	},
+	["舒心情 - 安苏"] = {
+		["minimapAngles"] = {
+			["tdCore"] = -152,
+			["tdPack"] = -253,
+		},
+		["minimapButtons"] = {
+			["tdPack"] = true,
+		},
+		["minimapGroups"] = {
+			["tdPack"] = true,
+		},
+	},
+	["舒殉魂 - 安苏"] = {
+		["minimapAngles"] = {
+			["tdCore"] = -152,
+			["tdPack"] = -253,
+		},
+		["minimapButtons"] = {
+			["tdPack"] = true,
+		},
+		["minimapGroups"] = {
+			["tdPack"] = true,
+		},
+	},
+	["舒绿娥 - 伊莫塔尔"] = {
+		["minimapAngles"] = {
+			["tdCore"] = -152,
+			["tdPack"] = -253,
+		},
+		["minimapButtons"] = {
+			["tdPack"] = true,
+		},
+		["minimapGroups"] = {
+			["tdPack"] = true,
+		},
+	},
+	["舒绿娥 - 埃德萨拉"] = {
+		["minimapAngles"] = {
+			["tdCore"] = -152,
+			["tdPack"] = -253,
+		},
+		["minimapButtons"] = {
+			["tdPack"] = true,
+		},
+		["minimapGroups"] = {
+			["tdPack"] = true,
+		},
+	},
+	["舒心情 - 国王之谷"] = {
+		["minimapAngles"] = {
+			["tdCore"] = -152,
+			["tdPack"] = -253,
+		},
+		["minimapButtons"] = {
+			["tdPack"] = true,
+		},
+		["minimapGroups"] = {
+			["tdPack"] = true,
+		},
+	},
+	["舒墨兰 - 伊莫塔尔"] = {
+		["minimapAngles"] = {
+			["tdCore"] = -152,
+			["tdPack"] = -253,
+		},
+		["minimapButtons"] = {
+			["tdPack"] = true,
+		},
+		["minimapGroups"] = {
+			["tdPack"] = true,
+		},
+	},
+	["舒孑影 - 安苏"] = {
+		["minimapAngles"] = {
+			["tdCore"] = -152,
+			["tdPack"] = -253,
+		},
+		["minimapButtons"] = {
+			["tdPack"] = true,
+		},
+		["minimapGroups"] = {
+			["tdPack"] = true,
+		},
+	},
+	["舒殉魂 - 伊莫塔尔"] = {
+		["minimapAngles"] = {
+			["tdCore"] = -152,
+			["tdPack"] = -253,
+		},
+		["minimapButtons"] = {
+			["tdPack"] = true,
+		},
+		["minimapGroups"] = {
+			["tdPack"] = true,
+		},
+	},
+}
