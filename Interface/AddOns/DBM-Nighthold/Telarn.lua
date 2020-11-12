@@ -1,10 +1,9 @@
 local mod	= DBM:NewMod(1761, "DBM-Nighthold", nil, 786)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("20190625143337")
+mod:SetRevision("20200806141949")
 mod:SetCreatureID(104528)--109042
 mod:SetEncounterID(1886)
-mod:SetZone()
 mod:SetUsedIcons(6, 5, 4, 3, 2, 1)
 mod:SetHotfixNoticeRev(15751)
 mod.respawnTime = 29.5
@@ -24,10 +23,10 @@ mod:RegisterEventsInCombat(
 )
 
 --[[
-(target.id = 109040 or target.id = 109038 or target.id = 109041) and type = "death" or 
-(ability.id = 218438 or ability.id = 223034 or ability.id = 218774 or ability.id = 218927 or ability.id = 216830 or ability.id = 216877 or ability.id = 218148 or ability.id = 223219) and type = "begincast" 
-or (ability.id = 218807 or ability.id = 218424 or ability.id = 223437) and type = "cast" or 
-ability.id = 222021 or ability.id = 222010 or ability.id = 222020
+(target.id = 109040 or target.id = 109038 or target.id = 109041) and type = "death"
+ or (ability.id = 218438 or ability.id = 223034 or ability.id = 218774 or ability.id = 218927 or ability.id = 216830 or ability.id = 216877 or ability.id = 218148 or ability.id = 223219) and type = "begincast"
+ or (ability.id = 218807 or ability.id = 218424 or ability.id = 223437) and type = "cast"
+ or ability.id = 222021 or ability.id = 222010 or ability.id = 222020
 --]]
 --or self:IsMythic() and self.vb.phase == 1--Ready to go in case my theory is correct
 --Stage 1: The High Botanist
@@ -66,23 +65,23 @@ local yellCoN						= mod:NewPosYell(218809)
 --Mythic is unknown but I suspect it's inversed. Needs to be revetted with new changes
 --Stage 1: The High Botanist
 mod:AddTimerLine(SCENARIO_STAGE:format(1))
-local timerControlledChaosCD		= mod:NewNextTimer(35, 218438, nil, nil, nil, 3, nil, DBM_CORE_DEADLY_ICON, nil, 1, 4)
-local timerParasiticFetterCD		= mod:NewNextTimer(35, 218304, nil, nil, nil, 3, nil, DBM_CORE_MAGIC_ICON, nil, not mod:IsTank() and 2, 4)--Technically can also be made add timer instead of targetted
+local timerControlledChaosCD		= mod:NewNextTimer(35, 218438, nil, nil, nil, 3, nil, DBM_CORE_L.DEADLY_ICON, nil, 1, 4)
+local timerParasiticFetterCD		= mod:NewNextTimer(35, 218304, nil, nil, nil, 3, nil, DBM_CORE_L.MAGIC_ICON, nil, not mod:IsTank() and 2, 4)--Technically can also be made add timer instead of targetted
 local timerSolarCollapseCD			= mod:NewNextTimer(35, 218148, nil, nil, nil, 3)
 
 --Stage 2: Nightosis
 mod:AddTimerLine(SCENARIO_STAGE:format(2))
 local timerPlasmaSpheresCD			= mod:NewNextTimer(55, 218774, 104923, nil, nil, 1)--"Summon Balls" short text
-local timerFlareCD					= mod:NewCDTimer(8.5, 218806, nil, "Melee", nil, 5, nil, DBM_CORE_TANK_ICON)--Exception to 35, 40, 50 rule
+local timerFlareCD					= mod:NewCDTimer(8.5, 218806, nil, "Melee", nil, 5, nil, DBM_CORE_L.TANK_ICON)--Exception to 35, 40, 50 rule
 --Stage 3: Pure Forms
 mod:AddTimerLine(SCENARIO_STAGE:format(3))
 local timerToxicSporesCD			= mod:NewCDTimer(8, 219049, nil, nil, nil, 3)--Exception to 35, 40, 50 rule
-local timerGraceOfNatureCD			= mod:NewNextTimer(48, 218927, nil, "Tank", nil, 5, nil, DBM_CORE_TANK_ICON, nil, 2, 4)--48-51
+local timerGraceOfNatureCD			= mod:NewNextTimer(48, 218927, nil, "Tank", nil, 5, nil, DBM_CORE_L.TANK_ICON, nil, 2, 4)--48-51
 local timerCoNCD					= mod:NewNextTimer(50, 218809, nil, nil, nil, 3, nil, nil, nil, not mod:IsTank() and 3, 4)
 mod:AddTimerLine(PLAYER_DIFFICULTY6)
-local timerSummonChaosSpheresCD		= mod:NewNextTimer(35, 223034, nil, nil, nil, 1, nil, DBM_CORE_HEROIC_ICON)
-local timerCollapseofNightCD		= mod:NewNextTimer(35, 223437, nil, nil, nil, 3, nil, DBM_CORE_HEROIC_ICON, nil, not mod:IsTank() and 3, 4)
-local timerChaotiSpheresofNatureCD	= mod:NewNextTimer(35, 223219, nil, nil, nil, 1, nil, DBM_CORE_HEROIC_ICON)
+local timerSummonChaosSpheresCD		= mod:NewNextTimer(35, 223034, nil, nil, nil, 1, nil, DBM_CORE_L.HEROIC_ICON)
+local timerCollapseofNightCD		= mod:NewNextTimer(35, 223437, nil, nil, nil, 3, nil, DBM_CORE_L.HEROIC_ICON, nil, not mod:IsTank() and 3, 4)
+local timerChaotiSpheresofNatureCD	= mod:NewNextTimer(35, 223219, nil, nil, nil, 1, nil, DBM_CORE_L.HEROIC_ICON)
 
 local berserkTimer					= mod:NewBerserkTimer(480)
 
@@ -138,7 +137,7 @@ function mod:OnCombatStart(delay)
 	self.vb.CoNIcon = 1
 	self.vb.phase = 1
 	if self:IsMythic() then
-		self:SetCreatureID(109038, 109040, 109041)		
+		self:SetCreatureID(109038, 109040, 109041)
 		self.vb.globalTimer = 64
 		timerSolarCollapseCD:Start(5-delay)
 		timerParasiticFetterCD:Start(16-delay)--16-18
@@ -332,9 +331,9 @@ function mod:SPELL_AURA_APPLIED(args)
 		if args:IsPlayer() then
 			specWarnParasiticFixate:Show()
 			specWarnParasiticFixate:Play("targetyou")
-		end
-		if self.Options.NPAuraOnFixate then
-			DBM.Nameplate:Show(true, args.sourceGUID, spellId)
+			if self.Options.NPAuraOnFixate then
+				DBM.Nameplate:Show(true, args.sourceGUID, spellId)
+			end
 		end
 --	elseif spellId == 219009 then
 --		local targetName = args.destName
@@ -374,7 +373,7 @@ function mod:SPELL_AURA_APPLIED(args)
 		--This theory is disabled right now cause order of first two MIGHT matter maybe? Hard to say with convoluted shit dungeon journal
 --[[	if self.vb.phase == 3 then
 			if cid == 109040 then--Arcanist Lives
-				
+
 			elseif cid == 109038 then--Solarist Lives
 				timerCollapseofNightCD:Start(22)
 			elseif cid == 109041 then--Naturalist Lives
@@ -463,7 +462,7 @@ function mod:SPELL_AURA_REMOVED(args)
 		if self.Options.SetIconOnFetter and not self:IsLFR() then
 			self:SetIcon(args.destName, 0)
 		end
-	elseif spellId == 218342 then
+	elseif spellId == 218342 and args:IsPlayer() then
 		if self.Options.NPAuraOnFixate then
 			DBM.Nameplate:Hide(true, args.sourceGUID, spellId)
 		end

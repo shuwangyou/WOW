@@ -61,10 +61,10 @@ Comergy_Config = {
 		["RuneFlash"] = true,
 		["SoundMana5"] = false,
 		["SplitEnergy1"] = true,
-		["ChiColor8"] = {
+		["EnergyColor5"] = {
 			0, -- [1]
 			1, -- [2]
-			1, -- [3]
+			0, -- [3]
 		},
 		["SoundRune1"] = false,
 		["SoundEnergy3"] = false,
@@ -140,8 +140,8 @@ Comergy_Config = {
 		["SoundChi4"] = false,
 		["UnifiedManaColor"] = true,
 		["RuneBGAlpha"] = 0.4,
-		["Spacing"] = 3,
-		["SplitEnergy3"] = false,
+		["ManaThreshold2"] = 125000,
+		["TextFont"] = 3,
 		["SplitMana3"] = false,
 		["ManaThreshold4"] = 225000,
 		["SplitEnergy2"] = false,
@@ -153,35 +153,35 @@ Comergy_Config = {
 			0.5, -- [4]
 		},
 		["ShowInStealth"] = true,
-		["TextCenter"] = false,
-		["ManaThreshold2"] = 125000,
+		["GradientManaColor"] = true,
+		["Spacing"] = 3,
 		["ShowWhenEnergyNotFull"] = false,
-		["RuneText"] = false,
-		["ManaHeight"] = 10,
-		["TextFont"] = 3,
 		["EnergyFlashColor"] = {
 			1, -- [1]
 			0.2, -- [2]
 			0.2, -- [3]
 		},
+		["ManaHeight"] = 10,
+		["SplitEnergy3"] = false,
+		["RuneText"] = false,
 		["ManaColor2"] = {
 			1, -- [1]
 			0.5, -- [2]
 			0, -- [3]
 		},
-		["SoundChi5"] = true,
 		["ManaColor1"] = {
 			1, -- [1]
 			0, -- [2]
 			0, -- [3]
 		},
+		["SoundChi5"] = true,
 		["EnergyHeight"] = 10,
+		["FrameStrata"] = 2,
 		["RuneColor3"] = {
 			0, -- [1]
 			0.5, -- [2]
 			1, -- [3]
 		},
-		["FrameStrata"] = 2,
 		["Width"] = 210,
 		["EnergyColor2"] = {
 			1, -- [1]
@@ -200,13 +200,13 @@ Comergy_Config = {
 			1, -- [3]
 			1, -- [4]
 		},
+		["SplitMana1"] = false,
+		["VerticalBars"] = false,
 		["ManaColor4"] = {
 			1, -- [1]
 			1, -- [2]
 			0, -- [3]
 		},
-		["VerticalBars"] = false,
-		["SplitMana1"] = false,
 		["TextColor"] = {
 			1, -- [1]
 			1, -- [2]
@@ -215,8 +215,8 @@ Comergy_Config = {
 		["ManaBGFlash"] = true,
 		["TextHeight"] = 14,
 		["EnergyText"] = true,
-		["SoundEnergy2"] = false,
 		["SoundChi7"] = false,
+		["SoundEnergy2"] = false,
 		["ManaThreshold3"] = 175000,
 		["ShowOnlyInCombat"] = false,
 		["UnifiedChiColor"] = false,
@@ -227,7 +227,7 @@ Comergy_Config = {
 		},
 		["EnergyThreshold1"] = 25,
 		["SoundRune3"] = false,
-		["GradientManaColor"] = true,
+		["TextCenter"] = false,
 		["SoundChi2"] = false,
 		["SplitMana2"] = false,
 		["EnergyThreshold4"] = 60,
@@ -257,10 +257,10 @@ Comergy_Config = {
 		["X"] = 15,
 		["EnergyThreshold2"] = 35,
 		["EnergyBGFlash"] = true,
-		["EnergyColor5"] = {
+		["ChiColor8"] = {
 			0, -- [1]
 			1, -- [2]
-			0, -- [3]
+			1, -- [3]
 		},
 		["EnergyFlash"] = false,
 		["AnticipationCombo"] = true,

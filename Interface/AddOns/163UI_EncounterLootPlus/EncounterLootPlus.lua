@@ -1,3 +1,17 @@
+CoreDependCall("Blizzard_EncounterJournal", function()
+    hooksecurefunc("EJTierDropDown_Initialize", function(self, level)
+        local listFrame = _G["DropDownList"..level];
+        local expId = 9
+        if listFrame.numButtons >= expId then return end
+        local info = UIDropDownMenu_CreateInfo();
+        info.text = EJ_GetTierInfo(expId);
+        info.func = EncounterJournal_TierDropDown_Select
+        info.checked = expId == EJ_GetCurrentTier;
+        info.arg1 = expId;
+        UIDropDownMenu_AddButton(info, 1)
+    end)
+end)
+
 --[[------------------------------------------------------------
 2017.06 warbaby
 ---------------------------------------------------------------]]
@@ -27,7 +41,7 @@ ELP.frame:SetScript("OnEvent", function(self, event, arg1)
     if event == "VARIABLES_LOADED" then
         if ELPDATA and db ~= ELPDATA then
             wipe(db)
-            copy(ELPDATA, db)
+            u1copy(ELPDATA, db)
         end
         ELPDATA = db
         db.ITEMS = db.ITEMS or {}
@@ -43,7 +57,7 @@ ELP.frame:SetScript("OnEvent", function(self, event, arg1)
             :LEFT(EncounterJournalInstanceSelectLootJournalTab, "RIGHT", 24, -2)
             :AddFrameLevel(3, CharacterFrameInsetRight)
             :SetScript("OnClick", function()
-                if db.range == 0 then db.range = 3 end
+                if db.range == 0 then db.range = 5 end
                 EncounterJournal_DisplayInstance(1023)
                 EncounterJournalEncounterFrameInfoLootTab:Click()
                 EncounterJournalEncounterFrameInfoLootScrollFrameFilterToggle:Click()

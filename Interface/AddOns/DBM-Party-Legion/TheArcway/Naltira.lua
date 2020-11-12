@@ -1,13 +1,12 @@
 local mod	= DBM:NewMod(1500, "DBM-Party-Legion", 6, 726)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("20190421035925")
+mod.statTypes = "heroic,mythic,challenge"
+
+mod:SetRevision("20200912135206")
 mod:SetCreatureID(98207)
 mod:SetEncounterID(1826)
-mod:SetZone()
 mod:SetUsedIcons(2, 1)
-
-mod.noNormal = true
 
 mod:RegisterCombat("combat")
 
@@ -96,7 +95,7 @@ function mod:UNIT_SPELLCAST_CHANNEL_START(uId, _, bfaSpellId, _, legacySpellId)
 	if spellId == 199811 then--Blink Strikes Channel ending
 		self.vb.blinkCount = self.vb.blinkCount + 1
 		local targetname = UnitExists("boss1target") and UnitName("boss1target")
-		if not targetname then 
+		if not targetname then
 			return
 		end
 		if UnitIsUnit("boss1target", "player") then

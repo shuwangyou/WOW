@@ -1,17 +1,19 @@
 
 OmniCCDB = {
 	["global"] = {
-		["addonVersion"] = "8.3.3",
+		["addonVersion"] = "9.0.3",
 		["dbVersion"] = 5,
 	},
 	["profileKeys"] = {
-		["舒春丽 - 伊莫塔尔"] = "默认",
-		["舒孑影 - 伊莫塔尔"] = "默认",
 		["舒预言 - 伊莫塔尔"] = "默认",
+		["舒孑影 - 伊莫塔尔"] = "默认",
 		["Jackiexu - 伊莫塔尔"] = "默认",
+		["花菜的巴巴 - 伊莫塔尔"] = "默认",
+		["舒春丽 - 伊莫塔尔"] = "默认",
+		["舒墨兰 - 伊莫塔尔"] = "默认",
 		["舒预言 - 死亡之翼"] = "默认",
 		["舒孑影 - 安苏"] = "默认",
-		["舒墨兰 - 伊莫塔尔"] = "默认",
+		["舒殉魂 - 伊莫塔尔"] = "默认",
 	},
 	["profiles"] = {
 		["默认"] = {
@@ -58,13 +60,13 @@ OmniCCDB = {
 							["scale"] = 1,
 						},
 					},
+					["minDuration"] = 3,
 					["anchor"] = "TOPRIGHT",
 					["effect"] = "none",
 					["spiralOpacity"] = 0.6,
 					["yOff"] = 5,
 					["xOff"] = 10,
 					["fontSize"] = 26,
-					["minDuration"] = 3,
 					["minSize"] = 0.1,
 				},
 				["默认"] = {
@@ -132,7 +134,6 @@ OmniCCDB = {
 	},
 }
 OmniCC4Config = {
-	["version"] = "8.2.5",
 	["groupSettings"] = {
 		["base"] = {
 			["styles"] = {
@@ -172,17 +173,17 @@ OmniCC4Config = {
 			["fontFace"] = "Fonts\\ARKai_T.ttf",
 			["fontSize"] = 26,
 			["effect"] = "none",
-			["yOff"] = 5,
+			["scaleText"] = true,
 			["mmSSDuration"] = 0,
 			["minSize"] = 0.1,
 			["spiralOpacity"] = 0.6,
-			["scaleText"] = true,
+			["minDuration"] = 3,
 			["xOff"] = 10,
 			["tenthsDuration"] = 0,
 			["fontOutline"] = "OUTLINE",
 			["anchor"] = "TOPRIGHT",
 			["minEffectDuration"] = 30,
-			["minDuration"] = 3,
+			["yOff"] = 5,
 			["styles"] = {
 				["soon"] = {
 					["a"] = 1,
@@ -239,4 +240,5 @@ OmniCC4Config = {
 			["enabled"] = true,
 		}, -- [1]
 	},
+	["version"] = "8.2.5",
 }

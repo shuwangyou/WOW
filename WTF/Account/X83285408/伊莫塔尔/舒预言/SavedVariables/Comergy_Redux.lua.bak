@@ -35,10 +35,10 @@ Comergy_Config = {
 			1, -- [3]
 		},
 		["SoundMana1"] = false,
-		["ChiColor8"] = {
+		["EnergyColor5"] = {
 			0, -- [1]
 			1, -- [2]
-			1, -- [3]
+			0, -- [3]
 		},
 		["EnergyFlash"] = false,
 		["SplitEnergy4"] = true,
@@ -66,10 +66,10 @@ Comergy_Config = {
 		["RuneFlash"] = true,
 		["ShowTargetHealthBar"] = false,
 		["SplitEnergy1"] = true,
-		["EnergyColor5"] = {
+		["ChiColor8"] = {
 			0, -- [1]
 			1, -- [2]
-			0, -- [3]
+			1, -- [3]
 		},
 		["SoundChi3"] = false,
 		["ChiColor3"] = {
@@ -153,12 +153,8 @@ Comergy_Config = {
 		},
 		["SoundChi2"] = false,
 		["RuneBGAlpha"] = 0.4,
-		["TextCenter"] = false,
-		["EnergyFlashColor"] = {
-			1, -- [1]
-			0.2, -- [2]
-			0.2, -- [3]
-		},
+		["GradientManaColor"] = true,
+		["RuneText"] = false,
 		["SplitMana3"] = false,
 		["ManaThreshold4"] = 225000,
 		["EnergyThreshold1"] = 25,
@@ -170,27 +166,31 @@ Comergy_Config = {
 			0.5, -- [4]
 		},
 		["SoundChi4"] = false,
-		["GradientManaColor"] = true,
-		["ManaThreshold2"] = 125000,
+		["TextCenter"] = false,
+		["Spacing"] = 3,
 		["UnifiedChiColor"] = false,
-		["SplitEnergy3"] = false,
-		["ManaHeight"] = 10,
-		["RuneText"] = false,
 		["TextFont"] = 3,
+		["ManaHeight"] = 10,
+		["EnergyFlashColor"] = {
+			1, -- [1]
+			0.2, -- [2]
+			0.2, -- [3]
+		},
+		["SplitEnergy3"] = false,
 		["ManaColor2"] = {
 			1, -- [1]
 			0.5, -- [2]
 			0, -- [3]
 		},
-		["SoundEnergy2"] = false,
-		["ManaColor1"] = {
-			1, -- [1]
-			0, -- [2]
-			0, -- [3]
-		},
 		["SoundChi7"] = false,
+		["SoundChi5"] = true,
+		["SoundEnergy2"] = false,
 		["EnergyText"] = true,
-		["FrameStrata"] = 2,
+		["RuneColor3"] = {
+			0, -- [1]
+			0.5, -- [2]
+			1, -- [3]
+		},
 		["Width"] = 210,
 		["EnergyColor2"] = {
 			1, -- [1]
@@ -211,32 +211,32 @@ Comergy_Config = {
 			1, -- [2]
 			1, -- [3]
 		},
-		["SplitMana1"] = false,
-		["VerticalBars"] = false,
 		["ManaColor4"] = {
 			1, -- [1]
 			1, -- [2]
 			0, -- [3]
 		},
+		["VerticalBars"] = false,
+		["SplitMana1"] = false,
 		["ChiColor5"] = {
 			0, -- [1]
 			0.5, -- [2]
 			1, -- [3]
 		},
-		["RuneColor3"] = {
-			0, -- [1]
-			0.5, -- [2]
-			1, -- [3]
-		},
+		["FrameStrata"] = 2,
 		["EnergyHeight"] = 10,
-		["SoundChi5"] = true,
+		["ManaColor1"] = {
+			1, -- [1]
+			0, -- [2]
+			0, -- [3]
+		},
 		["ManaThreshold3"] = 175000,
 		["ShowOnlyInCombat"] = false,
 		["ShowWhenEnergyNotFull"] = false,
 		["ShowInStealth"] = true,
 		["SplitEnergy2"] = false,
 		["SoundRune3"] = false,
-		["Spacing"] = 3,
+		["ManaThreshold2"] = 125000,
 		["UnifiedManaColor"] = true,
 		["SplitMana2"] = false,
 		["EnergyThreshold4"] = 60,

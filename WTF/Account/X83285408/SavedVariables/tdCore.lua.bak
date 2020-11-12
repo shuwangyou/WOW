@@ -36,6 +36,18 @@ TDDB_TDCORE = {
 			["tdPack"] = true,
 		},
 	},
+	["花菜的巴巴 - 伊莫塔尔"] = {
+		["minimapAngles"] = {
+			["tdCore"] = -152,
+			["tdPack"] = -253,
+		},
+		["minimapButtons"] = {
+			["tdPack"] = true,
+		},
+		["minimapGroups"] = {
+			["tdPack"] = true,
+		},
+	},
 	["舒耀星辰 - 伊莫塔尔"] = {
 		["minimapAngles"] = {
 			["tdCore"] = -152,

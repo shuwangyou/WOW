@@ -1,5 +1,5 @@
 --- Kaliel's Tracker
---- Copyright (c) 2012-2019, Marouan Sabbagh <mar.sabbagh@gmail.com>
+--- Copyright (c) 2012-2020, Marouan Sabbagh <mar.sabbagh@gmail.com>
 --- All Rights Reserved.
 ---
 --- This file is part of addon Kaliel's Tracker.
@@ -43,8 +43,6 @@ local OTF = ObjectiveTrackerFrame
 
 local overlay
 local overlayShown = false
-
-local _, numQuests = GetNumQuestLogEntries()
 
 local OverlayFrameUpdate, OverlayFrameHide, GetModulesOptionsTable, MoveModule, SetSharedColor, IsSpecialLocale	-- functions
 
@@ -111,15 +109,7 @@ local defaults = {
 		soundQuest = false,
 		soundQuestComplete = "KT - Default",
 
-		modulesOrder = {
-			"SCENARIO_CONTENT_TRACKER_MODULE",
-			"UI_WIDGET_TRACKER_MODULE",
-			"AUTO_QUEST_POPUP_TRACKER_MODULE",
-			"QUEST_TRACKER_MODULE",
-			"BONUS_OBJECTIVE_TRACKER_MODULE",
-			"WORLD_QUEST_TRACKER_MODULE",
-			"ACHIEVEMENT_TRACKER_MODULE"
-		},
+		modulesOrder = KT.BLIZZARD_MODULES,
 
 		addonMasque = false,
 		addonPetTracker = false,
@@ -127,6 +117,13 @@ local defaults = {
 	},
 	char = {
 		collapsed = false,
+		quests = {
+			num = 0,
+			favorites = {}
+		},
+		achievements = {
+			favorites = {}
+		},
 	}
 }
 
@@ -148,9 +145,16 @@ local options = {
 						version = {
 							name = L" |cffffd100Version:|r  "..KT.version,
 							type = "description",
-							width = "double",
+							width = "normal",
 							fontSize = "medium",
-							order = 0.1,
+							order = 0.11,
+						},
+						build = {
+							name = " |cffffd100Build:|r  Retail",
+							type = "description",
+							width = "normal",
+							fontSize = "medium",
+							order = 0.12,
 						},
 						slashCmd = {
 							name = cBold..L" /kt|r  |cff808080...............|r  Toggle (expand/collapse) the tracker\n"..
@@ -452,7 +456,7 @@ local options = {
 								KT.forcedUpdate = true
 								ObjectiveTracker_Update()
 								if PetTracker then
-									PetTracker.Objectives:TrackingChanged()
+									PetTracker.Objectives:Update()
 								end
 								KT.forcedUpdate = false
 							end,
@@ -477,7 +481,7 @@ local options = {
 								KT:SetText()
 								ObjectiveTracker_Update()
 								if PetTracker then
-									PetTracker.Objectives:TrackingChanged()
+									PetTracker.Objectives:Update()
 								end
 								KT.forcedUpdate = false
 							end,
@@ -495,7 +499,7 @@ local options = {
 								KT:SetText()
 								ObjectiveTracker_Update()
 								if PetTracker then
-									PetTracker.Objectives:TrackingChanged()
+									PetTracker.Objectives:Update()
 								end
 								KT.forcedUpdate = false
 							end,
@@ -518,7 +522,7 @@ local options = {
 								KT:SetText()
 								ObjectiveTracker_Update()
 								if PetTracker then
-									PetTracker.Objectives:TrackingChanged()
+									PetTracker.Objectives:Update()
 								end
 								KT.forcedUpdate = false
 							end,
@@ -564,7 +568,7 @@ local options = {
 							order = 3.6,
 						},
 						objNumSwitch = {
-							name = L"Objective numbers at the beginning "..beta,
+							name = L"Objective numbers at the beginning ",
 							desc = L["Changing the position of objective numbers at the beginning of the line. "..
 								   cBold.."Only for deDE, esES, frFR, ruRU locale."],
 							descStyle = "inline",
@@ -778,14 +782,15 @@ local options = {
 							order = 4.65,
 						},
 						hdrCollapsedTxtLabel = {
-							name = L" Collapsed\n text",
+							name = L" Collapsed tracker text",
 							type = "description",
-							width = "half",
+							width = "normal",
 							fontSize = "medium",
 							order = 4.7,
 						},
 						hdrCollapsedTxt1 = {
 							name = L"None",
+							desc = "Reduces the tracker width when minimized.",
 							type = "toggle",
 							width = "half",
 							get = function()
@@ -798,7 +803,7 @@ local options = {
 							order = 4.71,
 						},
 						hdrCollapsedTxt2 = {
-							name = ("%d/%d"):format(numQuests, MAX_QUESTS),
+							name = ("%d/%d"):format(0, MAX_QUESTS),
 							type = "toggle",
 							width = "half",
 							get = function()
@@ -811,7 +816,7 @@ local options = {
 							order = 4.72,
 						},
 						hdrCollapsedTxt3 = {
-							name = L("%d/%d Quests"):format(numQuests, MAX_QUESTS),
+							name = L("%d/%d Quests"):format(0, MAX_QUESTS),
 							type = "toggle",
 							get = function()
 								return (db.hdrCollapsedTxt == 3)
@@ -830,6 +835,7 @@ local options = {
 								db.hdrOtherButtons = not db.hdrOtherButtons
 								KT:ToggleOtherButtons()
 								KT:SetBackground()
+								ObjectiveTracker_Update()
 							end,
 							order = 4.8,
 						},
@@ -882,19 +888,22 @@ local options = {
 							order = 5.2,
 						},
 						qiActiveButton = {
-							name = L"Enable Active button "..beta,
-							desc = L["Show Quest item button for CLOSEST quest as \"Extra Action Button\". ".."\n"..
+							name = L"Enable Active button ",
+							desc = L["Show Quest item button for CLOSEST quest as \"Extra Action Button\".\n"..
 								   cBold.."Key bind is shared with EXTRAACTIONBUTTON1."],
 							descStyle = "inline",
 							width = "double",
 							type = "toggle",
+                            confirm = true,
+                            confirmText = warning,
 							set = function()
 								db.qiActiveButton = not db.qiActiveButton
 								if db.qiActiveButton then
 									KT.ActiveButton:Enable()
 								else
 									KT.ActiveButton:Disable()
-								end
+                                end
+                                ReloadUI()
 							end,
 							order = 5.3,
 						},
@@ -933,6 +942,7 @@ local options = {
 							end,
 							set = function()
 								db.qiActiveButtonBindingShow = not db.qiActiveButtonBindingShow
+								KTF.ActiveFrame:Hide()
 								KT.ActiveButton:Update()
 							end,
 							order = 5.5,
@@ -957,6 +967,7 @@ local options = {
 								return (not IsAddOnLoaded("Masque") or not db.addonMasque or not KT.AddonOthers:IsEnabled())
 							end,
 							func = function()
+								SlashCmdList["MASQUE"]()
 								SlashCmdList["MASQUE"]()
 							end,
 							order = 5.61,
@@ -1156,7 +1167,7 @@ local options = {
 			type = "group",
 			args = {
 				sec1 = {
-					name = L"Order of Modules "..beta,
+					name = L"Order of Modules ",
 					type = "group",
 					inline = true,
 					order = 1,
@@ -1216,13 +1227,15 @@ local options = {
 							end,
 							set = function()
 								db.addonPetTracker = not db.addonPetTracker
-								PetTracker.Sets.HideTracker = not db.addonPetTracker
+								if PetTracker.sets then
+									PetTracker.sets.trackPets = db.addonPetTracker
+								end
 								ReloadUI()
 							end,
 							order = 1.21,
 						},
 						addonPetTrackerDesc = {
-							name = beta.." PetTracker support adjusts display of zone pet tracking inside "..KT.title..". It also fix some visual bugs.",
+							name = "PetTracker support adjusts display of zone pet tracking inside "..KT.title..". It also fix some visual bugs.",
 							type = "description",
 							width = "double",
 							order = 1.22,
@@ -1245,7 +1258,7 @@ local options = {
 							order = 1.31,
 						},
 						addonTomTomDesc = {
-							name = beta.." TomTom support combined Blizzard's POI and\nTomTom's Arrow.",
+							name = "TomTom support combined Blizzard's POI and TomTom's Arrow.",
 							type = "description",
 							width = "double",
 							order = 1.32,
@@ -1349,7 +1362,7 @@ function KT:SetupOptions()
     for i, module in ipairs(defaults.profile.modulesOrder) do def[module] = true end
     for i, module in ipairs(db.modulesOrder) do
         if not def[module] or exist[module] then
-            db.modulesOrder = copy(defaults.profile.modulesOrder)
+            db.modulesOrder = u1copy(defaults.profile.modulesOrder)
             break
         end
         exist[module] = true
@@ -1452,8 +1465,6 @@ function GetModulesOptionsTable()
 			text = text.." *"
 		elseif module == "UI_WIDGET_TRACKER_MODULE" then
 			text = "[ "..ZONE.." ]"
-		elseif module == "AUTO_QUEST_POPUP_TRACKER_MODULE" then
-			text = L"Popup "..text
 		end
 
 		defaultModule = OTF.MODULES_UI_ORDER[i]
@@ -1462,8 +1473,6 @@ function GetModulesOptionsTable()
 			defaultText = defaultText.." *"
 		elseif defaultModule == UI_WIDGET_TRACKER_MODULE then
 			defaultText = "[ "..ZONE.." ]"
-		elseif defaultModule == AUTO_QUEST_POPUP_TRACKER_MODULE then
-			defaultText = L"Popup "..defaultText
 		end
 
 		args["pos"..i] = {

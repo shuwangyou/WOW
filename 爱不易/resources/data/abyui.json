@@ -1,14 +1,14 @@
 {
   "client" : [
-    "http://v4.aibuyi.top/release/abyui-release-client.json",
+    "http://v2.aibuyi.top/release/abyui-release-client.json",
     "http://abyui.top/release/abyui-release-client.json"
   ],
   "addons" : [
-    "http://v4.aibuyi.top/release/abyui-release-addons.json",
+    "http://v2.aibuyi.top/release/abyui-release-addons.json",
     "http://abyui.top/release/abyui-release-addons.json"
   ],
   "bulletin" : [
-    "http://v4.aibuyi.top/release/bulletin.html?20200122",
-        "http://abyui.top/release/bulletin.html?20200122"
+    "http://v2.aibuyi.top/release/bulletin.html?20201112B",
+        "http://abyui.top/release/bulletin.html?20201112B"
   ]
 }

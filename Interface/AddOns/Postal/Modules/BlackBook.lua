@@ -28,7 +28,9 @@ function Postal_BlackBook:OnEnable()
 		Postal_BlackBookButton = CreateFrame("Button", "Postal_BlackBookButton", SendMailFrame)
 		Postal_BlackBookButton:SetWidth(25)
 		Postal_BlackBookButton:SetHeight(25)
-		Postal_BlackBookButton:SetPoint("LEFT", SendMailNameEditBox, "RIGHT", -2, 2)
+
+		Postal_BlackBookButton:SetPoint("LEFT", SendMailNameEditBox, "RIGHT", -84, 2) --abyui origin is -2
+		Postal_BlackBookButton:SetFrameLevel(SendMailNameEditBox:GetFrameLevel()+1)
 		Postal_BlackBookButton:SetNormalTexture("Interface\\ChatFrame\\UI-ChatIcon-ScrollDown-Up")
 		Postal_BlackBookButton:SetHighlightTexture("Interface\\Buttons\\ButtonHilight-Round")
 		Postal_BlackBookButton:SetDisabledTexture("Interface\\ChatFrame\\UI-ChatIcon-ScrollDown-Disabled")
@@ -52,7 +54,7 @@ function Postal_BlackBook:OnEnable()
 		self:RawHookScript(SendMailNameEditBox, "OnChar")
 	end
 	self:HookScript(SendMailNameEditBox, "OnEditFocusGained")
-	--self:RawHook("AutoComplete_Update", true) --Community Invite failed
+	--self:SecureHook("AutoComplete_Update") --abyui
 	self:RegisterEvent("MAIL_SHOW")
 	self:RegisterEvent("PLAYER_ENTERING_WORLD", "AddAlt")
 
@@ -211,9 +213,9 @@ function Postal_BlackBook:OnEditFocusGained(editbox, ...)
 	SendMailNameEditBox:HighlightText()
 end
 
-function Postal_BlackBook:AutoComplete_Update(editBox, editBoxText, utf8Position, ...)
-	if editBox ~= SendMailNameEditBox or not Postal.db.profile.BlackBook.DisableBlizzardAutoComplete then
-		self.hooks["AutoComplete_Update"](editBox, editBoxText, utf8Position, ...)
+function Postal_BlackBook:AutoComplete_Update(parent, text, cursorPosition)
+	if parent == SendMailNameEditBox and Postal.db.profile.BlackBook.DisableBlizzardAutoComplete then
+		AutoComplete_HideIfAttachedTo(parent)
 	end
 end
 
@@ -357,9 +359,9 @@ end
 
 function Postal_BlackBook:SortAndCountNumFriends()
 	wipe(sorttable)
-	local numFriends = GetNumFriends()
+	local numFriends = C_FriendList.GetNumFriends()
 	for i = 1, numFriends do
-		sorttable[i] = GetFriendInfo(i)
+		sorttable[i] = C_FriendList.GetFriendInfoByIndex(i).name
 	end
 
 	-- removed lines causing issues
@@ -710,7 +712,7 @@ function Postal_BlackBook.ModuleMenu(self, level)
 		info.keepShownOnClick = 1
 		info.func = self.UncheckHack
 		info.checked = nil
-        info.disabled = true
+        info.disabled = true --abyui
 		info.arg1 = nil
 		info.arg2 = nil
 		info.text = L["Name auto-completion options"]
@@ -767,10 +769,12 @@ function Postal_BlackBook.ModuleMenu(self, level)
 			info.checked = db.AutoCompleteGuild
 			UIDropDownMenu_AddButton(info, level)
 
-			--info.text = L["Exclude randoms you interacted with"]
-			--info.arg2 = "ExcludeRandoms"
-			--info.checked = db.ExcludeRandoms
-			--UIDropDownMenu_AddButton(info, level)
+            --[[ --abyui
+			info.text = L["Exclude randoms you interacted with"]
+			info.arg2 = "ExcludeRandoms"
+			info.checked = db.ExcludeRandoms
+			UIDropDownMenu_AddButton(info, level)
+			--]]
 
 			info.text = L["Disable Blizzard's auto-completion popup menu"]
 			info.arg2 = "DisableBlizzardAutoComplete"

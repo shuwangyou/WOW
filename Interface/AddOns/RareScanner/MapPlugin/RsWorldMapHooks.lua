@@ -58,6 +58,7 @@ function RareScanner:HookDropDownMenu()
 				info.checked = private.db.map.displayEventIcons
 				UIDropDownMenu_AddButton(info);
 
+                --[[
 				info.text = AL["MAP_MENU_DISABLE_LAST_SEEN_FILTER"];
 				info.value = DISABLE_LAST_SEEN_FILTER;
 				info.checked = private.db.map.disableLastSeenFilter
@@ -72,6 +73,7 @@ function RareScanner:HookDropDownMenu()
 				info.value = DISABLE_LAST_SEEN_EVENT_FILTER;
 				info.checked = private.db.map.disableLastSeenEventFilter
 				UIDropDownMenu_AddButton(info);
+				--]]
 				 
 				info.text = AL["MAP_MENU_SHOW_NOT_DISCOVERED"];
 				info.value = SHOW_NOT_DISCOVERED_ICONS;
@@ -84,23 +86,28 @@ function RareScanner:HookDropDownMenu()
 				UIDropDownMenu_AddButton(info);
 			end)
 			
-			local origOverlayFrame_onSelection = overlayFrame.OnSelection;
-			overlayFrame.OnSelection = function(self, value, checked)
+			hooksecurefunc(overlayFrame, 'OnSelection', function(self, value, checked)
 				if (value == SHOW_RARE_NPC_ICONS) then
 					private.db.map.displayNpcIcons = checked
+					RareScanner:UpdateMinimap(true)
 				elseif (value == SHOW_CONTAINER_ICONS) then
 					private.db.map.displayContainerIcons = checked
+					RareScanner:UpdateMinimap(true)
 				elseif (value == SHOW_EVENT_ICONS) then
 					private.db.map.displayEventIcons = checked
+					RareScanner:UpdateMinimap(true)
 				elseif (value == SHOW_NOT_DISCOVERED_ICONS) then
 					private.db.map.displayNotDiscoveredMapIcons = checked
+					RareScanner:UpdateMinimap(true)
 				elseif (value == SHOW_NOT_DISCOVERED_ICONS_OLD) then
 					private.db.map.displayOldNotDiscoveredMapIcons = checked
+					RareScanner:UpdateMinimap(true)
 				elseif (value == DISABLE_LAST_SEEN_FILTER) then
 					if (not private.db.map.maxSeenTimeBak) then
 						private.db.map.maxSeenTimeBak = private.db.map.maxSeenTime
 					end
 					private.db.map.disableLastSeenFilter = checked
+					RareScanner:UpdateMinimap(true)
 					if (private.db.map.disableLastSeenFilter) then
 						private.db.map.maxSeenTime = 0
 					else
@@ -111,6 +118,7 @@ function RareScanner:HookDropDownMenu()
 						private.db.map.maxSeenContainerTimeBak = private.db.map.maxSeenTimeContainer
 					end
 					private.db.map.disableLastSeenContainerFilter = checked
+					RareScanner:UpdateMinimap(true)
 					if (private.db.map.disableLastSeenContainerFilter) then
 						private.db.map.maxSeenTimeContainer = 0
 					else
@@ -121,14 +129,15 @@ function RareScanner:HookDropDownMenu()
 						private.db.map.maxSeenEventTimeBak = private.db.map.maxSeenTimeEvent
 					end
 					private.db.map.disableLastSeenEventFilter = checked
+					RareScanner:UpdateMinimap(true)
 					if (private.db.map.disableLastSeenEventFilter) then
 						private.db.map.maxSeenTimeEvent = 0
 					else
 						private.db.map.maxSeenTimeEvent = private.db.map.maxSeenEventTimeBak 
 					end
 				end
-				origOverlayFrame_onSelection(self, value, checked)
-			end
+				self:GetParent():RefreshAllDataProviders();
+			end)
 			break
 		end
 	end

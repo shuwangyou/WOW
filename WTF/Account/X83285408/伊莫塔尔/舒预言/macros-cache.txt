@@ -1,6 +1,3 @@
-VER 3 0100000000000005 "14" "INV_MISC_QUESTIONMARK"
-/use 14
-END
 VER 3 0100000000000018 "亡者大军" "237511"
 #showtooltips 亡者大军
 /use 延时之力药水
@@ -13,6 +10,7 @@ VER 3 0100000000000018 "亡者大军" "237511"
 END
 VER 3 010000000000001A "冰霜之柱" "INV_MISC_QUESTIONMARK"
 #showtooltips
+/cast 符文武器增效
 /cast 冰霜之柱
 /cast 狂暴
 /use 12
@@ -33,6 +31,7 @@ END
 VER 3 0100000000000009 "冰霜打击" "SPELL_DEATHKNIGHT_EMPOWERRUNEBLADE2"
 #showtooltips 冰霜打击
 /startattack
+/tar 爆炸物
 /cast 冰霜打击
 /use 12
 /use 13
@@ -40,7 +39,7 @@ VER 3 0100000000000009 "冰霜打击" "SPELL_DEATHKNIGHT_EMPOWERRUNEBLADE2"
 /use 1
 END
 VER 3 010000000000001B "冰龙吐息" "INV_MISC_QUESTIONMARK"
-#showtooltips 冰龙吐息
+#showtooltips 
 /castsequence reset=2 符文武器增效,!冰龙吐息
 /cast 狂暴
 /use 12
@@ -94,12 +93,9 @@ VER 3 010000000000000D "防御全开" "SPELL_DEATHKNIGHT_ICEBOUNDFORTITUDE"
 END
 VER 3 010000000000000C "骨髓分裂" "ABILITY_DEATHKNIGHT_MARROWREND"
 #showtooltip 骨髓分裂
-/equip 诅咒之喉
 /startattack
 /use 13
 /use 
-/cast 活力分流
-/cast 符文刃舞
 /cast 骨髓分裂
 /cast 狂暴
 END

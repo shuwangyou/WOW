@@ -1,10 +1,9 @@
 local mod	= DBM:NewMod(1762, "DBM-Nighthold", nil, 786)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("20190625143337")
+mod:SetRevision("20200806141949")
 mod:SetCreatureID(103685)
 mod:SetEncounterID(1862)
-mod:SetZone()
 mod:SetUsedIcons(8, 7, 6, 5, 4, 3, 2, 1)--Unknown carrions
 mod:SetHotfixNoticeRev(16059)
 mod.respawnTime = 30
@@ -301,7 +300,7 @@ function mod:SPELL_CAST_SUCCESS(args)
 		else
 			timer = P3SharedCastTimers[self.vb.brandOfArgusCast+1]
 		end
-		if timer then 
+		if timer then
 			timerBrandOfArgusCD:Start(timer, self.vb.brandOfArgusCast+1)
 		end
 	elseif spellId == 208230 then

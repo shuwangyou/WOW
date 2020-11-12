@@ -1,6 +1,147 @@
 local GlobalAddonName, ExRT = ...
 
 ExRT.Options.Changelog = [=[
+v.4360
+* Added import/export profiles
+* Visual Note: popup window now saves its state (size and position)
+* Raid Groups: added option for quick-list with guild roster
+* Raid cooldowns: Added import/export profiles just for cooldowns module
+* Raid cooldowns: Fixed cooldowns/durations for some spells during prepatch
+* Raid cooldowns: Fixed vision of perfection cdr
+* Raid cooldowns: Readded option to set column for general class abilities
+* Raid cooldowns: [options] Spells now sorted by spec for class categories
+* Raid cooldowns: Added glow options for icons with active cooldowns
+* Invite tools: fixed massinvite feature
+* Updated Traditional Chinese translation
+* Updated Chinese translation
+* Minor fixes
+* Bugfixes
+
+v.4360-Classic
+* Added import/export profiles
+* Visual Note: popup window now saves its state (size and position)
+* Raid Groups: added option for quick-list with guild roster
+* Raid cooldowns: Added import/export profiles just for cooldowns module
+* Raid cooldowns: Added glow options for icons with active cooldowns
+* Invite tools: fixed massinvite feature
+* Fixed error on autoaccept invite
+* Updated Traditional Chinese translation
+* Updated Chinese translation
+* Minor fixes
+* Bugfixes
+
+v.4330
+* Shadowlands update
+* Options: now can be closed on esc, also added option to disable this
+* Raid cooldowns: added attach to raidframe option [beta]
+* Raid cooldowns: added favorites button/category for options
+* Raid cooldowns: added sort by column for options
+* Raid cooldowns: added options for custom items/equip
+* Marks Bar: added option "Show only on hover"
+* Note: added "{!p:playerName}...{/p}" template (for all except "playerName")
+* Note: added "{!c:class}...{/c}" template (for all except "class")
+* Note: added "{race:raceName}...{/race}" template (only for race "raceName")
+* Battle Res: added option to change frame strata
+* Fight log: added timeline for players casts
+* Fight log: added raid frames page
+* Bonus Loot: module is removed
+* Updated Traditional Chinese translation
+* Minor fixes
+* Bugfixes
+
+v.4330-Classic
+* Options UI updates
+* Options: now can be closed on esc, also added option to disable this
+* New module: Raid Groups
+* Raid cooldowns: updated options UI, now more user friendly
+* Raid cooldowns: added "/rt cd" command for quick enable/disable
+* Raid cooldowns: added favorites button/category for options
+* Invite tools: added option to invite via "/say" or "/yell"
+* Visual Note: added option to disable updates for specific note
+* Visual Note: added more backgrounds with solid color
+* Timers: added scale/alpha options
+* Marks Bar: added option "Show only on hover"
+* Note: added option to change note position in list via drag&drop
+* Note: added "/rt note set notename" command for quick update
+* Note: added "{!p:playerName}...{/p}" template (for all except "playerName")
+* Note: added "{!c:class}...{/c}" template (for all except "class")
+* Note: added "{race:raceName}...{/race}" template (only for race "raceName")
+* Battle Res: added option to change frame strata
+* Raid Inspect: added ranged slot
+* Updated german translation
+* Updated Traditional Chinese translation
+* Minor fixes
+* Bugfixes
+
+v.4300
+* Options UI updates
+* New module: Loot History
+* New module: Raid Groups
+* Many shadowlands updates
+* Raid cooldowns: updated options UI, now more user friendly
+* Raid cooldowns: added "/rt cd" command for quick enable/disable
+* Invite tools: added option to invite via "/say" or "/yell"
+* Visual Note: added option to disable updates for specific note
+* Visual Note: added more backgrounds with solid color
+* Timers: added option for default game timer (note: this timer is inaccurate now)
+* Timers: added scale/alpha options
+* Note: added "{p2}...{/p}" template for specific boss phase
+* Note: added option to change note position in list via drag&drop
+* Note: fixed fps lag for truncated note with a lot timers
+* Note: added dbm supprort for timers with phase
+* Note: added help for some timer constructions
+* Note: added "/rt note set notename" command for quick update
+* Bonus Loot: module is planned to be removed in future updates, export data if you need to save it
+* Updated german translation
+* Minor fixes
+
+v.4180
+* Update for possibility use addon on beta client (9.0)
+
+v.4170
+* Raid cooldowns: Added Ineffable Truth support
+* Raid check: added option to sort by class
+
+v.4160
+* Raid Inspect: added nzoth curve achievement
+* Saving log: fixed motherlode instance
+* Bugfixes
+
+v.4160-Classic
+* Bugfixes
+
+v.4150
+* Raid Inspect: added current corruption level
+* Note: fixed raid markers for duplicating in chat option
+* Saving log: removed Legion raids and dungeons
+* Minor fixes
+
+v.4150-Classic
+* Visual Note: added maps for AQ20, AQ40, Naxx (by Wollie)
+* Note: fixed raid markers for duplicating in chat option
+
+v.4145-Classic
+* Visual Note: added maps for BWL (by Wollie81), MC, ZG
+
+v.4140
+* Note: added format restrictions for players class {c:Paladin}Press bubble{/c}
+* Note: added 8th group for quick name select
+* Raid check: added Lightning Forged Augment rune for tracking
+* Minor fixes
+
+v.4140-Classic
+* Note: added format restrictions for players class {c:Paladin}Press bubble{/c}
+* Note: added 8th group for quick name select
+* Minor fixes
+
+v.4130
+* Note: fixed colorizing highlighted text
+* Battle Res: fixed visualization for max combat res stacks (5 for M+)
+* Raid cooldowns: fixed cd reset during skitra encounter
+* Raid cooldowns: fixed disappearing cooldowns for druids 
+* Raid Inspect: fixed corruption counting (still showing character's max corruption number without corruption resistance)
+* Minor fixes
+
 v.4120
 * 8.3 Update
 * Marks Bar: added option for different pull timers for left and right clicks
@@ -128,4 +269,5 @@ v.3940
 
 v.3930
 * BFA Update
+
 ]=]

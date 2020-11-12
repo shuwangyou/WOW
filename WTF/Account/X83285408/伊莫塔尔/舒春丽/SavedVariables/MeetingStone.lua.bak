@@ -21,7 +21,7 @@ MEETINGSTONE_CHARACTER_DB = {
 			["minimap"] = {
 				["hide"] = true,
 			},
-			["version"] = "80200.01",
+			["version"] = "80300.01",
 			["advShine"] = "70100.02",
 			["lastSearchCode"] = "1-124-422-0",
 			["worldQuestHelp"] = true,

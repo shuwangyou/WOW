@@ -4,10 +4,10 @@ local frame = CreateFrame("Frame")
 local optionPanel = nil
 
 local defaultDB = {
-    version = "20180816",
+    version = "20200206",
     AchievementFrame = {save = true},
     CalendarFrame = {save = true},
-    AuctionFrame = {save = true},
+    --AuctionFrame = {save = true},
     GuildBankFrame = {save = true},
     CastingBarFrame = {save = true},
     WardrobeFrame = {save = true},
@@ -29,10 +29,14 @@ local defaultDB = {
     CollectionsJournal = {save = true, },
     GuildFrame = {save = true, },
     FriendsFrame = {save = true, },
-    ObjectiveTrackerFrame_abyuiBG = { save = true, },
+    ObjectiveTrackerFrame_abyuiBG = { save = true, modifyKey = "IsShiftKeyDown", },
     --WorldMapFrame = {save = true, },
     ScrappingMachineFrame = { save = true, },
     AzeriteEmpoweredItemUI = { save = true, },
+    PlayerPowerBarAlt = { save = true, },
+    AuctionHouseFrame = {save = true},
+    CommunitiesFrame = {save = true},
+    --CommunitiesFrame = {save = true},
 }
 
 local userPlaced = {
@@ -136,7 +140,8 @@ local function hookSetPoint(self, point, parent, relative, offsetx, offsety)
     end
 end
 
-local function OnDragStart(self)
+local function OnDragStart(self, button)
+    if button == "RightButton" then return end
     local frameToMove = self.frameToMove
     local settings = frameToMove.settings
     if settings and not settings.default then -- set defaults
@@ -375,6 +380,7 @@ local function OnEvent(self, event, arg1, arg2)
         frame:RegisterEvent("ADDON_LOADED") --for blizz lod addons
         db = BlizzMoveDB and BlizzMoveDB.version == defaultDB.version and BlizzMoveDB or defaultDB
         if db.ObjectiveTrackerFrame then db.ObjectiveTrackerFrame_abyuiBG = db.ObjectiveTrackerFrame db.ObjectiveTrackerFrame = nil end
+        db.ObjectiveTrackerFrame_abyuiBG.modifyKey = "IsShiftKeyDown"
 
         BlizzMoveDB = db
         for k, v in pairs(db) do
@@ -392,11 +398,12 @@ local function OnEvent(self, event, arg1, arg2)
         --BM_SetMoveHandler(WatchFrame,WatchFrameCollapseExpandButton)
         --userPlaced[WatchFrame] = true --加了也不好，UIParent里写的有问题
 
-        WW(ObjectiveTrackerFrame.HeaderMenu):Button("OTFMover"):Size(22,22):RIGHT(ObjectiveTrackerFrame.HeaderMenu.MinimizeButton, "LEFT", 0,0):up():un()
-        CoreUIEnableTooltip(OTFMover, "面板移动","Ctrl点击保存位置\nCtrl滚轮缩放\nC+S+A点击重置")
+        WW(ObjectiveTrackerFrame.HeaderMenu):Button("OTFMover"):Size(36,24):RIGHT(ObjectiveTrackerFrame.HeaderMenu.MinimizeButton, "LEFT", 0,0):up():un()
+        CoreUIEnableTooltip(OTFMover, "面板移动","按住SHIFT拖动\nCtrl点击保存位置\nCtrl滚轮缩放\nC+S+A点击重置")
+        OTFMover:SetFrameStrata("BACKGROUND")
         local bg = BM_CreateBackground(ObjectiveTrackerFrame, "ObjectiveTrackerFrame_abyuiBG", "TOPLEFT", "BOTTOMRIGHT")
         BM_SetMoveHandler(bg,OTFMover)
-        BM_SetMoveHandler(bg,ObjectiveTrackerFrame.HeaderMenu.MinimizeButton)
+        --BM_SetMoveHandler(bg,ObjectiveTrackerFrame.HeaderMenu.MinimizeButton)
 
         BM_SetMoveHandler(GameMenuFrame)
         BM_SetMoveHandler(GossipFrame)
@@ -456,25 +463,27 @@ local function OnEvent(self, event, arg1, arg2)
         BM_SetMoveHandlerWith("GuildBankFrame", "Blizzard_GuildBankUI");
         BM_SetMoveHandlerWith("TradeSkillFrame", "Blizzard_TradeSkillUI");
         BM_SetMoveHandlerWith("ItemSocketingFrame", "Blizzard_ItemSocketingUI");
-        BM_SetMoveHandlerWith("BarberShopFrame", "Blizzard_BarbershopUI");
+        --BM_SetMoveHandlerWith("BarberShopFrame", "Blizzard_BarbershopUI");
         BM_SetMoveHandlerWith("MacroFrame", "Blizzard_MacroUI");
         BM_SetMoveHandlerWith("PlayerTalentFrame", "Blizzard_TalentUI");
         BM_SetMoveHandlerWith("CalendarFrame", "Blizzard_Calendar");
         BM_SetMoveHandlerWith("ClassTrainerFrame", "Blizzard_TrainerUI");
         BM_SetMoveHandlerWith("KeyBindingFrame", "Blizzard_BindingUI");
-        BM_SetMoveHandlerWith("AuctionFrame", "Blizzard_AuctionUI");
+        --BM_SetMoveHandlerWith("AuctionFrame", "Blizzard_AuctionUI");
         BM_SetMoveHandlerWith("LookingForGuildFrame", "Blizzard_LookingForGuildUI");
         BM_SetMoveHandlerWith("ArchaeologyFrame", "Blizzard_ArchaeologyUI");
         BM_SetMoveHandlerWith("ArtifactRelicForgeFrame", "Blizzard_ArtifactUI");
         BM_SetMoveHandlerWith("ScrappingMachineFrame", "Blizzard_ScrappingMachineUI");
         BM_SetMoveHandlerWith("AzeriteEmpoweredItemUI", "Blizzard_AzeriteUI");
 
-        if not hasConflict then 
-            BM_SetMoveHandler(PlayerPowerBarAlt) 
+        if not hasConflict then
+            BM_SetMoveHandler(PlayerPowerBarAlt)
+            --[[ --多米诺发现BlizzMove启用时不加载Encounter模块
             if IsAddOnLoaded("Dominos_Encounter") then
                 PlayerPowerBarAlt:SetScript("OnDragStart", function() U1Message("由于多米诺动作条已启用，不能拖动，请点击|TInterface\\Addons\\Dominos\\Dominos:0|t按钮进行布局") end)
                 PlayerPowerBarAlt:SetScript("OnDragStop", nil)
             end
+            --]]
         end
         --if not hasConflict then BM_SetMoveHandler(Boss1TargetFrame) Boss1TargetFrame:SetClampedToScreen(true) end --
         if not hasConflict then BM_SetMoveHandler(MinimapCluster, MinimapZoneTextButton) end
@@ -533,6 +542,12 @@ local function OnEvent(self, event, arg1, arg2)
             BM_SetMoveHandler(GuildFrame, GuildFrame.TitleMouseover);
         end);
 
+        --8.0
+        BM_SetMoveHandlerWith("AuctionHouseFrame", "Blizzard_AuctionHouseUI");
+        BM_SetMoveHandlerWith("CommunitiesFrame", "Blizzard_Communities");
+        BM_SetMoveHandlerWith("AzeriteEssenceUI", "Blizzard_AzeriteEssenceUI");
+        --BM_SetMoveHandlerWith("AzeriteEmpoweredItemUI", "Blizzard_AzeriteUI");
+        BM_SetMoveHandlerWith("OrderHallTalentFrame", "Blizzard_OrderHallUI");
 
         frame:UnregisterEvent("PLAYER_ENTERING_WORLD")
         

@@ -2,23 +2,23 @@
 MasterPlanAG = {
 	["瓦里安"] = {
 		["舒孑影"] = {
-			["class"] = "ROGUE",
 			["faction"] = "Horde",
+			["class"] = "ROGUE",
 		},
 	},
 	["冰风岗"] = {
 		["舒预言"] = {
 			["faction"] = "Horde",
-			["class"] = "DEATHKNIGHT",
+			["curOil"] = 155,
 			["lastCacheTime"] = 1501134027,
 			["curRes"] = 9974,
-			["curOil"] = 155,
+			["class"] = "DEATHKNIGHT",
 		},
 	},
 	["国王之谷"] = {
 		["舒心情"] = {
-			["class"] = "HUNTER",
 			["faction"] = "Alliance",
+			["class"] = "HUNTER",
 		},
 	},
 	["死亡之翼"] = {
@@ -29,8 +29,8 @@ MasterPlanAG = {
 	},
 	["埃德萨拉"] = {
 		["舒绿娥"] = {
-			["faction"] = "Alliance",
 			["class"] = "SHAMAN",
+			["faction"] = "Alliance",
 		},
 	},
 	["伊森利恩"] = {
@@ -42,43 +42,30 @@ MasterPlanAG = {
 				},
 			},
 			["curOil"] = 655,
-			["faction"] = "Horde",
 			["class"] = "MAGE",
-			["curRes"] = 1001,
 			["lastCacheTime"] = 1478076009,
+			["curRes"] = 1001,
+			["faction"] = "Horde",
 		},
 		["舒心情"] = {
-			["class"] = "HUNTER",
 			["faction"] = "Horde",
+			["class"] = "HUNTER",
 		},
+	},
+	["IgnoreRewards"] = {
 	},
 	["安苏"] = {
 		["舒殉魂"] = {
-			["class"] = "MAGE",
 			["faction"] = "Alliance",
+			["class"] = "MAGE",
 		},
 		["舒心情"] = {
-			["faction"] = "Horde",
 			["class"] = "HUNTER",
+			["faction"] = "Horde",
 		},
 		["舒孑影"] = {
-			["class"] = "ROGUE",
 			["faction"] = "Horde",
-		},
-	},
-	["雷克萨"] = {
-		["舒耀星辰"] = {
-			["summary"] = {
-				["inProgress"] = {
-					[369] = 1482811118,
-					[370] = 1482811115,
-					[149] = 1482778712,
-				},
-			},
-			["faction"] = "Alliance",
-			["class"] = "PALADIN",
-			["curRes"] = 302,
-			["lastCacheTime"] = 1482705411,
+			["class"] = "ROGUE",
 		},
 	},
 	["伊莫塔尔"] = {
@@ -95,17 +82,17 @@ MasterPlanAG = {
 			["lastCacheTime"] = 1535746530,
 		},
 		["舒预言"] = {
+			["class"] = "DEATHKNIGHT",
 			["summary"] = {
-				["tt1"] = true,
+				["tt3"] = true,
 				["ti1"] = 118529,
+				["ti3"] = 128391,
 				["inProgress"] = {
 					[553] = 1479300663,
 				},
-				["tt3"] = true,
-				["ti3"] = 128391,
+				["tt1"] = true,
 			},
 			["faction"] = "Horde",
-			["class"] = "DEATHKNIGHT",
 			["lastCacheTime"] = 1486800577,
 			["curRes"] = 9974,
 			["curOil"] = 155,
@@ -122,8 +109,8 @@ MasterPlanAG = {
 			["class"] = "PRIEST",
 		},
 		["舒墨兰"] = {
-			["lastCacheTime"] = 1484714730,
 			["class"] = "DEMONHUNTER",
+			["lastCacheTime"] = 1484714730,
 			["curRes"] = 70,
 			["faction"] = "Horde",
 		},
@@ -139,12 +126,12 @@ MasterPlanAG = {
 			["lastCacheTime"] = 1553876263,
 		},
 		["舒绿娥"] = {
-			["faction"] = "Horde",
 			["class"] = "WARLOCK",
+			["faction"] = "Horde",
 		},
 		["舒唤天"] = {
-			["faction"] = "Horde",
 			["class"] = "DRUID",
+			["faction"] = "Horde",
 		},
 		["舒春丽"] = {
 			["summary"] = {
@@ -158,19 +145,38 @@ MasterPlanAG = {
 			["curRes"] = 298,
 			["lastCacheTime"] = 1479414202,
 		},
+		["舒耀星辰"] = {
+			["faction"] = "Horde",
+			["class"] = "PALADIN",
+		},
+		["花菜的巴巴"] = {
+			["class"] = "MONK",
+			["faction"] = "Horde",
+		},
+		["舒战宇"] = {
+			["class"] = "WARRIOR",
+			["faction"] = "Horde",
+		},
 		["舒孑影"] = {
 			["class"] = "ROGUE",
 			["lastCacheTime"] = 1567876084,
 			["curRes"] = 610,
 			["faction"] = "Horde",
 		},
-		["舒战宇"] = {
-			["faction"] = "Horde",
-			["class"] = "WARRIOR",
-		},
+	},
+	["雷克萨"] = {
 		["舒耀星辰"] = {
+			["summary"] = {
+				["inProgress"] = {
+					[369] = 1482811118,
+					[370] = 1482811115,
+					[149] = 1482778712,
+				},
+			},
+			["faction"] = "Alliance",
 			["class"] = "PALADIN",
-			["faction"] = "Horde",
+			["curRes"] = 302,
+			["lastCacheTime"] = 1482705411,
 		},
 	},
 }

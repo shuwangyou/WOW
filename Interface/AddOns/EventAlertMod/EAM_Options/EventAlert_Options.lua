@@ -1,4 +1,5 @@
--- Prevent tainting global _.
+local CreateFrame = CreateFrameAby
+-- -- Prevent tainting global _.
 local _
 local _G = _G
 

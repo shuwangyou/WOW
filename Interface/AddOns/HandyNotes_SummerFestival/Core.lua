@@ -29,6 +29,12 @@ local continents = {
 }
 
 local notes = {
+	-- Arathi
+	["11732"] = "Speak to Zidormi at the south of the zone to gain access to this bonfire.",
+	["11764"] = "Speak to Zidormi at the south of the zone to gain access to this bonfire.",
+	["11804"] = "Speak to Zidormi at the south of the zone to gain access to this bonfire.",
+	["11840"] = "Speak to Zidormi at the south of the zone to gain access to this bonfire.",
+
 	-- Blasted Lands
 	["11737"] = "Speak to Zidormi at the north of the zone to gain access to this bonfire.",
 	["11808"] = "Speak to Zidormi at the north of the zone to gain access to this bonfire.",
@@ -40,10 +46,10 @@ local notes = {
 	["11811"] = "Speak to Zidormi in Darkshore to gain access to Lor'danel.",
 
 	-- Silithus
-	["11760"] = "Speak to Zidormi at the north of the zone to gain access to this bonfire.",
-	["11800"] = "Speak to Zidormi at the north of the zone to gain access to this bonfire.",
-	["11831"] = "Speak to Zidormi at the north of the zone to gain access to this bonfire.",
-	["11836"] = "Speak to Zidormi at the north of the zone to gain access to this bonfire.",
+	["11760"] = "Speak to Zidormi at the north-east of the zone to gain access to this bonfire.",
+	["11800"] = "Speak to Zidormi at the north-east of the zone to gain access to this bonfire.",
+	["11831"] = "Speak to Zidormi at the north-east of the zone to gain access to this bonfire.",
+	["11836"] = "Speak to Zidormi at the north-east of the zone to gain access to this bonfire.",
 
 	-- Teldrassil
 	["9332"]  = "Speak to Zidormi in Darkshore to gain access to Darnassus.",
@@ -62,7 +68,7 @@ local C_Timer_After = C_Timer.After
 local C_Calendar = C_Calendar
 local GameTooltip = GameTooltip
 local GetGameTime = GetGameTime
-local GetQuestsCompleted = GetQuestsCompleted
+local GetQuestsCompleted = AbyGetQuestsCompleted
 local IsControlKeyDown = IsControlKeyDown
 local LibStub = LibStub
 local next = next

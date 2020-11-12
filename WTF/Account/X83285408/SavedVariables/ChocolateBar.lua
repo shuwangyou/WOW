@@ -1,9 +1,11 @@
 
 ChocolateBarDB = {
+	["addonVersion"] = "v3.3.5",
 	["profileKeys"] = {
 		["舒春丽 - 伊莫塔尔"] = "Default",
 		["舒唤天 - 伊莫塔尔"] = "Default",
 		["舒预言 - 冰风岗"] = "Default",
+		["花菜的巴巴 - 伊莫塔尔"] = "Default",
 		["舒心情 - 国王之谷"] = "Default",
 		["舒战宇 - 伊莫塔尔"] = "Default",
 		["舒忘忧 - 伊莫塔尔"] = "Default",
@@ -11,29 +13,21 @@ ChocolateBarDB = {
 		["舒耀星辰 - 雷克萨"] = "Default",
 		["舒孑影 - 伊莫塔尔"] = "Default",
 		["舒孑影 - 瓦里安"] = "Default",
-		["Jackiexu - 伊莫塔尔"] = "Default",
-		["舒孑影 - 安苏"] = "Default",
-		["舒殉魂 - 伊森利恩"] = "Default",
-		["舒耀星辰 - 伊莫塔尔"] = "Default",
-		["舒殉魂 - 安苏"] = "Default",
-		["舒心情 - 安苏"] = "Default",
-		["舒绿娥 - 伊莫塔尔"] = "Default",
-		["舒绿娥 - 埃德萨拉"] = "Default",
-		["舒墨兰 - 伊莫塔尔"] = "Default",
-		["舒心情 - 伊森利恩"] = "Default",
 		["舒殉魂 - 伊莫塔尔"] = "Default",
+		["舒心情 - 伊森利恩"] = "Default",
+		["舒殉魂 - 伊森利恩"] = "Default",
+		["舒绿娥 - 埃德萨拉"] = "Default",
+		["舒殉魂 - 安苏"] = "Default",
+		["舒绿娥 - 伊莫塔尔"] = "Default",
+		["舒心情 - 安苏"] = "Default",
+		["舒耀星辰 - 伊莫塔尔"] = "Default",
+		["舒墨兰 - 伊莫塔尔"] = "Default",
+		["舒孑影 - 安苏"] = "Default",
+		["Jackiexu - 伊莫塔尔"] = "Default",
 	},
-	["addonVersion"] = "v3.3.3",
 	["profiles"] = {
 		["Default"] = {
-			["moduleOptions"] = {
-				["MoreChocolate"] = {
-				},
-				["Placeholder"] = {
-					["placeholderNames"] = {
-					},
-				},
-			},
+			["fixedStrata"] = true,
 			["objSettings"] = {
 				["TidyPlatesIcon"] = {
 					["showText"] = false,
@@ -62,6 +56,9 @@ ChocolateBarDB = {
 					["align"] = "right",
 				},
 				["Outfitter"] = {
+					["barName"] = "ChocolateBar1",
+				},
+				["BFAInvasionTimer"] = {
 					["barName"] = "ChocolateBar1",
 				},
 				["Parrot"] = {
@@ -96,7 +93,7 @@ ChocolateBarDB = {
 					["barName"] = "ChocolateBar1",
 					["align"] = "right",
 				},
-				["RaidAchievement"] = {
+				["Masque"] = {
 					["showText"] = false,
 					["barName"] = "ChocolateBar1",
 					["align"] = "right",
@@ -118,10 +115,8 @@ ChocolateBarDB = {
 				["Skada"] = {
 					["barName"] = "ChocolateBar1",
 				},
-				["Accountant_Classic"] = {
-					["showText"] = false,
+				["BrokerCPU"] = {
 					["barName"] = "ChocolateBar1",
-					["align"] = "right",
 				},
 				["MoreChocolate"] = {
 					["showText"] = false,
@@ -138,10 +133,8 @@ ChocolateBarDB = {
 					["barName"] = "ChocolateBar1",
 					["align"] = "right",
 				},
-				["!BaudErrorFrame"] = {
-					["showText"] = false,
+				["AutoTurnIn"] = {
 					["barName"] = "ChocolateBar1",
-					["align"] = "right",
 				},
 				["Rematch"] = {
 					["showText"] = false,
@@ -154,15 +147,15 @@ ChocolateBarDB = {
 				["EquippedItemLevelTooltip"] = {
 					["barName"] = "ChocolateBar1",
 				},
-				["WhistleMaster"] = {
-					["barName"] = "ChocolateBar1",
-				},
 				["AtlasLoot"] = {
 					["showText"] = false,
 					["barName"] = "ChocolateBar1",
 					["align"] = "right",
 				},
-				["X-Perl UnitFrames"] = {
+				["WhistleMaster"] = {
+					["barName"] = "ChocolateBar1",
+				},
+				["TellMeWhen"] = {
 					["showText"] = false,
 					["barName"] = "ChocolateBar1",
 					["align"] = "right",
@@ -170,7 +163,7 @@ ChocolateBarDB = {
 				["世界战场时间"] = {
 					["barName"] = "ChocolateBar1",
 				},
-				["TellMeWhen"] = {
+				["X-Perl UnitFrames"] = {
 					["showText"] = false,
 					["barName"] = "ChocolateBar1",
 					["align"] = "right",
@@ -180,13 +173,15 @@ ChocolateBarDB = {
 					["barName"] = "ChocolateBar1",
 					["align"] = "right",
 				},
+				["背包"] = {
+					["barName"] = "ChocolateBar1",
+				},
+				["TradeSkillMaster"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+				},
 				["BRRaidSave"] = {
-					["barName"] = "ChocolateBar1",
-				},
-				["Broker_DurabilityInfo"] = {
-					["barName"] = "ChocolateBar1",
-				},
-				["_NPCScan.Overlay"] = {
 					["barName"] = "ChocolateBar1",
 				},
 				["163_Clock"] = {
@@ -199,15 +194,13 @@ ChocolateBarDB = {
 					["barName"] = "ChocolateBar1",
 					["align"] = "right",
 				},
-				["TradeSkillMaster"] = {
-					["showText"] = false,
+				["Broker_DurabilityInfo"] = {
 					["barName"] = "ChocolateBar1",
-					["align"] = "right",
 				},
 				["NPCScan"] = {
 					["barName"] = "ChocolateBar1",
 				},
-				["背包"] = {
+				["_NPCScan.Overlay"] = {
 					["barName"] = "ChocolateBar1",
 				},
 				["LDB_WhisperPop"] = {
@@ -221,27 +214,38 @@ ChocolateBarDB = {
 				["Broker_GarrisonMission"] = {
 					["barName"] = "ChocolateBar1",
 				},
-				["AutoTurnIn"] = {
+				["!BaudErrorFrame"] = {
+					["showText"] = false,
 					["barName"] = "ChocolateBar1",
+					["align"] = "right",
 				},
 				["MeetingStone"] = {
 					["barName"] = "ChocolateBar1",
 				},
-				["BrokerCPU"] = {
+				["Accountant_Classic"] = {
+					["showText"] = false,
 					["barName"] = "ChocolateBar1",
+					["align"] = "right",
 				},
 				["BagnonLauncher"] = {
 					["showText"] = false,
 					["barName"] = "ChocolateBar1",
 					["align"] = "right",
 				},
-				["Masque"] = {
+				["RaidAchievement"] = {
 					["showText"] = false,
 					["barName"] = "ChocolateBar1",
 					["align"] = "right",
 				},
 			},
-			["fixedStrata"] = true,
+			["moduleOptions"] = {
+				["Placeholder"] = {
+					["placeholderNames"] = {
+					},
+				},
+				["MoreChocolate"] = {
+				},
+			},
 		},
 	},
 }

@@ -560,6 +560,37 @@ TradeLog_TradesHistory = {
 		["when"] = "2020-01-17 22:14:11",
 		["result"] = "cancelled",
 	}, -- [24]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 25,
+		["playerItems"] = {
+			{
+				["texture"] = 134029,
+				["itemLink"] = "|cffffffff|Hitem:113509::::::::120:251::::::|h[魔法汉堡]|h|r",
+				["name"] = "魔法汉堡",
+				["numItems"] = 20,
+			}, -- [1]
+			{
+				["texture"] = 134029,
+				["itemLink"] = "|cffffffff|Hitem:113509::::::::120:251::::::|h[魔法汉堡]|h|r",
+				["name"] = "魔法汉堡",
+				["numItems"] = 20,
+			}, -- [2]
+		},
+		["targetItems"] = {
+		},
+		["player"] = "舒预言",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "小人革面-哈兰",
+		["when"] = "2020-02-02 01:20:47",
+		["result"] = "complete",
+		["where"] = "托尔达戈",
+	}, -- [25]
 	["minimapPos"] = 338,
 }
 TradeLog_Announce_Checked = true

@@ -1,16 +1,26 @@
 
 AutoTurnInCharacterDB = {
+	["IGNORED_NPC"] = {
+		["87391"] = "fate-twister-seress",
+		["142063"] = "Tezran",
+		["141584"] = "Zurvan",
+		["127037"] = "Nabiru",
+		["111243"] = "Archmage Lan'dalock",
+		["119388"] = "Chieftain Hatuun",
+		["88570"] = "Fate-Twister Tiklal",
+		["15077"] = "Riggle Bassbait",
+	},
 	["secondary"] = {
 	},
 	["completeonly"] = false,
 	["questshare"] = false,
 	["questlevel"] = true,
+	["togglekey"] = 4,
 	["showrewardtext"] = true,
 	["armor"] = {
 	},
-	["togglekey"] = 4,
 	["watchlevel"] = true,
-	["autoequip"] = false,
+	["artifactpowertoggle"] = true,
 	["enabled"] = true,
 	["todarkmoon"] = true,
 	["debug"] = false,
@@ -22,8 +32,8 @@ AutoTurnInCharacterDB = {
 	["stat"] = {
 	},
 	["darkmoonautostart"] = true,
-	["version"] = "7.0.9",
-	["artifactpowertoggle"] = true,
+	["version"] = "7.5.1",
+	["autoequip"] = false,
 	["lootreward"] = 1,
 	["all"] = 1,
 	["trivial"] = false,

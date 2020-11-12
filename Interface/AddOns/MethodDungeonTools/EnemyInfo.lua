@@ -176,6 +176,14 @@ local function MakeEnemeyInfoFrame()
         f.enemyDataContainer:SetHeight(235)
         f.enemyDataContainer:SetLayout("Flow")
 
+        f.enemyDataContainer.nameEditBox = AceGUI:Create("EditBox")
+        f.enemyDataContainer.nameEditBox:SetLabel("Name")
+        f.enemyDataContainer.nameEditBox:DisableButton(true)
+        f.enemyDataContainer.nameEditBox:SetCallback("OnTextChanged", function(self)
+            self:SetText(self.defaultText)
+        end)
+        f.enemyDataContainer:AddChild(f.enemyDataContainer.nameEditBox)
+
         f.enemyDataContainer.idEditBox = AceGUI:Create("EditBox")
         f.enemyDataContainer.idEditBox:SetLabel(L"NPC Id")
         f.enemyDataContainer.idEditBox:DisableButton(true)
@@ -215,6 +223,14 @@ local function MakeEnemeyInfoFrame()
             self:SetText(self.defaultText)
         end)
         f.enemyDataContainer:AddChild(f.enemyDataContainer.countEditBox)
+
+        f.enemyDataContainer.teemingCountEditBox = AceGUI:Create("EditBox")
+        f.enemyDataContainer.teemingCountEditBox:SetLabel("Enemy Forces (Teeming)")
+        f.enemyDataContainer.teemingCountEditBox:DisableButton(true)
+        f.enemyDataContainer.teemingCountEditBox:SetCallback("OnTextChanged", function(self)
+            self:SetText(self.defaultText)
+        end)
+        f.enemyDataContainer:AddChild(f.enemyDataContainer.teemingCountEditBox)
 
         f.enemyDataContainer.stealthCheckBox = AceGUI:Create("CheckBox")
         f.enemyDataContainer.stealthCheckBox:SetLabel(L"Stealth")
@@ -269,9 +285,9 @@ local function MakeEnemeyInfoFrame()
         spellButtonsContainer:SetWidth(leftContainer.frame:GetWidth()-20)
         spellScrollContainer:SetLayout("Flow")
 
-        local buttonWidth = 80
+        local buttonWidth = 110
         local sendSpellsButton = AceGUI:Create("Button")
-        sendSpellsButton:SetText("Report")
+        sendSpellsButton:SetText("Link Spells")
         sendSpellsButton:SetWidth(buttonWidth)
         sendSpellsButton:SetCallback("OnClick",function()
             if#f.spellScroll.children<1 then return end
@@ -447,7 +463,32 @@ function MDT:UpdateEnemyInfoFrame(enemyIdx)
         end
     end
 
+    MDT:UpdateEnemyInfoData(enemyIdx)
+
+    --spells
+    f.spellScroll:ReleaseChildren()
+    if data.spells then
+        for spellId,spellData in pairs(data.spells) do
+            if not spellBlacklist[spellId] then
+                local spellButton = AceGUI:Create("MethodDungeonToolsSpellButton")
+                spellButton:SetSpell(spellId,spellData)
+                spellButton:Initialize()
+                spellButton:Enable()
+                f.spellScroll:AddChild(spellButton)
+            end
+        end
+    end
+
+end
+
+function MDT:UpdateEnemyInfoData(enemyIdx)
+    local f = MDT.EnemyInfoFrame
+    if not enemyIdx then enemyIdx = lastEnemyIdx end
+    if not enemyIdx then return end
+    local data = MDT.dungeonEnemies[db.currentDungeonIdx][enemyIdx]
     --data
+    f.enemyDataContainer.nameEditBox:SetText(data.name)
+    f.enemyDataContainer.nameEditBox.defaultText = data.name
     f.enemyDataContainer.idEditBox:SetText(data.id)
     f.enemyDataContainer.idEditBox.defaultText = data.id
 
@@ -464,25 +505,21 @@ function MDT:UpdateEnemyInfoFrame(enemyIdx)
     f.enemyDataContainer.levelEditBox.defaultText = data.level
     f.enemyDataContainer.countEditBox:SetText(data.count)
     f.enemyDataContainer.countEditBox.defaultText = data.count
+    if not data.teemingCount then
+        f.enemyDataContainer.teemingCountEditBox.frame:Hide()
+    else
+        f.enemyDataContainer.teemingCountEditBox.frame:Show()
+        f.enemyDataContainer.teemingCountEditBox:SetText(data.teemingCount)
+        f.enemyDataContainer.teemingCountEditBox.defaultText = data.teemingCount
+    end
     f.enemyDataContainer.stealthCheckBox:SetValue(data.stealth)
     f.enemyDataContainer.stealthCheckBox.defaultValue = data.stealth
     f.enemyDataContainer.stealthDetectCheckBox:SetValue(data.stealthDetect)
     f.enemyDataContainer.stealthDetectCheckBox.defaultValue = data.stealthDetect
 
-    --spells
-    f.spellScroll:ReleaseChildren()
-    if data.spells then
-        for spellId,spellData in pairs(data.spells) do
-            if not spellBlacklist[spellId] then
-                local spellButton = AceGUI:Create("MethodDungeonToolsSpellButton")
-                spellButton:SetSpell(spellId,spellData)
-                spellButton:Initialize()
-                spellButton:Enable()
-                f.spellScroll:AddChild(spellButton)
-            end
-        end
-    end
-
+    local level = db.currentDifficulty
+    local fortifiedTyrannical = MDT:IsCurrentPresetFortified() and "Fortified" or "Tyrannical"
+    f.enemyDataContainer.healthEditBox:SetLabel("Health (+"..level.." "..fortifiedTyrannical..")")
 end
 
 function MDT:ShowEnemyInfoFrame(blip)

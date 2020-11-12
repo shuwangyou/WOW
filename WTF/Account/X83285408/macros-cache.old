@@ -1,3 +1,7 @@
+VER 3 0000000000000064 "1" "INV_MISC_QUESTIONMARK"
+/tar 皎白云端翔龙
+/use 枬天拉索
+END
 VER 3 0000000000000054 "1" "INV_MISC_QUESTIONMARK"
 /g 阿尔萨斯附体！
 /g \ {rt8}
@@ -70,7 +74,7 @@ END
 VER 3 000000000000005F "大精华" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast 聚能艾泽里特射线(艾泽里特精华)
+/cast 仇敌之血(艾泽里特精华)
 END
 VER 3 0000000000000051 "振翅" "INV_FEATHER_12"
 #showtooltip 振翅
@@ -88,7 +92,6 @@ VER 3 0000000000000026 "死疽打击" "INV_MISC_QUESTIONMARK"
 #showtooltips
 /dismount
 /startattack [combat]
-/cast [combat]死疽打击(荣誉天赋)
 /cast [combat]寒冰锁链
 /use [combat]1
 /use 庆祝包裹
@@ -133,6 +136,17 @@ VER 3 0000000000000014 "焦点额外" "SPELL_MAGIC_MANAGAIN"
 /target focus
 /click ExtraActionButton1
 END
+VER 3 0000000000000065 "猛虎掌" "606551"
+#showtooltips 猛虎掌
+/use 13
+/use 14
+/castsequence reset=combat 铁骨酒,醉酿投,幻灭猛击,猛虎掌,幻灭猛击,猛虎掌
+END
+VER 3 0000000000000066 "玄牛雕像" "611419"
+#showtooltips
+/click TotemFrameTotem1 RightButton
+/cast 玄牛雕像
+END
 VER 3 000000000000004F "痛击2" "SPELL_DRUID_THRASH"
 #showtooltips 痛击
 /cast [nostance:1]熊形态
@@ -152,6 +166,11 @@ VER 3 0000000000000056 "真言术：盾" "INV_MISC_QUESTIONMARK"
 /cast 真言术：盾
 /cancelaura 圣光回响
 END
+VER 3 0000000000000067 "群嘲" "620830"
+/target 玄牛雕像
+/cast [help]嚎镇八方
+/targetlasttarget
+END
 VER 3 000000000000004D "脓疮打击" "SPELL_DEATHKNIGHT_FESTERING_STRIKE"
 #showtooltip 脓疮打击
 /equip 天启
@@ -165,6 +184,10 @@ VER 3 000000000000004A "血肉之盾" "INV_MISC_QUESTIONMARK"
 #showtooltip 血肉之盾
 /cast 护体胆汁
 /cast 血肉之盾
+END
+VER 3 0000000000000063 "袋里乾坤" "3193416"
+#showtooltips 袋里乾坤
+/cast [@player]袋里乾坤
 END
 VER 3 000000000000001A "钓鱼" "INV_SCROLL_11"
 /equip 幽光鱼竿

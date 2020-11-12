@@ -1,11 +1,14 @@
 
 VExRT = {
 	["BattleRes"] = {
+		["Strata"] = "HIGH",
 	},
 	["ProfileKeys"] = {
-		["舒孑影-安苏"] = "default",
-		["舒墨兰-伊莫塔尔"] = "default",
 		["舒预言-死亡之翼"] = "default",
+		["舒墨兰-伊莫塔尔"] = "default",
+		["舒孑影-伊莫塔尔"] = "default",
+		["舒孑影-安苏"] = "default",
+		["舒殉魂-伊莫塔尔"] = "default",
 	},
 	["Arrow"] = {
 	},
@@ -14,6 +17,8 @@ VExRT = {
 			["舒孑影"] = {
 			},
 			["舒预言"] = {
+			},
+			["舒殉魂"] = {
 			},
 			["舒墨兰"] = {
 			},
@@ -25,25 +30,20 @@ VExRT = {
 		["list"] = {
 		},
 	},
-	["Coins"] = {
-		["list"] = {
-		},
-	},
 	["ExCD2"] = {
-		["default_userDuration"] = {
-		},
 		["gnGUIDs"] = {
+			["舒殉魂"] = 64,
+			["舒预言"] = 251,
+			["舒孑影"] = 260,
 			["舒墨兰"] = 577,
 			["丶佬子有嘎嘎-格瑞姆巴托"] = 104,
-			["舒孑影"] = 260,
-			["舒预言"] = 251,
 		},
 		["NoRaid"] = true,
 		["CDECol"] = {
 		},
-		["default_userCD"] = {
-		},
 		["userDB"] = {
+		},
+		["Save"] = {
 		},
 		["colSet"] = {
 			{
@@ -208,7 +208,7 @@ VExRT = {
 		},
 		["CDE"] = {
 		},
-		["Save"] = {
+		["OptFav"] = {
 		},
 	},
 	["Attendance"] = {
@@ -216,6 +216,10 @@ VExRT = {
 		["data"] = {
 		},
 		["alts"] = {
+		},
+	},
+	["Inspect"] = {
+		["Soulbinds"] = {
 		},
 	},
 	["InspectViewer"] = {
@@ -268,7 +272,20 @@ VExRT = {
 		["Strata"] = "HIGH",
 		["timeToKillAnalyze"] = 15,
 	},
-	["WhoPulled"] = {
+	["InviteTool"] = {
+		["Words"] = "инв inv byd штм 123",
+		["InvByChat"] = true,
+		["RaidDiff"] = 16,
+		["PromoteRank"] = 3,
+		["LootThreshold"] = 2,
+		["Ranks"] = {
+			true, -- [1]
+		},
+		["MasterLooters"] = "",
+		["LootMethod"] = "group",
+		["PromoteNames"] = "",
+		["OnlyGuild"] = true,
+		["Rank"] = 1,
 	},
 	["MarksBar"] = {
 		["pulltimer"] = 10,
@@ -279,12 +296,47 @@ VExRT = {
 			true, -- [3]
 			true, -- [4]
 		},
+		["pulltimer_right"] = 10,
+	},
+	["WhoPulled"] = {
+	},
+	["RaidCheck"] = {
+		["FlaskExp"] = 1,
+		["BuffsCheck"] = true,
+		["ReadyCheckFrame"] = true,
+		["ReadyCheckFrameTimerFade"] = 4,
+		["ReadyCheckFrameOnlyRL"] = true,
 	},
 	["Addon"] = {
 		["Timer"] = 0.1,
 		["Scale"] = 1,
-		["Version"] = 4110,
-		["PreVersion"] = 4110,
+		["Version"] = 4360,
+		["PreVersion"] = 4360,
+	},
+	["Profiles"] = {
+	},
+	["BossWatcher"] = {
+		["optionsDamageGraph"] = true,
+		["fightsNum"] = 2,
+		["optionsPositionsDist"] = true,
+		["optionsHealingGraph"] = true,
+		["trackingDamageSpells"] = {
+		},
+	},
+	["LootHistory"] = {
+		["list"] = {
+		},
+		["bossNames"] = {
+		},
+		["instanceNames"] = {
+		},
+	},
+	["Profile"] = "default",
+	["LootLink"] = {
+	},
+	["RaidGroups"] = {
+		["profiles"] = {
+		},
 	},
 	["Note"] = {
 		["BlackNames"] = {
@@ -307,36 +359,6 @@ VExRT = {
 		},
 		["OptionsFormatting"] = true,
 	},
-	["RaidCheck"] = {
-		["FlaskExp"] = 1,
-		["BuffsCheck"] = true,
-		["ReadyCheckFrame"] = true,
-		["ReadyCheckFrameTimerFade"] = 4,
-		["ReadyCheckFrameOnlyRL"] = true,
-	},
-	["BossWatcher"] = {
-		["optionsDamageGraph"] = true,
-		["fightsNum"] = 2,
-		["optionsPositionsDist"] = true,
-		["optionsHealingGraph"] = true,
-		["trackingDamageSpells"] = {
-		},
-	},
-	["Profile"] = "default",
-	["LootLink"] = {
-	},
-	["Bossmods"] = {
-		["Mannoroth"] = {
-		},
-		["Kormrok"] = {
-		},
-		["Ilgynoth"] = {
-		},
-		["Kromog"] = {
-		},
-	},
-	["Profiles"] = {
-	},
 	["Logging"] = {
 	},
 	["InspectArtifact"] = {
@@ -349,19 +371,14 @@ VExRT = {
 		["sync_data"] = {
 		},
 	},
-	["InviteTool"] = {
-		["Words"] = "инв inv byd штм 123",
-		["InvByChat"] = true,
-		["RaidDiff"] = 16,
-		["PromoteRank"] = 3,
-		["LootThreshold"] = 2,
-		["Ranks"] = {
-			true, -- [1]
+	["Bossmods"] = {
+		["Mannoroth"] = {
 		},
-		["MasterLooters"] = "",
-		["LootMethod"] = "group",
-		["PromoteNames"] = "",
-		["OnlyGuild"] = true,
-		["Rank"] = 1,
+		["Kormrok"] = {
+		},
+		["Ilgynoth"] = {
+		},
+		["Kromog"] = {
+		},
 	},
 }

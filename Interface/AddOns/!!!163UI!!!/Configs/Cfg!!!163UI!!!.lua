@@ -3,7 +3,7 @@ U1_NEW_ICON = '|TInterface\\OptionsFrame\\UI-OptionsFrame-NewFeatureIcon:0:0:0:-
 
 -- default 仅在插件first run的时候运行，如果是nil则不会设置默认值
 function U1CfgMakeCVarOption(title, cvar, default, options)
-    local info = copy(options) or {}
+    local info = u1copy(options) or {}
 
     info.text = title
     info.var = "cvar_"..cvar
@@ -55,6 +55,7 @@ end
 U1RegisterAddon("!!!Libs", { load = "NORMAL", protected = 1, hide = 1 }) EnableAddOn("!!!Libs") --163UI必须第一个加载，不能依赖其他的，只能这样
 U1RegisterAddon("!!!163UI.pics!!!", { title = "插件说明图片", hide = 1, defaultEnable = 0 });
 U1RegisterAddon("!!!163UI.3dcodecmd!!!", { title = "爱不易核心", load = "NORMAL", hide = 1, protected = 1, defaultEnable = 1 });
+U1RegisterAddon("haohaoliaotian", { load = "NORMAL", protected = 1, hide = 1 }) EnableAddOn("haohaoliaotian")
 
 U1RegisterAddon("!!!163UI!!!", {
     title = L["爱不易"],
@@ -92,11 +93,13 @@ U1RegisterAddon("!!!163UI!!!", {
             end -- alwaysCompareItems
         end
     },
+    --[[
     {
         var = "showLevelOnSlot",
-        text = "装备栏左上角显示物品等级",
+        text = "玩家面板左上角显示装等",
         default = 1,
     },
+    --]]
     --[[ 7.0 以后无法显示详细信息，只能取消了
     {
         var = "lootenh",
@@ -216,6 +219,10 @@ U1RegisterAddon("!!!163UI!!!", {
                 local playS, playSF = PlaySound, PlaySoundFile
                 local wipe, playing, looping, updater = table.wipe, {}, {}, CreateFrame("Frame", "U1_SOUND_REDIRECT")
                 looping[SOUNDKIT.UI_BONUS_LOOT_ROLL_LOOP or ""] = true --LootFrame
+                looping[SOUNDKIT.IG_CREATURE_AGGRO_SELECT or 0] = true --TargetFrame_OnEvent
+                looping[SOUNDKIT.IG_CHARACTER_NPC_SELECT or 0] = true --TargetFrame_OnEvent
+                looping[SOUNDKIT.IG_CREATURE_NEUTRAL_SELECT or 0] = true --TargetFrame_OnEvent
+                looping[SOUNDKIT.INTERFACE_SOUND_LOST_TARGET_UNIT or 0] = true --TargetFrame_OnHide
                 updater:SetScript("OnUpdate", function(self) wipe(playing) end)
                 if CreateLoopingSoundEffectEmitter then hooksecurefunc("CreateLoopingSoundEffectEmitter", function(startingSound, loopingSound) looping[loopingSound] = true end) end
                 local function shouldRedirect(channel, sound)
@@ -251,17 +258,17 @@ U1RegisterAddon("!!!163UI!!!", {
         callback = function(cfg, v, loading)
             if loading and not v then return end
             --- 拍卖行不会自动关闭
-            CoreDependCall("Blizzard_AuctionUI", function()
+            CoreDependCall("Blizzard_AuctionHouseUI", function()
                 if v then
-                    AuctionFrame:SetAttribute("UIPanelLayout-area", false);
-                    tinsertdata(UISpecialFrames, "AuctionFrame")
+                    AuctionHouseFrame:SetAttribute("UIPanelLayout-area", false);
+                    tinsertdata(UISpecialFrames, "AuctionHouseFrame")
                 else
-                    AuctionFrame:SetAttribute("UIPanelLayout-area", "doublewide");
-                    tremovedata(UISpecialFrames, "AuctionFrame")
+                    AuctionHouseFrame:SetAttribute("UIPanelLayout-area", "doublewide");
+                    tremovedata(UISpecialFrames, "AuctionHouseFrame")
                 end
-                if not AuctionFrame._hooked163 then
-                    AuctionFrame._hooked163 = true
-                    hooksecurefunc(AuctionFrame, "SetAttribute", function(self, arg1, value)
+                if not AuctionHouseFrame._hooked163 then
+                    AuctionHouseFrame._hooked163 = true
+                    hooksecurefunc(AuctionHouseFrame, "SetAttribute", function(self, arg1, value)
                         if (arg1 == "UIPanelLayout-area" and value and U1GetCfgValue(cfg._path)) then
                             self:SetAttribute(arg1, false);
                         end

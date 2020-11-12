@@ -1,9 +1,8 @@
 local mod	= DBM:NewMod("SethralissTrash", "DBM-Party-BfA", 6)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("20191101002017")
+mod:SetRevision("20200916002559")
 --mod:SetModelID(47785)
-mod:SetZone()
 
 mod.isTrashMod = true
 
@@ -108,7 +107,7 @@ function mod:SPELL_CAST_SUCCESS(args)
 end
 
 --Events not in combat log
-function mod:UNIT_SPELLCAST_SUCCEEDED(uId, _, spellId)
+function mod:UNIT_SPELLCAST_SUCCEEDED(_, _, spellId)
 	if spellId == 272823 then
 		--local guid = UnitGUID(uId)
 		--if self:IsValidWarning(guid, uId) then

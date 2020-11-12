@@ -303,6 +303,8 @@ local methods = {
                 MethodDungeonTools:PresetsAddPull(self.index)
                 MethodDungeonTools:ReloadPullButtons()
                 MethodDungeonTools:SetSelectionToPull(self.index)
+                --MethodDungeonTools:UpdateAutomaticColors(self.index)
+                MethodDungeonTools:ColorAllPulls(_, self.index)
                 if MethodDungeonTools.liveSessionActive and MethodDungeonTools:GetCurrentPreset().uid == MethodDungeonTools.livePresetUID then
                     MethodDungeonTools:LiveSession_SendPulls(MethodDungeonTools:GetPulls())
                 end
@@ -312,10 +314,12 @@ local methods = {
         tinsert(self.menu, {
             text = "Insert after",
             notCheckable = 1,
-            func = function()
+			func = function()
                 MethodDungeonTools:PresetsAddPull(self.index + 1)
                 MethodDungeonTools:ReloadPullButtons()
-                MethodDungeonTools:SetSelectionToPull(self.index + 1)
+				MethodDungeonTools:SetSelectionToPull(self.index + 1)
+                --MethodDungeonTools:UpdateAutomaticColors(self.index + 1)
+                MethodDungeonTools:ColorAllPulls(_, self.index+1)
                 if MethodDungeonTools.liveSessionActive and MethodDungeonTools:GetCurrentPreset().uid == MethodDungeonTools.livePresetUID then
                     MethodDungeonTools:LiveSession_SendPulls(MethodDungeonTools:GetPulls())
                 end
@@ -329,6 +333,8 @@ local methods = {
                     local newIndex = MethodDungeonTools:PresetsMergePulls(self.index, self.index - 1)
                     MethodDungeonTools:ReloadPullButtons()
                     MethodDungeonTools:SetSelectionToPull(newIndex)
+                    --MethodDungeonTools:UpdateAutomaticColors(newIndex)
+                    MethodDungeonTools:ColorAllPulls(_, newIndex)
                     if MethodDungeonTools.liveSessionActive and MethodDungeonTools:GetCurrentPreset().uid == MethodDungeonTools.livePresetUID then
                         MethodDungeonTools:LiveSession_SendPulls(MethodDungeonTools:GetPulls())
                     end
@@ -343,6 +349,8 @@ local methods = {
                     local newIndex = MethodDungeonTools:PresetsMergePulls(self.index, self.index + 1)
                     MethodDungeonTools:ReloadPullButtons()
                     MethodDungeonTools:SetSelectionToPull(newIndex)
+                    --MethodDungeonTools:UpdateAutomaticColors(newIndex)
+                    MethodDungeonTools:ColorAllPulls(_, newIndex)
                     if MethodDungeonTools.liveSessionActive and MethodDungeonTools:GetCurrentPreset().uid == MethodDungeonTools.livePresetUID then
                         MethodDungeonTools:LiveSession_SendPulls(MethodDungeonTools:GetPulls())
                     end
@@ -357,6 +365,28 @@ local methods = {
                 func = nil
             })
         end
+        tinsert(self.menu, {
+            text = "Color Settings",
+            notCheckable = 1,
+            func = function()
+                MethodDungeonTools:OpenAutomaticColorsDialog()
+            end
+        })
+        tinsert(self.menu, {
+            text = "Colorize Preset",
+            notCheckable = 1,
+            func = function()
+                local db = MethodDungeonTools:GetDB()
+                if not db.colorPaletteInfo.autoColoring then
+                    db.colorPaletteInfo.autoColoring = true
+                    MethodDungeonTools.main_frame.AutomaticColorsCheck:SetValue(db.colorPaletteInfo.autoColoring)
+                    MethodDungeonTools.main_frame.AutomaticColorsCheckSidePanel:SetValue(db.colorPaletteInfo.autoColoring)
+                    MethodDungeonTools.main_frame.toggleForceColorBlindMode:SetDisabled(false)
+                end
+                MethodDungeonTools:SetPresetColorPaletteInfo()
+                MethodDungeonTools:ColorAllPulls()
+            end
+        })
         local function swatchFunc()
             local r,g,b = ColorPickerFrame:GetColorRGB()
             local colorHex = MethodDungeonTools:RGBToHex(r,g,b)
@@ -426,14 +456,14 @@ local methods = {
             text = "Clear",
             notCheckable = 1,
             func = function()
-                MethodDungeonTools:ClearPull(self.index)
+				MethodDungeonTools:ClearPull(self.index)
                 if MethodDungeonTools.liveSessionActive and MethodDungeonTools:GetCurrentPreset().uid == MethodDungeonTools.livePresetUID then
                     MethodDungeonTools:LiveSession_SendPulls(MethodDungeonTools:GetPulls())
                 end
             end
         })
         tinsert(self.menu, {
-            text = "Clear Preset",
+            text = "Reset Preset",
             notCheckable = 1,
             func = function() MethodDungeonTools:OpenClearPresetDialog() end
         })
@@ -443,6 +473,8 @@ local methods = {
                 notCheckable = 1,
                 func = function()
                     MethodDungeonTools:DeletePull(self.index)
+                    --MethodDungeonTools:UpdateAutomaticColors(self.index)
+                    MethodDungeonTools:ColorAllPulls(_, self.index)
                     if MethodDungeonTools.liveSessionActive and MethodDungeonTools:GetCurrentPreset().uid == MethodDungeonTools.livePresetUID then
                         MethodDungeonTools:LiveSession_SendPulls(MethodDungeonTools:GetPulls())
                     end
@@ -481,6 +513,8 @@ local methods = {
                 MethodDungeonTools:PresetsAddPull(self.index)
                 MethodDungeonTools:ReloadPullButtons()
                 MethodDungeonTools:SetSelectionToPull(self.index)
+                --MethodDungeonTools:UpdateAutomaticColors(self.index)
+                MethodDungeonTools:ColorAllPulls(_, self.index)
                 if MethodDungeonTools.liveSessionActive and MethodDungeonTools:GetCurrentPreset().uid == MethodDungeonTools.livePresetUID then
                     MethodDungeonTools:LiveSession_SendPulls(MethodDungeonTools:GetPulls())
                 end
@@ -501,7 +535,9 @@ local methods = {
                 })
                 MethodDungeonTools:PresetsAddPull(self.index + 1)
                 MethodDungeonTools:ReloadPullButtons()
-                MethodDungeonTools:SetSelectionToPull(self.index + 1)
+				MethodDungeonTools:SetSelectionToPull(self.index + 1)
+                --MethodDungeonTools:UpdateAutomaticColors(self.index + 1)
+                MethodDungeonTools:ColorAllPulls(_, self.index+1)
                 if MethodDungeonTools.liveSessionActive and MethodDungeonTools:GetCurrentPreset().uid == MethodDungeonTools.livePresetUID then
                     MethodDungeonTools:LiveSession_SendPulls(MethodDungeonTools:GetPulls())
                 end
@@ -525,6 +561,7 @@ local methods = {
                 MethodDungeonTools:ReloadPullButtons()
                 MethodDungeonTools:GetCurrentPreset().value.selection = { newIndex }
                 MethodDungeonTools:SetSelectionToPull(newIndex)
+                MethodDungeonTools:ColorAllPulls(_, newIndex)
                 if MethodDungeonTools.liveSessionActive and MethodDungeonTools:GetCurrentPreset().uid == MethodDungeonTools.livePresetUID then
                     MethodDungeonTools:LiveSession_SendPulls(MethodDungeonTools:GetPulls())
                 end
@@ -535,6 +572,28 @@ local methods = {
             notClickable = 1,
             notCheckable = 1,
             func = nil
+        })
+        tinsert(self.multiselectMenu, {
+            text = "Color Settings",
+            notCheckable = 1,
+            func = function()
+                MethodDungeonTools:OpenAutomaticColorsDialog()
+            end
+        })
+        tinsert(self.multiselectMenu, {
+            text = "Colorize Preset",
+            notCheckable = 1,
+            func = function()
+                local db = MethodDungeonTools:GetDB()
+                if not db.colorPaletteInfo.autoColoring then
+                    db.colorPaletteInfo.autoColoring = true
+                    MethodDungeonTools.main_frame.AutomaticColorsCheck:SetValue(db.colorPaletteInfo.autoColoring)
+                    MethodDungeonTools.main_frame.AutomaticColorsCheckSidePanel:SetValue(db.colorPaletteInfo.autoColoring)
+                    MethodDungeonTools.main_frame.toggleForceColorBlindMode:SetDisabled(false)
+                end
+                MethodDungeonTools:SetPresetColorPaletteInfo()
+                MethodDungeonTools:ColorAllPulls()
+            end
         })
         local function swatchMultiFunc()
             local r,g,b = ColorPickerFrame:GetColorRGB()
@@ -658,7 +717,7 @@ local methods = {
             end
         })
         tinsert(self.multiselectMenu, {
-            text = "Clear Preset",
+            text = "Reset Preset",
             notCheckable = 1,
             func = function() MethodDungeonTools:OpenClearPresetDialog() end
         })
@@ -695,7 +754,7 @@ local methods = {
                         end)
                         MethodDungeonTools:SetSelectionToPull(button - offset)
                     else
-                        MethodDungeonTools:AddPull(1)
+                        --MethodDungeonTools:AddPull(1) --we handle not deleting all pulls in MethodDungeonTools:DeletePull() instead
                         MethodDungeonTools:SetSelectionToPull(1)
                     end
                     if MethodDungeonTools.liveSessionActive and MethodDungeonTools:GetCurrentPreset().uid == MethodDungeonTools.livePresetUID then
@@ -1052,9 +1111,11 @@ local methods = {
             local newIndex = MethodDungeonTools:PresetsMergePulls(index, insertID)
             MethodDungeonTools:ReloadPullButtons()
             MethodDungeonTools:SetSelectionToPull(newIndex)
-        end
-
-        MethodDungeonTools:Hide_DropIndicator()
+		end
+		
+		MethodDungeonTools:Hide_DropIndicator()
+		--MethodDungeonTools:UpdateAutomaticColors(math.min(self.index, insertID))
+        MethodDungeonTools:ColorAllPulls(_, math.min(self.index, insertID))
         MethodDungeonTools.pullTooltip:Show()
         if MethodDungeonTools.liveSessionActive and MethodDungeonTools:GetCurrentPreset().uid == MethodDungeonTools.livePresetUID then
             MethodDungeonTools:LiveSession_SendPulls(MethodDungeonTools:GetPulls())
@@ -1076,9 +1137,11 @@ local methods = {
     end,
     ["Pick"] = function(self)
         self.frame:LockHighlight();
+        self.frame.pickedGlow:Show()
     end,
     ["ClearPick"] = function(self)
         self.frame:UnlockHighlight();
+        self.frame.pickedGlow:Hide()
     end,
     ["SetIndex"] = function(self, index)
         self.index = index
@@ -1155,8 +1218,10 @@ local methods = {
         local db = MethodDungeonTools:GetDB()
         if colorHex == db.defaultColor then
             self.background:SetVertexColor(0.5,0.5,0.5,0.25)
+            self.frame.pickedGlow:SetVertexColor(1,0.85,0,1)
         else
             self.background:SetVertexColor(self.color.r,self.color.g,self.color.b, 0.75)
+            self.frame.pickedGlow:SetVertexColor(self.color.r,self.color.g,self.color.b, 0.75)
         end
     end,
     ["BackupColor"] = function(self)
@@ -1194,6 +1259,16 @@ local function Constructor()
     background:SetPoint("BOTTOM", button, "BOTTOM");
     background:SetPoint("LEFT", button, "LEFT");
     background:SetPoint("RIGHT", button, "RIGHT");
+
+    local pickedGlow = button:CreateTexture(nil, "OVERLAY")
+    button.pickedGlow = pickedGlow
+    --["heartofazeroth-list-item-selected"] = {356, 82, 0.779297, 0.953125, 0.653809, 0.693848, false, false},
+    pickedGlow:SetTexture("Interface\\AddOns\\MethodDungeonTools\\Textures\\HeartOfAzerothSelection")
+    pickedGlow:SetTexCoord(0, 0.697265625, 0, 0.625)
+    pickedGlow:SetAllPoints(button)
+    pickedGlow:Hide()
+
+    button.highlight:SetVertexColor(1,1,1,0.5)
 
     local pullNumber = button:CreateFontString(nil,"OVERLAY", "GameFontNormal")
     pullNumber:SetHeight(14)

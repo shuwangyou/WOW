@@ -1,7 +1,10 @@
 -- actor container file
 
 	local _detalhes = 		_G._detalhes
+	local DF = DetailsFramework
 	local _
+
+	local CONST_CLIENT_LANGUAGE = DF.ClientLanguage
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --> local pointers
@@ -20,7 +23,11 @@
 	
 	local AddUnique = DetailsFramework.table.addunique --framework
 	local UnitGroupRolesAssigned = DetailsFramework.UnitGroupRolesAssigned --framework
+
+	local GetNumDeclensionSets = _G.GetNumDeclensionSets
+	local DeclineName = _G.DeclineName
 	
+	local GetLocale = _G.GetLocale
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --> constants
 
@@ -392,9 +399,26 @@
 			end
 			
 			return nome, dono_do_pet
-		end	
+		end
 	end
 	
+	--> check pet owner name with correct declension for ruRU locale (from user 'denis-kam' on github)
+	local find_name_declension = function (petTooltip, playerName)
+		--> 2 - male, 3 - female
+		for gender = 3, 2, -1 do
+			for declensionSet = 1, GetNumDeclensionSets(playerName, gender) do
+				--> check genitive case of player name
+				local genitive = DeclineName(playerName, gender, declensionSet)
+				if petTooltip:find(genitive) then
+					--print("found genitive: ", gender, declensionSet, playerName, petTooltip:find(genitive))
+					return true
+				end
+			end
+		end
+		
+		return false
+	end
+
 	local find_pet_owner = function (serial, nome, flag, self)
 		if (not _detalhes.tabela_vigente) then
 			return
@@ -409,68 +433,57 @@
 			for playerName, _ in _pairs (_detalhes.tabela_vigente.raid_roster) do
 				local pName = playerName
 				playerName = playerName:gsub ("%-.*", "") --remove realm name
-				if (text1:find (playerName)) then
-					return find_pet_found_owner (pName, serial, nome, flag, self)
+
+				--if the user client is in russian language
+				--make an attempt to remove declensions from the character's name
+				--this is equivalent to remove 's from the owner on enUS
+				if (GetLocale() == "ruRU") then
+					if (find_name_declension (text1, playerName)) then
+						return find_pet_found_owner (pName, serial, nome, flag, self)
+					else
+						--print("not found declension (1):", pName, nome)
+						if (text1:find (playerName)) then
+							return find_pet_found_owner (pName, serial, nome, flag, self)
+						end
+					end
+				else
+					if (text1:find (playerName)) then
+						return find_pet_found_owner (pName, serial, nome, flag, self)
+					end
 				end
 			end
 		end
-		
+	
 		local line2 = _G ["DetailsPetOwnerFinderTextLeft3"]
 		local text2 = line2 and line2:GetText()
 		if (text2 and text2 ~= "") then
 			for playerName, _ in _pairs (_detalhes.tabela_vigente.raid_roster) do
 				local pName = playerName
 				playerName = playerName:gsub ("%-.*", "") --remove realm name
-				if (text2:find (playerName)) then
-					return find_pet_found_owner (pName, serial, nome, flag, self)
-				end
-			end
-		end
-	end
-	
-	--[[
-	local find_pet_owner = function (serial, nome, flag, self)
-	
-		pet_tooltip_frame:SetOwner (WorldFrame, "ANCHOR_NONE")
-		pet_tooltip_frame:SetHyperlink ("unit:" .. serial or "")
-		
-		local text = pet_text_object:GetText()
-		if (text and text ~= "") then
-			text = text:gsub ("'s", "") --> enUS
-			
-			if (IsFactionNpc [text]) then
-				text = follower_text_object:GetText()
-				if (text) then
-					text = text:gsub ("'s", "") --> enUS
-				else
-					return
-				end
-			end
-			
-			for _, ownerName in _ipairs ({strsplit (" ", text)}) do
-				local cur_combat = _detalhes.tabela_vigente
-				if (cur_combat and cur_combat.raid_roster [ownerName]) then
-					local ownerGuid = _UnitGUID (ownerName)
-					if (ownerGuid) then
-					
-						_detalhes.tabela_pets:Adicionar (serial, nome, flag, ownerGuid, ownerName, 0x00000417)
-						local nome_dele, dono_nome, dono_serial, dono_flag = _detalhes.tabela_pets:PegaDono (serial, nome, flag)
-						
-						local dono_do_pet
-						if (nome_dele and dono_nome) then
-							nome = nome_dele
-							dono_do_pet = self:PegarCombatente (dono_serial, dono_nome, dono_flag, true, nome)
+
+				if (GetLocale() == "ruRU") then
+					if (find_name_declension (text2, playerName)) then
+						return find_pet_found_owner (pName, serial, nome, flag, self)
+					else
+						--print("not found declension (2):", pName, nome)
+						if (text2:find (playerName)) then
+							return find_pet_found_owner (pName, serial, nome, flag, self)
 						end
-						
-						--print ("Owner Found:", ownerName, nome)
-						return nome, dono_do_pet
+					end
+				else
+					if (text2:find (playerName)) then
+						return find_pet_found_owner (pName, serial, nome, flag, self)
 					end
 				end
 			end
 		end
 	end
-	--]]
-	
+
+	--english alias
+	function container_combatentes:GetOrCreateActor (serial, nome, flag, criar)
+		return self:PegarCombatente (serial, nome, flag, criar)
+	end
+
 	function container_combatentes:PegarCombatente (serial, nome, flag, criar)
 
 		--[[statistics]]-- _detalhes.statistics.container_calls = _detalhes.statistics.container_calls + 1

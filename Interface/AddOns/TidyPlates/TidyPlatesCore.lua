@@ -1,12 +1,10 @@
 -- Tidy Plates - SMILE! :-D
 
-
-
 ---------------------------------------------------------------------------------------------------------------------
 -- Variables and References
 ---------------------------------------------------------------------------------------------------------------------
 local addonName, TidyPlatesInternal = ...
-local TidyPlatesCore = CreateFrame("Frame", nil, WorldFrame)
+local TidyPlatesCore = CreateFrame("Frame", nil, WorldFrame, "BackdropTemplate")
 
 TidyPlates = {}
 TidyPlatesDebug = false
@@ -22,7 +20,7 @@ local GetNamePlateForUnit = C_NamePlate.GetNamePlateForUnit
 -- Internal Data
 local Plates, PlatesVisible, PlatesFading, GUID = {}, {}, {}, {}	            	-- Plate Lists
 local PlatesByUnit = {}
-local nameplate, extended, bars, regions, visual, carrier, plateid			    	-- Temp/Local References
+local nameplate, extended, bars, regions, visual, carrier, plateid, threatborder    -- Temp/Local References
 local unit, unitcache, style, stylename, unitchanged				    			-- Temp/Local References
 local numChildren = -1                                                              -- Cache the current number of plates
 local activetheme = {}                                                              -- Table Placeholder
@@ -85,14 +83,14 @@ local OnNewNameplate
 
 -- Main Loop
 local OnUpdate
-local OnNewNameplate
 local ForEachPlate
 
 -- UpdateReferences
+local empty_extended = {} --abyui 防止报错
 local function UpdateReferences(plate)
 	nameplate = plate
 	extended = plate.extended
-    if(not extended)then return end
+    if(not extended)then extended = empty_extended return end
 
 	carrier = plate.carrier
 	bars = extended.bars
@@ -147,7 +145,7 @@ do
 				plate.UpdateMe = false
 				plate.UpdateHealth = false
 
-				plate:GetChildren():Hide()
+				plate.UnitFrame:Hide()
 
 			end
 
@@ -180,8 +178,8 @@ do
 		local carrier
 		local frameName = "TidyPlatesCarrier"..numChildren
 
-		carrier = CreateFrame("Frame", frameName, WorldFrame)
-		local extended = CreateFrame("Frame", nil, carrier)
+		carrier = CreateFrame("Frame", frameName, WorldFrame, "BackdropTemplate")
+		local extended = CreateFrame("Frame", nil, carrier, "BackdropTemplate")
 
 		plate.carrier = carrier
 		plate.extended = extended
@@ -191,8 +189,8 @@ do
 		-- Status Bars
 		local healthbar = CreateTidyPlatesStatusbar(extended)
 		local castbar = CreateTidyPlatesStatusbar(extended)
-		local textFrame = CreateFrame("Frame", nil, healthbar)
-		local widgetParent = CreateFrame("Frame", nil, textFrame)
+		local textFrame = CreateFrame("Frame", nil, healthbar, "BackdropTemplate")
+		local widgetParent = CreateFrame("Frame", nil, textFrame, "BackdropTemplate")
 
 		textFrame:SetAllPoints()
 
@@ -255,7 +253,7 @@ do
 		extended.unitcache,
 		extended.stylecache,
 		extended.widgets
-			= {}, {}, {}, {}, {}
+			= {}, { threatValue = 0, health = 0, healthmax = 0, absorbmax = 0, reaction = "FRIENDLY", type = "NPC" }, {}, {}, {} --abyui
 
 		extended.stylename = ""
 
@@ -345,6 +343,7 @@ do
 
 		-- or unitid = plate.namePlateUnitToken
 		UpdateReferences(plate)
+        if UnitIsUnit("player", unitid) then return end --abyui
 
 		carrier:Show()
 
@@ -682,7 +681,7 @@ do
 
 	-- UpdateIndicator_ThreatGlow: Updates the aggro glow
 	function UpdateIndicator_ThreatGlow()
-		if not style.threatborder.show then return end
+		if not style.threatborder or not style.threatborder.show then return end
 		threatborder = visual.threatborder
 		if activetheme.SetThreatColor then
 
@@ -828,21 +827,22 @@ do
 	-- OnShowCastbar
 	function OnStartCasting(plate, unitid, channeled)
 		UpdateReferences(plate)
-		--if not extended:IsShown() then return end
 		if not extended:IsShown() then return end
 
 		local castBar = extended.visual.castbar
 
-		local name, subText, text, texture, startTime, endTime, isTradeSkill, castID, notInterruptible
+		local name, subText, text, texture, startTime, endTime, isTradeSkill, castID, notInterruptible, spellID
 
 		if channeled then
-			name, text, texture, startTime, endTime, isTradeSkill, notInterruptible = UnitChannelInfo(unitid)
-			--name, text, texture, startTimeMS, endTimeMS, isTradeSkill, notInterruptible = UnitChannelInfo("unit")
-
+			name, text, texture, startTime, endTime, isTradeSkill, notInterruptible, spellID = UnitChannelInfo(unitid)
 			castBar:SetScript("OnUpdate", OnUpdateCastBarReverse)
 		else
-			name, text, texture, startTime, endTime, isTradeSkill, castID, notInterruptible = UnitCastingInfo(unitid)
+			name, text, texture, startTime, endTime, isTradeSkill, castID, notInterruptible, spellID = UnitCastingInfo(unitid)
 			castBar:SetScript("OnUpdate", OnUpdateCastBarForward)
+		end
+
+		if not name then
+			return
 		end
 
 		if isTradeSkill then return end
@@ -859,23 +859,26 @@ do
 		local r, g, b, a = 1, 1, 0, 1
 
 		if activetheme.SetCastbarColor then
-			r, g, b, a = activetheme.SetCastbarColor(unit)
+			r, g, b, a = activetheme.SetCastbarColor(unit, spellID, name)
 			if not (r and g and b and a) then return end
 		end
 
-		castBar:SetStatusBarColor( r, g, b)
+		castBar:SetStatusBarColor(r, g, b)
 
 		castBar:SetAlpha(a or 1)
 
 		if unit.spellIsShielded then
-			   visual.castnostop:Show(); visual.castborder:Hide()
-		else visual.castnostop:Hide(); visual.castborder:Show() end
+            visual.castnostop:Show()
+            visual.castborder:Hide()
+        else
+            visual.castnostop:Hide()
+            visual.castborder:Show()
+        end
 
 		UpdateIndicator_CustomScaleText()
 		UpdateIndicator_CustomAlpha()
 
 		castBar:Show()
-
 	end
 
 
@@ -903,10 +906,10 @@ do
 		local currentTime = GetTime() * 1000
 
 		-- Check to see if there's a spell being cast
-		if UnitCastingInfo(unitid) then OnStartCasting(plate, unitid, false)
-		else
-		-- See if one is being channeled...
-			if UnitChannelInfo(unitid) then OnStartCasting(plate, unitid, true) end
+        if UnitCastingInfo(unitid) then
+            OnStartCasting(plate, unitid, false)
+		elseif UnitChannelInfo(unitid) then	-- See if one is being channeled...
+            OnStartCasting(plate, unitid, true)
 		end
 	end
 
@@ -966,18 +969,8 @@ do
 
 	function CoreEvents:NAME_PLATE_CREATED(...)
 		local plate = ...
-		local BlizzardFrame = plate:GetChildren()
-
-		-- hooksecurefunc([table,] "function", hookfunc)
-
-		--BlizzardFrame._Show = BlizzardFrame.Show	-- Store this for later
-		--BlizzardFrame.Show = BlizzardFrame.Hide			-- Try this to keep the plate from showing up
-		-- --BlizzardFrame.Show = BypassFunction			-- Try this to keep the plate from showing up
 		OnNewNameplate(plate)
-	 end
-
-
-
+	end
 
 	function CoreEvents:NAME_PLATE_UNIT_ADDED(...)
 		local unitid = ...
@@ -985,8 +978,8 @@ do
 
 		-- We're not going to theme the personal unit bar
 		if plate and not UnitIsUnit("player", unitid) then
-			local childFrame = plate:GetChildren()
-			if childFrame then childFrame:Hide() end
+			local blizzFrame = plate.UnitFrame
+			if blizzFrame then blizzFrame:Hide() end
 			OnShowNameplate(plate, unitid)
 		end
 
@@ -1005,13 +998,6 @@ do
 		SetUpdateAll()
 	end
 
-	function CoreEvents:UNIT_HEALTH_FREQUENT(...)
-		local unitid = ...
-		local plate = PlatesByUnit[unitid]
-
-		if plate then OnHealthUpdate(plate) end
-	end
-
 	function CoreEvents:UNIT_HEALTH(...)
 		local unitid = ...
 		local plate = PlatesByUnit[unitid]
@@ -1019,13 +1005,13 @@ do
 		if plate then OnHealthUpdate(plate) end
 	end
 
+
 	function CoreEvents:UNIT_ABSORB_AMOUNT_CHANGED(...)
 		local unitid = ...
 		local plate = PlatesByUnit[unitid]
 
 		if plate then OnHealthUpdate(plate) end
 	end
-
 
 	function CoreEvents:PLAYER_REGEN_ENABLED()
 		InCombat = false
@@ -1051,7 +1037,11 @@ do
 		local plate = GetNamePlateForUnit(unitid)
 
 		if plate then
-			OnStartCasting(plate, unitid, false)
+            OnStartCasting(plate, unitid, false)
+            -- unit targets sometimes change after this call
+            C_Timer.After(0.1, function()
+                OnStartCasting(plate, unitid, false)
+            end)
 		end
 	end
 
@@ -1078,6 +1068,10 @@ do
 
 		if plate then
 			OnStartCasting(plate, unitid, true)
+            -- unit targets sometimes change after this call
+            C_Timer.After(0.1, function()
+                OnStartCasting(plate, unitid, true)
+            end)
 		end
 	end
 
@@ -1116,16 +1110,8 @@ do
 	CoreEvents.PLAYER_CONTROL_LOST = WorldConditionChanged
 	CoreEvents.PLAYER_CONTROL_GAINED = WorldConditionChanged
 
---[[
-    CoreEvents.UNIT_TARGET = function(event, unitid)
-        if not unitid then return end
-        local plate = GetNamePlateForUnit(unitid)
-        if plate then
-            UpdateReferences(plate)
-            UpdateUnitTarget(plate, unitid)
-        end
-    end
-]]
+	CoreEvents.UNIT_ENTERED_VEHICLE = WorldConditionChanged
+	CoreEvents.UNIT_EXITED_VEHICLE = WorldConditionChanged
 
 	-- Registration of Blizzard Events
 	TidyPlatesCore:SetFrameStrata("TOOLTIP") 	-- When parented to WorldFrame, causes OnUpdate handler to run close to last

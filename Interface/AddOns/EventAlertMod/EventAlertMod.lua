@@ -1,4 +1,5 @@
-﻿-- Prevent tainting global _.
+﻿local CreateFrame = CreateFrameAby
+-- Prevent tainting global _.
 local _
 local _G = _G
 -----------------------------------------------------------------
@@ -2126,7 +2127,7 @@ function EAFun_CreateVersionFrame_ScrollEditBox()
 	local frameheight = EA_Version_Frame:GetHeight()-70;
 	local panel3 = _G["EA_Version_ScrollFrame"];
 	if panel3 == nil then
-		panel3 = CreateFrame("ScrollFrame", "EA_Version_ScrollFrame", EA_Version_Frame, "UIPanelScrollFrameTemplate");
+		panel3 = CreateFrameAby("ScrollFrame", "EA_Version_ScrollFrame", EA_Version_Frame, "UIPanelScrollFrameTemplate");
 	end
 	local scc = _G["EA_Version_ScrollFrame_List"];
 	if scc == nil then
@@ -3092,7 +3093,7 @@ end
 -----------------------------------------------------------------
 function EAFun_HookTooltips()
 	hooksecurefunc(GameTooltip, "SetUnitBuff", function(self,...)
-        if IsAddOnLoaded("TipTac") then return end
+        if IsAddOnLoaded("TipTacItemRef") then return end
 		local id = select(11,UnitBuff(...))
 		if id then
 			self:AddDoubleLine(EX_XCLSALERT_SPELL,id)
@@ -3101,7 +3102,7 @@ function EAFun_HookTooltips()
 	end)
 
 	hooksecurefunc(GameTooltip, "SetUnitDebuff", function(self,...)
-        if IsAddOnLoaded("TipTac") then return end
+        if IsAddOnLoaded("TipTacItemRef") then return end
 		local id = select(10,UnitDebuff(...)) --aby8
 		if id then
 			self:AddDoubleLine(EX_XCLSALERT_SPELL,id)
@@ -3110,7 +3111,7 @@ function EAFun_HookTooltips()
 	end)
 
 	hooksecurefunc(GameTooltip, "SetUnitAura", function(self,...)
-        if IsAddOnLoaded("TipTac") then return end
+        if IsAddOnLoaded("TipTacItemRef") then return end
 		local id = select(10,UnitAura(...))
 		if id then
 			self:AddDoubleLine(EX_XCLSALERT_SPELL,id)
@@ -3119,7 +3120,7 @@ function EAFun_HookTooltips()
 	end)
 
 	hooksecurefunc("SetItemRef", function(link, text, button, chatFrame)
-        if IsAddOnLoaded("TipTac") then return end
+        if IsAddOnLoaded("TipTacItemRef") then return end
 		if string.find(link,"^spell:") then
 			local id = string.sub(link,7)
 			ItemRefTooltip:AddDoubleLine(EX_XCLSALERT_SPELL,id)
@@ -3128,7 +3129,7 @@ function EAFun_HookTooltips()
 	end)
 
 	GameTooltip:HookScript("OnTooltipSetSpell", function(self)
-        if IsAddOnLoaded("TipTac") then return end
+        if IsAddOnLoaded("TipTacItemRef") then return end
 		local id = select(2,self:GetSpell())
 		if id then
 			self:AddDoubleLine(EX_XCLSALERT_SPELL,id)

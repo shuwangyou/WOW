@@ -1,0 +1,5 @@
+
+AbyAuctionFavoritesDB = {
+	["auction_fav"] = {
+	},
+}

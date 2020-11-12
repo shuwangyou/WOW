@@ -30,7 +30,7 @@ local slots = {
 local function GetInspectItemListFrame(parent)
     if (not parent.inspectFrame) then
         local itemfont = "ChatFontNormal"
-        local frame = CreateFrame("Frame", nil, parent)
+        local frame = CreateFrame("Frame", nil, parent, BackdropTemplateMixin and "BackdropTemplate" or nil)
         local height = parent:GetHeight()
         if (height < 424) then
             height = 424
@@ -69,7 +69,7 @@ local function GetInspectItemListFrame(parent)
             insets   = {left = 1, right = 1, top = 1, bottom = 1}
         }
         for i, v in ipairs(slots) do
-            itemframe = CreateFrame("Button", nil, frame)
+            itemframe = CreateFrame("Button", nil, frame, BackdropTemplateMixin and "BackdropTemplate" or nil)
             itemframe:SetSize(120, (height-82)/#slots)
             itemframe.index = v.index
             itemframe.backdrop = backdrop
@@ -78,7 +78,7 @@ local function GetInspectItemListFrame(parent)
             else
                 itemframe:SetPoint("TOPLEFT", frame["item"..(i-1)], "BOTTOMLEFT")
             end
-            itemframe.label = CreateFrame("Frame", nil, itemframe)
+            itemframe.label = CreateFrame("Frame", nil, itemframe, BackdropTemplateMixin and "BackdropTemplate" or nil)
             itemframe.label:SetSize(38, 16)
             itemframe.label:SetPoint("LEFT")
             itemframe.label:SetBackdrop(backdrop)
@@ -98,7 +98,7 @@ local function GetInspectItemListFrame(parent)
             itemframe.itemString:SetPoint("LEFT", itemframe.levelString, "RIGHT", 2, 0)
             itemframe:SetScript("OnEnter", function(self)
                 local r, g, b, a = self.label:GetBackdropColor()
-                self.label:SetBackdropColor(r, g, b, a+0.5)
+                if (a) then self.label:SetBackdropColor(r, g, b, a+0.5) end
                 if (self.link or (self.level and self.level > 0)) then
                     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
                     GameTooltip:SetInventoryItem(self:GetParent().unit, self.index)
@@ -107,7 +107,7 @@ local function GetInspectItemListFrame(parent)
             end)
             itemframe:SetScript("OnLeave", function(self)
                 local r, g, b, a = self.label:GetBackdropColor()
-                self.label:SetBackdropColor(r, g, b, abs(a-0.5))
+                if (a) then self.label:SetBackdropColor(r, g, b, abs(a-0.5)) end
                 GameTooltip:Hide()
             end)
             itemframe:SetScript("OnDoubleClick", function(self)
@@ -177,6 +177,11 @@ function ShowInspectItemListFrame(unit, parent, ilevel, maxLevel)
         else
             itemframe.levelString:SetText(format(formats,""))
             itemframe.itemString:SetText("")
+        end
+        if (link and IsCorruptedItem(link)) then
+            itemframe.levelString:SetTextColor(0.5, 0.5, 1)
+        else
+            itemframe.levelString:SetTextColor(1, 1, 1)
         end
         itemwidth = itemframe.itemString:GetWidth()
         if (itemwidth > 208) then

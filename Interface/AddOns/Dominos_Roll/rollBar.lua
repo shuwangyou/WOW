@@ -21,9 +21,7 @@ do
 
 	function ContainerFrame:GetDefaults()
 		return {
-			point = 'BOTTOM',
-            x = 0,
-            y = 128,
+			point = 'LEFT',
 			columns = 1,
 			spacing = 2,
 			showInPetBattleUI = true,
@@ -35,24 +33,21 @@ do
 		local frame = self.repositionedFrame
 
 		frame:ClearAllPoints()
-		frame:SetPoint('BOTTOM', self.header)
+		frame:SetPoint('BOTTOM', self)
 
 		local pW, pH = self:GetPadding()
 		self:SetSize(317 + pW, 119 + pH)
 	end
 
-	function ContainerFrame:CreateMenu()
-		local menu = Dominos:NewMenu(self.id)
+	function ContainerFrame:OnCreateMenu(menu)
 		local l = LibStub('AceLocale-3.0'):GetLocale('Dominos-Config')
 
 		local panel = menu:NewPanel(l.Layout)
 
-		panel.opacitySlider = panel:NewOpacitySlider()
-		panel.fadeSlider = panel:NewFadeSlider()
 		panel.scaleSlider = panel:NewScaleSlider()
 		panel.paddingSlider = panel:NewPaddingSlider()
 
-		self.menu = menu
+		menu:AddFadingPanel()
 	end
 end
 

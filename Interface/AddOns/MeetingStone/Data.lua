@@ -18,7 +18,7 @@ _G.BINDING_HEADER_MEETINGSTONE      = ADDON_TITLE
 
 SOLO_HIDDEN_CUSTOM_ID       = 999
 SOLO_VISIBLE_CUSTOM_ID      = 998
-MAX_PLAYER_LEVEL            = MAX_PLAYER_LEVEL_TABLE[GetExpansionLevel()]
+MAX_PLAYER_LEVEL            = 50 --MAX_PLAYER_LEVEL_TABLE[GetExpansionLevel()]
 MAX_SEARCHBOX_HISTORY_LINES = 5
 
 -- App
@@ -303,6 +303,10 @@ CATEGORY = {
             [252] = true,
             [253] = true,
             [254] = true,
+            [255] = true,
+            [256] = true,
+            [257] = true,
+            [258] = true,
         },
         activities = {
             [657] = true, --=C_LFGList.GetActivityInfo(657) 世界首领

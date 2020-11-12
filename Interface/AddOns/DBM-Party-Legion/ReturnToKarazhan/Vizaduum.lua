@@ -1,15 +1,14 @@
 local mod	= DBM:NewMod(1838, "DBM-Party-Legion", 11, 860)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("20190711011719")
+mod.statTypes = "heroic,mythic,challenge"
+
+mod:SetRevision("20200912135206")
 mod:SetCreatureID(114790)
 mod:SetEncounterID(2017)
-mod:SetZone()
 mod:SetUsedIcons(1, 2, 3)
 --mod:SetHotfixNoticeRev(14922)
 --mod.respawnTime = 30
-
-mod.noNormal = true
 
 mod:RegisterCombat("combat")
 
@@ -23,7 +22,7 @@ mod:RegisterEventsInCombat(
 	"UNIT_SPELLCAST_SUCCEEDED boss1"
 )
 
---TODO: Burning Blast INterrupt helper. Figure out CD, then what to do with it
+--TODO: Burning Blast Interrupt helper. Figure out CD, then what to do with it
 --TODO: figure out what to do with Felguard Sentry (115730)
 --ALL
 local warnChaoticShadows			= mod:NewTargetAnnounce(229159, 3)
@@ -34,7 +33,7 @@ local warnPhase3					= mod:NewPhaseAnnounce(3, 2)
 
 --ALL
 local specWarnChaoticShadows		= mod:NewSpecialWarningYou(229159, nil, nil, nil, 1, 2)
-local yellChaoticShadows			= mod:NewPosYell(229159, DBM_CORE_AUTO_YELL_CUSTOM_POSITION2)
+local yellChaoticShadows			= mod:NewPosYell(229159, DBM_CORE_L.AUTO_YELL_CUSTOM_POSITION2)
 local specWarnBurningBlast			= mod:NewSpecialWarningInterruptCount(229083, "HasInterrupt", nil, nil, 1, 2)
 --Phase 1
 local specWarnFelBeam				= mod:NewSpecialWarningRun(229242, nil, nil, nil, 1, 2)
@@ -56,7 +55,7 @@ mod:AddRangeFrameOption(6, 230066)
 mod.vb.phase = 1
 mod.vb.kickCount = 0
 local chaoticShadowsTargets = {}
-local laserWarned = false
+--local laserWarned = false--What was this for? need to finish this mod one day
 
 local function breakShadows(self)
 	warnChaoticShadows:Show(table.concat(chaoticShadowsTargets, "<, >"))
@@ -66,7 +65,7 @@ end
 function mod:OnCombatStart(delay)
 	self.vb.phase = 1
 	self.vb.kickCount = 0
-	laserWarned = false
+	--laserWarned = false
 	table.wipe(chaoticShadowsTargets)
 	--These timers seem to vary about 1-2 sec
 	timerFelBeamCD:Start(5.2-delay)

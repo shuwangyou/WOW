@@ -1,6 +1,6 @@
 local floor,ceil,format,tostring=floor,ceil,format,tostring
 local pairs,ipairs,next,wipe,assert,type,tinsert,select,tremove,GetTime = pairs,ipairs,next,wipe,assert,type,tinsert,select,tremove,GetTime
-local n2s,safecall,copy,tinsertdata,tremovedata = n2s,safecall,copy,tinsertdata,tremovedata
+local n2s,safecall,u1copy,tinsertdata,tremovedata = n2s,safecall,u1copy,tinsertdata,tremovedata
 local U2, _, U1 = 163, ...
 local L = U1.L;
 U1.PINYIN = U1.PINYIN or {}
@@ -110,7 +110,7 @@ local function getInitialAddonInfo()
 
         --- copy a deps is mainly to calc parent, and the table is used later as info.optdeps
         --- there is no deps in raw_infos
-        local deps = copy(realDeps)
+        local deps = u1copy(realDeps)
         for _, known in ipairs(knownAddonPacks) do
             tremovedata(deps, known:lower())
         end
@@ -204,7 +204,7 @@ function U1LoadDBValue(cfg)
         local has, default = U1LoadDBDefault(cfg)
         if has then
             if type(default) == "table" then
-                v = copy(default)
+                v = u1copy(default)
             else
                 v = default
             end
@@ -1480,6 +1480,14 @@ end
 
 local EnableOrLoadDependencies
 
+--[[
+debugprofilestart()
+local last = 0
+if name == _ then U1DB.load_time = {} end
+local now = debugprofilestop()
+tinsert(U1DB.load_time or {}, { format("%10d", math.floor(now - last)), name, math.floor(now) , })
+last = now
+--]]
 function U1:ADDON_LOADED(event, name)
     if name == _ then
 
@@ -1508,6 +1516,7 @@ function U1:ADDON_LOADED(event, name)
         U1DBG = U1DBG or { first_run = true }
         U1DBG.ap_spell = nil
         U1DBG.AtlasLootReverseDBx = nil
+        if U1DBG.lastReloadTime and math.abs(GetTime() - U1DBG.lastReloadTime) > 5 then U1DBG.lastReloadTime = nil end
         db.selectedTag = db.selectedTag or defaultDB.selectedTag;
 
         if U1.returnFromDisableAll then
@@ -1779,12 +1788,13 @@ local function loadAddon(secure)
                     end
                     U1Message(L["还有至少["]..count..L["]个插件尚未更新完，请等待更新器全部完成后运行/reload重载界面。"], 1, 1, 0);
                 else
-                    U1Message(L["全部插件加载完毕。"])
+                    U1Message(L["全部插件加载完毕。"] .. (U1DBG.lastReloadTime and format("本次重载用时%.1f秒。", GetTime() - U1DBG.lastReloadTime) or ""))
                 end
                 --simEventsAndLoadCfgs(); --因为先加载插件再注册事件的话，可能导致一些插件加载后先响应了其他事件，而DB却未创建
                 initComplete = true;
                 db.enteredWorld = true; --如果没加载完全部插件, 则下次还原db的设置, 而不是使用Enable/Disable状态
                 CoreFireEvent("INIT_COMPLETED")
+                SaveAddOns() --非常重要，如果这里不保存一下，ESC-插件 然后点击取消会调用ResetAddOns，就会重新开启所有插件，大概是因为加载时DisableAddOn不更新存储状态
                 wipe(loadedNormalAddons);
                 if ( UnitIsDead("player") and not StaticPopup_Visible("DEATH") ) then
                     if ( GetReleaseTimeRemaining() == 0 ) then

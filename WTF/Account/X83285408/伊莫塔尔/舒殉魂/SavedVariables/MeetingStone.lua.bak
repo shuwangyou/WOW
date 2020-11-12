@@ -14,12 +14,12 @@ MEETINGSTONE_CHARACTER_DB = {
 					["scale"] = 1,
 				},
 			},
-			["lastSearchCode"] = "6-0-0-0",
-			["version"] = "80000.04",
-			["advShine"] = "80000.04",
 			["searchHistoryList"] = {
 				"6-0-0-0", -- [1]
 			},
+			["version"] = "80300.01",
+			["advShine"] = "80000.04",
+			["lastSearchCode"] = "6-0-0-0",
 		},
 	},
 }

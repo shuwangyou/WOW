@@ -1,15 +1,11 @@
 if not WeakAuras.IsCorrectVersion() then return end
+local AddonName, Private = ...
 
 local SharedMedia = LibStub("LibSharedMedia-3.0");
 local L = WeakAuras.L
 local MSQ, MSQ_Version = LibStub("Masque", true);
 if MSQ then
-  if MSQ_Version <= 80100 then
-    MSQ = nil
-    print(print(WeakAuras.printPrefix .. L["Please upgrade your Masque version"]))
-  else
-    MSQ:AddType("WA_Aura", {"Icon", "Cooldown"})
-  end
+  MSQ:AddType("WA_Aura", {"Icon", "Cooldown"})
 end
 
 -- WoW API
@@ -31,7 +27,7 @@ local default = {
   zoom = 0,
   keepAspectRatio = false,
   frameStrata = 1,
-
+  cooldown = false,
   cooldownTextDisabled = false,
   cooldownSwipe = true,
   cooldownEdge = false,
@@ -104,8 +100,6 @@ local function GetTexCoord(region, texWidth, aspectRatio)
   region.currentCoord = region.currentCoord or {}
   local usesMasque = false
   if region.MSQGroup then
-    region.MSQGroup:ReSkin();
-
     local db = region.MSQGroup.db
     if db and not db.Disabled then
       usesMasque = true
@@ -153,11 +147,11 @@ local function AnchorSubRegion(self, subRegion, anchorType, selfPoint, anchorPoi
     anchorXOffset = anchorXOffset or 0
     anchorYOffset = anchorYOffset or 0
 
-    if not WeakAuras.point_types[selfPoint] then
+    if not Private.point_types[selfPoint] then
       selfPoint = "CENTER"
     end
 
-    if not WeakAuras.point_types[anchorPoint] then
+    if not Private.point_types[anchorPoint] then
       anchorPoint = "CENTER"
     end
 
@@ -220,7 +214,7 @@ local function create(parent, data)
   icon:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark");
 
   --This section creates a unique frame id for the cooldown frame so that it can be created with a global reference
-  --The reason is so that WeakAuras cooldown frames can interact properly with OmniCC (i.e., put on its blacklist for timer overlays)
+  --The reason is so that WeakAuras cooldown frames can interact properly with OmniCC (i.e., put on its ignore list for timer overlays)
   local id = data.id;
   local frameId = id:lower():gsub(" ", "_");
   if(_G["WeakAurasCooldown"..frameId]) then
@@ -236,6 +230,9 @@ local function create(parent, data)
   local cooldown = CreateFrame("COOLDOWN", "WeakAurasCooldown"..frameId, region, "CooldownFrameTemplate");
   region.cooldown = cooldown;
   cooldown:SetAllPoints(icon);
+  cooldown:SetDrawBling(false)
+  cooldown.SetDrawSwipeOrg = cooldown.SetDrawSwipe
+  cooldown.SetDrawSwipe = function() end
 
   region.values = {};
 
@@ -266,7 +263,7 @@ local function modify(parent, region, data)
 
   local button, icon, cooldown = region.button, region.icon, region.cooldown;
 
-  region.useAuto = data.auto and WeakAuras.CanHaveAuto(data);
+  region.useAuto = data.auto and Private.CanHaveAuto(data);
 
   if MSQ then
     local masqueId = data.id:lower():gsub(" ", "_");
@@ -311,6 +308,11 @@ local function modify(parent, region, data)
       end
     end
 
+    if region.MSQGroup then
+      region.MSQGroup:RemoveButton(button)
+      region.MSQGroup:AddButton(button, {Icon = icon, Cooldown = cooldown}, "WA_Aura", true)
+    end
+
     local ulx, uly, llx, lly, urx, ury, lrx, lry = GetTexCoord(region, texWidth, aspectRatio)
 
     if(mirror_h) then
@@ -338,15 +340,15 @@ local function modify(parent, region, data)
 
   icon:SetDesaturated(data.desaturate);
 
-  local tooltipType = WeakAuras.CanHaveTooltip(data);
+  local tooltipType = Private.CanHaveTooltip(data);
   if(tooltipType and data.useTooltip) then
     if not region.tooltipFrame then
       region.tooltipFrame = CreateFrame("frame", nil, region);
       region.tooltipFrame:SetAllPoints(region);
       region.tooltipFrame:SetScript("OnEnter", function()
-        WeakAuras.ShowMouseoverTooltip(region, region);
+        Private.ShowMouseoverTooltip(region, region);
       end);
-      region.tooltipFrame:SetScript("OnLeave", WeakAuras.HideTooltip);
+      region.tooltipFrame:SetScript("OnLeave", Private.HideTooltip);
     end
     region.tooltipFrame:EnableMouse(true);
   elseif region.tooltipFrame then
@@ -355,7 +357,9 @@ local function modify(parent, region, data)
 
   cooldown:SetReverse(not data.inverse);
   cooldown:SetHideCountdownNumbers(data.cooldownTextDisabled);
-  cooldown.noCooldownCount = data.cooldownTextDisabled;
+  if OmniCC and OmniCC.Cooldown and OmniCC.Cooldown.SetNoCooldownCount then
+    OmniCC.Cooldown.SetNoCooldownCount(cooldown, data.cooldownTextDisabled)
+  end
 
   function region:Color(r, g, b, a)
     region.color_r = r;
@@ -400,7 +404,7 @@ local function modify(parent, region, data)
       or data.displayIcon
       or "Interface\\Icons\\INV_Misc_QuestionMark"
       );
-    icon:SetTexture(iconPath);
+    WeakAuras.SetTextureOrAtlas(icon, iconPath)
   end
 
   function region:Scale(scalex, scaley)
@@ -437,7 +441,7 @@ local function modify(parent, region, data)
 
   function region:SetCooldownSwipe(cooldownSwipe)
     region.cooldownSwipe = cooldownSwipe;
-    cooldown:SetDrawSwipe(cooldownSwipe);
+    cooldown:SetDrawSwipeOrg(cooldownSwipe);
   end
 
   function region:SetCooldownEdge(cooldownEdge)
@@ -453,15 +457,23 @@ local function modify(parent, region, data)
     region:UpdateTexCoords();
   end
 
+  cooldown.expirationTime = nil;
+  cooldown.duration = nil;
+  cooldown:Hide()
   if(data.cooldown) then
     function region:SetValue(value, total)
-      cooldown.duration = 0
-      cooldown.expirationTime = math.huge
-      cooldown:Hide();
+      cooldown.value = value
+      cooldown.total = total
+      if (value >= 0 and value <= total) then
+        cooldown:Show()
+        cooldown:SetCooldown(GetTime() - (total - value), total)
+      else
+        cooldown:Hide();
+      end
     end
 
     function region:SetTime(duration, expirationTime)
-      if (duration > 0) then
+      if (duration > 0 and expirationTime > GetTime()) then
         cooldown:Show();
         cooldown.expirationTime = expirationTime;
         cooldown.duration = duration;
@@ -477,6 +489,7 @@ local function modify(parent, region, data)
       if (cooldown.duration and cooldown.duration > 0.01) then
         cooldown:Show();
         cooldown:SetCooldown(cooldown.expirationTime - cooldown.duration, cooldown.duration);
+        cooldown:Resume()
       end
     end
 
@@ -503,6 +516,7 @@ local function modify(parent, region, data)
         end
 
         region:SetTime(max - adjustMin, expirationTime - adjustMin, state.inverse);
+        cooldown:Resume()
       elseif state.progressType == "static" then
         local value = state.value or 0;
         local total = state.total or 0;
@@ -512,6 +526,7 @@ local function modify(parent, region, data)
         local adjustMin = region.adjustedMin or region.adjustedMinRel or 0;
         local max = region.adjustedMax or region.adjustedMaxRel or total;
         region:SetValue(value - adjustMin, max - adjustMin);
+        cooldown:Pause()
       else
         region:SetTime(0, math.huge)
       end
@@ -519,7 +534,6 @@ local function modify(parent, region, data)
       region:SetIcon(state.icon or "Interface\\Icons\\INV_Misc_QuestionMark")
     end
   else
-    cooldown:Hide();
     region.SetValue = nil
     region.SetTime = nil
 
@@ -539,6 +553,12 @@ local function modify(parent, region, data)
   end
 
   WeakAuras.regionPrototype.modifyFinish(parent, region, data);
+
+  --- WORKAROUND
+  -- This fixes a issue with barmodels not appearing on icons if the
+  -- icon is shown delayed
+  region:SetWidth(region:GetWidth())
+  region:SetHeight(region:GetHeight())
 end
 
 WeakAuras.RegisterRegionType("icon", create, modify, default, properties);

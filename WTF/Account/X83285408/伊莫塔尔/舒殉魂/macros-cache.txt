@@ -36,6 +36,7 @@ END
 VER 3 0100000000000003 "寒冰箭" "INV_MISC_QUESTIONMARK"
 #showtooltips 寒冰箭
 /startattack [combat]
+/cast [nopet]召唤水元素
 /cast 寒冰箭
 /cast 冰冷血脉
 /use 14

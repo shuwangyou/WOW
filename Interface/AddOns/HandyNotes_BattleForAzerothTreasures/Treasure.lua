@@ -10,10 +10,8 @@ local merge = function(t1, t2)
 end
 ns.merge = merge
 
-local AZERITE = 1553
 local CHEST = 'Treasure Chest'
 local CHEST_SM = 'Small Treasure Chest'
-local CHEST_GLIM = 'Glimmering Treasure Chest'
 local CHEST_MECH = 'Mechanized Chest'
 local CHEST_AR = 'Arcane Chest'
 local AR_TRUNK = 'Arcane Trunk'
@@ -72,6 +70,16 @@ ns.points = {
         [71161767] = path{quest=50949},
         [56123806] = {quest=51338, achievement=12851, criteria=40996, note="In cave behind waterfall",}, -- Cache of Secrets
         [52974719] = {quest=51624, achievement=12851, criteria=40997}, -- Riches of Tor'nowa
+        [54303440] = {quest=52269, item=161443, note="Pepe'jin is perched above the bar",}, -- A Tiny Voodoo Mask
+        -- A Loa of a Tale
+        [43747674] = {achievement=13036, criteria=41573, minimap=true, atlas="profession",}, -- Tales of de Loa: Rezan
+        [47842884] = {achievement=13036, criteria=41576, minimap=true, atlas="profession",}, -- Tales of de Loa: Shadra
+        [48545460] = {achievement=13036, criteria=41569, minimap=true, atlas="profession",}, -- Tales of de Loa: Jani
+        [49004129] = {achievement=13036, criteria=41572, minimap=true, atlas="profession",}, -- Tales of de Loa: Pa'ku
+        [51692825] = {achievement=13036, criteria=41566, minimap=true, atlas="profession",}, -- Tales of de Loa: Gonk
+        [57703170] = {achievement=13036, criteria=41581, minimap=true, atlas="profession",}, -- Tales of de Loa: Zandalar
+        [67281762] = {achievement=13036, criteria=41577, minimap=true, atlas="profession",}, -- Tales of de Loa: Torcali
+        [75506760] = {achievement=13036, criteria=41567, minimap=true, atlas="profession",}, -- Tales of de Loa: Gral
         -- junk
         [50823158] = {quest=50711, junk=true, label=CHEST,},
         [65041636] = {quest=50715, junk=true, label=CHEST,},
@@ -91,7 +99,8 @@ ns.points = {
         [81203857] = {quest=50728, junk=true, label=CHEST,},
         [80135512] = {quest=51346, junk=true, label=CHEST,},
         [82465431] = {quest=51346, junk=true, label=CHEST,},
-        -- [71684127] = {quest=50308, junk=true, label="Mysterious trashpile", achievement="12482", note="Jani"},
+        [71684127] = {quest=50308, junk=true, label="Mysterious trashpile", achievement=12482, note="Jani"},
+        [63963171] = {quest=50720, junk=true, label="Mysterious trashpile", achievement=12482, note="Jani"},
     },
     [863] = { -- Nazmir
         [77903634] = {quest=49867, achievement=12771, criteria=40857,}, -- Lucky Horace's Lucky Chest
@@ -117,10 +126,22 @@ ns.points = {
         [21706930] = {quest=53425, achievement=13028, minimap=true, atlas="WildBattlePetCapturable",},
         -- [52804290] = {quest=53426, achievement=13828, minimap=true,}, -- maybe?
         [25694058] = {quest=53426, achievement=13028, minimap=true, atlas="WildBattlePetCapturable",},
+        -- Carved in Stone, Written in Blood
+        [56355727] = {quest=nil, achievement=13024, criteria=41860, minimap=true, atlas="reagents",},
+        [43364810] = {quest=nil, achievement=13024, criteria=41861, minimap=true, atlas="reagents",},
+        [51268511] = {quest=nil, achievement=13024, criteria=41862, minimap=true, atlas="reagents",},
+        [42565711] = {quest=nil, achievement=13024, criteria=42116, minimap=true, atlas="reagents",},
+        -- Loa of a Tale
+        [39123865] = {achievement=13036, criteria=41565, minimap=true, atlas="profession",}, -- Tales of de Loa: Bwonsamdi
+        [39575467] = {achievement=13036, criteria=41568, minimap=true, atlas="profession",}, -- Tales of de Loa: Hir'eek
+        [58924865] = {achievement=13036, criteria=41571, minimap=true, atlas="profession",}, -- Tales of de Loa: Krag'wa
+        [72850760] = {achievement=13036, criteria=41579, minimap=true, atlas="profession",}, -- Tales of de Loa: Torga
         -- junk
         [41575046] = {quest=49916, junk=true, label=CHEST,},
         [41596574] = {quest=49916, junk=true, label=CHEST,},
         [28048187] = {quest=50895, junk=true, label=CHEST,},
+        [33957512] = {quest=50437, junk=true, label="Mysterious trashpile", achievement=12482, note="Jani"},
+        [68573280] = {quest=50441, junk=true, label="Mysterious trashpile", achievement=12482, note="Jani"},
     },
     [864] = { -- Vol'dun
         [46598801] = {quest=50237, achievement=12849, criteria=40966, note="Use mine cart",}, -- Ashvane Spoils
@@ -132,6 +153,7 @@ ns.points = {
         [40578574] = {quest=52994, achievement=12849, criteria=41003,}, -- Deadwood Chest
         [38848290] = path{quest=52994},
         [48186469] = {quest=51093, achievement=12849, criteria=40967, note="Door on East side", hide_before=50550, faction="Horde",}, -- Grayal's Last Offering
+        [48176469] = {quest=51093, achievement=12849, criteria=40967, note="Door on East side", faction="Alliance",}, -- Grayal's Last Offering
         [49166469] = path{quest=51093},
         [47195846] = {quest=51133, achievement=12849, criteria=40969, note="Path from South side",}, -- Sandfury Reserve
         [47445984] = path{quest=51133},
@@ -155,8 +177,19 @@ ns.points = {
         [47933673] = {quest=53143, minimap=true, atlas="VignetteLootElite", scale=1.2, achievement=13016, criteria=41353, note="Cave under the giant tree",}, -- Josh's Fang Necklace
         [45229114] = {quest=53144, minimap=true, atlas="VignetteLootElite", scale=1.2, achievement=13016, criteria=41354, note="On the wall",}, -- Portrait of Commander Martens
         [62832267] = {quest=53145, minimap=true, atlas="VignetteLootElite", scale=1.2, achievement=13016, criteria=41355, note="Down from Tortaka Refuge",}, -- Kurt's Ornate Key
+        -- Dune Rider
+        [32206900] = {quest=nil, minimap=true, atlas="flightmasterferry", achievement=13018, note="Rickety Plank",},
+        [38107100] = {quest=nil, minimap=true, atlas="flightmasterferry", achievement=13018, note="Rickety Plank",},
+        [47906250] = {quest=nil, minimap=true, atlas="flightmasterferry", achievement=13018, note="Rickety Plank",},
+        [45806360] = {quest=nil, minimap=true, atlas="flightmasterferry", achievement=13018, note="Rickety Plank",},
+        [54902140] = {quest=nil, minimap=true, atlas="flightmasterferry", achievement=13018, note="Rickety Plank",},
+        -- Loa of a Tale
+        [27706212] = {achievement=13036, criteria=41570, minimap=true, atlas="profession",}, -- Tales of de Loa: Kimbul
+        [42226211] = {achievement=13036, criteria=41564, minimap=true, atlas="profession",}, -- Tales of de Loa: Akunda
+        [49572457] = {achievement=13036, criteria=41574, minimap=true, atlas="profession",}, -- Tales of de Loa: Sethraliss
         -- junk
         [46984656] = {quest=50883, junk=true, label="Mysterious trashpile", achievement=12482, note="In alcove, Summon Jani, give her Charged Ranishu Antennae"},
+        [49398446] = {quest=50892, junk=true, label="Mysterious trashpile", achievement=12482, note="Under bridge, Summon Jani, give her Sturdy Redrock Jaw"},
         [59631517] = {quest=50914, junk=true, label=CHEST,},
         [61071734] = {quest=50914, junk=true, label=CHEST,},
         [53841481] = {quest=50915, junk=true, label=CHEST,},
@@ -240,6 +273,17 @@ ns.points = {
         [18515133] = {quest=53471, item=163789, minimap=true, achievement=12995, criteria=41702, note="Click on Witch Torch",}, -- Hexed Chest
         [67767367] = {quest=53473, item=163791, minimap=true, achievement=12995, criteria=41704, note="Click on Witch Torch",}, -- Ensorcelled Chest
         [24304840] = {quest=53475, minimap=true, achievement=12995, criteria=41752,}, -- Stolen Thornspeaker Cache
+        -- Drust the Facts, Ma'am
+        [37126380] = {achievement=13064, criteria=41436, atlas="reagents",}, -- Drust Stele: The Circle
+        [27354833] = {achievement=13064, criteria=41438, atlas="reagents",}, -- Drust Stele: The Tree
+        [27605760] = {achievement=13064, criteria=41441, atlas="reagents",}, -- Drust Stele: Sacrifice
+        [19065787] = {achievement=13064, criteria=41443, atlas="reagents",}, -- Drust Stele: The Cycle
+        [56558583] = {achievement=13064, criteria=41446, atlas="reagents",}, -- Drust Stele: The Flayed Man
+        [50777371] = {achievement=13064, criteria=41437, atlas="reagents",}, -- Drust Stele: The Ritual
+        [59396668] = {achievement=13064, criteria=41439, atlas="reagents",}, -- Drust Stele: Breath Into Stone
+        [50144232] = {achievement=13064, criteria=41442, atlas="reagents",}, -- Drust Stele: Constructs
+        [46453723] = {achievement=13064, criteria=41445, atlas="reagents",}, -- Drust Stele: Conflict
+        [44584566] = {achievement=13064, criteria=41449, atlas="reagents",}, -- Drust Stele: Protectors of the Forest
         -- junk
         [65312905] = {quest=51871, junk=true, label=CHEST_SM,},
         [57862187] = {quest=51875, junk=true, label=CHEST_SM,},
@@ -316,6 +360,9 @@ ns.points = {
         [44472690] = {quest=51338, minimap=true, achievement=12851, criteria=40996, note="In cave behind waterfall",}, -- Cache of Secrets
         [38300716] = {quest=48938, minimap=true, achievement=12851, criteria=40988, note="On top of the Hall of the High Priests",}, -- Offerings of the Chosen
         [41141101] = path{quest=48938},
+        [39001580] = {quest=52269, item=161443, note="Pepe'jin is perched above the bar",}, -- A Tiny Voodoo Mask
+        -- A Loa of a Tale
+        [53230940] = {achievement=13036, criteria=41581, minimap=true, atlas="profession",}, -- Tales of de Loa: Zandalar
         -- junk
         [48981013] = {quest=49142, junk=true, label=CHEST,},
     },

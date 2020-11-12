@@ -1,5 +1,5 @@
 --- Kaliel's Tracker
---- Copyright (c) 2012-2019, Marouan Sabbagh <mar.sabbagh@gmail.com>
+--- Copyright (c) 2012-2020, Marouan Sabbagh <mar.sabbagh@gmail.com>
 --- All Rights Reserved.
 ---
 --- This file is part of addon Kaliel's Tracker.
@@ -19,17 +19,6 @@ local OTF = ObjectiveTrackerFrame
 local msqGroup1, msqGroup2
 
 local KTwarning = "  |cff00ffffAddon "..KT.title.." is active.  "
-
-StaticPopupDialogs[addonName.."_ReloadUI"] = {
-    text = KTwarning,
-    button1 = "Reload UI",
-    OnAccept = function()
-        ReloadUI()
-    end,
-    timeout = 0,
-    whileDead = true,
-    preferredIndex = 3,
-}
 
 --------------
 -- Internal --
@@ -59,7 +48,7 @@ end
 
 -- ElvUI
 local function ElvUI_SetSupport()
-    if KT:CheckAddOn("ElvUI", "11.14", true) then
+    if KT:CheckAddOn("ElvUI", "12.06", true) then
         local E = unpack(_G.ElvUI)
         local B = E:GetModule("Blizzard")
         B.SetObjectiveFrameAutoHide = function() end  -- preventive
@@ -70,16 +59,13 @@ local function ElvUI_SetSupport()
         end)
         hooksecurefunc(E, "ToggleOptionsUI", function(self)
             if E.Libs.AceConfigDialog.OpenFrames[self.name] then
-                local options = self.Options.args.general.args.objectiveFrameGroup.args
-                options.objectiveFrameAutoHide.disabled = true
-                options.objectiveFrameHeight.disabled = true
-                options.bonusObjectivePosition.disabled = true
-                options[addonName.."Warning"] = {
+                local options = self.Options.args.general.args.blizzUIImprovements.args.objectiveFrameGroup
+                options.disabled = true
+                options.args[addonName.."Warning"] = {
                     name = KTwarning,
                     type = "description",
-                    order = options.objectiveFrameHeader.order + 0.5,
+                    order = 0.1,
                 }
-                self.Options.args.skins.args.blizzard.args.objectiveTracker.disabled = true
             end
         end)
     end
@@ -87,7 +73,7 @@ end
 
 -- Tukui
 local function Tukui_SetSupport()
-    if KT:CheckAddOn("Tukui", "18.24", true) then
+    if KT:CheckAddOn("Tukui", "20.04", true) then
         local T = unpack(_G.Tukui)
         T.Miscellaneous.ObjectiveTracker.Enable = function() end
     end
@@ -95,7 +81,7 @@ end
 
 -- RealUI
 local function RealUI_SetSupport()
-    if KT:CheckAddOn("nibRealUI", "2.0.0", true) then
+    if KT:CheckAddOn("nibRealUI", "2.2.3", true) then
         local R = _G.RealUI
         R:SetModuleEnabled("Objectives Adv.", false)
         -- Fade
@@ -109,12 +95,15 @@ local function RealUI_SetSupport()
             if frame ~= OTF then bck_UIFrameFadeOut(frame, ...) end
         end
         --]]
+        if not IsAddOnLoaded("Aurora_Extension") then
+            StaticPopup_Show(addonName.."_Info", nil, "Please install/activate addon |cff00ffe3Aurora - Extension|r\nand disable Objective Tracker skin.")
+        end
     end
 end
 
 -- SyncUI
 local function SyncUI_SetSupport()
-    if KT:CheckAddOn("SyncUI", "8.0.3", true) then
+    if KT:CheckAddOn("SyncUI", "8.3.0.3", true) then
         SyncUI_ObjTracker.Show = function() end
         SyncUI_ObjTracker:Hide()
         SyncUI_ObjTracker:SetScript("OnLoad", nil)
@@ -125,41 +114,32 @@ end
 
 -- SpartanUI
 local function SpartanUI_SetSupport()
-    if KT:CheckAddOn("SpartanUI", "5.1.2", true) then
-        local ACD = LibStub("AceConfigDialog-3.0")
-        SUI.DB.EnabledComponents.Objectives = false
+    if KT:CheckAddOn("SpartanUI", "6.0.10", true) then
+        SUI.DB.DisabledComponents.Objectives = true
         local module = SUI:GetModule("Component_Objectives")
         local bck_module_OnEnable = module.OnEnable
         function module:OnEnable()
-            if not SUI.DB.EnabledComponents.Objectives then
+            if SUI.DB.DisabledComponents.Objectives then
                 module:BuildOptions()
-                module:HideOptions()
+                local options = SUI.opt.args.ModSetting.args
+                options.Objectives.disabled = true
+                options.Components.args.Objectives.disabled = true
+                options.Components.args[addonName.."Warning"] = {
+                    name = "\n"..KTwarning,
+                    type = "description",
+                    order = 1000,
+                }
                 return
             end
             bck_module_OnEnable(self)
         end
-        local bck_ACD_Open = ACD.Open
-        function ACD:Open(name, ...)
-            if name == "SpartanUI" then
-                local options = SUI.opt.args.ModSetting.args.Components.args
-                options.Objectives.disabled = true
-                options[addonName.."Warning"] = {
-                    name = KTwarning,
-                    type = "description",
-                    order = 1000,
-                }
-            end
-            bck_ACD_Open(self, name, ...)
-        end
     end
 end
 
--- SuperVillain UI
-local function SVUI_SetSupport()
-    if KT:CheckAddOn("SVUI_!Core", "1.5.1", true) then
-        if IsAddOnLoaded("SVUI_QuestTracker") then
-            DisableAddOn("SVUI_QuestTracker")
-            StaticPopup_Show(addonName.."_ReloadUI")
+local function Aurora_SetCompatibility()
+    if IsAddOnLoaded("Aurora") then
+        if not IsAddOnLoaded("Aurora_Extension") then
+            StaticPopup_Show(addonName.."_Info", nil, "Please install/activate addon |cff00ffe3Aurora - Extension|r\nand disable Objective Tracker skin.")
         end
     end
 end
@@ -197,26 +177,6 @@ local function DQE_SetCompatibility()
     end
 end
 
--- Dominos
-local function Dominos_SetCompatibility()
-    if IsAddOnLoaded("Dominos") then
-        local function ReanchorActiveButton()
-            local button = KT.frame.ActiveButton
-            if button and DominosFrameextra then
-                button:SetParent(DominosFrameextra)
-                button:ClearAllPoints()
-                button:SetPoint("CENTER", 0, 0.5)
-            end
-        end
-        hooksecurefunc(Dominos, "OnEnable", function(self)
-            ReanchorActiveButton()
-        end)
-        hooksecurefunc(KT.ActiveButton, "OnEnable", function(self)
-            ReanchorActiveButton()
-        end)
-    end
-end
-
 --------------
 -- External --
 --------------
@@ -224,7 +184,7 @@ end
 function M:OnInitialize()
     _DBG("|cffffff00Init|r - "..self:GetName(), true)
     db = KT.db.profile
-    KT:CheckAddOn("Masque", "8.0.1")
+    KT:CheckAddOn("Masque", "9.0.2")
 end
 
 function M:OnEnable()
@@ -235,10 +195,9 @@ function M:OnEnable()
     RealUI_SetSupport()
     SyncUI_SetSupport()
     SpartanUI_SetSupport()
-    SVUI_SetSupport()
+    Aurora_SetCompatibility()
     Chinchilla_SetCompatibility()
     DQE_SetCompatibility()
-    Dominos_SetCompatibility()
 end
 
 -- Masque

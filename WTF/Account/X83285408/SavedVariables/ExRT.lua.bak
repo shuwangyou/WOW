@@ -1,10 +1,12 @@
 
 VExRT = {
 	["BattleRes"] = {
+		["Strata"] = "HIGH",
 	},
 	["ProfileKeys"] = {
 		["舒孑影-安苏"] = "default",
 		["舒墨兰-伊莫塔尔"] = "default",
+		["舒孑影-伊莫塔尔"] = "default",
 		["舒预言-死亡之翼"] = "default",
 	},
 	["Arrow"] = {
@@ -25,13 +27,7 @@ VExRT = {
 		["list"] = {
 		},
 	},
-	["Coins"] = {
-		["list"] = {
-		},
-	},
 	["ExCD2"] = {
-		["default_userDuration"] = {
-		},
 		["gnGUIDs"] = {
 			["舒墨兰"] = 577,
 			["丶佬子有嘎嘎-格瑞姆巴托"] = 104,
@@ -41,7 +37,7 @@ VExRT = {
 		["NoRaid"] = true,
 		["CDECol"] = {
 		},
-		["default_userCD"] = {
+		["userDB"] = {
 		},
 		["Save"] = {
 		},
@@ -208,7 +204,7 @@ VExRT = {
 		},
 		["CDE"] = {
 		},
-		["userDB"] = {
+		["OptFav"] = {
 		},
 	},
 	["Attendance"] = {
@@ -218,6 +214,10 @@ VExRT = {
 		["alts"] = {
 		},
 	},
+	["Inspect"] = {
+		["Soulbinds"] = {
+		},
+	},
 	["InspectViewer"] = {
 		["ColorizeLowIlvl685"] = false,
 		["ColorizeNoEnch"] = true,
@@ -225,6 +225,24 @@ VExRT = {
 		["ColorizeNoTopEnchGems"] = false,
 		["ColorizeLowIlvl"] = true,
 		["ColorizeNoValorUpgrade"] = false,
+	},
+	["LootHistory"] = {
+		["instanceNames"] = {
+		},
+		["bossNames"] = {
+		},
+		["list"] = {
+		},
+	},
+	["Bossmods"] = {
+		["Kormrok"] = {
+		},
+		["Mannoroth"] = {
+		},
+		["Ilgynoth"] = {
+		},
+		["Kromog"] = {
+		},
 	},
 	["InviteTool"] = {
 		["Words"] = "инв inv byd штм 123",
@@ -250,7 +268,7 @@ VExRT = {
 	["Addon"] = {
 		["Timer"] = 0.1,
 		["PreVersion"] = 4110,
-		["Version"] = 4110,
+		["Version"] = 4360,
 		["Scale"] = 1,
 	},
 	["Note"] = {
@@ -274,6 +292,8 @@ VExRT = {
 		["FontSize"] = 12,
 		["OptionsFormatting"] = true,
 	},
+	["Profiles"] = {
+	},
 	["BossWatcher"] = {
 		["optionsDamageGraph"] = true,
 		["fightsNum"] = 2,
@@ -282,19 +302,11 @@ VExRT = {
 		["trackingDamageSpells"] = {
 		},
 	},
-	["Profiles"] = {
-	},
 	["Profile"] = "default",
 	["LootLink"] = {
 	},
-	["Bossmods"] = {
-		["Kormrok"] = {
-		},
-		["Mannoroth"] = {
-		},
-		["Ilgynoth"] = {
-		},
-		["Kromog"] = {
+	["RaidGroups"] = {
+		["profiles"] = {
 		},
 	},
 	["RaidCheck"] = {
@@ -309,6 +321,7 @@ VExRT = {
 	["MarksBar"] = {
 		["pulltimer"] = 10,
 		["Strata"] = "HIGH",
+		["pulltimer_right"] = 10,
 		["Show"] = {
 			true, -- [1]
 			true, -- [2]

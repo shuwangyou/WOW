@@ -5,6 +5,10 @@ VER 3 0000000000000054 "1" "INV_MISC_QUESTIONMARK"
 /g  /  \
 /g 8s真男人！冰封之韧！
 END
+VER 3 0000000000000064 "1" "INV_MISC_QUESTIONMARK"
+/tar 皎白云端翔龙
+/use 枬天拉索
+END
 VER 3 0000000000000030 "AH" "ACHIEVEMENT_GUILDPERK_MOBILEBANKING"
 /click TSMAuctioningPostButton
 /click TSMAHTabPostButton
@@ -132,6 +136,17 @@ VER 3 0000000000000014 "焦点额外" "SPELL_MAGIC_MANAGAIN"
 /target focus
 /click ExtraActionButton1
 END
+VER 3 0000000000000065 "猛虎掌" "606551"
+#showtooltips 猛虎掌
+/use 13
+/use 14
+/castsequence reset=combat 铁骨酒,醉酿投,幻灭猛击,猛虎掌,幻灭猛击,猛虎掌
+END
+VER 3 0000000000000066 "玄牛雕像" "611419"
+#showtooltips
+/click TotemFrameTotem1 RightButton
+/cast 玄牛雕像
+END
 VER 3 000000000000004F "痛击2" "SPELL_DRUID_THRASH"
 #showtooltips 痛击
 /cast [nostance:1]熊形态
@@ -150,6 +165,11 @@ VER 3 0000000000000056 "真言术：盾" "INV_MISC_QUESTIONMARK"
 /use 审判官的邪恶之眼
 /cast 真言术：盾
 /cancelaura 圣光回响
+END
+VER 3 0000000000000067 "群嘲" "620830"
+/target 玄牛雕像
+/cast [help]嚎镇八方
+/targetlasttarget
 END
 VER 3 000000000000004D "脓疮打击" "SPELL_DEATHKNIGHT_FESTERING_STRIKE"
 #showtooltip 脓疮打击

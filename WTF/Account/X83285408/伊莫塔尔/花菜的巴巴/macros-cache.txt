@@ -1,0 +1,13 @@
+VER 3 0100000000000001 "清创生血" "460692"
+#showtooltips 清创生血
+/dismount
+/cast [combat]清创生血
+/use 庆祝包裹
+/use 炽燃之翼
+/use 圣光微粒
+/use 扭曲骸骨
+/use 改装的邪能焦镜
+/use 奥拉留斯的低语水晶
+/use 狂乱水晶
+/use 审判官的邪恶之眼
+END

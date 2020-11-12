@@ -8,11 +8,12 @@ if Lib.gameExpansion == "retail" then
         [207167]  = "disorient",       -- Blinding Sleet
         [207685]  = "disorient",       -- Sigil of Misery
         [33786]   = "disorient",       -- Cyclone
-        [209753]  = "disorient",       -- Cyclone (Honor talent)
+        [1513]    = "disorient",       -- Scare Beast
         [31661]   = "disorient",       -- Dragon's Breath
         [198909]  = "disorient",       -- Song of Chi-ji
         [202274]  = "disorient",       -- Incendiary Brew
         [105421]  = "disorient",       -- Blinding Light
+        [10326]   = "disorient",       -- Turn Evil (For Lichborne?)
         [605]     = "disorient",       -- Mind Control
         [8122]    = "disorient",       -- Psychic Scream
         [226943]  = "disorient",       -- Mind Bomb
@@ -109,7 +110,6 @@ if Lib.gameExpansion == "retail" then
         [200200]  = "stun",            -- Holy Word: Chastise Censure
         [1833]    = "stun",            -- Cheap Shot
         [408]     = "stun",            -- Kidney Shot
-        [199804]  = "stun",            -- Between the Eyes
         [118905]  = "stun",            -- Static Charge (Capacitor Totem)
         [118345]  = "stun",            -- Pulverize (Primal Earth Elemental)
         [305485]  = "stun",            -- Lightning Lasso
@@ -147,6 +147,7 @@ if Lib.gameExpansion == "retail" then
         [33395]   = "root",            -- Freeze
         [198121]  = "root",            -- Frostbite
         [220107]  = "root",            -- Frostbite (Water Elemental? needs testing)
+        [342375]  = "root",            -- Tormenting Backlash (Torghast pve, needs confirmation)
         [233582]  = "root",            -- Entrenched in Flame
         [116706]  = "root",            -- Disable
         [64695]   = "root",            -- Earthgrab (Totem effect)
@@ -194,7 +195,7 @@ if Lib.gameExpansion == "retail" then
 
 else
 
-    -- Spell list for Classic patch 1.13.2 (** Work in progress, a lot is unconfirmed **)
+    -- Spell list for Classic (WIP)
     -- In Classic the spell ID payload is gone from the combat log, so we need the key here to be
     -- spell name instead. We also provide spell ID in the table value so it's possible to retrieve
     -- for example spell icon using GetSpellTexture(spellID) later on. (These functions only accept
@@ -262,12 +263,12 @@ else
         [GetSpellInfo(23694)]   = { category = "random_root", spellID = 23694 },   -- Improved Hamstring
         [GetSpellInfo(27868)]   = { category = "random_root", spellID = 27868 },   -- Freeze (Item proc and set bonus)
 
-        -- Random/short stuns
+        -- Random/short stuns (TODO: confirm category exists)
         [GetSpellInfo(16922)]   = { category = "random_stun", spellID = 16922 },   -- Improved Starfire
         [GetSpellInfo(19410)]   = { category = "random_stun", spellID = 19410 },   -- Improved Concussive Shot
         [GetSpellInfo(12355)]   = { category = "random_stun", spellID = 12355 },   -- Impact
         [GetSpellInfo(20170)]   = { category = "random_stun", spellID = 20170 },   -- Seal of Justice Stun
-        [GetSpellInfo(15269)]   = { category = "random_stun", spellID = 15269 },   -- Blackout
+        --[GetSpellInfo(15269)]   = { category = "random_stun", spellID = 15269 }, -- Blackout
         [GetSpellInfo(18093)]   = { category = "random_stun", spellID = 18093 },   -- Pyroclasm
         [GetSpellInfo(12798)]   = { category = "random_stun", spellID = 12798 },   -- Revenge Stun
         [GetSpellInfo(5530)]    = { category = "random_stun", spellID = 5530 },    -- Mace Stun Effect (Mace Specialization)
@@ -292,5 +293,5 @@ else
     }
 end
 
--- keep same API as DRData-1.0 for easier transitions
+-- Alias for DRData-1.0
 Lib.spells = Lib.spellList

@@ -7,13 +7,13 @@ if( not Data ) then return end
 
 local L = {
 	-- WoD
-	["Roots"]              = "Roots",
-	["Stuns"]              = "Stuns",
-	["Silences"]           = "Silences",
-	["Taunts"]             = "Taunts",
-	["Knockbacks"]         = "Knockbacks",
-	["Incapacitates"]      = "Incapacitates",
-	["Disorients"]         = "Disorients",
+	["Roots"] = "Roots",
+	["Stuns"] = "Stuns",
+	["Silences"] = "Silences",
+	["Taunts"] = "Taunts",
+	["Knockbacks"] = "Knockbacks",
+	["Incapacitates"] = "Incapacitates",
+	["Disorients"] = "Disorients",
 }
 
 local locale = GetLocale()
@@ -108,7 +108,7 @@ end
 -- How long before DR resets ?
 Data.resetTimes = {
 	-- As of 6.1, this is always 18 seconds, and no longer has a range between 15 and 20 seconds.
-	default   = 18,
+	default = 18,
 	-- Knockbacks are a special case
 	knockback = 10,
 }
@@ -117,9 +117,9 @@ Data.RESET_TIME = Data.resetTimes.default
 -- Successives diminished durations
 Data.diminishedDurations = {
 	-- Decreases by 50%, immune at the 4th application
-	default   = { 0.50, 0.25 },
+	default = { 0.50, 0.25 },
 	-- Decreases by 35%, immune at the 5th application
-	taunt     = { 0.65, 0.42, 0.27 },
+	taunt = { 0.65, 0.42, 0.27 },
 	-- Immediately immune
 	knockback = {},
 }
@@ -179,6 +179,7 @@ local spellsAndProvidersByCategory = {
 		-- Hunter
 		[  3355] = 187650, -- Freezing Trap
 		[203337] = 187650, -- Freezing Trap (Honor Talent)
+		[209790] = true, -- Freezing Arrow
 		[213691] = true, -- Scatter Shot
 		-- Mage
 		[   118] = true, -- Polymorph
@@ -235,9 +236,11 @@ local spellsAndProvidersByCategory = {
 		-- Hunter
 		[202933] = 202914, -- Spider Sting
 		-- Paladin
+		[ 31935] = true, -- Avenger's Shield
 		[217824] = 31935, -- Shield of Virtue
 		-- Priest
 		[ 15487] = true, -- Silence
+		[199683] = true, -- Last Word
 		-- Rogue
 		[  1330] = 703, -- Garrote
 		-- Warlock
@@ -261,7 +264,7 @@ local spellsAndProvidersByCategory = {
 		-- Paladin
 		[105421] = 115750, -- Blinding Light
 		-- Priest
-		[   605] = true, -- Mind Control
+		[   605] = true, -- Dominate Mind
 		[  8122] = true, -- Psychic Scream
 		[226943] = 205369, -- Mind Bomb
 		-- Rogue
@@ -339,10 +342,12 @@ local spellsAndProvidersByCategory = {
 		[102359] = true, -- Mass Entanglement
 		[ 45334] = 16979, -- Immobilized (wild charge, bear form)
 		-- Hunter
+		[ 53148] = 61685, -- Charge (Tenacity Pet)
 		[162480] = 162488, -- Steel Trap
 		[117526] = 109248, -- Binding Shot
 		[190927] = 190925, -- Harpoon
 		[201158] = true, -- Super Sticky Tar
+		[200108] = true, -- Ranger's Net
 		[212638] = true, -- Tracker's Net
 		-- Mage
 		[   122] = true, -- Frost Nova
@@ -368,6 +373,8 @@ local spellsAndProvidersByCategory = {
 		[132469] = true, -- Typhoon
 		-- Hunter
 		[186387] = true, -- Bursting Shot
+		[224729] = true, -- Bursting Shot
+		[238559] = true, -- Bursting Shot
 		[236775] = true, -- Hi-Explosive Trap
 		-- Mage
 		[157981] = true, -- Blast Wave
@@ -391,32 +398,32 @@ local spellsAndProvidersByCategory = {
 
 -- Map deprecatedCategories to the new ones
 local deprecatedCategories = {
-	ctrlroot       = true,
-	shortroot      = true,
-	ctrlstun       = true,
-	rndstun        = true,
-	cyclone        = true,
+	ctrlroot = true,
+	shortroot = true,
+	ctrlstun = true,
+	rndstun = true,
+	cyclone = true,
 	shortdisorient = true,
-	fear           = true,
-	horror         = true,
-	mc             = true,
-	--disarm         = true,
+	fear = true,
+	horror = true,
+	mc = true,
+	--disarm = true,
 }
 
 Data.categoryNames = {
-	root           = L["Roots"],
-	stun           = L["Stuns"],
-	disorient      = L["Disorients"],
-	silence        = L["Silences"],
-	taunt          = L["Taunts"],
-	incapacitate   = L["Incapacitates"],
-	knockback      = L["Knockbacks"],
-	disarm         = L["Disarms"],
+	root = L["Roots"],
+	stun = L["Stuns"],
+	disorient = L["Disorients"],
+	silence = L["Silences"],
+	taunt = L["Taunts"],
+	incapacitate = L["Incapacitates"],
+	knockback = L["Knockbacks"],
+	disarm = L["Disarms"],
 }
 
 Data.pveDR = {
-	stun     = true,
-	taunt    = true,
+	stun = true,
+	taunt = true,
 }
 
 --- List of spellID -> DR category

@@ -1,30 +1,42 @@
 
 AutoTurnInCharacterDB = {
-	["togglekey"] = 4,
+	["IGNORED_NPC"] = {
+		["87391"] = "fate-twister-seress",
+		["142063"] = "Tezran",
+		["141584"] = "Zurvan",
+		["127037"] = "Nabiru",
+		["119388"] = "Chieftain Hatuun",
+		["111243"] = "Archmage Lan'dalock",
+		["88570"] = "Fate-Twister Tiklal",
+		["15077"] = "Riggle Bassbait",
+	},
+	["weapon"] = {
+	},
+	["completeonly"] = false,
+	["trivial"] = false,
 	["questlevel"] = true,
-	["secondary"] = {
-	},
+	["version"] = "7.5.1",
 	["showrewardtext"] = true,
-	["questshare"] = false,
+	["reviveBattlePet"] = false,
 	["watchlevel"] = true,
-	["armor"] = {
-	},
-	["enabled"] = true,
+	["togglekey"] = 4,
+	["enabled"] = false,
 	["todarkmoon"] = true,
 	["autoequip"] = false,
-	["completeonly"] = false,
-	["darkmoonautostart"] = true,
+	["tournament"] = 2,
+	["debug"] = false,
 	["relictoggle"] = true,
 	["darkmoonteleport"] = true,
-	["artifactpowertoggle"] = true,
 	["stat"] = {
 	},
-	["debug"] = false,
-	["tournament"] = 2,
-	["version"] = "7.0.9",
+	["acceptshare"] = false,
+	["darkmoonautostart"] = true,
+	["artifactpowertoggle"] = true,
+	["armor"] = {
+	},
 	["lootreward"] = 1,
 	["all"] = 1,
-	["trivial"] = false,
-	["weapon"] = {
+	["questshare"] = false,
+	["secondary"] = {
 	},
 }

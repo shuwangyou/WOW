@@ -41,7 +41,7 @@ VER 3 0100000000000003 "寒冰箭" "INV_MISC_QUESTIONMARK"
 /use 14
 END
 VER 3 0100000000000009 "彗星风暴" "INV_MISC_QUESTIONMARK"
-#showtooltips 彗星风暴
+#showtooltips
 /startattack [combat]
 /cast 彗星风暴
 /cast 冰冷血脉

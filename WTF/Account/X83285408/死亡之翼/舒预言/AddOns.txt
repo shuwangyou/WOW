@@ -240,7 +240,7 @@ nomicakes: enabled
 easy_obliterate: enabled
 bagnon_guildbank: enabled
 bagnon_voidstorage: enabled
-TradeSkillMaster: disabled
+TradeSkillMaster: enabled
 tradeskillmaster_apphelper: enabled
 WeakAurasCompanion: enabled
 baudauction: disabled
@@ -264,3 +264,15 @@ vbar: disabled
 wholly: disabled
 auctionator: disabled
 dbm-nyalotha: enabled
+recrystallize: enabled
+handynotes_mechagonandnazjatar: enabled
+handynotes_visionsofnzoth: enabled
+handynotes_warfrontrares: enabled
+grail-quests-_retail_-zhcn: enabled
+weakaurasarchive: enabled
+grail-reputations-_retail_: enabled
+grail-npcs-_retail_: enabled
+abyauctionfavoritessavior: enabled
+grail-quests-_retail_: enabled
+grail-npcs-_retail_-enus: enabled
+grail-npcs-_retail_-zhcn: enabled

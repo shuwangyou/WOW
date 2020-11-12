@@ -1,10 +1,9 @@
 local mod	= DBM:NewMod("Rabbit", "DBM-DMF")
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("20191101002017")
+mod:SetRevision("20200916002559")
 mod:SetCreatureID(58336)
 mod:SetModelID(328)
-mod:SetZone()
 
 mod:RegisterCombat("combat")
 

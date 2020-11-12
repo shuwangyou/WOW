@@ -19,14 +19,14 @@
             UUI.OpenToAddon('dominos', true)
         end
 
-        --对DebuffCaster的支持
+        Dominos.OWNER_NAME = {artifact="神器",exp="经验声望",page="翻\n页",vehicle="离开\n载具",pet="宠物技能",menu="菜单",bags="背包",roll="掷骰框",alerts="提示框",extra="特殊\n动作",encounter="战斗能量",cast="施法条",cast_new="美化施法条",zone="区域\n技能",class="职业", talk="剧情对话"}
+        --[[对DebuffCaster的支持
         Dominos.ActionButton.oriCreate = Dominos.ActionButton.Create;
-        Dominos.OWNER_NAME = {artifact="神器",exp="经验声望",page="翻\n页",vehicle="离开\n载具",pet="宠物技能",menu="菜单",bags="背包",roll="掷骰框",alerts="提示框",extra="特殊\n动作",encounter="战斗能量",cast="施法条",cast_new="美化施法条"}
         function Dominos.ActionButton:Create(id)
             local b = self:oriCreate(id)
             if b and b.cooldown then b.cooldown.DCFlag=nil end
             return b;
-        end
+        end--]]
     end,
 
     toggle = function(name, info, enable, justload)
@@ -52,8 +52,9 @@
             Dominos:U1_InitPreset(true)
             Dominos.isNewProfile = nil
             Dominos:Load()
-            local masque = U1GetMasqueCore and U1GetMasqueCore()
-            if masque then masque:Group("Dominos"):ReSkinWithSub() end
+            --local masque = U1GetMasqueCore and U1GetMasqueCore()
+            --if masque then masque:Group("Dominos"):ReSkinWithSub() end
+            Dominos:GetModule("ButtonThemer"):Reskin() --LibStub("AceAddon-3.0"):GetAddon("Dominos")
         end
     },
 
@@ -72,9 +73,11 @@
         callback = function()
             if(not IsAddOnLoaded'Dominos_Config') then
                 LoadAddOn'Dominos_Config'
-            end
-            if(_G['DominosOptions']) then
-                InterfaceOptionsFrame_OpenToCategory(_G['DominosOptions'])
+                C_Timer.After(GetTickTime()*2, function()
+                    LibStub("AceConfigDialog-3.0"):Open("Dominos")
+                end)
+            else
+                LibStub("AceConfigDialog-3.0"):Open("Dominos")
             end
         end,
     },
@@ -168,8 +171,11 @@
 local function dominoModuleToggle(name, info, enable, justload)
     if info.dominoModule and justload then
         if IsLoggedIn() then
-            Dominos:GetModule(info.dominoModule):Load()
-            Dominos.Frame:ForAll('Reanchor')
+            local module = Dominos:GetModule(info.dominoModule, true) --EncounterBar 在开启BlizzMove的时候不加载
+            if module then
+                module:Load()
+                Dominos.Frame:ForAll('Reanchor')
+            end
         end
     end
     return true

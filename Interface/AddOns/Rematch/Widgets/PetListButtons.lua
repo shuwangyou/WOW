@@ -70,7 +70,7 @@ function rematch:FillPetListButton(button,petID,forLoadout)
 	if petInfo.breedName then
 		button.Breed:SetText(petInfo.breedName)
 		showBreed = true
-		yoff = rematch:GetBreedSource()=="PetTracker_Breeds" and -4 or -6
+		yoff = rematch:GetBreedFormat()=="icon" and -4 or -6
 	end
 	if petInfo.hasNotes then
 		showNotes = true
@@ -186,6 +186,11 @@ function rematch:HandlePetShiftClick(petID)
 	if IsModifiedClick("CHATLINK") then
 		if rematch:GetIDType(petID)=="pet" then
 			ChatEdit_InsertLink(C_PetJournal.GetBattlePetLink(petID))
+		elseif AuctionHouseFrame and AuctionHouseFrame.SearchBar.SearchBox:IsVisible() then
+			local petInfo = rematch.petInfo:Fetch(petID)
+			if petInfo.name then
+				AuctionHouseFrame.SearchBar.SearchBox:SetText(petInfo.name)
+			end
 		end
 		return true
 	end

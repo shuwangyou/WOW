@@ -1,76 +1,155 @@
 local dungeonIndex = 23
+MethodDungeonTools.mapInfo[dungeonIndex] = {
+    viewportPositionOverrides =
+    {
+        [1] = {
+            zoomScale = 1.8999998569489;
+            horizontalPan = 291.80521169104;
+            verticalPan = 126.49567245981;
+        };
+        [2] = {
+            zoomScale = 1.5999999046326;
+            horizontalPan = 181.36659738551;
+            verticalPan = 67.969520100732;
+        };
+        [3] = {
+            zoomScale = 1.2999999523163;
+            horizontalPan = 53.044494315603;
+            verticalPan = 109.47271962255;
+        };
+        [4] = {
+            zoomScale = 1.2999999523163;
+            horizontalPan = 74.300611780571;
+            verticalPan = 72.503083103944;
+        };
+        [5] = {
+            zoomScale = 1.2999999523163;
+            horizontalPan = 61.403255426994;
+            verticalPan = 55.466726337752;
+        };
+        [6] = {
+            zoomScale = 1.2999999523163;
+            horizontalPan = 98.034112946346;
+            verticalPan = 64.938350262682;
+        };
+        [7] = {
+            zoomScale = 1.5999999046326;
+            horizontalPan = 174.48055721809;
+            verticalPan = 86.184873724839;
+        };
+    };
+};
 MethodDungeonTools.dungeonTotalCount[dungeonIndex] = {normal=400,teeming=479,teemingEnabled=true}
 
 MethodDungeonTools.mapPOIs[dungeonIndex] = {
-    [6] = {
-        [6] = {
-            ["y"] = -482.48947620288;
-            ["x"] = 427.66171594679;
-            ["template"] = "DeathReleasePinTemplate";
-            ["graveyardDescription"] = "Unlocks after killing Knight Captain Valyri";
-            ["type"] = "graveyard";
+    [1] = {
+        [1] = {
+            ["y"] = -262.48238754636;
+            ["x"] = 429.14575221168;
+            ["template"] = "MapLinkPinTemplate";
+            ["target"] = 2;
+            ["connectionIndex"] = 1;
+            ["type"] = "mapLink";
+            ["direction"] = -2;
         };
         [2] = {
-            ["y"] = -199.9983239565;
-            ["x"] = 519.99998390675;
-            ["template"] = "MapLinkPinTemplate";
-            ["target"] = 7;
-            ["direction"] = 1;
-            ["type"] = "mapLink";
+            ["y"] = -323.24173620103;
+            ["x"] = 647.46008933814;
+            ["template"] = "DeathReleasePinTemplate";
+            ["graveyardDescription"] = "";
+            ["type"] = "graveyard";
         };
         [3] = {
-            ["y"] = -98.627695689899;
-            ["x"] = 387.54905152042;
-            ["template"] = "MapLinkPinTemplate";
-            ["type"] = "heavyCannon";
-        };
-        [1] = {
-            ["y"] = -155.99833837338;
-            ["x"] = 452.00002179295;
-            ["template"] = "MapLinkPinTemplate";
-            ["target"] = 5;
-            ["direction"] = -1;
-            ["type"] = "mapLink";
+            ["y"] = -281.83580607976;
+            ["x"] = 462.50964014617;
+            ["template"] = "DeathReleasePinTemplate";
+            ["graveyardDescription"] = "Unlocks after killing The Sand Queen";
+            ["type"] = "graveyard";
         };
         [4] = {
-            ["y"] = -346.99535709868;
-            ["x"] = 213.88916580021;
-            ["template"] = "MapLinkPinTemplate";
-            ["type"] = "heavyCannon";
+            ["npcId"] = 161241;
+            ["type"] = "nyalothaSpire";
+            ["index"] = 1;
+            ["y"] = -252.7038536196;
+            ["x"] = 459.11832084016;
+            ["tooltipText"] = "Cursed Spire of Ny'alotha";
+            ["weeks"] = {
+                [1] = true;
+                [2] = true;
+                [5] = true;
+                [6] = true;
+                [9] = true;
+                [10] = true;
+            };
+            ["template"] = "VignettePinTemplate";
         };
         [5] = {
-            ["y"] = -238.8518062721;
-            ["x"] = 587.3175423851;
-            ["template"] = "MapLinkPinTemplate";
-            ["type"] = "heavyCannon";
+            ["npcId"] = 161124;
+            ["type"] = "nyalothaSpire";
+            ["index"] = 5;
+            ["y"] = -256.01460431956;
+            ["x"] = 454.01295713084;
+            ["tooltipText"] = "Brutal Spire of Ny'alotha";
+            ["weeks"] = {
+                [11] = true;
+                [7] = true;
+                [8] = true;
+                [3] = true;
+                [12] = true;
+                [4] = true;
+            };
+            ["template"] = "VignettePinTemplate";
         };
     };
     [2] = {
-        [7] = {
-            ["y"] = -161.93013251665;
-            ["x"] = 438.08534915751;
-            ["template"] = "MapLinkPinTemplate";
-            ["type"] = "tdprisonkey";
-        };
         [1] = {
             ["y"] = -293.64644125367;
             ["x"] = 592.87359409387;
             ["template"] = "MapLinkPinTemplate";
             ["target"] = 1;
-            ["direction"] = 2;
+            ["connectionIndex"] = 1;
             ["type"] = "mapLink";
+            ["direction"] = 2;
         };
         [2] = {
             ["y"] = -120.99821179174;
             ["x"] = 454.00006758794;
             ["template"] = "MapLinkPinTemplate";
             ["target"] = 3;
-            ["direction"] = -2;
             ["type"] = "mapLink";
+            ["direction"] = -2;
+            ["connectionIndex"] = 2;
+        };
+        [3] = {
+            ["y"] = -226.92509913277;
+            ["x"] = 497.30085206047;
+            ["template"] = "MapLinkPinTemplate";
+            ["doorDescription"] = "";
+            ["lockpick"] = true;
+            ["doorName"] = "Sewer Gate";
+            ["type"] = "door";
         };
         [4] = {
             ["y"] = -259.49817884669;
             ["x"] = 327.37631924595;
+            ["template"] = "MapLinkPinTemplate";
+            ["type"] = "tdprisonkey";
+        };
+        [5] = {
+            ["y"] = -252.32441542972;
+            ["x"] = 541.88933589202;
+            ["template"] = "MapLinkPinTemplate";
+            ["type"] = "tdprisonkey";
+        };
+        [6] = {
+            ["y"] = -198.70891225244;
+            ["x"] = 570.90039133419;
+            ["template"] = "MapLinkPinTemplate";
+            ["type"] = "tdprisonkey";
+        };
+        [7] = {
+            ["y"] = -161.93013251665;
+            ["x"] = 438.08534915751;
             ["template"] = "MapLinkPinTemplate";
             ["type"] = "tdprisonkey";
         };
@@ -86,27 +165,6 @@ MethodDungeonTools.mapPOIs[dungeonIndex] = {
             ["template"] = "MapLinkPinTemplate";
             ["type"] = "tdprisonkey";
         };
-        [5] = {
-            ["y"] = -252.32441542972;
-            ["x"] = 541.88933589202;
-            ["template"] = "MapLinkPinTemplate";
-            ["type"] = "tdprisonkey";
-        };
-        [3] = {
-            ["y"] = -226.92509913277;
-            ["x"] = 497.30085206047;
-            ["template"] = "MapLinkPinTemplate";
-            ["doorDescription"] = "";
-            ["lockpick"] = true;
-            ["doorName"] = "Sewer Gate";
-            ["type"] = "door";
-        };
-        [6] = {
-            ["y"] = -198.70891225244;
-            ["x"] = 570.90039133419;
-            ["template"] = "MapLinkPinTemplate";
-            ["type"] = "tdprisonkey";
-        };
     };
     [3] = {
         [1] = {
@@ -114,16 +172,27 @@ MethodDungeonTools.mapPOIs[dungeonIndex] = {
             ["x"] = 476.41240071571;
             ["template"] = "MapLinkPinTemplate";
             ["target"] = 2;
-            ["direction"] = -1;
             ["type"] = "mapLink";
+            ["direction"] = -1;
+            ["connectionIndex"] = 2;
         };
         [2] = {
             ["y"] = -460.41462426303;
             ["x"] = 311.79902903432;
             ["template"] = "MapLinkPinTemplate";
             ["target"] = 4;
-            ["direction"] = 1;
             ["type"] = "mapLink";
+            ["direction"] = 1;
+            ["connectionIndex"] = 3;
+        };
+        [3] = {
+            ["y"] = -350.76394802461;
+            ["x"] = 310.03890671508;
+            ["template"] = "MapLinkPinTemplate";
+            ["doorDescription"] = "";
+            ["lockpick"] = true;
+            ["doorName"] = "Prison Gate";
+            ["type"] = "door";
         };
         [4] = {
             ["y"] = -294.67309052738;
@@ -132,6 +201,45 @@ MethodDungeonTools.mapPOIs[dungeonIndex] = {
             ["doorDescription"] = "";
             ["lockpick"] = true;
             ["doorName"] = "Prison Gate";
+            ["type"] = "door";
+        };
+        [5] = {
+            ["y"] = -326.6835033043;
+            ["x"] = 298.43826548799;
+            ["template"] = "MapLinkPinTemplate";
+            ["doorDescription"] = "Chance to contain an ally which can give you a buff dependant on their race:\
+Orc/Dwarf: 10% Str/Agi\
+Undead/Human: 10% Stamina\
+Tauren/Draenei: 1% HP+Mana per 10s\
+Blood Elf/Gnome: 10% Intellect";
+            ["lockpick"] = true;
+            ["doorName"] = "Prison Bars";
+            ["type"] = "door";
+        };
+        [6] = {
+            ["y"] = -236.06541579087;
+            ["x"] = 358.09242143672;
+            ["template"] = "MapLinkPinTemplate";
+            ["doorDescription"] = "Chance to contain an ally which can give you a buff dependant on their race:\
+Orc/Dwarf: 10% Str/Agi\
+Undead/Human: 10% Stamina\
+Tauren/Draenei: 1% HP+Mana per 10s\
+Blood Elf/Gnome: 10% Intellect";
+            ["lockpick"] = true;
+            ["doorName"] = "Prison Bars";
+            ["type"] = "door";
+        };
+        [7] = {
+            ["y"] = -418.6335527449;
+            ["x"] = 429.49956431235;
+            ["template"] = "MapLinkPinTemplate";
+            ["doorDescription"] = "Chance to contain an ally which can give you a buff dependant on their race:\
+Orc/Dwarf: 10% Str/Agi\
+Undead/Human: 10% Stamina\
+Tauren/Draenei: 1% HP+Mana per 10s\
+Blood Elf/Gnome: 10% Intellect";
+            ["lockpick"] = true;
+            ["doorName"] = "Prison Bars";
             ["type"] = "door";
         };
         [8] = {
@@ -147,40 +255,9 @@ Blood Elf/Gnome: 10% Intellect";
             ["doorName"] = "Prison Bars";
             ["type"] = "door";
         };
-        [16] = {
-            ["y"] = -200.28001925019;
-            ["x"] = 353.45401378142;
-            ["template"] = "MapLinkPinTemplate";
-            ["type"] = "tdprisonkey";
-        };
-        [17] = {
-            ["y"] = -395.00750840427;
-            ["x"] = 384.18148542908;
-            ["template"] = "MapLinkPinTemplate";
-            ["type"] = "tdprisonkey";
-        };
         [9] = {
             ["y"] = -254.86541064356;
             ["x"] = 347.29237946953;
-            ["template"] = "MapLinkPinTemplate";
-            ["doorDescription"] = "Chance to contain an ally which can give you a buff dependant on their race:\
-Orc/Dwarf: 10% Str/Agi\
-Undead/Human: 10% Stamina\
-Tauren/Draenei: 1% HP+Mana per 10s\
-Blood Elf/Gnome: 10% Intellect";
-            ["lockpick"] = true;
-            ["doorName"] = "Prison Bars";
-            ["type"] = "door";
-        };
-        [18] = {
-            ["y"] = -237.49898650692;
-            ["x"] = 414.00297776122;
-            ["template"] = "MapLinkPinTemplate";
-            ["type"] = "tdprisonkey";
-        };
-        [5] = {
-            ["y"] = -326.6835033043;
-            ["x"] = 298.43826548799;
             ["template"] = "MapLinkPinTemplate";
             ["doorDescription"] = "Chance to contain an ally which can give you a buff dependant on their race:\
 Orc/Dwarf: 10% Str/Agi\
@@ -217,28 +294,6 @@ Blood Elf/Gnome: 10% Intellect";
             ["doorName"] = "Prison Bars";
             ["type"] = "door";
         };
-        [3] = {
-            ["y"] = -350.76394802461;
-            ["x"] = 310.03890671508;
-            ["template"] = "MapLinkPinTemplate";
-            ["doorDescription"] = "";
-            ["lockpick"] = true;
-            ["doorName"] = "Prison Gate";
-            ["type"] = "door";
-        };
-        [6] = {
-            ["y"] = -236.06541579087;
-            ["x"] = 358.09242143672;
-            ["template"] = "MapLinkPinTemplate";
-            ["doorDescription"] = "Chance to contain an ally which can give you a buff dependant on their race:\
-Orc/Dwarf: 10% Str/Agi\
-Undead/Human: 10% Stamina\
-Tauren/Draenei: 1% HP+Mana per 10s\
-Blood Elf/Gnome: 10% Intellect";
-            ["lockpick"] = true;
-            ["doorName"] = "Prison Bars";
-            ["type"] = "door";
-        };
         [12] = {
             ["y"] = -322.22977757645;
             ["x"] = 491.92910587132;
@@ -258,19 +313,6 @@ Blood Elf/Gnome: 10% Intellect";
             ["template"] = "MapLinkPinTemplate";
             ["type"] = "tdprisonkey";
         };
-        [7] = {
-            ["y"] = -418.6335527449;
-            ["x"] = 429.49956431235;
-            ["template"] = "MapLinkPinTemplate";
-            ["doorDescription"] = "Chance to contain an ally which can give you a buff dependant on their race:\
-Orc/Dwarf: 10% Str/Agi\
-Undead/Human: 10% Stamina\
-Tauren/Draenei: 1% HP+Mana per 10s\
-Blood Elf/Gnome: 10% Intellect";
-            ["lockpick"] = true;
-            ["doorName"] = "Prison Bars";
-            ["type"] = "door";
-        };
         [14] = {
             ["y"] = -323.00387569819;
             ["x"] = 308.69262661692;
@@ -283,66 +325,110 @@ Blood Elf/Gnome: 10% Intellect";
             ["template"] = "MapLinkPinTemplate";
             ["type"] = "tdprisonkey";
         };
+        [16] = {
+            ["y"] = -200.28001925019;
+            ["x"] = 353.45401378142;
+            ["template"] = "MapLinkPinTemplate";
+            ["type"] = "tdprisonkey";
+        };
+        [17] = {
+            ["y"] = -395.00750840427;
+            ["x"] = 384.18148542908;
+            ["template"] = "MapLinkPinTemplate";
+            ["type"] = "tdprisonkey";
+        };
+        [18] = {
+            ["y"] = -237.49898650692;
+            ["x"] = 414.00297776122;
+            ["template"] = "MapLinkPinTemplate";
+            ["type"] = "tdprisonkey";
+        };
         [19] = {
             ["y"] = -178.47965873006;
             ["x"] = 384.77433124093;
             ["template"] = "MapLinkPinTemplate";
             ["type"] = "tdprisonkey";
         };
-    };
-    [1] = {
-        [1] = {
-            ["y"] = -262.48238754636;
-            ["x"] = 429.14575221168;
-            ["template"] = "MapLinkPinTemplate";
-            ["target"] = 2;
-            ["direction"] = -2;
-            ["type"] = "mapLink";
-        };
-        [2] = {
-            ["y"] = -323.24173620103;
-            ["x"] = 647.46008933814;
-            ["template"] = "DeathReleasePinTemplate";
-            ["graveyardDescription"] = "";
-            ["type"] = "graveyard";
-        };
-        [3] = {
-            ["y"] = -281.83580607976;
-            ["x"] = 462.50964014617;
-            ["template"] = "DeathReleasePinTemplate";
-            ["graveyardDescription"] = "Unlocks after killing The Sand Queen";
-            ["type"] = "graveyard";
+        [20] = {
+            ["npcId"] = 161244;
+            ["type"] = "nyalothaSpire";
+            ["index"] = 2;
+            ["y"] = -200.24400336915;
+            ["x"] = 364.90530121951;
+            ["tooltipText"] = "Defiled Spire of Ny'alotha";
+            ["weeks"] = {
+                [1] = true;
+                [2] = true;
+                [3] = true;
+                [4] = true;
+                [5] = true;
+                [6] = true;
+                [7] = true;
+                [8] = true;
+                [9] = true;
+                [10] = true;
+                [11] = true;
+                [12] = true;
+            };
+            ["template"] = "VignettePinTemplate";
         };
     };
     [4] = {
-        [7] = {
-            ["y"] = -278.27853729051;
-            ["x"] = 491.23264157131;
-            ["template"] = "MapLinkPinTemplate";
-            ["doorDescription"] = "Jes Howlis will open this cell and aggro enemies inside of it";
-            ["lockpick"] = true;
-            ["doorName"] = "Prison Bars";
-            ["type"] = "door";
-        };
         [1] = {
             ["y"] = -441.99833049439;
             ["x"] = 313.00005758367;
             ["template"] = "MapLinkPinTemplate";
             ["target"] = 3;
-            ["direction"] = -1;
             ["type"] = "mapLink";
+            ["direction"] = -1;
+            ["connectionIndex"] = 3;
         };
         [2] = {
             ["y"] = -371.99834172614;
             ["x"] = 219.00000645407;
             ["template"] = "MapLinkPinTemplate";
             ["target"] = 5;
-            ["direction"] = 1;
             ["type"] = "mapLink";
+            ["direction"] = 1;
+            ["connectionIndex"] = 4;
+        };
+        [3] = {
+            ["y"] = -358.690180572;
+            ["x"] = 336.15677336968;
+            ["template"] = "DeathReleasePinTemplate";
+            ["graveyardDescription"] = "Unlocks after killing Jes Howlis";
+            ["type"] = "graveyard";
         };
         [4] = {
             ["y"] = -234.18683041859;
             ["x"] = 322.38299113063;
+            ["template"] = "MapLinkPinTemplate";
+            ["doorDescription"] = "Jes Howlis will open this cell and aggro enemies inside of it";
+            ["lockpick"] = true;
+            ["doorName"] = "Prison Bars";
+            ["type"] = "door";
+        };
+        [5] = {
+            ["y"] = -183.15399599877;
+            ["x"] = 359.05915201413;
+            ["template"] = "MapLinkPinTemplate";
+            ["doorDescription"] = "Jes Howlis will open this cell and aggro enemies inside of it";
+            ["lockpick"] = true;
+            ["doorName"] = "Prison Bars";
+            ["type"] = "door";
+        };
+        [6] = {
+            ["y"] = -208.98680115971;
+            ["x"] = 341.18300314946;
+            ["template"] = "MapLinkPinTemplate";
+            ["doorDescription"] = "Jes Howlis will open this cell and aggro enemies inside of it";
+            ["lockpick"] = true;
+            ["doorName"] = "Prison Bars";
+            ["type"] = "door";
+        };
+        [7] = {
+            ["y"] = -278.27853729051;
+            ["x"] = 491.23264157131;
             ["template"] = "MapLinkPinTemplate";
             ["doorDescription"] = "Jes Howlis will open this cell and aggro enemies inside of it";
             ["lockpick"] = true;
@@ -367,37 +453,12 @@ Blood Elf/Gnome: 10% Intellect";
             ["doorName"] = "Prison Bars";
             ["type"] = "door";
         };
-        [5] = {
-            ["y"] = -183.15399599877;
-            ["x"] = 359.05915201413;
-            ["template"] = "MapLinkPinTemplate";
-            ["doorDescription"] = "Jes Howlis will open this cell and aggro enemies inside of it";
-            ["lockpick"] = true;
-            ["doorName"] = "Prison Bars";
-            ["type"] = "door";
-        };
         [10] = {
             ["y"] = -210.61333863941;
             ["x"] = 359.14450923037;
             ["template"] = "MapLinkPinTemplate";
             ["text"] = "G23 is fighting and will eventually kill Block Warden 1.";
             ["type"] = "generalNote";
-        };
-        [3] = {
-            ["y"] = -358.690180572;
-            ["x"] = 336.15677336968;
-            ["template"] = "DeathReleasePinTemplate";
-            ["graveyardDescription"] = "Unlocks after killing Jes Howlis";
-            ["type"] = "graveyard";
-        };
-        [6] = {
-            ["y"] = -208.98680115971;
-            ["x"] = 341.18300314946;
-            ["template"] = "MapLinkPinTemplate";
-            ["doorDescription"] = "Jes Howlis will open this cell and aggro enemies inside of it";
-            ["lockpick"] = true;
-            ["doorName"] = "Prison Bars";
-            ["type"] = "door";
         };
     };
     [5] = {
@@ -406,25 +467,18 @@ Blood Elf/Gnome: 10% Intellect";
             ["x"] = 212.99992649071;
             ["template"] = "MapLinkPinTemplate";
             ["target"] = 4;
-            ["direction"] = -1;
             ["type"] = "mapLink";
+            ["direction"] = -1;
+            ["connectionIndex"] = 4;
         };
         [2] = {
             ["y"] = -92.998271234334;
             ["x"] = 487.99998658896;
             ["template"] = "MapLinkPinTemplate";
             ["target"] = 6;
-            ["direction"] = 1;
             ["type"] = "mapLink";
-        };
-        [4] = {
-            ["y"] = -270.18747899972;
-            ["x"] = 484.87937131732;
-            ["template"] = "MapLinkPinTemplate";
-            ["doorDescription"] = "";
-            ["lockpick"] = true;
-            ["doorName"] = "Prison Gate";
-            ["type"] = "door";
+            ["direction"] = 1;
+            ["connectionIndex"] = 5;
         };
         [3] = {
             ["y"] = -404.49679019861;
@@ -435,6 +489,111 @@ Blood Elf/Gnome: 10% Intellect";
             ["doorName"] = "Prison Gate";
             ["type"] = "door";
         };
+        [4] = {
+            ["y"] = -270.18747899972;
+            ["x"] = 484.87937131732;
+            ["template"] = "MapLinkPinTemplate";
+            ["doorDescription"] = "";
+            ["lockpick"] = true;
+            ["doorName"] = "Prison Gate";
+            ["type"] = "door";
+        };
+        [5] = {
+            ["npcId"] = 161243;
+            ["type"] = "nyalothaSpire";
+            ["index"] = 3;
+            ["y"] = -294.76305450035;
+            ["x"] = 480.36573269417;
+            ["tooltipText"] = "Entropic Spire of Ny'alotha";
+            ["weeks"] = {
+                [1] = true;
+                [2] = true;
+                [3] = true;
+                [4] = true;
+                [5] = true;
+                [6] = true;
+                [7] = true;
+                [8] = true;
+                [9] = true;
+                [10] = true;
+                [11] = true;
+                [12] = true;
+            };
+            ["template"] = "VignettePinTemplate";
+        };
+    };
+    [6] = {
+        [1] = {
+            ["y"] = -155.99833837338;
+            ["x"] = 452.00002179295;
+            ["template"] = "MapLinkPinTemplate";
+            ["target"] = 5;
+            ["type"] = "mapLink";
+            ["direction"] = -1;
+            ["connectionIndex"] = 5;
+        };
+        [2] = {
+            ["y"] = -199.9983239565;
+            ["x"] = 519.99998390675;
+            ["template"] = "MapLinkPinTemplate";
+            ["target"] = 7;
+            ["type"] = "mapLink";
+            ["direction"] = 1;
+            ["connectionIndex"] = 6;
+        };
+        [3] = {
+            ["y"] = -98.627695689899;
+            ["x"] = 387.54905152042;
+            ["template"] = "MapLinkPinTemplate";
+            ["type"] = "heavyCannon";
+        };
+        [4] = {
+            ["y"] = -238.8518062721;
+            ["x"] = 587.3175423851;
+            ["template"] = "MapLinkPinTemplate";
+            ["type"] = "heavyCannon";
+        };
+        [5] = {
+            ["y"] = -482.48947620288;
+            ["x"] = 427.66171594679;
+            ["template"] = "DeathReleasePinTemplate";
+            ["graveyardDescription"] = "Unlocks after killing Knight Captain Valyri";
+            ["type"] = "graveyard";
+        };
+        [6] = {
+            ["npcId"] = 161124;
+            ["type"] = "nyalothaSpire";
+            ["index"] = 4;
+            ["y"] = -373.03081292743;
+            ["x"] = 235.56798352785;
+            ["tooltipText"] = "Brutal Spire of Ny'alotha";
+            ["weeks"] = {
+                [1] = true;
+                [2] = true;
+                [5] = true;
+                [6] = true;
+                [9] = true;
+                [10] = true;
+            };
+            ["template"] = "VignettePinTemplate";
+        };
+        [7] = {
+            ["npcId"] = 161241;
+            ["type"] = "nyalothaSpire";
+            ["index"] = 6;
+            ["y"] = -367.44586314567;
+            ["x"] = 237.88885800912;
+            ["tooltipText"] = "Cursed Spire of Ny'alotha";
+            ["weeks"] = {
+                [11] = true;
+                [7] = true;
+                [8] = true;
+                [3] = true;
+                [12] = true;
+                [4] = true;
+            };
+            ["template"] = "VignettePinTemplate";
+        };
     };
     [7] = {
         [1] = {
@@ -442,8 +601,9 @@ Blood Elf/Gnome: 10% Intellect";
             ["x"] = 569.99996362254;
             ["template"] = "MapLinkPinTemplate";
             ["target"] = 6;
-            ["direction"] = -1;
             ["type"] = "mapLink";
+            ["direction"] = -1;
+            ["connectionIndex"] = 6;
         };
     };
 };
@@ -484,12 +644,12 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
             ["Stun"] = true;
             ["Fear"] = true;
         };
-        ["name"] = "Saltwater Snapper";
-        ["health"] = 604284;
+        ["health"] = 922194;
+        ["count"] = 6;
         ["displayId"] = 46043;
         ["creatureType"] = "Beast";
         ["level"] = 121;
-        ["count"] = 6;
+        ["name"] = "Saltwater Snapper";
         ["id"] = 127477;
     };
     [2] = {
@@ -697,12 +857,12 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
             ["Stun"] = true;
             ["Fear"] = true;
         };
-        ["name"] = "Stinging Parasite";
-        ["health"] = 151071;
+        ["health"] = 230549;
+        ["count"] = 1;
         ["displayId"] = 5990;
         ["creatureType"] = "Beast";
         ["level"] = 120;
-        ["count"] = 1;
+        ["name"] = "Stinging Parasite";
         ["id"] = 127480;
     };
     [4] = {
@@ -776,6 +936,12 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 ["g"] = 5;
                 ["y"] = -329.11506481415;
             };
+            [14] = {
+                ["y"] = -280.179179798;
+                ["x"] = 516.34869687003;
+                ["g"] = 6;
+                ["sublevel"] = 1;
+            };
             [3] = {
                 ["sublevel"] = 1;
                 ["x"] = 519.71288883197;
@@ -784,12 +950,6 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 };
                 ["g"] = 4;
                 ["y"] = -365.6807803996;
-            };
-            [11] = {
-                ["y"] = -276.91386525457;
-                ["x"] = 524.71605006068;
-                ["g"] = 6;
-                ["sublevel"] = 1;
             };
             [6] = {
                 ["y"] = -334.24968277289;
@@ -803,9 +963,9 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 ["g"] = 6;
                 ["sublevel"] = 1;
             };
-            [14] = {
-                ["y"] = -280.179179798;
-                ["x"] = 516.34869687003;
+            [11] = {
+                ["y"] = -276.91386525457;
+                ["x"] = 524.71605006068;
                 ["g"] = 6;
                 ["sublevel"] = 1;
             };
@@ -829,12 +989,12 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
             ["Silence"] = true;
             ["Fear"] = true;
         };
-        ["name"] = "Silt Crab";
-        ["health"] = 503570;
+        ["health"] = 768495;
+        ["count"] = 3;
         ["displayId"] = 42978;
         ["creatureType"] = "Beast";
         ["level"] = 120;
-        ["count"] = 3;
+        ["name"] = "Silt Crab";
         ["id"] = 127381;
     };
     [8] = {
@@ -901,20 +1061,18 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                     [1] = true;
                 };
             };
+            [14] = {
+                ["y"] = -310.17339654044;
+                ["x"] = 451.0749338574;
+                ["teeming"] = true;
+                ["g"] = 21;
+                ["sublevel"] = 4;
+            };
             [3] = {
                 ["y"] = -306.25231313575;
                 ["x"] = 469.30896999818;
                 ["g"] = 16;
                 ["sublevel"] = 3;
-            };
-            [11] = {
-                ["sublevel"] = 4;
-                ["x"] = 398.50106374076;
-                ["infested"] = {
-                    [2] = true;
-                };
-                ["g"] = 22;
-                ["y"] = -166.08252131348;
             };
             [6] = {
                 ["y"] = -459.48779564915;
@@ -928,12 +1086,14 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 ["g"] = 22;
                 ["sublevel"] = 4;
             };
-            [14] = {
-                ["y"] = -310.17339654044;
-                ["x"] = 451.0749338574;
-                ["teeming"] = true;
-                ["g"] = 21;
+            [11] = {
                 ["sublevel"] = 4;
+                ["x"] = 398.50106374076;
+                ["infested"] = {
+                    [2] = true;
+                };
+                ["g"] = 22;
+                ["y"] = -166.08252131348;
             };
         };
         ["reaping"] = 148716;
@@ -956,12 +1116,12 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
             ["Stun"] = true;
             ["Fear"] = true;
         };
-        ["name"] = "Blacktooth Arsonist";
-        ["health"] = 553927;
+        ["health"] = 845345;
+        ["count"] = 6;
         ["displayId"] = 84394;
         ["creatureType"] = "Humanoid";
         ["level"] = 120;
-        ["count"] = 6;
+        ["name"] = "Blacktooth Arsonist";
         ["id"] = 135366;
     };
     [16] = {
@@ -993,12 +1153,55 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
             ["Fear"] = true;
         };
         ["scale"] = 1.2;
-        ["health"] = 805712;
+        ["count"] = 7;
         ["displayId"] = 81513;
         ["creatureType"] = "Humanoid";
         ["level"] = 120;
+        ["health"] = 1229590;
         ["name"] = "Ashvane Jailer";
+    };
+    [32] = {
+        ["clones"] = {
+            [1] = {
+                ["y"] = -195.92005212622;
+                ["x"] = 380.17865844586;
+                ["sublevel"] = 3;
+                ["week"] = {
+                    [7] = true;
+                    [1] = true;
+                    [2] = true;
+                    [4] = true;
+                    [8] = true;
+                    [9] = true;
+                    [5] = true;
+                    [10] = true;
+                    [3] = true;
+                    [6] = true;
+                    [12] = true;
+                    [11] = true;
+                };
+            };
+        };
         ["count"] = 7;
+        ["characteristics"] = {
+            ["Taunt"] = true;
+        };
+        ["spells"] = {
+            [314566] = {};
+            [314397] = {};
+            [314565] = {};
+            [314592] = {};
+        };
+        ["stealthDetect"] = true;
+        ["name"] = "Blood of the Corruptor";
+        ["corrupted"] = true;
+        ["teemingCount"] = 10;
+        ["health"] = 2151786;
+        ["displayId"] = 92229;
+        ["creatureType"] = "Aberration";
+        ["level"] = 122;
+        ["scale"] = 1.4;
+        ["id"] = 161244;
     };
     [17] = {
         ["clones"] = {
@@ -1065,6 +1268,13 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 ["g"] = 34;
                 ["sublevel"] = 6;
             };
+            [14] = {
+                ["y"] = -228.88503493595;
+                ["x"] = 349.18896568803;
+                ["teeming"] = true;
+                ["g"] = 40;
+                ["sublevel"] = 5;
+            };
             [3] = {
                 ["sublevel"] = 5;
                 ["x"] = 445.3997130528;
@@ -1073,15 +1283,6 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 ["infested"] = {
                     [1] = true;
                 };
-            };
-            [11] = {
-                ["sublevel"] = 6;
-                ["x"] = 282.00011311733;
-                ["infested"] = {
-                    [3] = true;
-                };
-                ["g"] = 35;
-                ["y"] = -268.13304911185;
             };
             [6] = {
                 ["y"] = -184.62271877494;
@@ -1098,12 +1299,14 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 ["g"] = 37;
                 ["y"] = -419.02110471566;
             };
-            [14] = {
-                ["y"] = -228.88503493595;
-                ["x"] = 349.18896568803;
-                ["teeming"] = true;
-                ["g"] = 40;
-                ["sublevel"] = 5;
+            [11] = {
+                ["sublevel"] = 6;
+                ["x"] = 282.00011311733;
+                ["infested"] = {
+                    [3] = true;
+                };
+                ["g"] = 35;
+                ["y"] = -268.13304911185;
             };
         };
         ["reaping"] = 148716;
@@ -1130,29 +1333,29 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
             ["Stun"] = true;
             ["Fear"] = true;
         };
-        ["health"] = 805712;
         ["count"] = 7;
+        ["name"] = "Ashvane Officer";
         ["displayId"] = 84380;
         ["creatureType"] = "Humanoid";
         ["level"] = 120;
-        ["name"] = "Ashvane Officer";
+        ["health"] = 1229592;
         ["scale"] = 1.2;
     };
     [9] = {
         ["clones"] = {
             [1] = {
-                ["y"] = -195.50662589192;
-                ["x"] = 390.42427034967;
+                ["y"] = -186.36952183157;
+                ["x"] = 399.16415349133;
                 ["sublevel"] = 3;
             };
             [2] = {
-                ["y"] = -180.80077309929;
-                ["x"] = 378.95365417789;
+                ["y"] = -172.85543408806;
+                ["x"] = 377.76183798225;
                 ["sublevel"] = 3;
             };
             [4] = {
-                ["y"] = -202.85959015472;
-                ["x"] = 371.60074040374;
+                ["y"] = -213.58579952476;
+                ["x"] = 363.25811227846;
                 ["infested"] = {
                     [1] = true;
                 };
@@ -1194,10 +1397,10 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                     [1] = true;
                 };
             };
-            [19] = {
-                ["y"] = -363.82208697561;
-                ["x"] = 398.98219030411;
-                ["sublevel"] = 4;
+            [5] = {
+                ["y"] = -247.58941250354;
+                ["x"] = 435.51552474471;
+                ["sublevel"] = 3;
             };
             [10] = {
                 ["y"] = -242.32351042292;
@@ -1233,8 +1436,8 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 ["sublevel"] = 4;
             };
             [3] = {
-                ["y"] = -196.38901593574;
-                ["x"] = 361.3066358756;
+                ["y"] = -188.04642190814;
+                ["x"] = 356.5394392884;
                 ["sublevel"] = 3;
             };
             [6] = {
@@ -1255,10 +1458,10 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 ["x"] = 552.22488520648;
                 ["sublevel"] = 4;
             };
-            [15] = {
-                ["y"] = -340.10398455655;
-                ["x"] = 512.17985588983;
-                ["sublevel"] = 3;
+            [19] = {
+                ["y"] = -363.82208697561;
+                ["x"] = 398.98219030411;
+                ["sublevel"] = 4;
             };
             [25] = {
                 ["y"] = -164.27339713864;
@@ -1278,15 +1481,15 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                     [1] = true;
                 };
             };
-            [7] = {
-                ["y"] = -259.67823664231;
-                ["x"] = 490.45741287849;
-                ["sublevel"] = 3;
-            };
             [27] = {
                 ["y"] = -118.29703487586;
                 ["x"] = 413.89915895692;
                 ["sublevel"] = 4;
+            };
+            [7] = {
+                ["y"] = -259.67823664231;
+                ["x"] = 490.45741287849;
+                ["sublevel"] = 3;
             };
             [14] = {
                 ["y"] = -334.06950346075;
@@ -1308,9 +1511,9 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 ["x"] = 333.97210038108;
                 ["sublevel"] = 4;
             };
-            [5] = {
-                ["y"] = -247.58941250354;
-                ["x"] = 435.51552474471;
+            [15] = {
+                ["y"] = -340.10398455655;
+                ["x"] = 512.17985588983;
                 ["sublevel"] = 3;
             };
         };
@@ -1336,7 +1539,7 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
         ["displayId"] = 82828;
         ["creatureType"] = "Humanoid";
         ["level"] = 120;
-        ["health"] = 151071;
+        ["health"] = 230549;
         ["neutral"] = true;
     };
     [18] = {
@@ -1383,9 +1586,9 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 ["g"] = 31;
                 ["sublevel"] = 5;
             };
-            [14] = {
-                ["y"] = -244.24260710534;
-                ["x"] = 357.31353423848;
+            [15] = {
+                ["y"] = -247.24263303412;
+                ["x"] = 342.31352904516;
                 ["teeming"] = true;
                 ["g"] = 40;
                 ["sublevel"] = 5;
@@ -1408,14 +1611,12 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 ["g"] = 34;
                 ["sublevel"] = 6;
             };
-            [11] = {
-                ["sublevel"] = 6;
-                ["x"] = 288.23092058391;
-                ["y"] = -378.52744333478;
-                ["g"] = 36;
-                ["infested"] = {
-                    [1] = true;
-                };
+            [14] = {
+                ["y"] = -244.24260710534;
+                ["x"] = 357.31353423848;
+                ["teeming"] = true;
+                ["g"] = 40;
+                ["sublevel"] = 5;
             };
             [3] = {
                 ["y"] = -348.02078743969;
@@ -1438,12 +1639,14 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 ["g"] = 36;
                 ["sublevel"] = 6;
             };
-            [15] = {
-                ["y"] = -247.24263303412;
-                ["x"] = 342.31352904516;
-                ["teeming"] = true;
-                ["g"] = 40;
-                ["sublevel"] = 5;
+            [11] = {
+                ["sublevel"] = 6;
+                ["x"] = 288.23092058391;
+                ["y"] = -378.52744333478;
+                ["g"] = 36;
+                ["infested"] = {
+                    [1] = true;
+                };
             };
         };
         ["reaping"] = 148716;
@@ -1469,13 +1672,64 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
             ["Silence"] = true;
             ["Fear"] = true;
         };
-        ["name"] = "Ashvane Marine";
-        ["health"] = 805712;
+        ["health"] = 1229592;
+        ["count"] = 7;
         ["displayId"] = 81513;
         ["creatureType"] = "Humanoid";
         ["level"] = 120;
-        ["count"] = 7;
+        ["name"] = "Ashvane Marine";
         ["id"] = 130027;
+    };
+    [31] = {
+        ["clones"] = {
+            [1] = {
+                ["y"] = -265.78921093021;
+                ["x"] = 451.93421773319;
+                ["sublevel"] = 1;
+                ["week"] = {
+                    [1] = true;
+                    [2] = true;
+                    [10] = true;
+                    [6] = true;
+                    [5] = true;
+                    [9] = true;
+                };
+            };
+            [2] = {
+                ["y"] = -349.80502079079;
+                ["x"] = 238.70893907852;
+                ["sublevel"] = 6;
+                ["week"] = {
+                    [11] = true;
+                    [7] = true;
+                    [8] = true;
+                    [3] = true;
+                    [12] = true;
+                    [4] = true;
+                };
+            };
+        };
+        ["characteristics"] = {
+            ["Taunt"] = true;
+        };
+        ["scale"] = 1.4;
+        ["spells"] = {
+            [314463] = {};
+            [314411] = {};
+            [314467] = {};
+            [314406] = {};
+            [314397] = {};
+        };
+        ["stealthDetect"] = true;
+        ["id"] = 161241;
+        ["level"] = 122;
+        ["teemingCount"] = 10;
+        ["count"] = 7;
+        ["displayId"] = 91910;
+        ["creatureType"] = "Beast";
+        ["corrupted"] = true;
+        ["name"] = "Voidweaver Mal'thir";
+        ["health"] = 2151786;
     };
     [5] = {
         ["clones"] = {
@@ -1503,12 +1757,12 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
         ["encounterID"] = 2097;
         ["instanceID"] = 1002;
         ["scale"] = 1;
-        ["health"] = 3524990;
+        ["count"] = 0;
         ["displayId"] = 82983;
         ["creatureType"] = "Beast";
         ["level"] = 122;
+        ["health"] = 5379465;
         ["name"] = "The Sand Queen";
-        ["count"] = 0;
     };
     [10] = {
         ["clones"] = {
@@ -1561,11 +1815,11 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 ["g"] = 18;
                 ["sublevel"] = 3;
             };
-            [11] = {
-                ["y"] = -452.05373643056;
-                ["x"] = 377.45568019118;
-                ["g"] = 18;
-                ["sublevel"] = 3;
+            [14] = {
+                ["y"] = -420.56458688456;
+                ["x"] = 260.31258395163;
+                ["g"] = 25;
+                ["sublevel"] = 5;
             };
             [3] = {
                 ["y"] = -325.88818210011;
@@ -1587,11 +1841,11 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                     [1] = true;
                 };
             };
-            [14] = {
-                ["y"] = -420.56458688456;
-                ["x"] = 260.31258395163;
-                ["g"] = 25;
-                ["sublevel"] = 5;
+            [11] = {
+                ["y"] = -452.05373643056;
+                ["x"] = 377.45568019118;
+                ["g"] = 18;
+                ["sublevel"] = 3;
             };
         };
         ["reaping"] = 148716;
@@ -1614,12 +1868,12 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
             ["Stun"] = true;
             ["Fear"] = true;
         };
-        ["health"] = 302142;
         ["count"] = 3;
+        ["name"] = "Bilge Rat Looter";
         ["displayId"] = 79322;
         ["creatureType"] = "Humanoid";
         ["level"] = 120;
-        ["name"] = "Bilge Rat Looter";
+        ["health"] = 461097;
         ["id"] = 127485;
     };
     [20] = {
@@ -1650,13 +1904,63 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
             ["Stun"] = true;
             ["Fear"] = true;
         };
-        ["name"] = "Ashvane Spotter";
-        ["health"] = 805712;
+        ["health"] = 1229592;
+        ["count"] = 7;
         ["displayId"] = 81513;
         ["creatureType"] = "Humanoid";
         ["level"] = 120;
-        ["count"] = 7;
+        ["name"] = "Ashvane Spotter";
         ["id"] = 136665;
+    };
+    [30] = {
+        ["clones"] = {
+            [1] = {
+                ["y"] = -350.66524515811;
+                ["x"] = 237.0055852033;
+                ["sublevel"] = 6;
+                ["week"] = {
+                    [6] = true;
+                    [2] = true;
+                    [10] = true;
+                    [1] = true;
+                    [5] = true;
+                    [9] = true;
+                };
+            };
+            [2] = {
+                ["y"] = -270.074231674;
+                ["x"] = 449.51917204804;
+                ["sublevel"] = 1;
+                ["week"] = {
+                    [11] = true;
+                    [7] = true;
+                    [8] = true;
+                    [3] = true;
+                    [12] = true;
+                    [4] = true;
+                };
+            };
+        };
+        ["health"] = 2151786;
+        ["characteristics"] = {
+            ["Taunt"] = true;
+        };
+        ["spells"] = {
+            [314308] = {};
+            [314387] = {};
+            [314397] = {};
+            [314309] = {};
+        };
+        ["stealthDetect"] = true;
+        ["count"] = 7;
+        ["level"] = 122;
+        ["teemingCount"] = 10;
+        ["name"] = "Urg'roth, Breaker of Heroes";
+        ["displayId"] = 89415;
+        ["creatureType"] = "Aberration";
+        ["corrupted"] = true;
+        ["scale"] = 1.4;
+        ["id"] = 161124;
     };
     [21] = {
         ["clones"] = {
@@ -1666,26 +1970,26 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 ["sublevel"] = 6;
             };
         };
-        ["characteristics"] = {
-            ["Taunt"] = true;
-        };
         ["scale"] = 1.4;
+        ["id"] = 127490;
         ["spells"] = {
-            [256955] = {};
-            [257028] = {};
             [256976] = {};
+            [257028] = {};
             [256970] = {};
+            [256955] = {};
         };
         ["isBoss"] = true;
         ["encounterID"] = 2099;
         ["instanceID"] = 1002;
-        ["count"] = 0;
-        ["health"] = 3524990;
+        ["health"] = 5379465;
+        ["name"] = "Knight Captain Valyri";
         ["displayId"] = 81498;
         ["creatureType"] = "Humanoid";
         ["level"] = 122;
-        ["name"] = "Knight Captain Valyri";
-        ["id"] = 127490;
+        ["count"] = 0;
+        ["characteristics"] = {
+            ["Taunt"] = true;
+        };
     };
     [11] = {
         ["clones"] = {
@@ -1751,12 +2055,12 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
             ["Stun"] = true;
             ["Fear"] = true;
         };
-        ["health"] = 503570;
         ["count"] = 6;
+        ["name"] = "Cutwater Striker";
         ["displayId"] = 78990;
         ["creatureType"] = "Humanoid";
         ["level"] = 120;
-        ["name"] = "Cutwater Striker";
+        ["health"] = 768495;
         ["id"] = 131112;
     };
     [22] = {
@@ -1810,23 +2114,21 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
             ["Fear"] = true;
         };
         ["scale"] = 1.2;
-        ["health"] = 906426;
+        ["count"] = 9;
         ["displayId"] = 81496;
         ["creatureType"] = "Humanoid";
         ["level"] = 121;
+        ["health"] = 1383291;
         ["name"] = "Ashvane Warden";
-        ["count"] = 9;
     };
     [3] = {
         ["clones"] = {
-            [1] = {
+            [15] = {
                 ["sublevel"] = 1;
-                ["x"] = 554.33223641337;
-                ["infested"] = {
-                    [3] = true;
-                };
-                ["g"] = 2;
-                ["y"] = -269.54240043972;
+                ["x"] = 509.89701444861;
+                ["teeming"] = true;
+                ["g"] = 6;
+                ["y"] = -275.26076764221;
             };
             [13] = {
                 ["sublevel"] = 1;
@@ -1840,12 +2142,14 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 ["x"] = 338.99908497557;
                 ["sublevel"] = 2;
             };
-            [14] = {
+            [1] = {
                 ["sublevel"] = 1;
-                ["x"] = 450.25418906927;
-                ["teeming"] = true;
-                ["g"] = 5;
-                ["y"] = -339.18933384312;
+                ["x"] = 554.33223641337;
+                ["infested"] = {
+                    [3] = true;
+                };
+                ["g"] = 2;
+                ["y"] = -269.54240043972;
             };
             [2] = {
                 ["sublevel"] = 1;
@@ -1856,12 +2160,10 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 ["g"] = 2;
                 ["y"] = -261.79239278937;
             };
-            [15] = {
+            [4] = {
+                ["y"] = -329.51210718072;
+                ["x"] = 513.40430820744;
                 ["sublevel"] = 1;
-                ["x"] = 509.89701444861;
-                ["teeming"] = true;
-                ["g"] = 6;
-                ["y"] = -275.26076764221;
             };
             [8] = {
                 ["sublevel"] = 2;
@@ -1903,10 +2205,12 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 };
                 ["sublevel"] = 2;
             };
-            [11] = {
-                ["y"] = -280.49732836708;
-                ["x"] = 418.99912118539;
-                ["sublevel"] = 2;
+            [14] = {
+                ["sublevel"] = 1;
+                ["x"] = 450.25418906927;
+                ["teeming"] = true;
+                ["g"] = 5;
+                ["y"] = -339.18933384312;
             };
             [3] = {
                 ["y"] = -319.21199513459;
@@ -1934,10 +2238,10 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 ["g"] = 44;
                 ["y"] = -479.49735781828;
             };
-            [4] = {
-                ["y"] = -329.51210718072;
-                ["x"] = 513.40430820744;
-                ["sublevel"] = 1;
+            [11] = {
+                ["y"] = -280.49732836708;
+                ["x"] = 418.99912118539;
+                ["sublevel"] = 2;
             };
         };
         ["reaping"] = 148716;
@@ -1961,12 +2265,12 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
             ["Disorient"] = true;
             ["Fear"] = true;
         };
-        ["name"] = "Sewer Vicejaw";
-        ["health"] = 553927;
+        ["health"] = 845345;
+        ["count"] = 4;
         ["displayId"] = 84333;
         ["creatureType"] = "Beast";
         ["level"] = 120;
-        ["count"] = 4;
+        ["name"] = "Sewer Vicejaw";
         ["id"] = 127482;
     };
     [6] = {
@@ -2042,12 +2346,12 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
             ["Taunt"] = true;
         };
         ["scale"] = 1.4;
-        ["count"] = 7;
+        ["health"] = 1152743;
         ["displayId"] = 81499;
         ["creatureType"] = "Humanoid";
         ["level"] = 121;
+        ["count"] = 7;
         ["name"] = "Irontide Thug";
-        ["health"] = 755355;
     };
     [12] = {
         ["clones"] = {
@@ -2124,12 +2428,12 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
             ["Silence"] = true;
             ["Fear"] = true;
         };
-        ["count"] = 6;
         ["name"] = "Bilge Rat Seaspeaker";
+        ["health"] = 691646;
         ["displayId"] = 42840;
         ["creatureType"] = "Humanoid";
         ["level"] = 120;
-        ["health"] = 453213;
+        ["count"] = 6;
         ["scale"] = 1.2;
     };
     [24] = {
@@ -2161,12 +2465,118 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
         ["encounterID"] = 2096;
         ["instanceID"] = 1002;
         ["scale"] = 1;
-        ["health"] = 4330702;
+        ["count"] = 0;
         ["displayId"] = 81505;
         ["creatureType"] = "Humanoid";
         ["level"] = 122;
+        ["health"] = 6609057;
         ["name"] = "Overseer Korgus";
-        ["count"] = 0;
+    };
+    [19] = {
+        ["clones"] = {
+            [7] = {
+                ["sublevel"] = 5;
+                ["x"] = 537.36915862756;
+                ["infested"] = {
+                    [3] = true;
+                };
+                ["g"] = 32;
+                ["y"] = -274.16641241129;
+            };
+            [1] = {
+                ["y"] = -401.59213388675;
+                ["x"] = 484.78556244655;
+                ["g"] = 27;
+                ["sublevel"] = 5;
+            };
+            [2] = {
+                ["y"] = -329.84984081926;
+                ["x"] = 494.2015688759;
+                ["g"] = 28;
+                ["sublevel"] = 5;
+            };
+            [4] = {
+                ["sublevel"] = 5;
+                ["x"] = 410.93685438669;
+                ["y"] = -150.94506086973;
+                ["infested"] = {
+                    [2] = true;
+                };
+            };
+            [8] = {
+                ["y"] = -269.95122712534;
+                ["x"] = 268.81835147547;
+                ["g"] = 35;
+                ["sublevel"] = 6;
+            };
+            [9] = {
+                ["sublevel"] = 6;
+                ["x"] = 287.0001122935;
+                ["y"] = -279.49667967899;
+                ["g"] = 35;
+                ["infested"] = {
+                    [2] = true;
+                };
+            };
+            [5] = {
+                ["y"] = -255.32920031569;
+                ["x"] = 534.1133210271;
+                ["g"] = 32;
+                ["sublevel"] = 5;
+            };
+            [10] = {
+                ["y"] = -388.92747130218;
+                ["x"] = 290.03091038846;
+                ["g"] = 36;
+                ["sublevel"] = 6;
+            };
+            [3] = {
+                ["y"] = -315.20698628135;
+                ["x"] = 507.4158787811;
+                ["g"] = 28;
+                ["sublevel"] = 5;
+            };
+            [6] = {
+                ["y"] = -279.98036392787;
+                ["x"] = 520.62492795904;
+                ["g"] = 32;
+                ["sublevel"] = 5;
+            };
+            [11] = {
+                ["y"] = -384.76549551068;
+                ["x"] = 299.95970605716;
+                ["teeming"] = true;
+                ["g"] = 36;
+                ["sublevel"] = 6;
+            };
+        };
+        ["reaping"] = 148893;
+        ["scale"] = 1.2;
+        ["spells"] = {
+            [258869] = {};
+            [277564] = {};
+            [258634] = {};
+            [209859] = {};
+            [277242] = {};
+        };
+        ["characteristics"] = {
+            ["Taunt"] = true;
+            ["Incapacitate"] = true;
+            ["Root"] = true;
+            ["Polymorph"] = true;
+            ["Disorient"] = true;
+            ["Silence"] = true;
+            ["Slow"] = true;
+            ["Stun"] = true;
+            ["Fear"] = true;
+        };
+        ["health"] = 1075893;
+        ["count"] = 7;
+        ["displayId"] = 81520;
+        ["creatureType"] = "Humanoid";
+        ["level"] = 120;
+        ["name"] = "Ashvane Flamecaster";
+        ["id"] = 127488;
     };
     [25] = {
         ["clones"] = {
@@ -2185,12 +2595,12 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
         ["characteristics"] = {
             ["Taunt"] = true;
         };
-        ["health"] = 302142;
         ["count"] = 3;
+        ["name"] = "Bilge Rat Looter";
         ["displayId"] = 79322;
         ["creatureType"] = "Humanoid";
         ["level"] = 120;
-        ["name"] = "Bilge Rat Looter";
+        ["health"] = 461096;
         ["id"] = 135706;
     };
     [13] = {
@@ -2233,12 +2643,12 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
             ["Slow"] = true;
             ["Root"] = true;
         };
-        ["health"] = 302142;
         ["count"] = 4;
+        ["name"] = "Irontide Raider";
         ["displayId"] = 79064;
         ["creatureType"] = "Humanoid";
         ["level"] = 120;
-        ["name"] = "Irontide Raider";
+        ["health"] = 461096;
         ["id"] = 135254;
     };
     [26] = {
@@ -2458,7 +2868,7 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
         ["id"] = 155434;
         ["name"] = "Emissary of the Tides";
         ["ignoreFortified"] = true;
-        ["health"] = 402855;
+        ["health"] = 614795;
         ["displayId"] = 39391;
         ["creatureType"] = "Humanoid";
         ["level"] = 120;
@@ -2538,18 +2948,6 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 ["g"] = 11;
                 ["sublevel"] = 3;
             };
-            [14] = {
-                ["y"] = -467.03305243309;
-                ["x"] = 388.2695061819;
-                ["sublevel"] = 2;
-                ["g"] = 44;
-                ["week"] = {
-                    [3] = true;
-                    [6] = true;
-                    [9] = true;
-                    [12] = true;
-                };
-            };
             [9] = {
                 ["y"] = -341.14360932176;
                 ["x"] = 297.0192226987;
@@ -2586,6 +2984,18 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 ["g"] = 26;
                 ["sublevel"] = 5;
             };
+            [14] = {
+                ["y"] = -467.03305243309;
+                ["x"] = 388.2695061819;
+                ["sublevel"] = 2;
+                ["g"] = 44;
+                ["week"] = {
+                    [3] = true;
+                    [6] = true;
+                    [9] = true;
+                    [12] = true;
+                };
+            };
             [3] = {
                 ["y"] = -127.18255454881;
                 ["x"] = 403.45427683553;
@@ -2597,18 +3007,6 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 };
                 ["g"] = 33;
                 ["sublevel"] = 6;
-            };
-            [11] = {
-                ["y"] = -309.12126618697;
-                ["x"] = 481.80928716879;
-                ["week"] = {
-                    [3] = true;
-                    [6] = true;
-                    [9] = true;
-                    [12] = true;
-                };
-                ["g"] = 16;
-                ["sublevel"] = 3;
             };
             [6] = {
                 ["y"] = -267.66639157889;
@@ -2633,6 +3031,18 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 ["g"] = 26;
                 ["sublevel"] = 5;
             };
+            [11] = {
+                ["y"] = -309.12126618697;
+                ["x"] = 481.80928716879;
+                ["week"] = {
+                    [3] = true;
+                    [6] = true;
+                    [9] = true;
+                    [12] = true;
+                };
+                ["g"] = 16;
+                ["sublevel"] = 3;
+            };
         };
         ["characteristics"] = {
             ["Taunt"] = true;
@@ -2648,7 +3058,7 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
         ["id"] = 155433;
         ["name"] = "Void-Touched Emissary";
         ["ignoreFortified"] = true;
-        ["health"] = 654640;
+        ["health"] = 999042;
         ["displayId"] = 39391;
         ["creatureType"] = "Humanoid";
         ["level"] = 122;
@@ -2692,12 +3102,12 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
             ["Stun"] = true;
             ["Fear"] = true;
         };
-        ["name"] = "Cutwater Striker";
-        ["health"] = 503570;
+        ["health"] = 768494;
+        ["count"] = 6;
         ["displayId"] = 78990;
         ["creatureType"] = "Humanoid";
         ["level"] = 120;
-        ["count"] = 6;
+        ["name"] = "Cutwater Striker";
         ["id"] = 131112;
     };
     [14] = {
@@ -2720,22 +3130,46 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
         ["characteristics"] = {
             ["Incapacitate"] = true;
             ["Disorient"] = true;
-            ["Root"] = true;
             ["Silence"] = true;
-            ["Slow"] = true;
             ["Stun"] = true;
+            ["Slow"] = true;
+            ["Root"] = true;
             ["Fear"] = true;
         };
-        ["health"] = 906426;
         ["count"] = 9;
+        ["name"] = "Block Warden";
         ["displayId"] = 81496;
         ["creatureType"] = "Humanoid";
         ["level"] = 121;
-        ["name"] = "Block Warden";
+        ["health"] = 1383289;
         ["id"] = 131445;
     };
     [28] = {
         ["clones"] = {
+            [13] = {
+                ["y"] = -142.88162125857;
+                ["x"] = 427.63000133833;
+                ["week"] = {
+                    [3] = true;
+                    [6] = true;
+                    [9] = true;
+                    [12] = true;
+                };
+                ["g"] = 31;
+                ["sublevel"] = 5;
+            };
+            [7] = {
+                ["y"] = -453.82135033898;
+                ["x"] = 329.14047628215;
+                ["week"] = {
+                    [5] = true;
+                    [2] = true;
+                    [11] = true;
+                    [8] = true;
+                };
+                ["g"] = 43;
+                ["sublevel"] = 4;
+            };
             [1] = {
                 ["y"] = -284.68482693768;
                 ["x"] = 502.79983868474;
@@ -2784,6 +3218,18 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 ["g"] = 39;
                 ["sublevel"] = 7;
             };
+            [15] = {
+                ["y"] = -256.0037434388;
+                ["x"] = 564.90718886187;
+                ["week"] = {
+                    [3] = true;
+                    [6] = true;
+                    [9] = true;
+                    [12] = true;
+                };
+                ["g"] = 38;
+                ["sublevel"] = 6;
+            };
             [9] = {
                 ["y"] = -340.32687214046;
                 ["x"] = 475.05293669976;
@@ -2820,17 +3266,17 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 ["g"] = 6;
                 ["sublevel"] = 1;
             };
-            [11] = {
-                ["y"] = -452.10828508364;
-                ["x"] = 388.01366677125;
+            [14] = {
+                ["y"] = -277.62451311043;
+                ["x"] = 275.28099385514;
                 ["week"] = {
                     [3] = true;
                     [6] = true;
                     [9] = true;
                     [12] = true;
                 };
-                ["g"] = 18;
-                ["sublevel"] = 3;
+                ["g"] = 35;
+                ["sublevel"] = 6;
             };
             [3] = {
                 ["y"] = -324.21846447566;
@@ -2868,53 +3314,17 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
                 ["g"] = 22;
                 ["sublevel"] = 4;
             };
-            [13] = {
-                ["y"] = -142.88162125857;
-                ["x"] = 427.63000133833;
+            [11] = {
+                ["y"] = -452.10828508364;
+                ["x"] = 388.01366677125;
                 ["week"] = {
                     [3] = true;
                     [6] = true;
                     [9] = true;
                     [12] = true;
                 };
-                ["g"] = 31;
-                ["sublevel"] = 5;
-            };
-            [7] = {
-                ["y"] = -453.82135033898;
-                ["x"] = 329.14047628215;
-                ["week"] = {
-                    [5] = true;
-                    [2] = true;
-                    [11] = true;
-                    [8] = true;
-                };
-                ["g"] = 43;
-                ["sublevel"] = 4;
-            };
-            [14] = {
-                ["y"] = -277.62451311043;
-                ["x"] = 275.28099385514;
-                ["week"] = {
-                    [3] = true;
-                    [6] = true;
-                    [9] = true;
-                    [12] = true;
-                };
-                ["g"] = 35;
-                ["sublevel"] = 6;
-            };
-            [15] = {
-                ["y"] = -256.0037434388;
-                ["x"] = 564.90718886187;
-                ["week"] = {
-                    [3] = true;
-                    [6] = true;
-                    [9] = true;
-                    [12] = true;
-                };
-                ["g"] = 38;
-                ["sublevel"] = 6;
+                ["g"] = 18;
+                ["sublevel"] = 3;
             };
         };
         ["scale"] = 1;
@@ -2929,152 +3339,12 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
         ["id"] = 155432;
         ["name"] = "Enchanted Emissary";
         ["ignoreFortified"] = true;
-        ["health"] = 10071399;
+        ["health"] = 15369884;
         ["displayId"] = 39391;
         ["creatureType"] = "Humanoid";
         ["level"] = 121;
         ["count"] = 0;
         ["iconTexture"] = 135735;
-    };
-    [15] = {
-        ["clones"] = {
-            [1] = {
-                ["y"] = -342.9850555754;
-                ["x"] = 318.27236291642;
-                ["sublevel"] = 4;
-            };
-        };
-        ["characteristics"] = {
-            ["Taunt"] = true;
-        };
-        ["scale"] = 1;
-        ["spells"] = {
-            [257827] = {};
-            [257814] = {};
-            [257777] = {};
-            [258544] = {};
-            [257785] = {};
-            [257956] = {};
-            [257793] = {};
-            [205276] = {};
-            [257791] = {};
-        };
-        ["isBoss"] = true;
-        ["encounterID"] = 2098;
-        ["instanceID"] = 1002;
-        ["count"] = 0;
-        ["health"] = 3021420;
-        ["displayId"] = 81739;
-        ["creatureType"] = "Humanoid";
-        ["level"] = 122;
-        ["name"] = "Jes Howlis";
-        ["id"] = 127484;
-    };
-    [19] = {
-        ["clones"] = {
-            [7] = {
-                ["sublevel"] = 5;
-                ["x"] = 537.36915862756;
-                ["infested"] = {
-                    [3] = true;
-                };
-                ["g"] = 32;
-                ["y"] = -274.16641241129;
-            };
-            [1] = {
-                ["y"] = -401.59213388675;
-                ["x"] = 484.78556244655;
-                ["g"] = 27;
-                ["sublevel"] = 5;
-            };
-            [2] = {
-                ["y"] = -329.84984081926;
-                ["x"] = 494.2015688759;
-                ["g"] = 28;
-                ["sublevel"] = 5;
-            };
-            [4] = {
-                ["sublevel"] = 5;
-                ["x"] = 410.93685438669;
-                ["y"] = -150.94506086973;
-                ["infested"] = {
-                    [2] = true;
-                };
-            };
-            [8] = {
-                ["y"] = -269.95122712534;
-                ["x"] = 268.81835147547;
-                ["g"] = 35;
-                ["sublevel"] = 6;
-            };
-            [9] = {
-                ["sublevel"] = 6;
-                ["x"] = 287.0001122935;
-                ["y"] = -279.49667967899;
-                ["g"] = 35;
-                ["infested"] = {
-                    [2] = true;
-                };
-            };
-            [5] = {
-                ["y"] = -255.32920031569;
-                ["x"] = 534.1133210271;
-                ["g"] = 32;
-                ["sublevel"] = 5;
-            };
-            [10] = {
-                ["y"] = -388.92747130218;
-                ["x"] = 290.03091038846;
-                ["g"] = 36;
-                ["sublevel"] = 6;
-            };
-            [3] = {
-                ["y"] = -315.20698628135;
-                ["x"] = 507.4158787811;
-                ["g"] = 28;
-                ["sublevel"] = 5;
-            };
-            [6] = {
-                ["y"] = -279.98036392787;
-                ["x"] = 520.62492795904;
-                ["g"] = 32;
-                ["sublevel"] = 5;
-            };
-            [11] = {
-                ["y"] = -384.76549551068;
-                ["x"] = 299.95970605716;
-                ["teeming"] = true;
-                ["g"] = 36;
-                ["sublevel"] = 6;
-            };
-        };
-        ["reaping"] = 148893;
-        ["scale"] = 1.2;
-        ["spells"] = {
-            [258869] = {};
-            [277564] = {};
-            [258634] = {};
-            [209859] = {};
-            [277242] = {};
-        };
-        ["characteristics"] = {
-            ["Taunt"] = true;
-            ["Incapacitate"] = true;
-            ["Root"] = true;
-            ["Polymorph"] = true;
-            ["Disorient"] = true;
-            ["Silence"] = true;
-            ["Slow"] = true;
-            ["Stun"] = true;
-            ["Fear"] = true;
-        };
-        ["name"] = "Ashvane Flamecaster";
-        ["health"] = 704998;
-        ["displayId"] = 81520;
-        ["creatureType"] = "Humanoid";
-        ["level"] = 120;
-        ["count"] = 7;
-        ["id"] = 127488;
     };
     [23] = {
         ["clones"] = {
@@ -3125,16 +3395,89 @@ MethodDungeonTools.dungeonEnemies[dungeonIndex] = {
             ["Stun"] = true;
             ["Fear"] = true;
         };
-        ["name"] = "Ashvane Priest";
-        ["health"] = 805712;
+        ["health"] = 1229592;
+        ["count"] = 7;
         ["displayId"] = 81550;
         ["creatureType"] = "Humanoid";
         ["level"] = 120;
-        ["count"] = 7;
+        ["name"] = "Ashvane Priest";
         ["id"] = 130028;
     };
+    [29] = {
+        ["clones"] = {
+            [1] = {
+                ["y"] = -287.4750584273;
+                ["x"] = 464.71521744085;
+                ["sublevel"] = 5;
+                ["week"] = {
+                    [7] = true;
+                    [1] = true;
+                    [2] = true;
+                    [4] = true;
+                    [8] = true;
+                    [9] = true;
+                    [5] = true;
+                    [10] = true;
+                    [3] = true;
+                    [6] = true;
+                    [12] = true;
+                    [11] = true;
+                };
+            };
+        };
+        ["scale"] = 1.4;
+        ["characteristics"] = {
+            ["Taunt"] = true;
+        };
+        ["spells"] = {
+            [314483] = {};
+            [314477] = {};
+            [314397] = {};
+            [314531] = {};
+        };
+        ["stealthDetect"] = true;
+        ["count"] = 7;
+        ["corrupted"] = true;
+        ["teemingCount"] = 10;
+        ["health"] = 2151786;
+        ["displayId"] = 90742;
+        ["creatureType"] = "Aberration";
+        ["level"] = 122;
+        ["name"] = "Samh'rek, Beckoner of Chaos";
+        ["id"] = 161243;
+    };
+    [15] = {
+        ["clones"] = {
+            [1] = {
+                ["y"] = -342.9850555754;
+                ["x"] = 318.27236291642;
+                ["sublevel"] = 4;
+            };
+        };
+        ["scale"] = 1;
+        ["id"] = 127484;
+        ["spells"] = {
+            [257827] = {};
+            [257814] = {};
+            [257777] = {};
+            [258544] = {};
+            [257785] = {};
+            [257956] = {};
+            [257793] = {};
+            [205276] = {};
+            [257791] = {};
+        };
+        ["isBoss"] = true;
+        ["encounterID"] = 2098;
+        ["instanceID"] = 1002;
+        ["health"] = 4610970;
+        ["name"] = "Jes Howlis";
+        ["displayId"] = 81739;
+        ["creatureType"] = "Humanoid";
+        ["level"] = 122;
+        ["count"] = 0;
+        ["characteristics"] = {
+            ["Taunt"] = true;
+        };
+    };
 };
-
-
-
-

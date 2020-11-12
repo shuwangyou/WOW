@@ -12,4 +12,9 @@ SRTISaved = {
 	["singlehover"] = false,
 }
 SRTIExternalUF = {
+	["shadowedunitframes"] = {
+		"SUFUnittarget", -- [1]
+		"SUFUnittargettarget", -- [2]
+		"SUFUnitfocus", -- [3]
+	},
 }

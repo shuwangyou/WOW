@@ -113,8 +113,8 @@ do
 		if not frame.db.profile.tooltipHideMedals then
 			splitLine = true
 			-- Honorbound Service Medal / 7th Legion Service Medal
-			local nName, nAmount, nIcon = GetCurrencyInfo(faction == "Horde" and 1716 or 1717)
-			tip:AddDoubleLine(nName, ("|T%d:15:15:0:0:64:64:4:60:4:60|t %d"):format(nIcon, nAmount), 1, 1, 1, 1, 1, 1)
+			local tbl = C_CurrencyInfo.GetCurrencyInfo(faction == "Horde" and 1716 or 1717)
+			tip:AddDoubleLine(tbl.name, ("|T%d:15:15:0:0:64:64:4:60:4:60|t %d"):format(tbl.iconFileID, tbl.quantity), 1, 1, 1, 1, 1, 1)
 		end
 
 		if splitLine then
@@ -512,7 +512,7 @@ frame:SetScript("OnEvent", function(f)
 			tooltipHideMedals = false,
 			zoneWarnings = true,
 			hideInRaid = false,
-			mode = 1,
+			mode = 2,
 		},
 	}
 	f.db = LibStub("AceDB-3.0"):New("BFAInvasionTimerDB", defaults, true)

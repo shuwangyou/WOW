@@ -5,7 +5,7 @@
 
 local LibEvent = LibStub:GetLibrary("LibEvent.7000")
 
-local VERSION = 2.4
+local VERSION = 2.5
 
 local addon, ns = ...
 
@@ -21,6 +21,7 @@ local DefaultDB = {
     ShowItemBorder = false,               --物品直角邊框
     EnableItemLevel  = true,              --物品等級
       ShowColoredItemLevelString = true, --裝等文字隨物品品質
+      ShowCorruptedMark = true,           --腐蚀装备标记
       ShowItemSlotString = false,         --物品部位文字
         EnableItemLevelBag = true,
         EnableItemLevelBank = true,
@@ -51,6 +52,7 @@ local DefaultDB = {
     PaperDollItemLevelOutsideString = false, --PaperDoll文字外邊顯示(沒有在配置面板)
     ItemLevelAnchorPoint = "TOPLEFT",         --裝等位置
     ShowPluginGreenState = false,         --裝備綠字屬性前綴顯示
+    ShowCorruptedMark = true,             --装等显示腐蚀值
 }
 
 local options = {
@@ -58,14 +60,15 @@ local options = {
     { key = "EnableItemLevel",
       child = {
         { key = "ShowColoredItemLevelString" },
+        { key = "ShowCorruptedMark" },
         { key = "ShowItemSlotString" },
+        { key = "ShowCorruptedMark" },
       },
       subtype = {
         { key = "Bag" },
         { key = "Bank" },
         { key = "Merchant" },
         { key = "Trade" },
-        { key = "Auction" },
         { key = "AltEquipment" },
         { key = "GuildBank" },
         { key = "GuildNews" },
@@ -146,7 +149,7 @@ end
 local function CreateSubtypeFrame(list, parent)
     if (not list) then return end
     if (not parent.SubtypeFrame) then
-        parent.SubtypeFrame = CreateFrame("Frame", nil, parent)
+        parent.SubtypeFrame = CreateFrame("Frame", nil, parent, BackdropTemplateMixin and "BackdropTemplate" or nil)
         parent.SubtypeFrame:SetScale(0.92)
         parent.SubtypeFrame:SetPoint("TOPLEFT", 333, 0)
         parent.SubtypeFrame:SetBackdrop({
@@ -199,7 +202,7 @@ local function CreateAnchorFrame(anchorkey, parent)
         end)
         frame[anchorPoint] = button
     end
-    local frame = CreateFrame("Frame", nil, parent.SubtypeFrame or parent, "ThinBorderTemplate")
+    local frame = CreateFrame("Frame", nil, parent.SubtypeFrame or parent, BackdropTemplateMixin and "ThinBorderTemplate,BackdropTemplate" or "ThinBorderTemplate")
     frame.anchorkey = anchorkey
     frame:SetBackdrop(GameTooltip:GetBackdrop())
     frame:SetBackdropColor(GameTooltip:GetBackdropColor())
@@ -219,7 +222,7 @@ end
 
 local function CreateCheckbox(list, parent, anchor, offsetx, offsety)
     local checkbox, subbox
-    local stepx, stepy = 20, 27
+    local stepx, stepy = 20, 25
     if (not list) then return offsety end
     for i, v in ipairs(list) do
         checkbox = CreateFrame("CheckButton", nil, parent, "InterfaceOptionsCheckButtonTemplate")

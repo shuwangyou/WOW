@@ -102,15 +102,15 @@ function journal:OtherAddonJournalStuff()
 		button:SetText("CollectMe")
 		button:SetScript("OnClick",function() CollectMeOpen2Button:Click() end)
 	end
-	-- PetTracker "Zone Tracker" checkbutton along bottom
+	-- PetTracker "Track Pets" checkbutton along bottom
 	if IsAddOnLoaded("PetTracker_Journal") and PetTrackerTrackToggle and GetAddOnMetadata("PetTracker","Version")~="7.1.4" then
 		journal.PetTrackerJournalButton = CreateFrame("CheckButton",nil,journal,"UICheckButtonTemplate")
 		local button = journal.PetTrackerJournalButton
 		button:SetSize(26,26)
-		button:SetHitRectInsets(-2,-80,-2,-2)
+		button:SetHitRectInsets(-2,-70,-2,-2)
 		button.text:SetFontObject("GameFontHighlight")
-		button.text:SetText("Zone Tracker")
-		button:SetPoint("RIGHT",journal.CollectMeButton or rematch.BottomPanel.SaveButton,"LEFT",-88,-1)
+		button.text:SetText("Track Pets")
+		button:SetPoint("RIGHT",journal.CollectMeButton or rematch.BottomPanel.SaveButton,"LEFT",-76,-1)
 		button:SetScript("OnClick",function(self) PetTrackerTrackToggle:Click() end)
 		hooksecurefunc(PetTrackerTrackToggle,"SetChecked",function(self,checked)
 			button:SetChecked(checked) -- follow checked state of the button
@@ -258,7 +258,11 @@ function journal:ConfigureJournal(hide)
 		end
 	end
 
-	rematch:Reparent(rematch.LoadedTeamPanel,journal,"BOTTOMLEFT",rematch.LoadoutPanel.Loadouts[1],"TOPLEFT",0,2)
+	if rematch.LoadoutPanel.targetMode then
+		rematch.LoadedTeamPanel:Hide()
+	else
+		rematch:Reparent(rematch.LoadedTeamPanel,journal,"BOTTOMLEFT",rematch.LoadoutPanel.Loadouts[1],"TOPLEFT",0,2)
+	end
 	rematch.LoadedTeamPanel.maxWidth = 280
 
 	rematch:UpdatePanelTabs(journal.PanelTabs)
@@ -283,6 +287,7 @@ end
 
 -- one of the tabs (Teams, Queue, Options) clicked
 function journal:PanelTabOnClick()
+	rematch.LoadoutPanel.targetMode = false
 	settings.JournalPanel = self:GetID()
 	rematch:SelectPanelTab(journal.PanelTabs,settings.JournalPanel)
 	journal:ConfigureJournal()

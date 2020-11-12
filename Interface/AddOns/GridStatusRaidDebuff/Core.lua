@@ -1,4 +1,5 @@
 local zoneOrder = {
+    [C_Map.GetMapInfo(1581).name] = 1,
     [C_Map.GetMapInfo(1512).name] = 1,
     [C_Map.GetMapInfo(1358).name] = 1.1,
     [C_Map.GetMapInfo(1162).name] = 1.1,
@@ -108,6 +109,8 @@ local ignore_ids = {
     [115191] = true, -- Stealth Rogue Debuff
     [304851] = true, -- 纳沙塔尔之战参战者
     [97821] = true, --虚空之触
+    [313445] = true, --恩佐斯领域
+    [280661] = true, --个人护盾机
 }
 
 local clientVersion
@@ -160,185 +163,65 @@ GridStatusRaidDebuff.defaultDB = {
 
 	["debuff_options"] = {
         ["群星庭院"] = {
-            ["伪装"] = {
-                ["disable"] = true,
-            },
+            ["伪装"] = { ["disable"] = true, },
         },
         ["萨格拉斯之墓"] = {
-            ["造物者之赐"] = {
-                ["disable"] = true,
-            },
-            ["吞噬巨口"] = {
-                ["disable"] = true,
-            },
-            ["千魂之暗"] = {
-                ["c_prior"] = 1,
-                ["i_prior"] = 1,
-                ["disable"] = true,
-            },
-            ["枯萎"] = {
-                ["c_prior"] = 9,
-                ["stackable"] = false,
-                ["i_prior"] = 9,
-            },
-            ["阴影弥漫"] = {
-                ["c_prior"] = 3,
-                ["i_prior"] = 3,
-                ["disable"] = true,
-            },
-            ["回响之痛"] = {
-                ["timer"] = true,
-                ["i_prior"] = 10,
-                ["c_prior"] = 10,
-            },
-            ["无形"] = {
-                ["i_prior"] = 10,
-                ["c_prior"] = 10,
-            },
-            ["月光弥漫"] = {
-                ["c_prior"] = 3,
-                ["i_prior"] = 3,
-                ["disable"] = true,
-            },
-            ["邪爪"] = {
-                ["i_prior"] = 8,
-                ["c_prior"] = 8,
-            },
-            ["月光之火"] = {
-                ["i_prior"] = 10,
-                ["c_prior"] = 10,
-            },
-            ["昏暗隐匿"] = {
-                ["disable"] = true,
-            },
-            ["恶魔活力"] = {
-                ["disable"] = true,
-            },
-            ["光明之触"] = {
-                ["disable"] = true,
-            },
-            ["痛苦负担"] = {
-                ["disable"] = true,
-            },
-            ["动荡的灵魂"] = {
-                ["c_prior"] = 10,
-                ["i_prior"] = 10,
-                ["disable"] = false,
-            },
-            ["光明灌注"] = {
-                ["disable"] = true,
-            },
-            ["急速射击"] = {
-                ["i_prior"] = 10,
-                ["c_prior"] = 10,
-            },
-            ["星界净化"] = {
-                ["i_prior"] = 4,
-                ["c_prior"] = 4,
-            },
-            ["邪能灌注"] = {
-                ["disable"] = true,
-            },
-            ["邪能之触"] = {
-                ["disable"] = true,
-            },
-            ["破碎尖叫"] = {
-                ["c_prior"] = 10,
-                ["stackable"] = true,
-                ["i_prior"] = 10,
-                ["timer"] = true,
-            },
-            ["释放混沌"] = {
-                ["c_prior"] = 9,
-                ["i_prior"] = 9,
-            },
-            ["苦痛之矛"] = {
-                ["i_prior"] = 10,
-                ["c_prior"] = 10,
-            },
-            ["污染墨汁"] = {
-                ["i_prior"] = 4,
-            },
+            ["造物者之赐"] = { ["disable"] = true, },
+            ["吞噬巨口"] = { ["disable"] = true, },
+            ["千魂之暗"] = { ["c_prior"] = 1, ["i_prior"] = 1, ["disable"] = true, },
+            ["枯萎"] = { ["c_prior"] = 9, ["stackable"] = false, ["i_prior"] = 9, },
+            ["阴影弥漫"] = { ["c_prior"] = 3, ["i_prior"] = 3, ["disable"] = true, },
+            ["回响之痛"] = { ["timer"] = true, ["i_prior"] = 10, ["c_prior"] = 10, },
+            ["无形"] = { ["i_prior"] = 10, ["c_prior"] = 10, },
+            ["月光弥漫"] = { ["c_prior"] = 3, ["i_prior"] = 3, ["disable"] = true, },
+            ["邪爪"] = { ["i_prior"] = 8, ["c_prior"] = 8, },
+            ["月光之火"] = { ["i_prior"] = 10, ["c_prior"] = 10, },
+            ["昏暗隐匿"] = { ["disable"] = true, },
+            ["恶魔活力"] = { ["disable"] = true, },
+            ["光明之触"] = { ["disable"] = true, },
+            ["痛苦负担"] = { ["disable"] = true, },
+            ["动荡的灵魂"] = { ["c_prior"] = 10, ["i_prior"] = 10, ["disable"] = false, },
+            ["光明灌注"] = { ["disable"] = true, },
+            ["急速射击"] = { ["i_prior"] = 10, ["c_prior"] = 10, },
+            ["星界净化"] = { ["i_prior"] = 4, ["c_prior"] = 4, },
+            ["邪能灌注"] = { ["disable"] = true, },
+            ["邪能之触"] = { ["disable"] = true, },
+            ["破碎尖叫"] = { ["c_prior"] = 10, ["stackable"] = true, ["i_prior"] = 10, ["timer"] = true, },
+            ["释放混沌"] = { ["c_prior"] = 9, ["i_prior"] = 9, },
+            ["苦痛之矛"] = { ["i_prior"] = 10, ["c_prior"] = 10, },
+            ["污染墨汁"] = { ["i_prior"] = 4, },
         },
 
         ["安托鲁斯，燃烧王座"] = {
-            ["灵能突袭"] = {
-                ["i_prior"] = 10,
-                ["stackable"] = true,
-            },
-            ["熵能爆裂"] = {
-                ["stackable"] = true,
-            },
-            ["邪能折磨"] = {
-                ["disable"] = true,
-            },
-            ["诺甘农的幽灵军团"] = {
-                ["disable"] = true,
-            },
-            ["烈焰折磨"] = {
-                ["disable"] = true,
-            },
-            ["冰霜折磨"] = {
-                ["disable"] = true,
-            },
-            ["高戈奈斯之怒"] = {
-                ["disable"] = true,
-            },
-            ["恐惧"] = {
-                ["disable"] = true,
-            },
-            ["冥魂之拥"] = {
-                ["i_prior"] = 10,
-                ["c_prior"] = 10,
-            },
-            ["暗影折磨"] = {
-                ["disable"] = true,
-            },
-            ["天空之赐"] = {
-                ["i_prior"] = 4,
-            },
-            ["海洋之赐"] = {
-                ["i_prior"] = 4,
-            },
-            ["灵魂爆发"] = {
-                ["i_prior"] = 10,
-            },
-            ["灵魂炸弹"] = {
-                ["i_prior"] = 10,
-            },
-            ["海洋之力"] = {
-                ["stackable"] = true,
-            },
-            ["天空之力"] = {
-                ["stackable"] = true,
-            },
-            ["强化脉冲手雷"] = {
-                ["i_prior"] = 8,
-            },
-            ["冰霜之球"] = {
-                ["c_prior"] = 5,
-                ["i_prior"] = 5,
-                ["disable"] = true,
-            },
-            ["阿曼苏尔的诡诈"] = {
-                ["c_prior"] = 1,
-                ["i_prior"] = 1,
-                ["timer"] = false,
-            },
-            ["冷凝之血"] = {
-                ["c_prior"] = 9,
-                ["i_prior"] = 9,
-                ["timer"] = true,
-            },
-            ["爆裂脉冲"] = {
-                ["timer"] = true,
-                ["i_prior"] = 10,
-                ["c_prior"] = 10,
-            },
-            ["洪荒烈火"] = {
-                ["i_prior"] = 9,
-            },
+            ["灵能突袭"] = { ["i_prior"] = 10, ["stackable"] = true, },
+            ["熵能爆裂"] = { ["stackable"] = true, },
+            ["邪能折磨"] = { ["disable"] = true, },
+            ["诺甘农的幽灵军团"] = { ["disable"] = true, },
+            ["烈焰折磨"] = { ["disable"] = true, },
+            ["冰霜折磨"] = { ["disable"] = true, },
+            ["高戈奈斯之怒"] = { ["disable"] = true, },
+            ["恐惧"] = { ["disable"] = true, },
+            ["冥魂之拥"] = { ["i_prior"] = 10, ["c_prior"] = 10, },
+            ["暗影折磨"] = { ["disable"] = true, },
+            ["天空之赐"] = { ["i_prior"] = 4, },
+            ["海洋之赐"] = { ["i_prior"] = 4, },
+            ["灵魂爆发"] = { ["i_prior"] = 10, },
+            ["灵魂炸弹"] = { ["i_prior"] = 10, },
+            ["海洋之力"] = { ["stackable"] = true, },
+            ["天空之力"] = { ["stackable"] = true, },
+            ["强化脉冲手雷"] = { ["i_prior"] = 8, },
+            ["冰霜之球"] = { ["c_prior"] = 5, ["i_prior"] = 5, ["disable"] = true, },
+            ["阿曼苏尔的诡诈"] = { ["c_prior"] = 1, ["i_prior"] = 1, ["timer"] = false, },
+            ["冷凝之血"] = { ["c_prior"] = 9, ["i_prior"] = 9, ["timer"] = true, },
+            ["爆裂脉冲"] = { ["timer"] = true, ["i_prior"] = 10, ["c_prior"] = 10, },
+            ["洪荒烈火"] = { ["i_prior"] = 9, },
         },
+        [C_Map.GetMapInfo(1581).name] = {
+            [GetSpellInfo(315161)] = { c_prior = 1, i_prior = 1 }, --腐化之眼
+            [GetSpellInfo(319346)] = { disable = true, }, --无尽丧钟
+            [GetSpellInfo(309657)] = { disable = true, }, --黑暗仪式
+            [GetSpellInfo(313250)] = { disable = true, }, --1号蠕行疯狂
+        }
     },
 	["detected_debuff"] = {},
 }
@@ -818,17 +701,30 @@ function GridStatusRaidDebuff:LoadZoneDebuff(zone, name)
 	if not args[name] and k then
 		description = L["Enable %s"]:format(name)
 
+        --[[
 		tip:SetHyperlink("spell:"..k.debuffId)
 		if tip:NumLines() > 1 then
 			description = tip[tip:NumLines()]:GetText().. "\nID: " .. k.debuffId
 		end
+		--]]
+        local spellID = k.debuffId
+        if not GetSpellInfo(spellID) then spellID = nil end
 
 		menuName = fmt("|T%s:0|t%s", k.icon, name)
 
 		args[name] = {
 			type = "group",
 			name = menuName,
-			desc = description,
+            desc = function ()
+                if not spellID then return end
+                local tooltip = LibStub("AceConfigDialog-3.0").tooltip
+                tooltip:SetOwner(UIParent, "ANCHOR_CURSOR")
+                tooltip:SetHyperlink(GetSpellLink(spellID))
+                tooltip:AddLine(" ")
+                tooltip:AddLine("ID: " .. spellID)
+                tooltip:Show()
+                return tooltip --abyui modify AceConfigDialog-3.0 TreeOnButtonEnter
+            end,
 			order = order,
 			args = {
 				["enable"] = {
@@ -975,15 +871,33 @@ function GridStatusRaidDebuff:LoadZoneDebuff(zone, name)
 				["link"] = {
 				  type = "execute",
 					name = "发送链接",
-					desc = "发送此BOSS技能链接到聊天窗",
+                    descStyle = "none for take control of gametooltip in AceConfigDialog-3.0.lua:512",
+					desc = function(info)
+                        local tooltip = LibStub("AceConfigDialog-3.0").tooltip
+                        tooltip:SetHyperlink(GetSpellLink(k.debuffId))
+                        tooltip:AddLine(" ")
+                        tooltip:AddLine("发送此BOSS技能链接到聊天窗")
+                        tooltip:Show()
+                    end,
 					order = 10,
-					func = function()
-									local chatWindow = ChatEdit_GetActiveWindow()
-            			if chatWindow then
-            				chatWindow:Insert(GetSpellLink(k.debuffId))
-            			end
-								end,
-				},
+                    func = function()
+                        --[[
+                        local chatWindow = ChatEdit_GetActiveWindow()
+                        if chatWindow then
+                            chatWindow:Insert(GetSpellLink(k.debuffId))
+                        end
+                        --]]
+                        --abyui
+                        local chatFrame = GetCVar("chatStyle")=="im" and SELECTED_CHAT_FRAME or DEFAULT_CHAT_FRAME
+                        local eb = chatFrame and chatFrame.editBox
+                        if(eb) then
+                            eb:Insert(GetSpellLink(k.debuffId))
+                            eb:Show();
+                            eb:HighlightText()
+                            eb:SetFocus()
+                        end
+                    end,
+                },
 			},
 		}
 	end

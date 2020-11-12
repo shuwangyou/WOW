@@ -31,13 +31,14 @@ ff.PlayersInvited = {}
 
 local GameCooltip = GameCooltip2
 
+local C_TaskQuest = _G.C_TaskQuest
+
 local _
 local QuestMapFrame_IsQuestWorldQuest = QuestMapFrame_IsQuestWorldQuest or QuestUtils_IsQuestWorldQuest
 local GetNumQuestLogRewardCurrencies = GetNumQuestLogRewardCurrencies
 local GetQuestLogRewardInfo = GetQuestLogRewardInfo
 local GetQuestLogRewardCurrencyInfo = GetQuestLogRewardCurrencyInfo
 local GetQuestLogRewardMoney = GetQuestLogRewardMoney
-local GetQuestTagInfo = GetQuestTagInfo
 local GetNumQuestLogRewards = GetNumQuestLogRewards
 local GetQuestInfoByQuestID = C_TaskQuest.GetQuestInfoByQuestID
 
@@ -73,7 +74,7 @@ ff.RightClickClose:SetPoint ("bottom", ff, "bottom", 0, 2)
 ff.RightClickClose.color = "gray"
 
 --tick frame
-ff.TickFrame = CreateFrame ("frame", nil, UIParent)
+ff.TickFrame = CreateFrame ("frame", nil, UIParent, "BackdropTemplate")
 
 ff.SetEnabledFunc = function (_, _, value)
 	WorldQuestTracker.db.profile.groupfinder.enabled = value
@@ -497,15 +498,15 @@ function WorldQuestTracker.RegisterGroupFinderFrameOnLibWindow()
 	DF:CreateTitleBar (ff, "Title")
 	
 	--gear button
-	ff.Options = CreateFrame ("button", "$parentTopRightOptionsButton", ff)
+	ff.Options = CreateFrame ("button", "$parentTopRightOptionsButton", ff, "BackdropTemplate")
 	ff.Options:SetPoint ("right", ff.CloseButton, "left", -2, 0)
 	ff.Options:SetSize (16, 16)
-	ff.Options:SetNormalTexture (DF.folder .. "icons")
-	ff.Options:SetHighlightTexture (DF.folder .. "icons")
-	ff.Options:SetPushedTexture (DF.folder .. "icons")
-	ff.Options:GetNormalTexture():SetTexCoord (48/128, 64/128, 0, 1)
-	ff.Options:GetHighlightTexture():SetTexCoord (48/128, 64/128, 0, 1)
-	ff.Options:GetPushedTexture():SetTexCoord (48/128, 64/128, 0, 1)
+	ff.Options:SetNormalTexture ([[Interface\GossipFrame\BinderGossipIcon]])
+	ff.Options:SetHighlightTexture ([[Interface\GossipFrame\BinderGossipIcon]])
+	ff.Options:SetPushedTexture ([[Interface\GossipFrame\BinderGossipIcon]])
+	ff.Options:GetNormalTexture():SetDesaturated (true)
+	ff.Options:GetHighlightTexture():SetDesaturated (true)
+	ff.Options:GetPushedTexture():SetDesaturated (true)
 	ff.Options:SetAlpha (0.7)
 	
 	ff.Options.CoolTip = {
@@ -574,6 +575,7 @@ ff:RegisterEvent ("GROUP_ROSTER_UPDATE")
 ff:RegisterEvent ("GROUP_INVITE_CONFIRMATION")
 ff:RegisterEvent ("LFG_LIST_APPLICANT_LIST_UPDATED")
 ff:RegisterEvent ("ZONE_CHANGED_NEW_AREA")
+ff:RegisterEvent ("PLAYER_ENTERING_WORLD")
 
 ChatFrame_AddMessageEventFilter ("CHAT_MSG_WHISPER", function (_, _, msg)
 	if (not WorldQuestTracker.db.profile.groupfinder.send_whispers) then
@@ -747,18 +749,20 @@ local asd = ff:CreateFontString (nil, "overlay", "GameFontNormal")
 
 function WorldQuestTracker.PlayerIsInQuest (questName, questID)
 	local isInQuest = false
-	local numQuests = GetNumQuestLogEntries() 
+	local numQuests = C_QuestLog.GetNumQuestLogEntries()
 	
 	if (questName) then
 		for i = 1, numQuests do 
-			local questTitle, level, questTag, suggestedGroup, isHeader, isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle (i)
+			local questTitle = C_QuestLog.GetTitleForLogIndex(i)
 			if (questName == questTitle) then
 				isInQuest = true
 			end
 		end
 	else
-		for i = 1, numQuests do 
-			local questTitle, level, questTag, suggestedGroup, isHeader, isCollapsed, isComplete, isDaily, thisQuestID = GetQuestLogTitle (i)
+		for i = 1, numQuests do
+			local questInfo = C_QuestLog.GetInfo(i)
+			local thisQuestID = questInfo.questID
+
 			if (thisQuestID == questID) then
 				isInQuest = true
 			end
@@ -883,8 +887,8 @@ function WorldQuestTracker.InviteFromGroupApply()
 	end
 end
 
-ff:SetScript ("OnEvent", function (self, event, arg1, questID, arg3)
-	
+ff:SetScript ("OnEvent", function (self, event, questID, arg2, arg3)
+
 	--is this feature enable?
 	if (not WorldQuestTracker.db.profile.groupfinder.enabled) then
 		return
@@ -917,12 +921,11 @@ ff:SetScript ("OnEvent", function (self, event, arg1, questID, arg3)
 	
 	elseif (event == "QUEST_ACCEPTED") then
 		--> get quest data
-		local isInArea, isOnMap, numObjectives = GetTaskInfo (questID)
-		local title, factionID, capped = C_TaskQuest.GetQuestInfoByQuestID (questID)
-		
+
+		local isInArea, isOnMap = GetTaskInfo(questID)
+
 		-->  do the regular checks
 		if ((isInArea or isOnMap) and HaveQuestData (questID)) then
-
 			--get all quests from 8.3 assault stuff
 			local allAssaultQuests = {}
 			for _, questId in ipairs(C_TaskQuest.GetThreatQuests()) do
@@ -930,8 +933,16 @@ ff:SetScript ("OnEvent", function (self, event, arg1, questID, arg3)
 				allAssaultQuests [questId] = true
 			end
 
-			--if the quest is a worldquest OR the quest is listed as an 8.3 assault quest
-			if ((isWorldQuest and isInArea) or allAssaultQuests[questID]) then
+			local tagInfo = C_QuestLog.GetQuestTagInfo(questID)
+			local tagID = tagInfo.tagID
+			local rarity = tagInfo.rarity or 1
+			local isElite = tagInfo.isElite
+
+			--print(rarity)
+			
+			local isWorldQuest = QuestMapFrame_IsQuestWorldQuest(questID)
+
+			if ((isWorldQuest and isInArea) or allAssaultQuests[questID] or tagID == 112 or (isElite and rarity == LE_WORLD_QUEST_QUALITY_EPIC)) then
 				--FlashClientIcon()
 				--WorldQuestTracker.FindGroupForQuest (questID)
 				
@@ -959,7 +970,6 @@ ff:SetScript ("OnEvent", function (self, event, arg1, questID, arg3)
 		end
 	
 	elseif (event == "QUEST_REMOVED") then
-		questID = arg1
 		if (questID == ff.CurrentWorldQuest) then
 			
 			ff.CurrentWorldQuest = nil
@@ -971,7 +981,6 @@ ff:SetScript ("OnEvent", function (self, event, arg1, questID, arg3)
 		
 	
 	elseif (event == "QUEST_TURNED_IN") then
-		questID = arg1
 		local isWorldQuest = QuestMapFrame_IsQuestWorldQuest (questID)
 		if (isWorldQuest) then
 			ff.WorldQuestFinished (questID)
@@ -1019,7 +1028,24 @@ ff:SetScript ("OnEvent", function (self, event, arg1, questID, arg3)
 			StaticPopup_Hide ("LFG_LIST_AUTO_ACCEPT_CONVERT_TO_RAID")
 			StaticPopup_Hide ("GROUP_INVITE_CONFIRMATION")
 		end		
-		
+
+	elseif (event == "PLAYER_ENTERING_WORLD") then
+
+		--> check if the player is in a quest location (big quests like invasions)
+		if (not IsInGroup()) then
+			--get invasion quests
+			for _, questId in ipairs(C_TaskQuest.GetThreatQuests()) do
+				--this invasion is active?
+				if (C_TaskQuest.IsActive(questId)) then
+					local isInArea, isOnMap = GetTaskInfo (questId)
+					--the player is inside the zone of this invasion?
+					if (isInArea and isOnMap) then
+						ff.CurrentWorldQuest = questId
+						ff:PlayerEnteredWorldQuestZone (questId)
+					end
+				end
+			end
+		end
 	end
 end)
 
@@ -1069,7 +1095,7 @@ end
 function ff.AddButtonToBBlock (block, questID)
 	local button = tremove (ff.BQuestTrackerFreeWidgets)
 	if (not button) then
-		button = CreateFrame ("button", nil, UIParent)
+		button = CreateFrame ("button", nil, UIParent, "BackdropTemplate")
 		button:SetFrameStrata ("FULLSCREEN")
 		button:SetSize (30, 30)
 		

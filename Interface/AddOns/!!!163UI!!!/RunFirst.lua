@@ -3,10 +3,18 @@ local _, U1 = ...
 U1PlayerName = UnitName("player")
 U1PlayerClass = select(2, UnitClass("player"))
 
+DisableAddOn("VEM-Core")
+DisableAddOn("DBM-Profiles")
+DisableAddOn("DBM-SpellTimers")
+DisableAddOn("DBM-RaidLeadTools")
+DisableAddOn("DPMCore")
+DisableAddOn("DBM-VictorySound")
+
 -- 一些常用的变量会被莫名其妙重置的, 必须在VARIABLES_LOADED里设置
 local f01 = CreateFrame("Frame")
 f01:RegisterEvent("VARIABLES_LOADED")
 f01:SetScript("OnEvent", function(self)
+    u1debug = DEBUG_MODE and CoreDebug or noop
     if U1DB and U1DB.configs then
         local c = U1DB.configs["163ui_moreoptions/cvar_nameplateMaxDistance"]
         if c == "0" or c == "nil" then
@@ -70,10 +78,6 @@ end
 --UI163_USE_X_CATEGORIES = 1 --- use X-Categories tag
 
 
-UnitIsTapped = function() end
-CLASS_BUTTONS = CLASS_ICON_TCOORDS
-CooldownFrame_SetTimer = CooldownFrame_Set
-
 --WithAllChatFrame(function(frame) frame:SetMaxLines(5000) end)
 
 if not oisv then return end
@@ -96,16 +100,6 @@ local function checkActionBarButtonEventsFrame(test)
         oisv(frame)
     end
 end
-
-local events = {}
-_G.DBG_events1 = events
-hooksecurefunc("ActionButton_OnEvent", function(self, event)
-    events[self] = events[self] or {}
-    table.insert(events[self], event)
-    if #events[self] > 10 then
-        table.remove(events[self], 11)
-    end
-end)
 
 local happened = false
 hooksecurefunc("StartChargeCooldown", function(self)

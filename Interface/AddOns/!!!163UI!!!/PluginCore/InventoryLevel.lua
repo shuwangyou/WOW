@@ -1,5 +1,3 @@
---WLK 绿 187 蓝 200 紫 200 - 284
---CTM 绿 272-333 蓝 308-359 紫 353-
 local slotWeight = {
     ["INVTYPE_RELIC"] = 0.3164,
     ["INVTYPE_TRINKET"] = 0.5625,
@@ -130,8 +128,13 @@ end
 
 -- /run for a=325, 400, 5 do ChatFrame1:AddMessage(a, U1GetInventoryLevelColor(a)) end
 function U1GetInventoryLevelColor(avgLevel, quality)
-    local STEP1, STEP2, STEP3, STEP4, STEP5, STEP6 = 190, 296, 385, 425, 456, 462
-    --local STEP1, STEP2, STEP3, STEP4, STEP5 = 780, 865, 950, 985, 1000 --845=166,865=174,885=182,915=195,930=210,945=225,960=240
+    --STEP3 蓝色，随机团本 STEP4 紫色，英雄团本最高或M团本最低 STEP5 红色，M团本最高 STEP6 橙色
+    --STEP4 应该是低保或比低保低一点，这样大米最高装等不是标准紫色
+    local STEP1, STEP2, STEP3, STEP4, STEP5, STEP6 = 50, 72, 95, 125, 145, 150
+    --8.0 local STEP1, STEP2, STEP3, STEP4, STEP5, STEP6 = 190, 296, 430, 460, 481, 481
+    --7.0 local STEP1, STEP2, STEP3, STEP4, STEP5 = 780, 865, 950, 985, 1000 --845=166,865=174,885=182,915=195,930=210,945=225,960=240
+    --CTM 绿 272-333 蓝 308-359 紫 353-
+    --WLK 绿 187 蓝 200 紫 200 - 284
     if not avgLevel or avgLevel<=0 then return .5, .5, .5 end
     if avgLevel < STEP1 then
         return 1, 1, 1
@@ -372,6 +375,7 @@ do
         if slot_s == 0 or gem_s == 0 then
             res ="0"
         else
+            --[[
             if sec_s == 0 then
                 res = fmt('%d/%d (|cff00dd70%d|r)', gem_s, slot_s, oth_s)
             elseif oth_s == 0 then
@@ -379,6 +383,8 @@ do
             else
                 res = fmt('%d/%d (|cff0070dd%d|r+|cff00dd70%d|r)', gem_s, slot_s, sec_s, oth_s) --|cffa335ee%d|r top_s
             end
+            ]]
+            res = fmt('%d/%d', gem_s, slot_s)
         end
 
         return res, waist_extra_slot
@@ -386,7 +392,7 @@ do
 end
 
 
-----物等显示
+--[[ --装等显示，统一用TinyInspect
 local slot = {'Head','Neck','Shoulder','Chest','Waist','Legs','Feet','Wrist','Hands','Finger0','Finger1','Trinket0','Trinket1','Back','MainHand','SecondaryHand'}
 local function CreateIlvText(slotName)
     local f = _G[slotName]
@@ -409,7 +415,7 @@ local function CheckItem(unit, frame)
                 else
                     local _, _, itemQuality = GetItemInfo(itemLink)
                     local ilvl = U1GetRealItemLevel(itemLink, unit, slotId)
-                    f.ilv:SetText(ilvl)
+                    f.ilv:SetText(ilvl .. (IsCorruptedItem(itemLink) and "|cffFF0000◆|r" or ""))
                     f.ilv:SetTextColor(U1GetInventoryLevelColor(ilvl, itemQuality))
                 end
             end
@@ -432,6 +438,7 @@ CharacterFrame:HookScript('OnEvent', function(self, event)
    if event ~= 'PLAYER_EQUIPMENT_CHANGED' then return end 
    CheckItem('player', 'Character') 
 end)
+--]]
 
 --[[------------------------------------------------------------
 scan stats
@@ -460,6 +467,8 @@ local ATTRS = {
     [ITEM_MOD_STRENGTH_SHORT] = 5, --LE_UNIT_STAT_STRENGTH
     [ITEM_MOD_AGILITY_SHORT] = 6, --LE_UNIT_STAT_AGILITY
     [ITEM_MOD_INTELLECT_SHORT] = 8, --LE_UNIT_STAT_INTELLECT
+    --[ITEM_MOD_CORRUPTION] = 9,
+    --[ITEM_MOD_CORRUPTION_RESISTANCE] = 10,
 }
 U1ATTRSNAME = {} for k,v in pairs(ATTRS) do U1ATTRSNAME[v] = k end
 
@@ -472,7 +481,7 @@ function U1GetItemStats(link, slot, tbl, includeGemEnchant, classID, specID)
 
     --缓存获取，装备搜索时includeGem是false, 不需要走缓存, 已经被db.ITEMS缓存了
     if slot == nil and includeGemEnchant and cache[link] and (not specID or primary_stats[specID]) then
-        copy(cache[link], tbl)
+        tbl = u1copy(cache[link], tbl)
         --移除非主属性
         if specID and primary_stats[specID] then
             for i=5, 8 do if i~=primary_stats[specID]+4 then tbl[i] = nil end end
@@ -515,8 +524,7 @@ function U1GetItemStats(link, slot, tbl, includeGemEnchant, classID, specID)
         end
     end
     if slot == nil and includeGemEnchant and stats then
-        cache[link] = {}
-        copy(stats, cache[link])
+        cache[link] = copy(stats, cache[link])
         if specID and primary_stats[specID] then
             for i=5, 8 do if i~=primary_stats[specID]+4 then stats[i] = nil end end
         end

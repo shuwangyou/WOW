@@ -252,6 +252,9 @@ function TS.CreateButtons(f)
             tinsert(annLine, "装等")
             tinsert(annLine, player.gsGot and player.bad and "*" or "")
             tinsert(annLine, player.gsGot and player.gs or "未知")
+            --tinsert(annLine, " 腐蚀")
+            --local corrupt = tostring(math.max(0, (player.c_total or 0) - (player.c_resist or 0) - 10))
+            --tinsert(annLine, player.c_total and corrupt or "未知")
             --tinsert(annLine, " ");
             --tinsert(annLine, "橙装:")
             --local slot1, link1, slot2, link2 = strsplit("^", player.legends or "")
@@ -305,11 +308,11 @@ function TS.CreateButtons(f)
         button2 = TEXT(CANCEL),
         OnAccept = function(self)
             local tab = TS.TABS[f.tabIdx]
-            SendChatMessage("【爱不易：团员信息统计】 - "..tab.tab.."：", self.data);
+            SendChatMessage("【爱不易：团员信息统计】 - "..tab.tab.."：", self.data[1], nil, self.data[2]);
             for i=1,#names do
                 local line = GetPlayerAnnText(names[i])
                 if line then
-                    SendChatMessage(line, self.data);
+                    SendChatMessage(line, self.data[1], nil, self.data[2]);
                 end
             end
         end,
@@ -327,7 +330,7 @@ function TS.CreateButtons(f)
         end
         if(count==0) then message(L["BtnAnnNoSelect"]); return; end
         -- local channel = GetNumRaidMembers()>0 and "RAID" or GetNumPartyMembers()>0 and "PARTY" or "SAY";
-        local channel = 'SAY'
+        local channel, target = 'SAY', nil
         if(IsInGroup()) then
             if(IsInRaid()) then
                 channel = 'RAID'
@@ -339,7 +342,7 @@ function TS.CreateButtons(f)
         --只选中一个的时候复制到输入框，打开聊天输入框时，使用相关的方式
         local chatFrame = GetCVar("chatStyle")=="im" and SELECTED_CHAT_FRAME or DEFAULT_CHAT_FRAME
         local eb = chatFrame and chatFrame.editBox
-        if eb and eb:IsVisible() and count == 1 then
+        if eb and count == 1 then
             for i=1,#names do
                 local line = GetPlayerAnnText(names[i])
                 if line then
@@ -347,15 +350,24 @@ function TS.CreateButtons(f)
                     break;
                 end
             end
+            eb:Show();
             eb:HighlightText()
             eb:SetFocus()
             return
-        elseif eb and eb:IsVisible() then
+        elseif eb then
             local chatType = eb:GetAttribute("chatType")
-            channel = (chatType == "RAID" or chatType == "PARTY" or chatType == "SAY" or chatType == "INSTANCE") and chatType or channel
+            if (chatType == "RAID" or chatType == "PARTY" or chatType == "SAY" or chatType == "INSTANCE") then
+                channel = chatType
+            elseif chatType == "WHISPER" then
+                target = eb:GetAttribute("tellTarget")
+                if target and target ~= "" then channel = chatType end
+            elseif chatType == "CHANNEL" then
+                target = eb:GetAttribute("channelTarget")
+                if target and target ~= "" then channel = chatType end
+            end
         end
-        local channelName = channel=="RAID" and "团队" or channel=="PARTY" and "小队" or "说";
-        StaticPopup_Show("TEAMSTATS_ANN", count, channelName, channel);
+        local channelName = channel=="RAID" and "团队" or channel=="PARTY" and "小队" or channel=="INSTANCE" and "副本" or channel=="WHISPER" and "密语:%s" or channel=="CHANNEL" and "频道:%s" or "说";
+        StaticPopup_Show("TEAMSTATS_ANN", count, format(channelName, target), {channel, target});
     end)
     CoreUIEnableTooltip(btnAnn(), L["BtnAnnTipTitle"], L["BtnAnnTip"]);
 
@@ -510,6 +522,9 @@ local function compare(n1, n2, prop)
     if prop == "realm" then
         v1 = select(3, n1:find("%-(.+)$"))
         v2 = select(3, n2:find("%-(.+)$"))
+    --elseif prop == "corrupt" then
+    --    v1 = (p1["c_total"] or 0) - (p1["c_resist"] or 0)
+    --    v2 = (p2["c_total"] or 0) - (p2["c_resist"] or 0)
     else
         v1, v2 = p1[prop], p2[prop]
     end
@@ -537,10 +552,12 @@ local sortFuncs = {
         local r, equal, force = compare(a, b, "gs")
         if currSort > 0 or force then return r else return not r end
     end,
+    --[[
     [5] = function(a,b)
-        local r, equal, force = compare(a, b, "health")
+        local r, equal, force = compare(a, b, "corrupt")
         if currSort > 0 or force then return r else return not r end
     end,
+    --]]
 }
 
 local function sortNames(self)
@@ -556,7 +573,12 @@ function TS.SetupColumns(f)
     local targetBtnOnEnter = function(self)
         for n, v in pairs(TS.db.players) do
             if v == self.line.player then
-                self.tooltipText = n
+                self.tooltipLines = self.tooltipLines or {}
+                self.tooltipLines[1] = n
+                --self.tooltipLines[2] = "披风抗性    (-" .. (v.c_resist or 0) .. ")"
+                --self.tooltipLines[3] = v.c_text and "|cff946cd0" .. v.c_text .. "|r" or ""
+                --local corrupt = tostring(math.max(0, (v.c_total or 0) - (v.c_resist or 0) - 10))
+                --self.tooltipLines[4] = "腐蚀合计：" .. corrupt
                 CoreUIShowTooltip(self, "ANCHOR_LEFT")
                 break
             end
@@ -734,6 +756,34 @@ function TS.SetupColumns(f)
             end
         },
         ]]
+        --[[
+        {
+            header = "腐蚀",
+            headerSpan = 1,
+            width = 36,
+            tip = "当前腐蚀值，计算了披风抗性并假设有10腐蚀抗性的特质",
+            create = function(col,btn,idx) return btn:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall"):SetFontHeight(14):SetJustifyH("CENTER"):Size(col.width, 24) end,
+            update = function(line, widget, idx, colIdx)
+                local player = line.player
+                local corrupt = 0
+                if (player.c_total) then
+                    corrupt = math.max(0, player.c_total - player.c_resist - 10)
+                    widget:SetText(tostring(corrupt))
+                else
+                    widget:SetText("?")
+                end
+                if not player.gsGot then
+                    widget:SetTextColor(0.3,0.3,0.3)
+                else
+                    if corrupt >= 40 then
+                        widget:SetTextColor(1, 0, 0)
+                    else
+                        widget:SetTextColor(0.5804, 0.4235, 0.8157)  --hex2rgba(ff946cd0)
+                    end
+                end
+            end
+        },
+        --]]
         {
             header = "珠宝",
             headerSpan = 1,

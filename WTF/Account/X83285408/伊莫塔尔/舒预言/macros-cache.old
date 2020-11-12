@@ -1,0 +1,124 @@
+VER 3 0100000000000018 "亡者大军" "237511"
+#showtooltips 亡者大军
+/use 延时之力药水
+/cast [nopet]亡者复生
+/startattack
+/petattack
+/castsequence reset=10 爆发,脓疮打击,脓疮打击,天启(神器),寒冰锁链,脓疮打击,召唤石像鬼,凋零缠绕,亡者大军,凋零缠绕,凋零缠绕,黑暗突变,凋零缠绕,凋零缠绕,狂暴,奥术洪流,凋零缠绕,凋零缠绕,凋零缠绕,凋零缠绕,凋零缠绕,凋零缠绕
+/use 13
+/use 
+END
+VER 3 010000000000001A "冰霜之柱" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast 冰霜之柱
+/cast 狂暴
+/use 12
+/use 13
+/use 14
+/use 1
+END
+VER 3 010000000000000F "冰霜之镰" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast 冰霜之镰
+/cast 狂暴
+/use 12
+/use 13
+/use 14
+/use 1
+END
+VER 3 0100000000000009 "冰霜打击" "SPELL_DEATHKNIGHT_EMPOWERRUNEBLADE2"
+#showtooltips 冰霜打击
+/startattack
+/tar 爆炸物
+/cast 冰霜打击
+/use 12
+/use 13
+/use 14
+/use 1
+END
+VER 3 010000000000001B "冰龙吐息" "INV_MISC_QUESTIONMARK"
+#showtooltips 
+/castsequence reset=2 符文武器增效,!冰龙吐息
+/cast 狂暴
+/use 12
+/use 13
+/use 14
+/use 1
+END
+VER 3 0100000000000011 "凛风冲击" "135833"
+#showtooltips 凛风冲击
+/startattack
+/cast 凛风冲击
+END
+VER 3 0100000000000017 "天启" "1392565"
+#showtooltips 天启
+/startattack
+/castsequence reset=3 天启(神器)
+/use 
+/use 
+END
+VER 3 0100000000000013 "枯萎凋零" "136144"
+#showtooltip 枯萎凋零
+/cast [@player]枯萎凋零
+END
+VER 3 0100000000000010 "死亡之握" "237532"
+#showtooltip 死亡之握
+/tar 大法师克希雷姆
+/startattack
+/cast 死亡之握
+END
+VER 3 0100000000000008 "湮灭" "SPELL_DEATHKNIGHT_CLASSICON"
+#showtooltip 湮灭
+/petattack
+/equip 
+/startattack
+/cast 湮灭
+/use 12
+/use 13
+/use 14
+/use 1
+END
+VER 3 0100000000000015 "爆发" "348565"
+#showtooltip 爆发
+/startattack
+/cast 爆发
+END
+VER 3 010000000000000D "防御全开" "SPELL_DEATHKNIGHT_ICEBOUNDFORTITUDE"
+/cast !冰封之韧
+/cast !反魔法护罩
+/cast 符文分流
+/cast !幻影步1
+END
+VER 3 010000000000000C "骨髓分裂" "ABILITY_DEATHKNIGHT_MARROWREND"
+#showtooltip 骨髓分裂
+/startattack
+/use 13
+/use 
+/cast 骨髓分裂
+/cast 狂暴
+END
+VER 3 0100000000000014 "黑暗仲裁者" "298674"
+#showtooltip 召唤石像鬼
+/cast [nopet]亡者复生
+/use 延时之力药水
+/startattack
+/petattack
+/castsequence reset=10 爆发,脓疮打击,脓疮打击,天启(神器),寒冰锁链,脓疮打击,召唤石像鬼,凋零缠绕,凋零缠绕,黑暗突变,凋零缠绕,凋零缠绕,奥术洪流,凋零缠绕,凋零缠绕,凋零缠绕,凋零缠绕,凋零缠绕,凋零缠绕
+/use 13
+/use 
+END
+VER 3 010000000000000E "黑暗命令" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast 黑暗命令
+/cast 死亡锁链
+/cast 死神的抚摩
+END
+VER 3 0100000000000016 "黑暗突变" "342913"
+#showtooltip 黑暗突变
+/cast [nopet]亡者复生
+/startattack
+/castsequence reset=2 黑暗突变
+/use 
+/use 
+END

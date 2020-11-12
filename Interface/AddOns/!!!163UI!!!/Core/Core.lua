@@ -9,11 +9,66 @@ for i=0, 9 do for j=0, 9 do n2s_float[i+j/10] = format("%.1f", i+j/10) end end
 function noop() end
 function pdebug(...) print("params", ...); print(debugstack(2)) end
 
+function find_global(pattern)
+    for k,v in pairs(_G) do
+        if type(v) == "string" and v:find(pattern) then
+            print(k,v)
+        end
+    end
+    print("=========================")
+end
+
+function find_global_key(patternOrObject)
+    for k,v in pairs(_G) do
+        if type(k) == "string" and v == patternOrObject or (type(patternOrObject)=="string" and k:find(patternOrObject)) then
+            print(k,v)
+        end
+    end
+    print("=========================")
+end
+
+function FindParentKey(frame)
+    if frame then
+        if frame.GetName and frame:GetName() then
+            print(frame:GetName())
+        else
+            local parent = frame:GetParent();
+            local path, found
+            while parent do
+                found = false
+                for k, v in pairs(parent) do
+                    if v==frame then
+                        found = true
+                        path = k..(path and "."..path or "")
+                        break
+                    end
+                end
+                if not found or parent:GetName() then
+                    path = (parent:GetName() or "[UNKNOWN]").."."..(path or "nil")
+                    break;
+                else
+                    frame = parent
+                    parent = frame:GetParent()
+                end
+            end
+            print(path)
+        end
+    end
+end
+
+function GetMouseFocusParentKey()
+    return FindParentKey(GetMouseFocus())
+end
+
+SLASH_MOUSEFOCUSNAME1 = "/getmn"
+SLASH_MOUSEFOCUSNAME2 = "/getmouseparentkey"
+SlashCmdList["MOUSEFOCUSNAME"] = GetMouseFocusParentKey
+
 _empty_table = {};
 _temp_table = {};
 
 ---复制数据,如果不提供toTable则新建一个
-function copy(fromTable, toTable)
+function u1copy(fromTable, toTable)
     toTable = toTable or {}
     if not fromTable then return end
     for k,v in pairs(fromTable) do
@@ -21,6 +76,7 @@ function copy(fromTable, toTable)
     end
     return toTable;
 end
+copy = copy or u1copy
 
 function deepmix(targetTable, dataTable)
     for k, v in pairs(dataTable) do
@@ -74,11 +130,25 @@ end
 function uncolor(s)
     return s and s:gsub("|c%x%x%x%x%x%x%x%x(.-)|r", "%1") or nil
 end
+local function ExtractColorValueFromHex(str, index)
+	return tonumber(str:sub(index, index + 1), 16) / 255;
+end
+function hex2rgba(hexColor)
+    if #hexColor == 8 then
+        local a, r, g, b = ExtractColorValueFromHex(hexColor, 1), ExtractColorValueFromHex(hexColor, 3), ExtractColorValueFromHex(hexColor, 5), ExtractColorValueFromHex(hexColor, 7);
+        return r, g, b, a;
+    else
+        error("format should be AARRGGBB")
+    end
+end
 
-function CoreBuildLocale()
-    return setmeta({},{
-        __index = function(self, key) return key end,
-        __call = function(self, key) return rawg(self, key) or key  end
+function CoreBuildLocale(debug)
+    return setmeta({ _DEBUG = debug and {} or nil }, {
+        __index = function(self, key)
+            if(debug) then tinsert(self._DEBUG, key) end
+            return key
+        end,
+        __call = function(self, key) return self[key]  end
     })
 end
 
@@ -199,7 +269,7 @@ function f2s(n, radius)
     end
 end
 
-local n2s,safecall,copy,tinsertdata,tremovedata,f2s = n2s,safecall,copy,tinsertdata,tremovedata,f2s
+local n2s,safecall,u1copy,tinsertdata,tremovedata,f2s = n2s,safecall,u1copy,tinsertdata,tremovedata,f2s
 LibStub("AceTimer-3.0"):Embed(core)
 function CoreScheduleTimer(repeating, delay, callback, arg)
     if(repeating)then
@@ -253,7 +323,7 @@ core.frame:SetScript("OnUpdate", function(self)
         runOnNextCount = runOnNextCount - oldCount;
         --将后面新加的复制到列表前面
         for i=1, runOnNextCount do
-            copy(runOnNextFrame[i+runOnNextCount], runOnNextFrame[i]);
+            u1copy(runOnNextFrame[i+runOnNextCount], runOnNextFrame[i]);
             wipe(runOnNextFrame[i+runOnNextCount]);
         end
     end
@@ -306,12 +376,16 @@ end
 
 local eventRegistration = {}
 function CoreAddEvent(event)
-    eventRegistration[event] = {};
+    eventRegistration[event] = eventRegistration[event] or {};
 end
 function CoreRegisterEvent(event, obj)
     local reg = eventRegistration[event];
     assert(reg, "No event '"..event.."' is defined.");
     tinsert(reg, (WW and WW.un) and WW:un(obj) or obj._F or obj);
+    if event == "INIT_COMPLETED" and U1IsInitComplete() then
+        local obj = reg[#reg]
+        safecall(obj[event], obj);
+    end
 end
 function CoreUnregisterEvent(event, obj)
     local reg = eventRegistration[event];
@@ -745,23 +819,26 @@ end
 protection area
 ---------------------------------------------------------------]]
 
-U1STAFF={["邦桑廸-奥杜尔"]="爱不易开发者",["心耀-冰风岗"]="爱不易开发者",
-    ["Majere-冰风岗"]="爱不易开发者的会长",
+U1STAFF={["心耀-冰风岗"]="爱不易开发者",["大狸花猫-冰风岗"]="爱不易开发者",
+    ["心钥-凤凰之神"]="爱不易开发者",
+    ["Zod-冰风岗"]="爱不易开发者的会长",
+    ["Jah-冰风岗"]="爱不易开发者的会长",
     ["利爪-冰风岗"]="爱不易小狼狗",
     ["尬疗者-冰风岗"]="熊猫人爱好者",
     ["小倍倍猪-冰风岗"]="爱不易老板娘",
-    ["乄阿蛮乄-冰风岗"]="Banshee元素领主",
-    ["咬住欧气冲天-冰风岗"]="爱不易御用菜猎人",
+    ["猪天天乖-冰风岗"]="爱不易赚钱养家的",
+    ["Minevaô-冰风岗"]="爱不易干杂活的",
+    ["咬住彼岸幻象-冰风岗"]="爱不易御用猎人",
     ["咬住不撒嘴-冰风岗"]="爱不易御用瞎子",
     ["糖门欧洲人-冰风岗"]="爱不易龙虾供应商",
-    ["Yakee-冰风岗"]="爱不易God-Y",
+    ["糖门法-冰风岗"]="爱不易财智榜首",
     ["浮云丶天际-冰风岗"]="爱不易大学僧",
-    ["北风丶烈-冰风岗"]="爱不易大股东",
-    ["无尘大师-冰风岗"]="Banshee熊猫人领导",
+    ["欧灬若拉-冰风岗"]="爱不易部落老兵典范",
     ["绯流琥-冰风岗"]="爱不易大股东",
-    ["欧灬若拉-冰风岗"]="Banshee部落老兵典范",
-    ["Ishtara-冰风岗"]="Banshee十八岁的咕哒子",
-    ["丶空白丶-冰风岗"]="Banshee的替补暗牧",
+    ["Foreigners-冰风岗"]="爱不易车间主任兼CEO",
+    ["诺离-冰风岗"]="爱不易大股东",
+    ["糖喵不是猫-冰风岗"]="爱不易大股东",
+    ["Akagi-冰风岗"]="爱不易会长的干儿子",
     ["丶晞-冰风岗"]="爱不易永远的晞女神",
     ["丶煙-冰风岗"]="爱不易永远的煙战神",
     ["水之记忆-冰风岗"]="爱不易虚空大师姐",
@@ -770,9 +847,17 @@ U1STAFF={["邦桑廸-奥杜尔"]="爱不易开发者",["心耀-冰风岗"]="爱�
     ["Funnel-冰风岗"]="爱不易幽灵虎饲养员",
     ["地狱王子归来-冰风岗"]="爱不易凡图斯制造者",
     ["Supercell-冰风岗"]="爱不易首席暗牧",
+    ["Vitamilk-冰风岗"]="爱不易首席戒律",
     ["欧丶皇丶族-冰风岗"]="爱不易首席替补",
     ["巅峰灬村姑-冰风岗"]="爱不易王牌车头",
+    ["恩然-冰风岗"] = "爱不易大股东",
+    ["毒瘤戦-冰风岗"]="爱不易大股东",
+    ["毒瘤法-冰风岗"]="爱不易版本最欧",
+    ["德藝丨雙馨-冰风岗"]="爱不易大股东",
+    ["依然贝斯-冰风岗"]="爱不易欧皇贝斯",
+    ["小宝大肉球-冰风岗"]="爱不易大股东",
 }
+
 RunOnNextFrame(function()
     CoreRegisterEvent("INIT_COMPLETED", { INIT_COMPLETED = function()
         CoreScheduleTimer(false, 1, function()
@@ -904,6 +989,7 @@ do
     TempEnchant2:SetScript("OnUpdate", nil)
     TempEnchant3:SetScript("OnUpdate", nil)
 
+    --UpdateTooltip本来就有0.2秒的间隔, 需要新的机制，就是延迟出提示
     local lastModifierTime = 0
     CoreOnEvent("MODIFIER_STATE_CHANGED", function() lastModifierTime = GetTime() end)
     function AbyUpdateTooltipWrapperFunc(func, interval, caller)
@@ -923,7 +1009,7 @@ do
         self.UpdateTooltip = AbyUpdateTooltipWrapperFunc(self.UpdateTooltip, interval or 1, self)
         self._abyNewUT = self.UpdateTooltip
     end
-    hooksecurefunc("PaperDollItemSlotButton_OnEnter", function(self) replaceUpdateTooltipWithWrapper(self) end)
+    --hooksecurefunc("PaperDollItemSlotButton_OnEnter", function(self) replaceUpdateTooltipWithWrapper(self) end)
     CoreDependCall("Blizzard_EncounterJournal", function()
         hooksecurefunc("EncounterJournal_SetLootButton", function(self)
             self.UpdateTooltip = AbyUpdateTooltipWrapperFunc(self:GetScript("OnEnter"), 2)
@@ -934,7 +1020,8 @@ do
             replaceUpdateTooltipWithWrapper(v, 0.25)
         end
     end)
-    --bagnon and combuctor see components/item.lua
+    --已取消 bagnon and combuctor see components/item.lua
+    --if AbyUpdateTooltipWrapperFunc then Item.UpdateTooltip = AbyUpdateTooltipWrapperFunc(Item.UpdateTooltip, .5) end
 end
 
 --[==[-替换WorldFrame_OnUpdate，其中大量运算只是为了UIParent隐藏时, level>=60 是为了其中的Tutorial
@@ -1799,29 +1886,31 @@ end
 
 ---可以输出代码位置的调试方法
 function CoreDebug(...)
-    local stack = debugstack(1);
-    local pos = stack:find("\n");
-    stack = pos and stack:sub(pos+1) or stack;
-    pos = stack:find("\n")
+    local stack = debugstack(2, 1, 0);
+    local pos = stack:find("\n")
     stack = pos and stack:sub(1, pos-1) or stack;
     --Interface\AddOns\163SettingPack\Main.lua:37: in function <Interface\AddOns\163SettingPack\Main.lua:30>
+    --[string "@Interface\AddOns\163UI_Plugins\8.0\ChallengesGuildBest.lua"]:143: in function <...ace\AddOns\163UI_Plugins\8.0\ChallengesGuildBest.lua:123>
+    --[string "CoreDebug("aaa")"]:1: in main chunk
     local parts = {strsplit(":", stack)};
     local params = {...}
     for i=1,#params do params[i] = tostring(params[i]) end
     if #parts >= 3 then
+        parts[1] = parts[1]:gsub('^%[string "@(.*)"%]$', '%1')
         local _,_,addon = strfind(parts[1], "^Interface\\AddOns\\(.-)\\.*");
         local _,_,file = strfind(parts[1], ".*\\(.-%.[%a]-)$");
         local line = tonumber(parts[2]);
-        local _,_,func = strfind(parts[3], " in function `(.-)'");
-        if not func then func = "?" end
-        print(format("|cff3f3f3f[%s]|r %s |cff3f3f3f@%s:%s():%d|r", addon or "macro", table.concat(params, ", "), file or "string", func, line));
+        print(format("%s |cff3f3f3f%s/%s:%d|r", table.concat(params, ", "), addon or "macro", file or "string", line));
+        --local _,_,func = strfind(parts[3], " in function `(.-)'");
+        --if not func then func = "?" end
+        --print(format("|cff3f3f3f[%s]|r %s |cff3f3f3f@%s:%s():%d|r", addon or "macro", table.concat(params, ", "), file or "string", func, line));
     else
         print(stack);
         print(format("|cff3f3f3f[%s]|r %s", core:GetName(), table.concat(params, ", ")));
     end
 end
 
-u1debug = DEBUG_MODE and CoreDebug or noop
+u1log = CoreDebug
 
 local CTAF = {}
 ---用来返回CreateFrame, hooksecurefunc, getreplacehook, togglefunc的工厂方法
@@ -2087,20 +2176,6 @@ CoreOnEvent("PLAYER_ENTERING_WORLD", function()
     U1FramePosRestore("TEST");
 end)
 ]]
-
-
---[[
-hook(nil, "GetGuildNewsInfo", function(index)
-    local isSticky, isHeader, newsType, text1, text2, id, data, data2, weekday, day, month, year = CoreGlobalHooks._origins.GetGuildNewsInfo(index);
-    if not newsType and index<=GetNumGuildNews() then
-        return isSticky, 1, newsType, text1, text2, id, data, data2, 1, 0, 6, 1984
-    else
-        return isSticky, isHeader, newsType, text1, text2, id, data, data2, weekday, day, month, year
-    end
-end)
-]]
-
---hooksecurefunc("print", function() ChatFrame1:AddMessage(debugstack()) end)
 
 if DEBUG_MODE and EclipseBarFrame then
     local function hookEclipseBarMarker() EclipseBarFrame.marker:SetSize(60,60) EclipseBarFrame.powerText:SetAlpha(.5) end

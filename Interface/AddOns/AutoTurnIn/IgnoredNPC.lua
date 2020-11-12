@@ -16,4 +16,6 @@ privateTable.IGNORED_NPC = {
     ["107486"] = "Chatty Rumormonger in Courtofstars",
     ["147297"] = "Zekhan",
     ["146012"] = "Zekhan",
+    ["143555"] = "部落笔记",
+    ["154002"] = "新生家园", --总是要合剂什么的
 }

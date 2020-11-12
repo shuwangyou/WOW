@@ -5,20 +5,20 @@ CompactRaidDB = {
 	["healthColor"] = "0.0,1.0,0.0",
 	["showParty"] = 1,
 	["modules"] = {
+		["RaidDebuff"] = {
+			["customDebuffs"] = {
+			},
+			["xoffset"] = 0,
+			["userLevels"] = {
+			},
+			["scale"] = 100,
+			["yoffset"] = 0,
+		},
 		["Artwork"] = {
 			["statusbar"] = "Interface\\BUTTONS\\WHITE8X8.BLP",
 			["background"] = "Interface\\DialogFrame\\UI-DialogBox-Background",
 			["border"] = "Interface\\Tooltips\\UI-Tooltip-Border",
 			["font"] = "Fonts\\ARKai_T.ttf",
-		},
-		["RaidDebuff"] = {
-			["customDebuffs"] = {
-			},
-			["xoffset"] = 0,
-			["yoffset"] = 0,
-			["scale"] = 100,
-			["userLevels"] = {
-			},
 		},
 	},
 	["powerColor"] = "0.0,0.0,1.0",
@@ -39,13 +39,14 @@ CompactRaidDB = {
 	["spacing"] = 1,
 	["showRaidIcon"] = 1,
 	["containerBorderSize"] = 12,
-	["containerAlpha"] = 75,
+	["width"] = 64,
 	["raidFilter"] = "CLASS",
-	["healthtextmode"] = 0,
+	["version"] = 5.09,
 	["profiles"] = {
 		["舒预言 - 伊莫塔尔"] = {
 			["modules"] = {
-				["RaidDebuff"] = {
+				["Artwork"] = {
+					["disabled"] = 1,
 				},
 				["CornerIndicators"] = {
 					["disabled"] = 1,
@@ -53,22 +54,15 @@ CompactRaidDB = {
 				["ClickSets"] = {
 					["disabled"] = 1,
 				},
-				["Artwork"] = {
-					["disabled"] = 1,
+				["RaidDebuff"] = {
 				},
 			},
-			["version"] = 4.2,
 			["showPartyPets"] = 1,
+			["version"] = 4.2,
 			["showFriendlyNpc"] = 1,
 		},
 		["舒预言 - 死亡之翼"] = {
 			["modules"] = {
-				["CornerIndicators"] = {
-					["talent2"] = {
-					},
-					["talent1"] = {
-					},
-				},
 				["ClickSets"] = {
 					["talent2"] = {
 						["1"] = "action:target",
@@ -79,6 +73,12 @@ CompactRaidDB = {
 						["1"] = "action:target",
 						["ctrl-1"] = "buildin:复活盟友",
 						["2"] = "action:togglemenu",
+					},
+				},
+				["CornerIndicators"] = {
+					["talent2"] = {
+					},
+					["talent1"] = {
 					},
 				},
 			},
@@ -87,22 +87,22 @@ CompactRaidDB = {
 		},
 		["舒预言 - 冰风岗"] = {
 			["modules"] = {
-				["ClickSets"] = {
-					["talent1"] = {
-						["1"] = "action:target",
-						["ctrl-1"] = "buildin:复活盟友",
-						["2"] = "action:togglemenu",
-					},
+				["CornerIndicators"] = {
 					["talent2"] = {
-						["1"] = "action:target",
-						["ctrl-1"] = "buildin:复活盟友",
-						["2"] = "action:togglemenu",
+					},
+					["talent1"] = {
 					},
 				},
-				["CornerIndicators"] = {
-					["talent1"] = {
-					},
+				["ClickSets"] = {
 					["talent2"] = {
+						["1"] = "action:target",
+						["ctrl-1"] = "buildin:复活盟友",
+						["2"] = "action:togglemenu",
+					},
+					["talent1"] = {
+						["1"] = "action:target",
+						["ctrl-1"] = "buildin:复活盟友",
+						["2"] = "action:togglemenu",
 					},
 				},
 			},
@@ -110,12 +110,12 @@ CompactRaidDB = {
 			["showPartyPets"] = 1,
 		},
 	},
-	["keepgroupstogether"] = 1,
+	["powerBarHeight"] = 1,
 	["showDirectionArrow"] = 1,
 	["nameHeight"] = 12,
 	["nameColor"] = "1.0,1.0,1.0",
 	["nameXOffset"] = 0,
-	["powerBarHeight"] = 1,
-	["width"] = 64,
-	["version"] = 5.09,
+	["keepgroupstogether"] = 1,
+	["healthtextmode"] = 0,
+	["containerAlpha"] = 75,
 }
