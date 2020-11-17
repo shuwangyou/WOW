@@ -355,3 +355,4 @@ details_tinythreat: disabled
 tomcats-mechagon: enabled
 details_vanguard: disabled
 handynotes_battleforazeroth: enabled
+zperl_raidmonitor: disabled

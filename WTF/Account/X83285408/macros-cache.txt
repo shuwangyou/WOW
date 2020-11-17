@@ -1,13 +1,13 @@
+VER 3 0000000000000064 "1" "INV_MISC_QUESTIONMARK"
+/tar 皎白云端翔龙
+/use 枬天拉索
+END
 VER 3 0000000000000054 "1" "INV_MISC_QUESTIONMARK"
 /g 阿尔萨斯附体！
 /g \ {rt8}
 /g   {rt6}>
 /g  /  \
 /g 8s真男人！冰封之韧！
-END
-VER 3 0000000000000064 "1" "INV_MISC_QUESTIONMARK"
-/tar 皎白云端翔龙
-/use 枬天拉索
 END
 VER 3 0000000000000030 "AH" "ACHIEVEMENT_GUILDPERK_MOBILEBANKING"
 /click TSMAuctioningPostButton

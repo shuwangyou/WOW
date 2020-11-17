@@ -18,6 +18,9 @@ KalielsTrackerDB = {
 			},
 		},
 	},
+	["global"] = {
+		["version"] = "4.2.3",
+	},
 	["profileKeys"] = {
 		["舒春丽 - 伊莫塔尔"] = "Default",
 		["舒唤天 - 伊莫塔尔"] = "Default",
@@ -32,15 +35,12 @@ KalielsTrackerDB = {
 		["舒孑影 - 瓦里安"] = "Default",
 		["舒预言 - 卡德罗斯"] = "Default",
 		["舒殉魂 - 安苏"] = "Default",
-		["舒心情 - 安苏"] = "Default",
-		["舒殉魂 - 伊森利恩"] = "Default",
-		["舒墨兰 - 伊莫塔尔"] = "Default",
-		["舒预言 - 死亡之翼"] = "Default",
-		["舒心情 - 伊森利恩"] = "Default",
 		["舒殉魂 - 伊莫塔尔"] = "Default",
-	},
-	["global"] = {
-		["version"] = "4.1.0",
+		["舒心情 - 伊森利恩"] = "Default",
+		["舒预言 - 死亡之翼"] = "Default",
+		["舒墨兰 - 伊莫塔尔"] = "Default",
+		["舒殉魂 - 伊森利恩"] = "Default",
+		["舒心情 - 安苏"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

@@ -93,14 +93,14 @@ TeamStatsDB = {
 				0, -- [87]
 				0, -- [88]
 			},
-			["gs"] = 89.8,
-			["inspected"] = 1605455083,
-			["heath"] = 12080,
+			["gs"] = 92.8,
+			["inspected"] = 1605623201,
+			["heath"] = 12200,
 			["gsGot"] = true,
 			["name"] = "舒殉魂",
 			["talent1"] = "冰霜",
 			["re"] = 0,
-			["compared"] = 1605447845,
+			["compared"] = 1605620958,
 			["bad"] = false,
 			["class"] = "MAGE",
 		},
