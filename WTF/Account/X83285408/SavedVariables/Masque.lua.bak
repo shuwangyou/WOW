@@ -11,24 +11,24 @@ MasqueDB = {
 		["花菜的巴巴 - 伊莫塔尔"] = "Default",
 		["舒耀星辰 - 伊莫塔尔"] = "Default",
 		["舒战宇 - 伊莫塔尔"] = "Default",
-		["Jackiexu - 伊莫塔尔"] = "Default",
+		["舒绿娥 - 伊莫塔尔"] = "Default",
 		["舒忘忧 - 伊莫塔尔"] = "Default",
 		["舒预言 - 伊莫塔尔"] = "Default",
 		["舒耀星辰 - 雷克萨"] = "Default",
 		["舒孑影 - 伊莫塔尔"] = "Default",
-		["舒殉魂 - 伊森利恩"] = "Default",
-		["舒孑影 - 瓦里安"] = "Default",
-		["舒墨兰 - 伊莫塔尔"] = "Default",
-		["舒心情 - 国王之谷"] = "Default",
-		["舒绿娥 - 埃德萨拉"] = "Default",
+		["舒孑影 - 安苏"] = "Default",
+		["Jackiexu - 伊莫塔尔"] = "Default",
+		["舒预言 - 死亡之翼"] = "Default",
+		["舒心情 - 伊森利恩"] = "Default",
+		["舒殉魂 - 伊莫塔尔"] = "Default",
 		["舒预言 - 卡德罗斯"] = "Default",
 		["舒殉魂 - 安苏"] = "Default",
 		["舒心情 - 安苏"] = "Default",
-		["舒殉魂 - 伊莫塔尔"] = "Default",
-		["舒心情 - 伊森利恩"] = "Default",
-		["舒预言 - 死亡之翼"] = "Default",
-		["舒孑影 - 安苏"] = "Default",
-		["舒绿娥 - 伊莫塔尔"] = "Default",
+		["舒绿娥 - 埃德萨拉"] = "Default",
+		["舒心情 - 国王之谷"] = "Default",
+		["舒墨兰 - 伊莫塔尔"] = "Default",
+		["舒殉魂 - 伊森利恩"] = "Default",
+		["舒孑影 - 瓦里安"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -218,22 +218,21 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "CleanUI Thin",
 				},
-				["Dominos_动作条 9"] = {
+				["ShadowedUF_目标"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Zoomed",
+					["SkinID"] = "CleanUI Thin",
 				},
 				["Dominos_动作条 10"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Zoomed",
 				},
-				["Dominos_Extra Bar"] = {
-					["Disabled"] = true,
+				["Dominos_动作条 9"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Zoomed",
+				},
+				["暴雪动作条按钮_左下动作条"] = {
 					["SkinID"] = "Zoomed",
 					["Inherit"] = false,
-				},
-				["饰品增强"] = {
-					["Inherit"] = false,
-					["SkinID"] = "CleanUI Thin",
 				},
 				["TellMeWhen"] = {
 					["Inherit"] = false,
@@ -243,32 +242,23 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "CleanUI Thin",
 				},
-				["额外动作条_额外动作条U1BAR1"] = {
-					["SkinID"] = "CleanUI Thin",
-					["Inherit"] = false,
-				},
-				["Blizzard Buffs"] = {
+				["暴雪动作条按钮_宠物动作条"] = {
 					["SkinID"] = "Zoomed",
 					["Inherit"] = false,
+				},
+				["ShadowedUF_小队"] = {
+					["Inherit"] = false,
+					["SkinID"] = "CleanUI Thin",
 				},
 				["Artifact Power Helper"] = {
 					["Inherit"] = false,
 					["SkinID"] = "CleanUI Thin",
 				},
-				["Dominos_动作条 2"] = {
+				["TrufiGCD_All Icons"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Zoomed",
+					["SkinID"] = "CleanUI Thin",
 				},
-				["Dominos_Action Bar"] = {
-					["Disabled"] = true,
-					["SkinID"] = "Zoomed",
-					["Inherit"] = false,
-				},
-				["TellMeWhen_分组: 8"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Zoomed",
-				},
-				["ShadowedUF_玩家"] = {
+				["XPerl"] = {
 					["Inherit"] = false,
 					["SkinID"] = "CleanUI Thin",
 				},
@@ -277,29 +267,39 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "CleanUI Thin",
 				},
-				["XPerl"] = {
+				["ShadowedUF_玩家"] = {
 					["Inherit"] = false,
 					["SkinID"] = "CleanUI Thin",
 				},
-				["TrufiGCD_All Icons"] = {
+				["TellMeWhen_分组: 8"] = {
 					["Inherit"] = false,
-					["SkinID"] = "CleanUI Thin",
+					["SkinID"] = "Zoomed",
 				},
-				["ShadowedUF_小队"] = {
-					["Inherit"] = false,
-					["SkinID"] = "CleanUI Thin",
-				},
-				["暴雪动作条按钮_宠物动作条"] = {
+				["Dominos_Action Bar"] = {
+					["Disabled"] = true,
 					["SkinID"] = "Zoomed",
 					["Inherit"] = false,
 				},
-				["暴雪动作条按钮_左下动作条"] = {
+				["Dominos_动作条 2"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Zoomed",
+				},
+				["Blizzard Buffs"] = {
 					["SkinID"] = "Zoomed",
 					["Inherit"] = false,
 				},
-				["ShadowedUF_目标"] = {
+				["额外动作条_额外动作条U1BAR1"] = {
+					["SkinID"] = "CleanUI Thin",
+					["Inherit"] = false,
+				},
+				["饰品增强"] = {
 					["Inherit"] = false,
 					["SkinID"] = "CleanUI Thin",
+				},
+				["Dominos_Extra Bar"] = {
+					["Disabled"] = true,
+					["SkinID"] = "Zoomed",
+					["Inherit"] = false,
 				},
 				["暴雪动作条按钮"] = {
 					["SkinID"] = "Zoomed",

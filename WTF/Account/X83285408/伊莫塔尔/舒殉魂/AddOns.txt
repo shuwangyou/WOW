@@ -354,3 +354,4 @@ details_tinythreat: disabled
 163ui_plugins: disabled
 tomcats-mechagon: enabled
 details_vanguard: disabled
+handynotes_battleforazeroth: enabled

@@ -13,26 +13,26 @@ TellMeWhenDB = {
 		["舒预言 - 伊莫塔尔"] = "舒预言 - 伊莫塔尔",
 		["舒耀星辰 - 雷克萨"] = "舒耀星辰 - 雷克萨",
 		["舒孑影 - 伊莫塔尔"] = "舒孑影 - 伊莫塔尔",
-		["舒耀星辰 - 伊莫塔尔"] = "舒耀星辰 - 伊莫塔尔",
+		["舒孑影 - 瓦里安"] = "舒孑影 - 瓦里安",
 		["Jackiexu - 伊莫塔尔"] = "Jackiexu - 伊莫塔尔",
-		["舒殉魂 - 伊森利恩"] = "舒殉魂 - 伊森利恩",
-		["舒墨兰 - 伊莫塔尔"] = "舒墨兰 - 伊莫塔尔",
+		["舒孑影 - 安苏"] = "舒孑影 - 安苏",
+		["舒预言 - 死亡之翼"] = "舒预言 - 死亡之翼",
 		["舒心情 - 伊森利恩"] = "舒心情 - 伊森利恩",
-		["舒绿娥 - 埃德萨拉"] = "舒绿娥 - 埃德萨拉",
+		["舒殉魂 - 伊莫塔尔"] = "舒殉魂 - 伊莫塔尔",
 		["舒殉魂 - 安苏"] = "舒殉魂 - 安苏",
 		["舒心情 - 安苏"] = "舒心情 - 安苏",
-		["舒殉魂 - 伊莫塔尔"] = "舒殉魂 - 伊莫塔尔",
+		["舒绿娥 - 埃德萨拉"] = "舒绿娥 - 埃德萨拉",
 		["舒炎 - 伊莫塔尔"] = "舒炎 - 伊莫塔尔",
-		["舒预言 - 死亡之翼"] = "舒预言 - 死亡之翼",
-		["舒孑影 - 安苏"] = "舒孑影 - 安苏",
-		["舒孑影 - 瓦里安"] = "舒孑影 - 瓦里安",
+		["舒墨兰 - 伊莫塔尔"] = "舒墨兰 - 伊莫塔尔",
+		["舒殉魂 - 伊森利恩"] = "舒殉魂 - 伊森利恩",
+		["舒耀星辰 - 伊莫塔尔"] = "舒耀星辰 - 伊莫塔尔",
 	},
 	["global"] = {
 		["TextLayouts"] = {
 			["TMW:textlayout:1ONlE7haQtDq"] = {
 				{
-					["StringName"] = "数字",
 					["ConstrainWidth"] = false,
+					["StringName"] = "数字",
 					["Size"] = 16,
 				}, -- [1]
 				["GUID"] = "TMW:textlayout:1ONlE7haQtDq",
@@ -64,6 +64,729 @@ TellMeWhenDB = {
 				["GUID"] = "TMW:textlayout:1NxSYRLOTJZR",
 				["Name"] = "暗夜要塞显示文字样式",
 			},
+		},
+		["AuraCache"] = {
+			[204598] = 2,
+			[167898] = 2,
+			[63106] = 2,
+			[228128] = 2,
+			[270070] = 2,
+			[341936] = 2,
+			[257284] = 2,
+			[300761] = 2,
+			[341937] = 1,
+			[278767] = 2,
+			[224165] = 2,
+			[20572] = 2,
+			[133630] = 2,
+			[315341] = 2,
+			[295137] = 2,
+			[117646] = 2,
+			[224167] = 2,
+			[22842] = 2,
+			[5215] = 2,
+			[66] = 2,
+			[274426] = 2,
+			[281843] = 2,
+			[207289] = 2,
+			[190026] = 2,
+			[2120] = 2,
+			[304606] = 2,
+			[271103] = 2,
+			[201408] = 2,
+			[334275] = 2,
+			[271105] = 2,
+			[274430] = 2,
+			[269571] = 2,
+			[231843] = 2,
+			[274431] = 2,
+			[1079] = 2,
+			[287731] = 2,
+			[314585] = 2,
+			[304611] = 2,
+			[136] = 2,
+			[224172] = 2,
+			[288756] = 2,
+			[257420] = 2,
+			[269576] = 2,
+			[212792] = 2,
+			[313310] = 2,
+			[102560] = 2,
+			[81141] = 2,
+			[14914] = 2,
+			[272903] = 2,
+			[215479] = 2,
+			[279810] = 2,
+			[182104] = 2,
+			[214968] = 2,
+			[279555] = 2,
+			[212283] = 2,
+			[313571] = 2,
+			[5487] = 2,
+			[8936] = 2,
+			[274443] = 2,
+			[248473] = 2,
+			[289277] = 2,
+			[303344] = 2,
+			[192081] = 2,
+			[303345] = 2,
+			[341452] = 1,
+			[196941] = 2,
+			[234153] = 2,
+			[341454] = 1,
+			[203975] = 2,
+			[341455] = 1,
+			[268311] = 2,
+			[341456] = 1,
+			[205766] = 2,
+			[257044] = 2,
+			[341457] = 1,
+			[290819] = 2,
+			[108446] = 2,
+			[260881] = 2,
+			[55342] = 2,
+			[34914] = 2,
+			[273685] = 2,
+			[341459] = 1,
+			[271896] = 2,
+			[341461] = 1,
+			[247456] = 2,
+			[24858] = 2,
+			[268062] = 2,
+			[589] = 2,
+			[292359] = 2,
+			[198097] = 2,
+			[253595] = 2,
+			[6770] = 2,
+			[91760] = 2,
+			[292361] = 2,
+			[300801] = 2,
+			[292362] = 2,
+			[300802] = 2,
+			[203981] = 2,
+			[3409] = 2,
+			[48374] = 1,
+			[48438] = 2,
+			[26297] = 2,
+			[143625] = 2,
+			[268836] = 2,
+			[192090] = 2,
+			[257946] = 2,
+			[212295] = 2,
+			[290577] = 2,
+			[81340] = 2,
+			[235313] = 2,
+			[300809] = 2,
+			[63560] = 2,
+			[342242] = 2,
+			[135700] = 2,
+			[279584] = 2,
+			[335082] = 2,
+			[266030] = 2,
+			[137619] = 2,
+			[204242] = 2,
+			[77761] = 2,
+			[115804] = 2,
+			[293142] = 2,
+			[278310] = 2,
+			[289308] = 2,
+			[285472] = 2,
+			[272685] = 2,
+			[206930] = 2,
+			[319233] = 2,
+			[213708] = 2,
+			[206803] = 2,
+			[326396] = 2,
+			[341486] = 2,
+			[191587] = 2,
+			[303380] = 2,
+			[72968] = 2,
+			[32612] = 2,
+			[273714] = 2,
+			[209746] = 2,
+			[268856] = 2,
+			[642] = 2,
+			[235450] = 2,
+			[268602] = 2,
+			[11327] = 2,
+			[248622] = 2,
+			[25771] = 2,
+			[267325] = 2,
+			[208086] = 2,
+			[267326] = 2,
+			[198368] = 2,
+			[96243] = 2,
+			[267327] = 2,
+			[335101] = 2,
+			[269885] = 2,
+			[62124] = 2,
+			[268607] = 2,
+			[267329] = 2,
+			[269887] = 2,
+			[267330] = 2,
+			[267331] = 2,
+			[53365] = 2,
+			[105771] = 2,
+			[270657] = 2,
+			[12654] = 2,
+			[280121] = 2,
+			[192106] = 2,
+			[245686] = 2,
+			[256044] = 1,
+			[270661] = 2,
+			[268616] = 2,
+			[319255] = 2,
+			[273988] = 2,
+			[190446] = 2,
+			[18499] = 2,
+			[45182] = 2,
+			[13877] = 2,
+			[268619] = 2,
+			[190319] = 2,
+			[45438] = 2,
+			[280385] = 2,
+			[206432] = 2,
+			[341510] = 2,
+			[273481] = 2,
+			[272970] = 2,
+			[198121] = 2,
+			[306474] = 2,
+			[126554] = 2,
+			[50106] = 1,
+			[195181] = 2,
+			[341514] = 2,
+			[262232] = 2,
+			[97463] = 2,
+			[195949] = 2,
+			[27243] = 2,
+			[341260] = 2,
+			[227151] = 2,
+			[270674] = 2,
+			[44544] = 2,
+			[312107] = 2,
+			[176898] = 2,
+			[268887] = 2,
+			[278350] = 2,
+			[2818] = 2,
+			[280653] = 2,
+			[228049] = 2,
+			[8219] = 2,
+			[280398] = 2,
+			[280654] = 2,
+			[267611] = 2,
+			[260402] = 2,
+			[273238] = 2,
+			[275540] = 2,
+			[228050] = 2,
+			[280400] = 2,
+			[236746] = 2,
+			[301884] = 2,
+			[268893] = 2,
+			[190456] = 2,
+			[296003] = 2,
+			[290121] = 2,
+			[274009] = 2,
+			[213858] = 2,
+			[31224] = 2,
+			[6795] = 2,
+			[246851] = 2,
+			[271711] = 2,
+			[196980] = 2,
+			[268899] = 2,
+			[246852] = 2,
+			[199027] = 2,
+			[1459] = 2,
+			[290640] = 2,
+			[287827] = 2,
+			[13750] = 2,
+			[302917] = 2,
+			[297035] = 2,
+			[121253] = 2,
+			[171919] = 1,
+			[193530] = 2,
+			[268904] = 2,
+			[279902] = 2,
+			[268905] = 2,
+			[295248] = 2,
+			[156064] = 2,
+			[316220] = 2,
+			[110960] = 2,
+			[313663] = 2,
+			[108211] = 2,
+			[1490] = 2,
+			[231895] = 2,
+			[120679] = 2,
+			[188290] = 2,
+			[197625] = 2,
+			[288091] = 2,
+			[23920] = 2,
+			[255937] = 2,
+			[89798] = 1,
+			[32216] = 2,
+			[332083] = 1,
+			[199545] = 2,
+			[298836] = 2,
+			[341291] = 2,
+			[327225] = 2,
+			[298837] = 2,
+			[273264] = 2,
+			[107574] = 2,
+			[198013] = 2,
+			[116014] = 2,
+			[193538] = 2,
+			[288613] = 2,
+			[8212] = 2,
+			[258883] = 2,
+			[231390] = 2,
+			[273525] = 2,
+			[774] = 2,
+			[61684] = 2,
+			[176277] = 2,
+			[280177] = 2,
+			[280433] = 2,
+			[157736] = 2,
+			[17735] = 2,
+			[146739] = 2,
+			[5217] = 2,
+			[196099] = 2,
+			[291944] = 2,
+			[278134] = 2,
+			[176151] = 2,
+			[212084] = 2,
+			[205179] = 2,
+			[12544] = 1,
+			[194310] = 2,
+			[79892] = 1,
+			[3148] = 1,
+			[217200] = 2,
+			[5277] = 2,
+			[205180] = 2,
+			[342076] = 2,
+			[298343] = 2,
+			[157228] = 2,
+			[286835] = 2,
+			[312922] = 2,
+			[281721] = 2,
+			[292463] = 2,
+			[55164] = 2,
+			[313948] = 2,
+			[1604] = 1,
+			[329038] = 2,
+			[186258] = 2,
+			[20549] = 2,
+			[19574] = 2,
+			[234084] = 2,
+			[203650] = 2,
+			[132168] = 2,
+			[281216] = 2,
+			[48707] = 2,
+			[11977] = 1,
+			[408] = 2,
+			[327510] = 2,
+			[197003] = 2,
+			[298823] = 2,
+			[184662] = 2,
+			[247676] = 2,
+			[108843] = 2,
+			[87023] = 2,
+			[236645] = 2,
+			[279943] = 2,
+			[216441] = 2,
+			[87024] = 2,
+			[268898] = 2,
+			[199854] = 2,
+			[208769] = 2,
+			[326733] = 2,
+			[278225] = 2,
+			[63861] = 1,
+			[278144] = 2,
+			[31661] = 2,
+			[280713] = 2,
+			[278143] = 2,
+			[300893] = 2,
+			[148541] = 2,
+			[315496] = 2,
+			[341933] = 1,
+			[60960] = 1,
+			[300919] = 2,
+			[268439] = 2,
+			[341932] = 1,
+			[286342] = 2,
+			[202761] = 2,
+			[355] = 2,
+			[64373] = 2,
+			[1160] = 2,
+			[5302] = 2,
+			[316522] = 2,
+			[277904] = 2,
+			[268953] = 2,
+			[79962] = 1,
+			[157644] = 2,
+			[272790] = 2,
+			[268954] = 2,
+			[171764] = 1,
+			[273974] = 2,
+			[246807] = 2,
+			[268955] = 2,
+			[73313] = 2,
+			[264352] = 2,
+			[57724] = 2,
+			[164273] = 2,
+			[217597] = 2,
+			[281744] = 2,
+			[275006] = 2,
+			[202636] = 2,
+			[11426] = 2,
+			[280200] = 2,
+			[275863] = 2,
+			[313148] = 2,
+			[269214] = 2,
+			[6343] = 2,
+			[279956] = 2,
+			[268854] = 2,
+			[321388] = 2,
+			[113860] = 2,
+			[69167] = 1,
+			[293512] = 2,
+			[6788] = 2,
+			[297168] = 2,
+			[315763] = 2,
+			[32736] = 1,
+			[268194] = 2,
+			[315508] = 2,
+			[3408] = 2,
+			[221886] = 2,
+			[204301] = 2,
+			[297412] = 2,
+			[115192] = 2,
+			[205708] = 2,
+			[69172] = 1,
+			[114923] = 2,
+			[77535] = 2,
+			[281240] = 2,
+			[281178] = 2,
+			[203407] = 2,
+			[288146] = 2,
+			[210824] = 2,
+			[1719] = 2,
+			[342938] = 2,
+			[334320] = 2,
+			[30283] = 2,
+			[104773] = 2,
+			[329158] = 1,
+			[329211] = 1,
+			[77489] = 2,
+			[273836] = 2,
+			[279709] = 2,
+			[228600] = 2,
+			[246853] = 2,
+			[287638] = 2,
+			[276208] = 2,
+			[280204] = 2,
+			[343648] = 2,
+			[321390] = 2,
+			[200166] = 2,
+			[272893] = 2,
+			[185763] = 2,
+			[772] = 2,
+			[124275] = 2,
+			[31884] = 2,
+			[43308] = 2,
+			[186403] = 2,
+			[303621] = 2,
+			[288305] = 2,
+			[335467] = 2,
+			[290792] = 2,
+			[300174] = 2,
+			[267612] = 2,
+			[236060] = 2,
+			[194594] = 2,
+			[48743] = 2,
+			[275672] = 2,
+			[279204] = 2,
+			[285500] = 2,
+			[152262] = 2,
+			[272733] = 2,
+			[316099] = 2,
+			[269085] = 2,
+			[297108] = 2,
+			[276206] = 2,
+			[303580] = 2,
+			[55233] = 2,
+			[12042] = 2,
+			[288158] = 2,
+			[48168] = 1,
+			[32645] = 2,
+			[289349] = 2,
+			[287825] = 2,
+			[300691] = 2,
+			[195630] = 2,
+			[213981] = 2,
+			[278769] = 2,
+			[336497] = 1,
+			[341357] = 1,
+			[123725] = 2,
+			[289184] = 2,
+			[300693] = 2,
+			[257506] = 2,
+			[197277] = 2,
+			[193641] = 2,
+			[118779] = 2,
+			[184362] = 2,
+			[1784] = 2,
+			[265931] = 2,
+			[315787] = 2,
+			[193358] = 2,
+			[276743] = 2,
+			[80353] = 2,
+			[113746] = 2,
+			[269239] = 2,
+			[116847] = 2,
+			[341361] = 1,
+			[317065] = 2,
+			[275378] = 2,
+			[703] = 2,
+			[127923] = 2,
+			[20707] = 2,
+			[184364] = 2,
+			[271543] = 2,
+			[15407] = 2,
+			[319245] = 2,
+			[295840] = 2,
+			[271544] = 2,
+			[80354] = 2,
+			[286979] = 2,
+			[228354] = 2,
+			[326787] = 2,
+			[278962] = 2,
+			[115191] = 2,
+			[295842] = 2,
+			[341453] = 1,
+			[110645] = 2,
+			[48108] = 2,
+			[65081] = 2,
+			[147367] = 2,
+			[203277] = 2,
+			[79140] = 2,
+			[50027] = 1,
+			[271194] = 2,
+			[343173] = 2,
+			[334463] = 2,
+			[262115] = 2,
+			[278249] = 2,
+			[334208] = 1,
+			[270232] = 2,
+			[90328] = 2,
+			[271550] = 2,
+			[303520] = 2,
+			[242551] = 2,
+			[148563] = 2,
+			[297126] = 2,
+			[1833] = 2,
+			[318378] = 2,
+			[2645] = 2,
+			[315356] = 1,
+			[2649] = 2,
+			[258920] = 2,
+			[228358] = 2,
+			[60814] = 1,
+			[131493] = 2,
+			[50324] = 1,
+			[227847] = 2,
+			[326774] = 2,
+			[295339] = 2,
+			[277181] = 2,
+			[341885] = 1,
+			[7384] = 2,
+			[117952] = 2,
+			[194249] = 2,
+			[188499] = 2,
+			[78675] = 2,
+			[191034] = 2,
+			[255941] = 2,
+			[46924] = 2,
+			[199844] = 2,
+			[341282] = 2,
+			[25572] = 2,
+			[114250] = 2,
+			[48107] = 2,
+			[295343] = 2,
+			[277185] = 2,
+			[51460] = 2,
+			[271559] = 2,
+			[268956] = 2,
+			[286393] = 2,
+			[341891] = 1,
+			[2983] = 2,
+			[341458] = 1,
+			[193357] = 2,
+			[208628] = 2,
+			[266087] = 2,
+			[341460] = 1,
+			[227723] = 2,
+			[185422] = 2,
+			[205473] = 2,
+			[105809] = 2,
+			[260242] = 2,
+			[195627] = 2,
+			[345219] = 2,
+			[113862] = 2,
+			[187827] = 2,
+			[341207] = 2,
+			[186254] = 2,
+			[278981] = 2,
+			[155722] = 2,
+			[165961] = 2,
+			[121471] = 2,
+			[277959] = 2,
+			[267685] = 2,
+			[319237] = 2,
+			[280773] = 2,
+			[193356] = 2,
+			[273992] = 2,
+			[199721] = 2,
+			[279397] = 2,
+			[294966] = 2,
+			[260734] = 2,
+			[106830] = 2,
+			[277706] = 2,
+			[317859] = 2,
+			[164812] = 2,
+			[203814] = 2,
+			[280776] = 2,
+			[277179] = 2,
+			[280409] = 2,
+			[768] = 2,
+			[279754] = 2,
+			[79849] = 1,
+			[195503] = 2,
+			[117828] = 2,
+			[193475] = 2,
+			[212704] = 2,
+			[120360] = 2,
+			[121153] = 2,
+			[188389] = 2,
+			[6673] = 2,
+			[55078] = 2,
+			[112042] = 2,
+			[280780] = 2,
+			[281036] = 2,
+			[313643] = 2,
+			[108366] = 2,
+			[2823] = 2,
+			[19483] = 2,
+			[164815] = 2,
+			[279503] = 2,
+			[278736] = 2,
+			[2580] = 2,
+			[288455] = 2,
+			[304056] = 2,
+			[313088] = 2,
+			[236298] = 2,
+			[69369] = 2,
+			[31850] = 2,
+			[31935] = 2,
+			[298431] = 2,
+			[134522] = 2,
+			[232698] = 2,
+			[51690] = 2,
+			[236299] = 2,
+			[93622] = 2,
+			[1943] = 2,
+			[198688] = 2,
+			[188370] = 2,
+			[223819] = 2,
+			[302932] = 2,
+			[122] = 2,
+			[70133] = 1,
+			[12472] = 2,
+			[269279] = 2,
+			[36554] = 2,
+			[1953] = 2,
+			[32223] = 2,
+			[274395] = 2,
+			[277720] = 2,
+			[295367] = 2,
+			[271071] = 2,
+			[980] = 2,
+			[201405] = 2,
+			[295368] = 2,
+			[127230] = 2,
+			[303041] = 2,
+			[41425] = 2,
+			[270576] = 2,
+			[1966] = 2,
+			[206891] = 2,
+			[45242] = 2,
+			[185311] = 2,
+			[314040] = 2,
+			[17] = 2,
+			[277724] = 2,
+			[160029] = 2,
+			[199603] = 2,
+			[12169] = 1,
+			[297162] = 2,
+			[280817] = 2,
+			[162264] = 2,
+			[22812] = 2,
+			[295310] = 2,
+			[148906] = 2,
+			[465] = 2,
+			[8679] = 2,
+			[213995] = 2,
+			[280412] = 2,
+			[300800] = 2,
+			[48517] = 2,
+			[288981] = 2,
+			[33395] = 2,
+			[280286] = 2,
+			[21562] = 2,
+			[111759] = 2,
+			[132403] = 2,
+			[246152] = 2,
+			[298461] = 2,
+			[300762] = 2,
+			[45181] = 2,
+			[270058] = 2,
+			[275429] = 2,
+			[16591] = 2,
+			[295378] = 2,
+			[52610] = 2,
+			[48518] = 2,
+			[32000] = 1,
+			[264689] = 2,
+			[35361] = 1,
+			[40120] = 2,
+			[315584] = 2,
+			[341526] = 2,
+			[343721] = 2,
+			[183218] = 2,
+			[154797] = 2,
+			[194679] = 2,
+			[343724] = 2,
+			[199736] = 2,
+			[275689] = 2,
+			[273947] = 2,
+			[197051] = 2,
+			[24117] = 2,
+			[343713] = 2,
+			[272940] = 2,
+			[263926] = 2,
+			[131490] = 2,
+			[298197] = 2,
+			[295384] = 2,
+			[44212] = 2,
+			[2383] = 2,
+			[212653] = 2,
+			[79865] = 1,
+			[276204] = 2,
+			[114255] = 2,
+			[287790] = 2,
+			[85739] = 2,
+			[194223] = 2,
+			[214572] = 2,
+			[272979] = 2,
+			[12024] = 1,
 		},
 		["HelpSettings"] = {
 			["CNDT_ANDOR_FIRSTSEE"] = true,
@@ -109,6 +832,7 @@ TellMeWhenDB = {
 	},
 	["profiles"] = {
 		["舒春丽 - 伊莫塔尔"] = {
+			["NumGroups"] = 5,
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1OBB=wkPdQaF",
@@ -130,8 +854,8 @@ TellMeWhenDB = {
 									["Operator"] = ">=",
 								}, -- [1]
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 2,
+									["Type"] = "SPELLCD",
 									["Name"] = "怒雷破",
 									["Operator"] = ">=",
 								}, -- [2]
@@ -139,9 +863,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -179,9 +903,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -233,9 +957,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -295,9 +1019,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -330,9 +1054,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -375,9 +1099,9 @@ TellMeWhenDB = {
 									["Operator"] = ">=",
 								}, -- [1]
 								{
-									["Checked"] = true,
-									["Type"] = "SPELLCD",
 									["Name"] = "碧玉疾风",
+									["Type"] = "SPELLCD",
+									["Checked"] = true,
 									["Operator"] = "~=",
 								}, -- [2]
 								["n"] = 2,
@@ -416,8 +1140,8 @@ TellMeWhenDB = {
 					["Locked"] = true,
 					["Conditions"] = {
 						{
-							["Type"] = "ALIVE",
 							["Unit"] = "target",
+							["Type"] = "ALIVE",
 						}, -- [1]
 						["n"] = 1,
 					},
@@ -436,16 +1160,6 @@ TellMeWhenDB = {
 							["Enabled"] = true,
 							["Type"] = "buff",
 							["Name"] = "复苏之雾",
-							["Unit"] = "raid 1-40; group 1-40",
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
 							["States"] = {
 								{
 									["Alpha"] = 0,
@@ -458,6 +1172,16 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Unit"] = "raid 1-40; group 1-40",
 						}, -- [1]
 						{
 							["Enabled"] = true,
@@ -465,9 +1189,9 @@ TellMeWhenDB = {
 							["Name"] = "真气爆裂",
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -699,9 +1423,9 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["TimerBar_EnableColors"] = true,
-							["BackdropColor_Enable"] = true,
 							["CustomTex"] = "NONE",
+							["BackdropColor_Enable"] = true,
+							["TimerBar_EnableColors"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -773,26 +1497,26 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Operator"] = "<=",
+									["Unit"] = "target",
 									["Level"] = 2,
 									["Name"] = "火焰之息",
-									["Unit"] = "target",
+									["Operator"] = "<=",
 								}, -- [1]
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Operator"] = ">=",
+									["Unit"] = "target",
 									["Level"] = 2,
 									["Name"] = "醉酿投",
-									["Unit"] = "target",
+									["Operator"] = ">=",
 								}, -- [2]
 								["n"] = 2,
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -830,9 +1554,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -885,9 +1609,9 @@ TellMeWhenDB = {
 							["Type"] = "totem",
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -912,9 +1636,9 @@ TellMeWhenDB = {
 							["Name"] = "移花接木",
 							["Conditions"] = {
 								{
-									["Checked"] = true,
-									["Type"] = "DEBUFFDUR",
 									["Name"] = "轻度醉拳",
+									["Type"] = "DEBUFFDUR",
+									["Checked"] = true,
 									["Operator"] = "~=",
 								}, -- [1]
 								{
@@ -935,9 +1659,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -958,9 +1682,9 @@ TellMeWhenDB = {
 							["Name"] = "爆炸酒桶",
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -1013,7 +1737,6 @@ TellMeWhenDB = {
 				}, -- [5]
 			},
 			["Version"] = 87505,
-			["NumGroups"] = 5,
 		},
 		["舒元 - 伊莫塔尔"] = {
 			["Version"] = 85204,
@@ -1071,6 +1794,7 @@ TellMeWhenDB = {
 		},
 		["舒唤天 - 伊莫塔尔"] = {
 			["Locked"] = true,
+			["Version"] = 86006,
 			["NumGroups"] = 4,
 			["Groups"] = {
 				{
@@ -1098,9 +1822,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -1121,17 +1845,17 @@ TellMeWhenDB = {
 							["Name"] = "割裂",
 							["Conditions"] = {
 								{
-									["Type"] = "COMBO",
 									["Level"] = 5,
+									["Type"] = "COMBO",
 								}, -- [1]
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = "<=",
 									["PrtsBefore"] = 1,
 									["Level"] = 2,
 									["Name"] = "割裂",
-									["Operator"] = "<=",
+									["Unit"] = "target",
 								}, -- [2]
 								{
 									["Type"] = "BUFFDUR",
@@ -1145,9 +1869,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -1170,10 +1894,10 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Operator"] = ">=",
+									["Unit"] = "target",
 									["Level"] = 2,
 									["Name"] = "割裂",
-									["Unit"] = "target",
+									["Operator"] = ">=",
 								}, -- [1]
 								{
 									["Type"] = "BUFFDUR",
@@ -1186,9 +1910,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -1216,10 +1940,10 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = ">=",
 									["Level"] = 2,
 									["Name"] = "割裂",
-									["Operator"] = ">=",
+									["Unit"] = "target",
 								}, -- [2]
 								{
 									["Type"] = "BUFFDUR",
@@ -1232,9 +1956,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -1290,9 +2014,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -1315,18 +2039,18 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = "<=",
 									["Level"] = 2,
 									["Name"] = "斜掠",
-									["Operator"] = "<=",
+									["Unit"] = "target",
 								}, -- [1]
 								["n"] = 1,
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -1349,10 +2073,10 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Operator"] = "<=",
+									["Unit"] = "target",
 									["Level"] = 2,
 									["Name"] = "月火术",
-									["Unit"] = "target",
+									["Operator"] = "<=",
 								}, -- [1]
 								{
 									["Name"] = "月之灵",
@@ -1362,9 +2086,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -1407,8 +2131,8 @@ TellMeWhenDB = {
 					["Columns"] = 5,
 					["Conditions"] = {
 						{
-							["Type"] = "ALIVE",
 							["Unit"] = "target",
+							["Type"] = "ALIVE",
 						}, -- [1]
 						["n"] = 1,
 					},
@@ -1441,18 +2165,18 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = "<=",
 									["Level"] = 2,
 									["Name"] = "月火术",
-									["Operator"] = "<=",
+									["Unit"] = "target",
 								}, -- [1]
 								["n"] = 1,
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -1473,9 +2197,9 @@ TellMeWhenDB = {
 							["Name"] = "裂伤",
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -1537,18 +2261,18 @@ TellMeWhenDB = {
 								{
 									["Type"] = "BUFFSTACKS",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = ">=",
 									["Level"] = 2,
 									["Name"] = "痛击",
-									["Operator"] = ">=",
+									["Unit"] = "target",
 								}, -- [2]
 								["n"] = 2,
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -1602,9 +2326,9 @@ TellMeWhenDB = {
 							["Name"] = "116115",
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -1626,8 +2350,8 @@ TellMeWhenDB = {
 					["Columns"] = 5,
 					["Conditions"] = {
 						{
-							["Type"] = "ALIVE",
 							["Unit"] = "target",
+							["Type"] = "ALIVE",
 						}, -- [1]
 						["n"] = 1,
 					},
@@ -1664,19 +2388,19 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Operator"] = "<=",
-									["Name"] = "阳炎术",
-									["Level"] = 5,
-									["AndOr"] = "OR",
 									["Unit"] = "target",
+									["AndOr"] = "OR",
+									["Level"] = 5,
+									["Name"] = "阳炎术",
+									["Operator"] = "<=",
 								}, -- [2]
 								["n"] = 2,
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -1706,19 +2430,19 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Operator"] = "<=",
-									["Name"] = "月火术",
-									["Level"] = 5,
-									["AndOr"] = "OR",
 									["Unit"] = "target",
+									["AndOr"] = "OR",
+									["Level"] = 5,
+									["Name"] = "月火术",
+									["Operator"] = "<=",
 								}, -- [2]
 								["n"] = 2,
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -1740,9 +2464,9 @@ TellMeWhenDB = {
 							["ManaCheck"] = true,
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -1791,18 +2515,18 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Operator"] = "<=",
+									["Unit"] = "target",
 									["Level"] = 2,
 									["Name"] = "月火术",
-									["Unit"] = "target",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -1825,10 +2549,10 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Operator"] = "<=",
+									["Unit"] = "target",
 									["Level"] = 2,
 									["Name"] = "阳炎术",
-									["Unit"] = "target",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
@@ -1849,9 +2573,9 @@ TellMeWhenDB = {
 							["ManaCheck"] = true,
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -1918,8 +2642,8 @@ TellMeWhenDB = {
 					["Locked"] = true,
 					["Conditions"] = {
 						{
-							["Type"] = "ALIVE",
 							["Unit"] = "target",
+							["Type"] = "ALIVE",
 						}, -- [1]
 						["n"] = 1,
 					},
@@ -1939,20 +2663,15 @@ TellMeWhenDB = {
 						["x"] = -68.3765607236525,
 					},
 					["Scale"] = 1.2,
-					["EnabledSpecs"] = {
-						[103] = false,
-						[104] = false,
-						[102] = false,
-					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
 							["Type"] = "totem",
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -1974,17 +2693,6 @@ TellMeWhenDB = {
 							["Enabled"] = true,
 							["Type"] = "buff",
 							["Name"] = "生命绽放",
-							["Unit"] = "raid 1-40; group 1-40",
-							["OnlyMine"] = true,
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
 							["States"] = {
 								{
 									["Alpha"] = 0,
@@ -1997,6 +2705,17 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["OnlyMine"] = true,
+							["Unit"] = "raid 1-40; group 1-40",
 						}, -- [2]
 						{
 							["Enabled"] = true,
@@ -2004,18 +2723,18 @@ TellMeWhenDB = {
 							["Name"] = "愈合",
 							["Conditions"] = {
 								{
-									["Checked"] = true,
-									["Type"] = "BUFFDUR",
 									["Name"] = "节能施法",
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
 									["Operator"] = "~=",
 								}, -- [1]
 								["n"] = 1,
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -2036,9 +2755,9 @@ TellMeWhenDB = {
 							["Name"] = "迅捷治愈",
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -2188,10 +2907,14 @@ TellMeWhenDB = {
 							},
 						}, -- [14]
 					},
+					["EnabledSpecs"] = {
+						[103] = false,
+						[104] = false,
+						[102] = false,
+					},
 					["OnlyInCombat"] = true,
 				}, -- [4]
 			},
-			["Version"] = 86006,
 		},
 		["舒预言 - 冰风岗"] = {
 			["Groups"] = {
@@ -2215,9 +2938,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -2284,18 +3007,18 @@ TellMeWhenDB = {
 								{
 									["Type"] = "BUFFSTACKS",
 									["Checked"] = true,
-									["Level"] = 18,
-									["PrtsBefore"] = 1,
 									["AndOr"] = "OR",
+									["PrtsBefore"] = 1,
+									["Level"] = 18,
 									["Name"] = "冷酷之心",
 									["Operator"] = ">=",
 								}, -- [1]
 								{
 									["Type"] = "BUFFSTACKS",
 									["Checked"] = true,
-									["Level"] = 10,
-									["PrtsBefore"] = 1,
 									["AndOr"] = "OR",
+									["PrtsBefore"] = 1,
+									["Level"] = 10,
 									["Name"] = "冷酷之心",
 									["Operator"] = ">=",
 								}, -- [2]
@@ -2317,9 +3040,9 @@ TellMeWhenDB = {
 								{
 									["Type"] = "BUFFDUR",
 									["Checked"] = true,
-									["Level"] = 3,
-									["PrtsBefore"] = 1,
 									["AndOr"] = "OR",
+									["PrtsBefore"] = 1,
+									["Level"] = 3,
 									["Name"] = "不洁之力",
 									["Operator"] = "<=",
 								}, -- [5]
@@ -2341,9 +3064,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -2365,7 +3088,7 @@ TellMeWhenDB = {
 							["ManaCheck"] = true,
 							["ShowTimer"] = true,
 							["Enabled"] = true,
-							["Type"] = "cooldown",
+							["Name"] = "冰霜打击",
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -2421,15 +3144,15 @@ TellMeWhenDB = {
 									["Operator"] = "<",
 								}, -- [1]
 								{
-									["Name"] = "杀戮机器",
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
 									["PrtsAfter"] = 1,
+									["Type"] = "BUFFDUR",
+									["Name"] = "杀戮机器",
+									["Checked"] = true,
 								}, -- [2]
 								{
 									["Type"] = "RUNES2",
-									["Level"] = 1,
 									["AndOr"] = "OR",
+									["Level"] = 1,
 									["PrtsAfter"] = 1,
 									["Operator"] = "<=",
 								}, -- [3]
@@ -2440,7 +3163,7 @@ TellMeWhenDB = {
 								}, -- [4]
 								["n"] = 4,
 							},
-							["Name"] = "冰霜打击",
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -2467,6 +3190,28 @@ TellMeWhenDB = {
 									},
 								},
 							},
+							["ShowTimerText"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Name"] = "湮没",
+									["PrtsBefore"] = 1,
+									["Level"] = 20,
+									["Operator"] = ">=",
+								}, -- [1]
+								{
+									["Type"] = "TALENTLEARNED",
+									["PrtsAfter"] = 1,
+									["Name"] = "湮没",
+								}, -- [2]
+								{
+									["AndOr"] = "OR",
+									["Level"] = 1,
+									["Name"] = "湮没",
+									["Type"] = "TALENTLEARNED",
+								}, -- [3]
+								["n"] = 3,
+							},
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -2490,10 +3235,10 @@ TellMeWhenDB = {
 											["Name"] = "湮没",
 										}, -- [3]
 										{
-											["Level"] = 1,
-											["Type"] = "TALENTLEARNED",
-											["Name"] = "湮没",
 											["AndOr"] = "OR",
+											["Level"] = 1,
+											["Name"] = "湮没",
+											["Type"] = "TALENTLEARNED",
 										}, -- [4]
 										["n"] = 4,
 									},
@@ -2501,28 +3246,6 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Name"] = "湮没",
-									["PrtsBefore"] = 1,
-									["Level"] = 20,
-									["Operator"] = ">=",
-								}, -- [1]
-								{
-									["Type"] = "TALENTLEARNED",
-									["PrtsAfter"] = 1,
-									["Name"] = "湮没",
-								}, -- [2]
-								{
-									["Level"] = 1,
-									["Type"] = "TALENTLEARNED",
-									["Name"] = "湮没",
-									["AndOr"] = "OR",
-								}, -- [3]
-								["n"] = 3,
-							},
-							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -2550,6 +3273,7 @@ TellMeWhenDB = {
 								},
 							},
 							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -2565,7 +3289,6 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -2590,7 +3313,7 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -2617,8 +3340,8 @@ TellMeWhenDB = {
 											["Type"] = "BUFFDUR",
 											["Checked"] = true,
 											["Name"] = "冰霜之柱",
-											["Level"] = 5,
 											["AndOr"] = "OR",
+											["Level"] = 5,
 											["PrtsAfter"] = 1,
 											["Operator"] = ">=",
 										}, -- [4]
@@ -2637,8 +3360,8 @@ TellMeWhenDB = {
 											["Operator"] = "<",
 										}, -- [1]
 										{
-											["AndOr"] = "OR",
 											["Type"] = "SPELLCD",
+											["AndOr"] = "OR",
 											["Name"] = "冰龙吐息",
 											["Operator"] = "~=",
 										}, -- [2]
@@ -2663,7 +3386,7 @@ TellMeWhenDB = {
 								}, -- [2]
 								["n"] = 2,
 							},
-							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -2718,17 +3441,17 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["Type"] = "cooldown",
+							["Name"] = "冷酷严冬",
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Name"] = "冷酷严冬",
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -2749,7 +3472,7 @@ TellMeWhenDB = {
 							["GUID"] = "TMW:icon:1OuuFvMtj49G",
 							["ShowTimer"] = true,
 							["Enabled"] = true,
-							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
 							["Name"] = "湮灭",
 							["SettingsPerView"] = {
 								["icon"] = {
@@ -2760,9 +3483,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -2795,7 +3518,7 @@ TellMeWhenDB = {
 								}, -- [4]
 								["n"] = 4,
 							},
-							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -2825,9 +3548,9 @@ TellMeWhenDB = {
 									["OnlyShown"] = true,
 									["OnConditionConditions"] = {
 										{
-											["Name"] = "杀戮机器",
-											["Type"] = "BUFFDUR",
 											["Checked"] = true,
+											["Type"] = "BUFFDUR",
+											["Name"] = "杀戮机器",
 											["Operator"] = "~=",
 										}, -- [1]
 										{
@@ -2866,25 +3589,25 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["Events"] = {
-								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
+							["ShowTimerText"] = true,
 							["Conditions"] = {
 								{
-									["Name"] = "黑暗援助",
-									["Type"] = "BUFFDUR",
 									["Checked"] = true,
+									["Type"] = "BUFFDUR",
+									["Name"] = "黑暗援助",
 									["Operator"] = "~=",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["ShowTimerText"] = true,
+							["Events"] = {
+								{
+									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
 							["States"] = {
 								{
 								}, -- [1]
@@ -2899,7 +3622,7 @@ TellMeWhenDB = {
 							["ManaCheck"] = true,
 							["ShowTimer"] = true,
 							["Enabled"] = true,
-							["Type"] = "cooldown",
+							["Name"] = "冰霜巨龙之怒; 冰川突进",
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -2931,14 +3654,14 @@ TellMeWhenDB = {
 									["Name"] = "冰川突进",
 								}, -- [2]
 								{
-									["Level"] = 1,
-									["Type"] = "TALENTLEARNED",
-									["Name"] = "冰川突进",
 									["AndOr"] = "OR",
+									["Level"] = 1,
+									["Name"] = "冰川突进",
+									["Type"] = "TALENTLEARNED",
 								}, -- [3]
 								["n"] = 3,
 							},
-							["Name"] = "冰霜巨龙之怒; 冰川突进",
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -3033,23 +3756,7 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-									["OnConditionConditions"] = {
-										{
-											["Type"] = "RUNES2",
-											["Level"] = 3,
-											["Operator"] = ">=",
-										}, -- [1]
-										["n"] = 1,
-									},
-									["Event"] = "OnCondition",
-								}, -- [1]
-								["n"] = 1,
-							},
+							["ShowTimerText"] = true,
 							["Conditions"] = {
 								{
 									["Type"] = "BUFFDUR",
@@ -3077,7 +3784,23 @@ TellMeWhenDB = {
 								}, -- [4]
 								["n"] = 4,
 							},
-							["ShowTimerText"] = true,
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+									["OnConditionConditions"] = {
+										{
+											["Type"] = "RUNES2",
+											["Level"] = 3,
+											["Operator"] = ">=",
+										}, -- [1]
+										["n"] = 1,
+									},
+									["Event"] = "OnCondition",
+								}, -- [1]
+								["n"] = 1,
+							},
 							["States"] = {
 								{
 								}, -- [1]
@@ -3102,6 +3825,22 @@ TellMeWhenDB = {
 									},
 								},
 							},
+							["Name"] = "血液沸腾",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "守陵者",
+								}, -- [1]
+								{
+									["Type"] = "SPELLCHARGES",
+									["Name"] = "血液沸腾",
+									["Level"] = 1,
+									["AndOr"] = "OR",
+									["Operator"] = ">=",
+								}, -- [2]
+								["n"] = 2,
+							},
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -3118,22 +3857,6 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "守陵者",
-								}, -- [1]
-								{
-									["Type"] = "SPELLCHARGES",
-									["Name"] = "血液沸腾",
-									["Level"] = 1,
-									["AndOr"] = "OR",
-									["Operator"] = ">=",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["Name"] = "血液沸腾",
 							["States"] = {
 								{
 								}, -- [1]
@@ -3159,6 +3882,23 @@ TellMeWhenDB = {
 									},
 								},
 							},
+							["ShowTimerText"] = true,
+							["Conditions"] = {
+								{
+									["Unit"] = "target",
+									["Type"] = "CLASSIFICATION2",
+									["Checked"] = true,
+									["BitFlags"] = {
+										["worldboss"] = true,
+									},
+								}, -- [1]
+								{
+									["Type"] = "RUNIC_POWER_ABS",
+									["Level"] = 80,
+									["Operator"] = ">=",
+								}, -- [2]
+								["n"] = 2,
+							},
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -3177,23 +3917,6 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Conditions"] = {
-								{
-									["BitFlags"] = {
-										["worldboss"] = true,
-									},
-									["Type"] = "CLASSIFICATION2",
-									["Checked"] = true,
-									["Unit"] = "target",
-								}, -- [1]
-								{
-									["Type"] = "RUNIC_POWER_ABS",
-									["Level"] = 80,
-									["Operator"] = ">=",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -3221,6 +3944,7 @@ TellMeWhenDB = {
 								},
 							},
 							["Type"] = "cooldown",
+							["Name"] = "吞噬",
 							["Events"] = {
 								{
 									["OnlyShown"] = true,
@@ -3237,7 +3961,6 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Name"] = "吞噬",
 							["States"] = {
 								{
 								}, -- [1]
@@ -3263,6 +3986,7 @@ TellMeWhenDB = {
 								},
 							},
 							["Type"] = "cooldown",
+							["Name"] = "吸血鬼之血",
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -3281,7 +4005,6 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Name"] = "吸血鬼之血",
 							["States"] = {
 								{
 								}, -- [1]
@@ -3326,27 +4049,7 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["StackMin"] = 6,
 							["StackMax"] = 5,
-							["Enabled"] = true,
-							["DurationMin"] = 2,
-							["Name"] = "骨髓分裂",
-							["DurationMax"] = 2,
-							["ShowTimerText"] = true,
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"A1", -- [1]
-									},
-								},
-							},
-							["Events"] = {
-								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
+							["Type"] = "cooldown",
 							["Conditions"] = {
 								{
 									["Type"] = "BUFFSTACKS",
@@ -3360,8 +4063,8 @@ TellMeWhenDB = {
 									["Type"] = "BUFFDUR",
 									["Checked"] = true,
 									["Name"] = "白骨之盾",
-									["Level"] = 3,
 									["AndOr"] = "OR",
+									["Level"] = 3,
 									["PrtsAfter"] = 1,
 									["Operator"] = "<=",
 								}, -- [2]
@@ -3388,7 +4091,27 @@ TellMeWhenDB = {
 								}, -- [5]
 								["n"] = 5,
 							},
-							["Type"] = "cooldown",
+							["Events"] = {
+								{
+									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"A1", -- [1]
+									},
+								},
+							},
+							["Name"] = "骨髓分裂",
+							["DurationMax"] = 2,
+							["ShowTimerText"] = true,
+							["DurationMin"] = 2,
+							["Enabled"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -3412,12 +4135,12 @@ TellMeWhenDB = {
 							["ManaCheck"] = true,
 							["ShowTimer"] = true,
 							["Enabled"] = true,
-							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -3432,8 +4155,8 @@ TellMeWhenDB = {
 							["Name"] = "灵界打击",
 							["Conditions"] = {
 								{
-									["AndOr"] = "OR",
 									["Type"] = "HEALTH",
+									["AndOr"] = "OR",
 									["Level"] = 75,
 									["Operator"] = "<=",
 								}, -- [1]
@@ -3469,7 +4192,7 @@ TellMeWhenDB = {
 								}, -- [5]
 								["n"] = 5,
 							},
-							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -3497,6 +4220,7 @@ TellMeWhenDB = {
 								},
 							},
 							["Type"] = "cooldown",
+							["Name"] = "枯萎凋零",
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -3505,9 +4229,9 @@ TellMeWhenDB = {
 									["OnlyShown"] = true,
 									["OnConditionConditions"] = {
 										{
-											["Name"] = "赤色天灾",
-											["Type"] = "BUFFDUR",
 											["Checked"] = true,
+											["Type"] = "BUFFDUR",
+											["Name"] = "赤色天灾",
 											["Operator"] = "~=",
 										}, -- [1]
 										["n"] = 1,
@@ -3515,6 +4239,7 @@ TellMeWhenDB = {
 									["Event"] = "OnCondition",
 								}, -- [1]
 								{
+									["Type"] = "Animations",
 									["OnConditionConditions"] = {
 										{
 											["Type"] = "BUFFDUR",
@@ -3523,13 +4248,11 @@ TellMeWhenDB = {
 										}, -- [1]
 										["n"] = 1,
 									},
-									["Type"] = "Animations",
 									["Event"] = "OnCondition",
 									["Animation"] = "ICONCLEAR",
 								}, -- [2]
 								["n"] = 2,
 							},
-							["Name"] = "枯萎凋零",
 							["States"] = {
 								{
 								}, -- [1]
@@ -3625,8 +4348,8 @@ TellMeWhenDB = {
 					["Locked"] = true,
 					["Conditions"] = {
 						{
-							["Unit"] = "target",
 							["Type"] = "ALIVE",
+							["Unit"] = "target",
 						}, -- [1]
 						["n"] = 1,
 					},
@@ -3652,22 +4375,22 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = "<=",
 									["Level"] = 2,
 									["Name"] = "恶性瘟疫",
-									["Operator"] = "<=",
+									["Unit"] = "target",
 								}, -- [1]
 								{
-									["Unit"] = "target",
 									["Type"] = "ALIVE",
+									["Unit"] = "target",
 								}, -- [2]
 								["n"] = 2,
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -3695,14 +4418,14 @@ TellMeWhenDB = {
 									["Operator"] = "~=",
 								}, -- [1]
 								{
-									["Unit"] = "target",
+									["Operator"] = "<=",
 									["Type"] = "RUNES2",
 									["Checked"] = true,
 									["Name"] = "诸界之灾",
-									["Level"] = 2,
 									["AndOr"] = "OR",
+									["Level"] = 2,
 									["PrtsAfter"] = 1,
-									["Operator"] = "<=",
+									["Unit"] = "target",
 								}, -- [2]
 								{
 									["Type"] = "TALENTLEARNED",
@@ -3736,8 +4459,8 @@ TellMeWhenDB = {
 											["Operator"] = "<",
 										}, -- [1]
 										{
-											["Level"] = 100,
 											["Type"] = "RUNIC_POWER_ABS",
+											["Level"] = 100,
 											["AndOr"] = "OR",
 											["Operator"] = ">=",
 										}, -- [2]
@@ -3788,22 +4511,22 @@ TellMeWhenDB = {
 									["Operator"] = "~=",
 								}, -- [3]
 								{
-									["Unit"] = "target",
+									["Operator"] = "<=",
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Level"] = 3,
-									["PrtsBefore"] = 1,
-									["AndOr"] = "OR",
 									["Name"] = "死亡",
-									["Operator"] = "<=",
+									["PrtsBefore"] = 1,
+									["Level"] = 3,
+									["AndOr"] = "OR",
+									["Unit"] = "target",
 								}, -- [4]
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = "~=",
 									["Name"] = "死亡",
 									["PrtsAfter"] = 1,
-									["Operator"] = "~=",
+									["Unit"] = "target",
 								}, -- [5]
 								{
 									["Type"] = "BUFFDUR",
@@ -3848,8 +4571,8 @@ TellMeWhenDB = {
 								{
 									["Type"] = "BUFFSTACKS",
 									["Checked"] = true,
-									["Level"] = 18,
 									["AndOr"] = "OR",
+									["Level"] = 18,
 									["Name"] = "冷酷之心",
 									["Operator"] = ">=",
 								}, -- [11]
@@ -3857,9 +4580,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -3879,25 +4602,7 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-									["OnlyShown"] = true,
-									["OnConditionConditions"] = {
-										{
-											["Level"] = 60,
-											["Type"] = "SPELLCD",
-											["Name"] = "召唤石像鬼",
-											["Operator"] = ">=",
-										}, -- [1]
-										["n"] = 1,
-									},
-									["Event"] = "WCSP",
-								}, -- [1]
-								["n"] = 1,
-							},
+							["Name"] = "黑暗突变",
 							["Conditions"] = {
 								{
 									["PrtsBefore"] = 1,
@@ -3918,7 +4623,25 @@ TellMeWhenDB = {
 								}, -- [3]
 								["n"] = 3,
 							},
-							["Name"] = "黑暗突变",
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+									["OnlyShown"] = true,
+									["OnConditionConditions"] = {
+										{
+											["Type"] = "SPELLCD",
+											["Level"] = 60,
+											["Name"] = "召唤石像鬼",
+											["Operator"] = ">=",
+										}, -- [1]
+										["n"] = 1,
+									},
+									["Event"] = "WCSP",
+								}, -- [1]
+								["n"] = 1,
+							},
 							["States"] = {
 								{
 								}, -- [1]
@@ -3940,6 +4663,18 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
+							["Name"] = "天启",
+							["Conditions"] = {
+								{
+									["Type"] = "DEBUFFSTACKS",
+									["Checked"] = true,
+									["Operator"] = ">=",
+									["Level"] = 6,
+									["Name"] = "溃烂之伤",
+									["Unit"] = "target",
+								}, -- [1]
+								["n"] = 1,
+							},
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -3971,11 +4706,11 @@ TellMeWhenDB = {
 										{
 											["Type"] = "DEBUFFSTACKS",
 											["Checked"] = true,
-											["Operator"] = ">=",
+											["Unit"] = "target",
 											["Name"] = "溃烂之伤",
 											["Level"] = 6,
 											["PrtsAfter"] = 1,
-											["Unit"] = "target",
+											["Operator"] = ">=",
 										}, -- [5]
 										["n"] = 5,
 									},
@@ -3983,18 +4718,6 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Conditions"] = {
-								{
-									["Type"] = "DEBUFFSTACKS",
-									["Checked"] = true,
-									["Unit"] = "target",
-									["Level"] = 6,
-									["Name"] = "溃烂之伤",
-									["Operator"] = ">=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Name"] = "天启",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4016,6 +4739,10 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["Name"] = "亡者大军",
 							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
+							["Conditions"] = {
+								["n"] = 1,
+							},
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -4028,10 +4755,6 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Conditions"] = {
-								["n"] = 1,
-							},
-							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -4059,26 +4782,26 @@ TellMeWhenDB = {
 							["GUID"] = "TMW:icon:1OrHijmFByGp",
 							["ShowTimer"] = true,
 							["Enabled"] = true,
+							["ShowTimerText"] = true,
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["ShowTimerText"] = true,
 							["Name"] = "脓疮打击",
 							["Type"] = "cooldown",
 							["Conditions"] = {
 								{
 									["Type"] = "DEBUFFSTACKS",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = "<=",
 									["Level"] = 1,
 									["Name"] = "溃烂之伤",
-									["Operator"] = "<=",
+									["Unit"] = "target",
 								}, -- [1]
 								["n"] = 1,
 							},
@@ -4116,10 +4839,10 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFSTACKS",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = ">=",
 									["Level"] = 2,
 									["Name"] = "溃烂之伤",
-									["Operator"] = ">=",
+									["Unit"] = "target",
 								}, -- [3]
 								{
 									["Type"] = "RUNES2",
@@ -4130,9 +4853,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -4152,21 +4875,7 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["Name"] = "枯萎凋零",
 							["Type"] = "cooldown",
-							["Events"] = {
-								{
-									["OnConditionConditions"] = {
-										{
-											["Name"] = "亵渎",
-											["Type"] = "TALENTLEARNED",
-										}, -- [1]
-										["n"] = 1,
-									},
-									["Type"] = "Animations",
-									["Event"] = "WCSP",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
+							["ShowTimerText"] = true,
 							["Conditions"] = {
 								{
 									["Type"] = "DEBUFFDUR",
@@ -4176,10 +4885,10 @@ TellMeWhenDB = {
 									["Unit"] = "target",
 								}, -- [1]
 								{
-									["PrtsAfter"] = 1,
-									["Level"] = 1,
-									["Icon"] = "TMW:icon:1OrHijmFByGp",
 									["Type"] = "ICON",
+									["Level"] = 1,
+									["PrtsAfter"] = 1,
+									["Icon"] = "TMW:icon:1OrHijmFByGp",
 								}, -- [2]
 								{
 									["Type"] = "TALENTLEARNED",
@@ -4188,7 +4897,21 @@ TellMeWhenDB = {
 								}, -- [3]
 								["n"] = 3,
 							},
-							["ShowTimerText"] = true,
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["OnConditionConditions"] = {
+										{
+											["Name"] = "亵渎",
+											["Type"] = "TALENTLEARNED",
+										}, -- [1]
+										["n"] = 1,
+									},
+									["Event"] = "WCSP",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
 							["States"] = {
 								{
 								}, -- [1]
@@ -4206,16 +4929,16 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
+							["Name"] = "召唤石像鬼",
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Name"] = "召唤石像鬼",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4241,9 +4964,9 @@ TellMeWhenDB = {
 									["Animation"] = "ACTVTNGLOW",
 									["OnConditionConditions"] = {
 										{
-											["Name"] = "黑暗援助",
-											["Type"] = "BUFFDUR",
 											["Checked"] = true,
+											["Type"] = "BUFFDUR",
+											["Name"] = "黑暗援助",
 											["Operator"] = "~=",
 										}, -- [1]
 										["n"] = 1,
@@ -4271,18 +4994,18 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFSTACKS",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = ">=",
 									["Level"] = 3,
 									["Name"] = "溃烂之伤",
-									["Operator"] = ">=",
+									["Unit"] = "target",
 								}, -- [1]
 								["n"] = 1,
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -4325,8 +5048,8 @@ TellMeWhenDB = {
 					["Locked"] = true,
 					["Conditions"] = {
 						{
-							["Unit"] = "target",
 							["Type"] = "EXISTS",
+							["Unit"] = "target",
 						}, -- [1]
 						{
 							["Type"] = "ALIVE",
@@ -4349,9 +5072,9 @@ TellMeWhenDB = {
 							["Name"] = "13",
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -4435,15 +5158,15 @@ TellMeWhenDB = {
 				}, -- [4]
 				{
 					["GUID"] = "TMW:group:1OcBVw3mdotG",
-					["Name"] = "喊话及数据库",
 					["Point"] = {
 						["y"] = -34.7435302734375,
 						["x"] = 494.160980224609,
 						["point"] = "LEFT",
 						["relativePoint"] = "LEFT",
 					},
-					["Locked"] = true,
+					["Name"] = "喊话及数据库",
 					["Scale"] = 1,
+					["Locked"] = true,
 					["Columns"] = 5,
 					["Icons"] = {
 						{
@@ -4662,9 +5385,9 @@ TellMeWhenDB = {
 									["Event"] = "OnCondition",
 									["OnConditionConditions"] = {
 										{
-											["Name"] = "冰龙吐息",
-											["Type"] = "LASTCAST",
 											["Checked"] = true,
+											["Type"] = "LASTCAST",
+											["Name"] = "冰龙吐息",
 											["Operator"] = "~=",
 										}, -- [1]
 										["n"] = 1,
@@ -4734,13 +5457,22 @@ TellMeWhenDB = {
 						{
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Unit"] = "group 1-40",
+							["Conditions"] = {
+								{
+									["Name"] = "147009",
+									["Type"] = "ITEMEQUIPPED",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["CustomTex"] = "242215",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4750,15 +5482,6 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Conditions"] = {
-								{
-									["Name"] = "147009",
-									["Type"] = "ITEMEQUIPPED",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["CustomTex"] = "242215",
-							["Unit"] = "group 1-40",
 						}, -- [4]
 						{
 							["GUID"] = "TMW:icon:1POLeDS9JnME",
@@ -4789,9 +5512,9 @@ TellMeWhenDB = {
 							["Type"] = "totem",
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -4935,8 +5658,10 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
+							["Name"] = "狂暴",
 							["Events"] = {
 								{
+									["Type"] = "Animations",
 									["OnConditionConditions"] = {
 										{
 											["Name"] = "狂暴",
@@ -4944,13 +5669,11 @@ TellMeWhenDB = {
 										}, -- [1]
 										["n"] = 1,
 									},
-									["Type"] = "Animations",
 									["Event"] = "WCSP",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Name"] = "狂暴",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5075,14 +5798,12 @@ TellMeWhenDB = {
 				}, -- [10]
 			},
 			["ColorMSQ"] = true,
-			["Locked"] = true,
-			["NumGroups"] = 8,
 			["Version"] = 87203,
+			["NumGroups"] = 8,
+			["Locked"] = true,
 		},
 		["花菜的巴巴 - 伊莫塔尔"] = {
 			["Locked"] = true,
-			["NumGroups"] = 5,
-			["Version"] = 87505,
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1OBB=wkPdQaF",
@@ -5104,8 +5825,8 @@ TellMeWhenDB = {
 									["Operator"] = ">=",
 								}, -- [1]
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 2,
+									["Type"] = "SPELLCD",
 									["Name"] = "怒雷破",
 									["Operator"] = ">=",
 								}, -- [2]
@@ -5113,9 +5834,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -5153,9 +5874,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -5207,9 +5928,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -5269,9 +5990,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -5304,9 +6025,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -5349,9 +6070,9 @@ TellMeWhenDB = {
 									["Operator"] = ">=",
 								}, -- [1]
 								{
-									["Checked"] = true,
-									["Type"] = "SPELLCD",
 									["Name"] = "碧玉疾风",
+									["Type"] = "SPELLCD",
+									["Checked"] = true,
 									["Operator"] = "~=",
 								}, -- [2]
 								["n"] = 2,
@@ -5390,8 +6111,8 @@ TellMeWhenDB = {
 					["Locked"] = true,
 					["Conditions"] = {
 						{
-							["Type"] = "ALIVE",
 							["Unit"] = "target",
+							["Type"] = "ALIVE",
 						}, -- [1]
 						["n"] = 1,
 					},
@@ -5413,16 +6134,6 @@ TellMeWhenDB = {
 							["Enabled"] = true,
 							["Type"] = "buff",
 							["Name"] = "复苏之雾",
-							["Unit"] = "raid 1-40; group 1-40",
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
 							["States"] = {
 								{
 									["Alpha"] = 0,
@@ -5435,6 +6146,16 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Unit"] = "raid 1-40; group 1-40",
 						}, -- [1]
 						{
 							["Enabled"] = true,
@@ -5442,9 +6163,9 @@ TellMeWhenDB = {
 							["Name"] = "真气爆裂",
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -5672,9 +6393,9 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["TimerBar_EnableColors"] = true,
-							["BackdropColor_Enable"] = true,
 							["CustomTex"] = "NONE",
+							["BackdropColor_Enable"] = true,
+							["TimerBar_EnableColors"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -5772,9 +6493,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -5801,17 +6522,17 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -5836,9 +6557,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -5847,18 +6568,18 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = "<=",
 									["Level"] = 2,
 									["Name"] = "火焰之息",
-									["Operator"] = "<=",
+									["Unit"] = "target",
 								}, -- [1]
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = ">=",
 									["Level"] = 2,
 									["Name"] = "醉酿投",
-									["Operator"] = ">=",
+									["Unit"] = "target",
 								}, -- [2]
 								["n"] = 2,
 							},
@@ -5903,9 +6624,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -5932,17 +6653,17 @@ TellMeWhenDB = {
 							},
 						}, -- [5]
 						{
+							["CustomTex"] = "115315",
+							["Type"] = "totem",
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Type"] = "totem",
-							["CustomTex"] = "115315",
 							["States"] = {
 								{
 									["Alpha"] = 0,
@@ -5962,9 +6683,9 @@ TellMeWhenDB = {
 							["Name"] = "移花接木",
 							["Conditions"] = {
 								{
-									["Checked"] = true,
-									["Type"] = "DEBUFFDUR",
 									["Name"] = "轻度醉拳",
+									["Type"] = "DEBUFFDUR",
+									["Checked"] = true,
 									["Operator"] = "~=",
 								}, -- [1]
 								{
@@ -5985,9 +6706,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -6014,17 +6735,17 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["Name"] = "幻灭猛击",
+							["Type"] = "cooldown",
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Type"] = "cooldown",
+							["Name"] = "幻灭猛击",
 							["States"] = {
 								{
 								}, -- [1]
@@ -6047,16 +6768,16 @@ TellMeWhenDB = {
 								},
 							},
 							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -6083,9 +6804,9 @@ TellMeWhenDB = {
 							["Type"] = "totem",
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -6162,9 +6883,12 @@ TellMeWhenDB = {
 					["OnlyInCombat"] = true,
 				}, -- [5]
 			},
+			["NumGroups"] = 5,
+			["Version"] = 87505,
 		},
 		["舒心情 - 国王之谷"] = {
 			["Locked"] = true,
+			["NumGroups"] = 4,
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1O6mcObHAwTd",
@@ -6187,16 +6911,16 @@ TellMeWhenDB = {
 								},
 							},
 							["Type"] = "cooldown",
+							["Name"] = "夺命黑鸦",
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Name"] = "夺命黑鸦",
 							["States"] = {
 								{
 								}, -- [1]
@@ -6219,15 +6943,7 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["Events"] = {
-								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
+							["Name"] = "倒刺射击",
 							["Conditions"] = {
 								{
 									["Type"] = "FOCUS_ABS",
@@ -6243,7 +6959,15 @@ TellMeWhenDB = {
 								}, -- [2]
 								["n"] = 2,
 							},
-							["Name"] = "倒刺射击",
+							["Events"] = {
+								{
+									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
 							["States"] = {
 								{
 								}, -- [1]
@@ -6257,6 +6981,8 @@ TellMeWhenDB = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["Name"] = "狂野怒火",
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -6264,9 +6990,9 @@ TellMeWhenDB = {
 									["Animation"] = "ACTVTNGLOW",
 									["OnConditionConditions"] = {
 										{
-											["Name"] = "狂野怒火",
-											["Type"] = "BUFFDUR",
 											["Checked"] = true,
+											["Type"] = "BUFFDUR",
+											["Name"] = "狂野怒火",
 											["Operator"] = "~=",
 										}, -- [1]
 										{
@@ -6280,8 +7006,6 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["ShowTimerText"] = true,
-							["Name"] = "狂野怒火",
 							["SettingsPerView"] = {
 								["icon"] = {
 									["TextLayout"] = "icon1",
@@ -6455,20 +7179,20 @@ TellMeWhenDB = {
 							["Enabled"] = true,
 							["Conditions"] = {
 								{
-									["Operator"] = "<=",
+									["Unit"] = "pet",
 									["Level"] = 75,
 									["Type"] = "HEALTH",
-									["Unit"] = "pet",
+									["Operator"] = "<=",
 								}, -- [1]
 								{
-									["Level"] = 1,
 									["Type"] = "ALIVE",
+									["Level"] = 1,
 									["AndOr"] = "OR",
 									["Unit"] = "pet",
 								}, -- [2]
 								{
-									["Level"] = 1,
 									["Type"] = "EXISTS",
+									["Level"] = 1,
 									["AndOr"] = "OR",
 									["Unit"] = "pet",
 								}, -- [3]
@@ -6476,9 +7200,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -6506,7 +7230,7 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["Type"] = "cooldown",
+							["Name"] = "杀戮命令",
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -6523,7 +7247,7 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Name"] = "杀戮命令",
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -6550,14 +7274,14 @@ TellMeWhenDB = {
 							["Enabled"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 1.3,
 									["Type"] = "SPELLCD",
+									["Level"] = 1.3,
 									["Name"] = "杀戮命令",
 									["Operator"] = ">=",
 								}, -- [1]
 								{
-									["AndOr"] = "OR",
 									["Type"] = "FOCUS_ABS",
+									["AndOr"] = "OR",
 									["Level"] = 75,
 									["Operator"] = ">=",
 								}, -- [2]
@@ -6565,9 +7289,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -6596,16 +7320,16 @@ TellMeWhenDB = {
 								},
 							},
 							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -6707,6 +7431,7 @@ TellMeWhenDB = {
 								},
 							},
 							["Type"] = "cooldown",
+							["Name"] = "反制射击",
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -6720,7 +7445,6 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Name"] = "反制射击",
 							["States"] = {
 								{
 								}, -- [1]
@@ -6740,8 +7464,8 @@ TellMeWhenDB = {
 					["Locked"] = true,
 					["Conditions"] = {
 						{
-							["Unit"] = "target",
 							["Type"] = "ALIVE",
+							["Unit"] = "target",
 						}, -- [1]
 						["n"] = 1,
 					},
@@ -6766,9 +7490,9 @@ TellMeWhenDB = {
 							["Name"] = "夺命黑鸦",
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -6792,17 +7516,17 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Unit"] = "target",
-									["Name"] = "猎人印记",
 									["Operator"] = "~=",
+									["Name"] = "猎人印记",
+									["Unit"] = "target",
 								}, -- [1]
 								["n"] = 1,
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -6824,9 +7548,9 @@ TellMeWhenDB = {
 							["Name"] = "风之爆裂",
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -6855,9 +7579,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -6892,10 +7616,10 @@ TellMeWhenDB = {
 							["Name"] = "误导",
 							["Conditions"] = {
 								{
-									["Unit"] = "target",
+									["Operator"] = ">=",
 									["Level"] = 100,
 									["Type"] = "THREATSCALED",
-									["Operator"] = ">=",
+									["Unit"] = "target",
 								}, -- [1]
 								{
 									["PrtsBefore"] = 1,
@@ -6903,8 +7627,8 @@ TellMeWhenDB = {
 									["Unit"] = "raid 1-40",
 								}, -- [2]
 								{
-									["AndOr"] = "OR",
 									["Type"] = "ALIVE",
+									["AndOr"] = "OR",
 									["PrtsAfter"] = 1,
 									["Unit"] = "group 1-40",
 								}, -- [3]
@@ -6912,9 +7636,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -6946,18 +7670,18 @@ TellMeWhenDB = {
 									["Type"] = "BUFFDUR",
 									["Checked"] = true,
 									["Name"] = "百发百中",
-									["AndOr"] = "OR",
 									["Level"] = 2,
+									["AndOr"] = "OR",
 									["PrtsAfter"] = 1,
 									["Operator"] = ">=",
 								}, -- [2]
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = "<=",
 									["Level"] = 2,
 									["Name"] = "猎人印记",
-									["Operator"] = "<=",
+									["Unit"] = "target",
 								}, -- [3]
 								{
 									["Type"] = "FOCUS_ABS",
@@ -6968,9 +7692,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -7000,24 +7724,24 @@ TellMeWhenDB = {
 								}, -- [1]
 								{
 									["Type"] = "FOCUS_ABS",
-									["AndOr"] = "OR",
 									["Level"] = 100,
+									["AndOr"] = "OR",
 									["PrtsAfter"] = 1,
 									["Operator"] = ">=",
 								}, -- [2]
 								{
-									["Name"] = "猎人印记",
-									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
+									["Type"] = "DEBUFFDUR",
+									["Name"] = "猎人印记",
 									["Unit"] = "target",
 								}, -- [3]
 								["n"] = 3,
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -7084,9 +7808,9 @@ TellMeWhenDB = {
 							["Name"] = "爆炸陷阱",
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -7109,17 +7833,17 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Unit"] = "target",
-									["Name"] = "裂痕",
 									["Operator"] = "<=",
+									["Name"] = "裂痕",
+									["Unit"] = "target",
 								}, -- [1]
 								["n"] = 1,
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -7142,18 +7866,18 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = "<=",
 									["Level"] = 2,
 									["Name"] = "龙焰手雷",
-									["Operator"] = "<=",
+									["Unit"] = "target",
 								}, -- [1]
 								["n"] = 1,
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -7174,9 +7898,9 @@ TellMeWhenDB = {
 							["Name"] = "猫鼬撕咬",
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -7211,9 +7935,9 @@ TellMeWhenDB = {
 							["Name"] = "雄鹰之怒",
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -7244,9 +7968,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -7268,9 +7992,9 @@ TellMeWhenDB = {
 							["Enabled"] = true,
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -7292,18 +8016,18 @@ TellMeWhenDB = {
 							["Name"] = "治疗宠物",
 							["Conditions"] = {
 								{
-									["Unit"] = "pet",
+									["Operator"] = "<=",
 									["Level"] = 70,
 									["Type"] = "HEALTH_ABS",
-									["Operator"] = "<=",
+									["Unit"] = "pet",
 								}, -- [1]
 								["n"] = 1,
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -7332,9 +8056,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -7440,7 +8164,6 @@ TellMeWhenDB = {
 				}, -- [4]
 			},
 			["Version"] = 87203,
-			["NumGroups"] = 4,
 		},
 		["舒绿娥 - 伊莫塔尔"] = {
 			["Locked"] = true,
@@ -7466,27 +8189,27 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = "<=",
 									["Level"] = 2,
 									["Name"] = "痛楚",
-									["Operator"] = "<=",
+									["Unit"] = "target",
 								}, -- [1]
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = "<=",
+									["Name"] = "腐蚀术",
 									["Level"] = 2,
 									["AndOr"] = "OR",
-									["Name"] = "腐蚀术",
-									["Operator"] = "<=",
+									["Unit"] = "target",
 								}, -- [2]
 								["n"] = 2,
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -7637,6 +8360,7 @@ TellMeWhenDB = {
 		},
 		["舒忘忧 - 伊莫塔尔"] = {
 			["Locked"] = true,
+			["Version"] = 83102,
 			["NumGroups"] = 2,
 			["Groups"] = {
 				{
@@ -7709,9 +8433,9 @@ TellMeWhenDB = {
 							["Name"] = "愈合祷言",
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -7733,8 +8457,8 @@ TellMeWhenDB = {
 							["Type"] = "cooldown",
 							["Conditions"] = {
 								{
-									["Level"] = 5,
 									["Type"] = "SPELLCD",
+									["Level"] = 5,
 									["Name"] = "圣言术：灵",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -7761,8 +8485,8 @@ TellMeWhenDB = {
 							["Type"] = "cooldown",
 							["Conditions"] = {
 								{
-									["Level"] = 5,
 									["Type"] = "SPELLCD",
+									["Level"] = 5,
 									["Name"] = "圣言术：静",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -7788,8 +8512,8 @@ TellMeWhenDB = {
 							["Name"] = "圣言术：罚",
 							["Conditions"] = {
 								{
-									["Level"] = 5,
 									["Type"] = "SPELLCD",
+									["Level"] = 5,
 									["Name"] = "圣言术：罚",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -7853,6 +8577,29 @@ TellMeWhenDB = {
 							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "吸血鬼之触",
+							["Unit"] = "target",
+							["BuffOrDebuff"] = "HARMFUL",
+							["Conditions"] = {
+								{
+									["Type"] = "DEBUFFDUR",
+									["Checked"] = true,
+									["Operator"] = "<=",
+									["Name"] = "吸血鬼之触",
+									["Level"] = 2,
+									["AndOr"] = "OR",
+									["Unit"] = "target",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
 							["States"] = {
 								{
 								}, -- [1]
@@ -7862,29 +8609,6 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["BuffOrDebuff"] = "HARMFUL",
-							["Conditions"] = {
-								{
-									["Type"] = "DEBUFFDUR",
-									["Checked"] = true,
-									["Unit"] = "target",
-									["Level"] = 2,
-									["AndOr"] = "OR",
-									["Name"] = "吸血鬼之触",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Unit"] = "target",
 						}, -- [1]
 						{
 							["Enabled"] = true,
@@ -7892,18 +8616,18 @@ TellMeWhenDB = {
 							["Name"] = "虚空箭",
 							["Conditions"] = {
 								{
-									["Name"] = "虚空形态",
-									["Type"] = "BUFFDUR",
 									["Checked"] = true,
+									["Type"] = "BUFFDUR",
+									["Name"] = "虚空形态",
 									["Operator"] = "~=",
 								}, -- [1]
 								["n"] = 1,
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -7924,16 +8648,16 @@ TellMeWhenDB = {
 							["Name"] = "虚空爆发",
 							["Conditions"] = {
 								{
-									["Level"] = 100,
 									["Type"] = "INSANITY",
+									["Level"] = 100,
 								}, -- [1]
 								["n"] = 1,
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -7954,8 +8678,8 @@ TellMeWhenDB = {
 							["Name"] = "能量灌注",
 							["Conditions"] = {
 								{
-									["Level"] = 5,
 									["Type"] = "SPELLCD",
+									["Level"] = 5,
 									["Name"] = "能量灌注",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -7980,9 +8704,9 @@ TellMeWhenDB = {
 							["Name"] = "暗影形态; 虚空形态",
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -8006,9 +8730,9 @@ TellMeWhenDB = {
 							["Name"] = "心灵震爆",
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -8029,18 +8753,18 @@ TellMeWhenDB = {
 							["Name"] = "暗言术：灭",
 							["Conditions"] = {
 								{
-									["Unit"] = "target",
+									["Operator"] = "<=",
 									["Level"] = 20,
 									["Type"] = "HEALTH",
-									["Operator"] = "<=",
+									["Unit"] = "target",
 								}, -- [1]
 								["n"] = 1,
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -8105,13 +8829,10 @@ TellMeWhenDB = {
 					["OnlyInCombat"] = true,
 				}, -- [2]
 			},
-			["Version"] = 83102,
 		},
 		["舒预言 - 伊莫塔尔"] = {
 			["Version"] = 90201,
 			["ColorMSQ"] = true,
-			["Locked"] = true,
-			["NumGroups"] = 3,
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1NfUKFKXvbrw",
@@ -8133,16 +8854,16 @@ TellMeWhenDB = {
 								},
 							},
 							["Type"] = "cooldown",
+							["Name"] = "聚能艾泽里特射线; 仇敌之血",
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Name"] = "聚能艾泽里特射线; 仇敌之血",
 							["States"] = {
 								{
 								}, -- [1]
@@ -8167,9 +8888,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -8212,8 +8933,8 @@ TellMeWhenDB = {
 								{
 									["Type"] = "BUFFSTACKS",
 									["Checked"] = true,
-									["Level"] = 15,
 									["AndOr"] = "OR",
+									["Level"] = 15,
 									["Name"] = "冷酷之心",
 									["Operator"] = ">",
 								}, -- [1]
@@ -8228,28 +8949,28 @@ TellMeWhenDB = {
 								{
 									["Type"] = "BUFFDUR",
 									["Checked"] = true,
-									["Level"] = 2,
-									["PrtsBefore"] = 1,
 									["AndOr"] = "OR",
+									["PrtsBefore"] = 1,
+									["Level"] = 2,
 									["Name"] = "不洁之力",
 									["Operator"] = ">=",
 								}, -- [3]
 								{
 									["Type"] = "DEBUFFSTACKS",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = ">=",
 									["Name"] = "锋锐之霜",
 									["Level"] = 5,
 									["PrtsAfter"] = 2,
-									["Operator"] = ">=",
+									["Unit"] = "target",
 								}, -- [4]
 								["n"] = 4,
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -8271,6 +8992,7 @@ TellMeWhenDB = {
 							["ManaCheck"] = true,
 							["ShowTimer"] = true,
 							["Enabled"] = true,
+							["ShowTimerText"] = true,
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -8310,7 +9032,6 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Name"] = "冰霜打击",
 							["SettingsPerView"] = {
 								["icon"] = {
 									["Texts"] = {
@@ -8327,20 +9048,20 @@ TellMeWhenDB = {
 									["Operator"] = "<",
 								}, -- [1]
 								{
-									["Name"] = "杀戮机器",
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
 									["PrtsAfter"] = 1,
+									["Type"] = "BUFFDUR",
+									["Name"] = "杀戮机器",
+									["Checked"] = true,
 								}, -- [2]
 								{
-									["AndOr"] = "OR",
 									["Type"] = "RUNES2",
+									["AndOr"] = "OR",
 									["Level"] = 3,
 									["Operator"] = "<=",
 								}, -- [3]
 								["n"] = 3,
 							},
-							["ShowTimerText"] = true,
+							["Name"] = "冰霜打击",
 							["States"] = {
 								{
 								}, -- [1]
@@ -8365,6 +9086,7 @@ TellMeWhenDB = {
 								},
 							},
 							["Type"] = "cooldown",
+							["Name"] = "符文武器增效",
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -8380,7 +9102,6 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Name"] = "符文武器增效",
 							["States"] = {
 								{
 								}, -- [1]
@@ -8397,6 +9118,7 @@ TellMeWhenDB = {
 							["ManaCheck"] = true,
 							["ShowTimer"] = true,
 							["Enabled"] = true,
+							["Name"] = "冰龙吐息",
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -8422,9 +9144,9 @@ TellMeWhenDB = {
 										{
 											["Type"] = "BUFFDUR",
 											["Checked"] = true,
-											["Level"] = 5,
 											["Name"] = "冰霜之柱",
 											["AndOr"] = "OR",
+											["Level"] = 5,
 											["PrtsAfter"] = 1,
 											["Operator"] = ">=",
 										}, -- [4]
@@ -8443,8 +9165,8 @@ TellMeWhenDB = {
 											["Operator"] = "<",
 										}, -- [1]
 										{
-											["AndOr"] = "OR",
 											["Type"] = "SPELLCD",
+											["AndOr"] = "OR",
 											["Name"] = "冰龙吐息",
 											["Operator"] = "~=",
 										}, -- [2]
@@ -8469,7 +9191,6 @@ TellMeWhenDB = {
 								}, -- [2]
 								["n"] = 2,
 							},
-							["ShowTimerText"] = true,
 							["SettingsPerView"] = {
 								["icon"] = {
 									["Texts"] = {
@@ -8482,14 +9203,14 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFSTACKS",
 									["Checked"] = true,
-									["Name"] = "锋锐之霜",
-									["Level"] = 5,
-									["Unit"] = "target",
 									["Operator"] = ">=",
+									["Level"] = 5,
+									["Name"] = "锋锐之霜",
+									["Unit"] = "target",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Name"] = "冰龙吐息",
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -8536,7 +9257,7 @@ TellMeWhenDB = {
 							["GUID"] = "TMW:icon:1OuuFvMnhuPV",
 							["ShowTimer"] = true,
 							["Enabled"] = true,
-							["Type"] = "cooldown",
+							["Name"] = "冷酷严冬",
 							["ShowTimerText"] = true,
 							["SettingsPerView"] = {
 								["icon"] = {
@@ -8547,9 +9268,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -8561,7 +9282,7 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Name"] = "冷酷严冬",
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -8590,7 +9311,15 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["ManaCheck"] = true,
+							["Events"] = {
+								{
+									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
 							["Conditions"] = {
 								{
 									["PrtsBefore"] = 1,
@@ -8608,22 +9337,14 @@ TellMeWhenDB = {
 								{
 									["Type"] = "BUFFDUR",
 									["Checked"] = true,
-									["Level"] = 2,
 									["AndOr"] = "OR",
+									["Level"] = 2,
 									["Name"] = "杀戮机器",
 									["Operator"] = ">=",
 								}, -- [3]
 								["n"] = 3,
 							},
-							["Events"] = {
-								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
+							["ManaCheck"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -8647,25 +9368,25 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["Events"] = {
-								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
+							["ShowTimerText"] = true,
 							["Conditions"] = {
 								{
-									["Name"] = "黑暗援助",
-									["Type"] = "BUFFDUR",
 									["Checked"] = true,
+									["Type"] = "BUFFDUR",
+									["Name"] = "黑暗援助",
 									["Operator"] = "~=",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["ShowTimerText"] = true,
+							["Events"] = {
+								{
+									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
 							["States"] = {
 								{
 								}, -- [1]
@@ -8680,6 +9401,7 @@ TellMeWhenDB = {
 							["ManaCheck"] = true,
 							["ShowTimer"] = true,
 							["Enabled"] = true,
+							["ShowTimerText"] = true,
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -8690,7 +9412,6 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Name"] = "冰霜巨龙之怒",
 							["SettingsPerView"] = {
 								["icon"] = {
 									["Texts"] = {
@@ -8703,11 +9424,11 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFSTACKS",
 									["Checked"] = true,
-									["Name"] = "锋锐之霜",
+									["Operator"] = ">=",
 									["PrtsBefore"] = 1,
 									["Level"] = 5,
+									["Name"] = "锋锐之霜",
 									["Unit"] = "target",
-									["Operator"] = ">=",
 								}, -- [1]
 								{
 									["Type"] = "BUFFDUR",
@@ -8720,14 +9441,14 @@ TellMeWhenDB = {
 								{
 									["Type"] = "BUFFDUR",
 									["Checked"] = true,
-									["Level"] = 2,
 									["AndOr"] = "OR",
+									["Level"] = 2,
 									["Name"] = "冰霜之柱",
 									["Operator"] = ">=",
 								}, -- [3]
 								["n"] = 3,
 							},
-							["ShowTimerText"] = true,
+							["Name"] = "冰霜巨龙之怒",
 							["States"] = {
 								{
 								}, -- [1]
@@ -8760,9 +9481,9 @@ TellMeWhenDB = {
 									["OnlyShown"] = true,
 									["OnConditionConditions"] = {
 										{
-											["Name"] = "杀戮机器",
-											["Type"] = "BUFFDUR",
 											["Checked"] = true,
+											["Type"] = "BUFFDUR",
+											["Name"] = "杀戮机器",
 											["Operator"] = "~=",
 										}, -- [1]
 										{
@@ -8927,24 +9648,7 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-									["OnConditionConditions"] = {
-										{
-											["Level"] = 2,
-											["Type"] = "SPELLCHARGES",
-											["Name"] = "血液沸腾",
-											["Operator"] = ">=",
-										}, -- [1]
-										["n"] = 1,
-									},
-									["Event"] = "WCSP",
-								}, -- [1]
-								["n"] = 1,
-							},
+							["ShowTimerText"] = true,
 							["Conditions"] = {
 								{
 									["Type"] = "BUFFDUR",
@@ -8960,7 +9664,24 @@ TellMeWhenDB = {
 								}, -- [2]
 								["n"] = 2,
 							},
-							["ShowTimerText"] = true,
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+									["OnConditionConditions"] = {
+										{
+											["Type"] = "SPELLCHARGES",
+											["Level"] = 2,
+											["Name"] = "血液沸腾",
+											["Operator"] = ">=",
+										}, -- [1]
+										["n"] = 1,
+									},
+									["Event"] = "WCSP",
+								}, -- [1]
+								["n"] = 1,
+							},
 							["States"] = {
 								{
 								}, -- [1]
@@ -8978,16 +9699,16 @@ TellMeWhenDB = {
 							["ManaCheck"] = true,
 							["ShowTimer"] = true,
 							["Enabled"] = true,
+							["Name"] = "灵界打击",
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["ShowTimerText"] = true,
 							["SettingsPerView"] = {
 								["icon"] = {
 									["Texts"] = {
@@ -9029,7 +9750,7 @@ TellMeWhenDB = {
 								}, -- [4]
 								["n"] = 4,
 							},
-							["Name"] = "灵界打击",
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -9083,6 +9804,7 @@ TellMeWhenDB = {
 								},
 							},
 							["Type"] = "cooldown",
+							["Name"] = "吸血鬼之血",
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -9101,7 +9823,6 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Name"] = "吸血鬼之血",
 							["States"] = {
 								{
 								}, -- [1]
@@ -9141,9 +9862,16 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["StackMin"] = 6,
 							["StackMax"] = 5,
-							["DurationMax"] = 2,
-							["Enabled"] = true,
+							["Name"] = "骨髓分裂",
+							["DurationMin"] = 2,
 							["Type"] = "cooldown",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"A1", -- [1]
+									},
+								},
+							},
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -9163,14 +9891,8 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
+							["DurationMax"] = 2,
 							["ShowTimerText"] = true,
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"A1", -- [1]
-									},
-								},
-							},
 							["Conditions"] = {
 								{
 									["Type"] = "BUFFSTACKS",
@@ -9183,9 +9905,9 @@ TellMeWhenDB = {
 								{
 									["Type"] = "BUFFDUR",
 									["Checked"] = true,
-									["Level"] = 3,
 									["Name"] = "白骨之盾",
 									["AndOr"] = "OR",
+									["Level"] = 3,
 									["PrtsAfter"] = 1,
 									["Operator"] = "<=",
 								}, -- [2]
@@ -9228,8 +9950,7 @@ TellMeWhenDB = {
 								}, -- [7]
 								["n"] = 7,
 							},
-							["DurationMin"] = 2,
-							["Name"] = "骨髓分裂",
+							["Enabled"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -9256,16 +9977,16 @@ TellMeWhenDB = {
 							["ManaCheck"] = true,
 							["ShowTimer"] = true,
 							["Enabled"] = true,
+							["ShowTimerText"] = true,
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Name"] = "灵界打击",
 							["SettingsPerView"] = {
 								["icon"] = {
 									["Texts"] = {
@@ -9276,14 +9997,14 @@ TellMeWhenDB = {
 							["Type"] = "cooldown",
 							["Conditions"] = {
 								{
-									["AndOr"] = "OR",
 									["Type"] = "HEALTH",
+									["AndOr"] = "OR",
 									["Level"] = 75,
 									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["ShowTimerText"] = true,
+							["Name"] = "灵界打击",
 							["States"] = {
 								{
 								}, -- [1]
@@ -9311,6 +10032,7 @@ TellMeWhenDB = {
 								},
 							},
 							["Type"] = "cooldown",
+							["Name"] = "枯萎凋零",
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -9319,9 +10041,9 @@ TellMeWhenDB = {
 									["OnlyShown"] = true,
 									["OnConditionConditions"] = {
 										{
-											["Name"] = "赤色天灾",
-											["Type"] = "BUFFDUR",
 											["Checked"] = true,
+											["Type"] = "BUFFDUR",
+											["Name"] = "赤色天灾",
 											["Operator"] = "~=",
 										}, -- [1]
 										["n"] = 1,
@@ -9329,6 +10051,7 @@ TellMeWhenDB = {
 									["Event"] = "OnCondition",
 								}, -- [1]
 								{
+									["Type"] = "Animations",
 									["OnConditionConditions"] = {
 										{
 											["Type"] = "BUFFDUR",
@@ -9337,13 +10060,11 @@ TellMeWhenDB = {
 										}, -- [1]
 										["n"] = 1,
 									},
-									["Type"] = "Animations",
 									["Event"] = "OnCondition",
 									["Animation"] = "ICONCLEAR",
 								}, -- [2]
 								["n"] = 2,
 							},
-							["Name"] = "枯萎凋零",
 							["States"] = {
 								{
 								}, -- [1]
@@ -9441,8 +10162,8 @@ TellMeWhenDB = {
 					["Locked"] = true,
 					["Conditions"] = {
 						{
-							["Unit"] = "target",
 							["Type"] = "ALIVE",
+							["Unit"] = "target",
 						}, -- [1]
 						["n"] = 1,
 					},
@@ -9468,22 +10189,22 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Name"] = "恶性瘟疫",
-									["Level"] = 2,
-									["Operator"] = "<=",
 									["Unit"] = "target",
+									["Level"] = 2,
+									["Name"] = "恶性瘟疫",
+									["Operator"] = "<=",
 								}, -- [1]
 								{
-									["Unit"] = "target",
 									["Type"] = "ALIVE",
+									["Unit"] = "target",
 								}, -- [2]
 								["n"] = 2,
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -9511,14 +10232,14 @@ TellMeWhenDB = {
 									["Operator"] = "~=",
 								}, -- [1]
 								{
-									["Level"] = 2,
+									["Unit"] = "target",
 									["Type"] = "RUNES2",
 									["Checked"] = true,
 									["Name"] = "诸界之灾",
-									["Operator"] = "<=",
 									["AndOr"] = "OR",
+									["Level"] = 2,
 									["PrtsAfter"] = 1,
-									["Unit"] = "target",
+									["Operator"] = "<=",
 								}, -- [2]
 								{
 									["Type"] = "TALENTLEARNED",
@@ -9552,8 +10273,8 @@ TellMeWhenDB = {
 											["Operator"] = "<",
 										}, -- [1]
 										{
-											["AndOr"] = "OR",
 											["Type"] = "RUNIC_POWER_ABS",
+											["AndOr"] = "OR",
 											["Level"] = 100,
 											["Operator"] = ">=",
 										}, -- [2]
@@ -9604,22 +10325,22 @@ TellMeWhenDB = {
 									["Operator"] = "~=",
 								}, -- [3]
 								{
-									["Level"] = 3,
+									["Unit"] = "target",
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
 									["Name"] = "死亡",
 									["PrtsBefore"] = 1,
+									["Level"] = 3,
 									["AndOr"] = "OR",
 									["Operator"] = "<=",
-									["Unit"] = "target",
 								}, -- [4]
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Name"] = "死亡",
-									["Operator"] = "~=",
-									["PrtsAfter"] = 1,
 									["Unit"] = "target",
+									["Name"] = "死亡",
+									["PrtsAfter"] = 1,
+									["Operator"] = "~=",
 								}, -- [5]
 								{
 									["Type"] = "BUFFDUR",
@@ -9664,8 +10385,8 @@ TellMeWhenDB = {
 								{
 									["Type"] = "BUFFSTACKS",
 									["Checked"] = true,
-									["Level"] = 18,
 									["AndOr"] = "OR",
+									["Level"] = 18,
 									["Name"] = "冷酷之心",
 									["Operator"] = ">=",
 								}, -- [11]
@@ -9673,9 +10394,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -9695,25 +10416,7 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-									["OnlyShown"] = true,
-									["OnConditionConditions"] = {
-										{
-											["Level"] = 60,
-											["Type"] = "SPELLCD",
-											["Name"] = "召唤石像鬼",
-											["Operator"] = ">=",
-										}, -- [1]
-										["n"] = 1,
-									},
-									["Event"] = "WCSP",
-								}, -- [1]
-								["n"] = 1,
-							},
+							["Name"] = "黑暗突变",
 							["Conditions"] = {
 								{
 									["PrtsBefore"] = 1,
@@ -9734,7 +10437,25 @@ TellMeWhenDB = {
 								}, -- [3]
 								["n"] = 3,
 							},
-							["Name"] = "黑暗突变",
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+									["OnlyShown"] = true,
+									["OnConditionConditions"] = {
+										{
+											["Type"] = "SPELLCD",
+											["Level"] = 60,
+											["Name"] = "召唤石像鬼",
+											["Operator"] = ">=",
+										}, -- [1]
+										["n"] = 1,
+									},
+									["Event"] = "WCSP",
+								}, -- [1]
+								["n"] = 1,
+							},
 							["States"] = {
 								{
 								}, -- [1]
@@ -9756,6 +10477,18 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
+							["Name"] = "天启",
+							["Conditions"] = {
+								{
+									["Type"] = "DEBUFFSTACKS",
+									["Checked"] = true,
+									["Unit"] = "target",
+									["Level"] = 6,
+									["Name"] = "溃烂之伤",
+									["Operator"] = ">=",
+								}, -- [1]
+								["n"] = 1,
+							},
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -9787,11 +10520,11 @@ TellMeWhenDB = {
 										{
 											["Type"] = "DEBUFFSTACKS",
 											["Checked"] = true,
-											["Operator"] = ">=",
+											["Unit"] = "target",
 											["Name"] = "溃烂之伤",
 											["Level"] = 6,
 											["PrtsAfter"] = 1,
-											["Unit"] = "target",
+											["Operator"] = ">=",
 										}, -- [5]
 										["n"] = 5,
 									},
@@ -9799,18 +10532,6 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Conditions"] = {
-								{
-									["Type"] = "DEBUFFSTACKS",
-									["Checked"] = true,
-									["Name"] = "溃烂之伤",
-									["Level"] = 6,
-									["Operator"] = ">=",
-									["Unit"] = "target",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Name"] = "天启",
 							["States"] = {
 								{
 								}, -- [1]
@@ -9832,6 +10553,10 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
+							["Name"] = "亡者大军",
+							["Conditions"] = {
+								["n"] = 1,
+							},
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -9844,10 +10569,6 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Conditions"] = {
-								["n"] = 1,
-							},
-							["Name"] = "亡者大军",
 							["States"] = {
 								{
 								}, -- [1]
@@ -9875,26 +10596,26 @@ TellMeWhenDB = {
 							["GUID"] = "TMW:icon:1OrHijmFByGp",
 							["ShowTimer"] = true,
 							["Enabled"] = true,
+							["Name"] = "脓疮打击",
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Name"] = "脓疮打击",
 							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
 							["Conditions"] = {
 								{
 									["Type"] = "DEBUFFSTACKS",
 									["Checked"] = true,
-									["Name"] = "溃烂之伤",
-									["Level"] = 1,
-									["Operator"] = "<=",
 									["Unit"] = "target",
+									["Level"] = 1,
+									["Name"] = "溃烂之伤",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
@@ -9932,10 +10653,10 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFSTACKS",
 									["Checked"] = true,
-									["Name"] = "溃烂之伤",
-									["Level"] = 2,
-									["Operator"] = ">=",
 									["Unit"] = "target",
+									["Level"] = 2,
+									["Name"] = "溃烂之伤",
+									["Operator"] = ">=",
 								}, -- [3]
 								{
 									["Type"] = "RUNES2",
@@ -9946,9 +10667,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -9968,21 +10689,7 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
-							["Events"] = {
-								{
-									["OnConditionConditions"] = {
-										{
-											["Name"] = "亵渎",
-											["Type"] = "TALENTLEARNED",
-										}, -- [1]
-										["n"] = 1,
-									},
-									["Type"] = "Animations",
-									["Event"] = "WCSP",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
+							["Name"] = "枯萎凋零",
 							["Conditions"] = {
 								{
 									["Type"] = "DEBUFFDUR",
@@ -9992,10 +10699,10 @@ TellMeWhenDB = {
 									["Unit"] = "target",
 								}, -- [1]
 								{
-									["Icon"] = "TMW:icon:1OrHijmFByGp",
-									["Type"] = "ICON",
-									["PrtsAfter"] = 1,
 									["Level"] = 1,
+									["Type"] = "ICON",
+									["Icon"] = "TMW:icon:1OrHijmFByGp",
+									["PrtsAfter"] = 1,
 								}, -- [2]
 								{
 									["Type"] = "TALENTLEARNED",
@@ -10004,7 +10711,21 @@ TellMeWhenDB = {
 								}, -- [3]
 								["n"] = 3,
 							},
-							["Name"] = "枯萎凋零",
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["OnConditionConditions"] = {
+										{
+											["Name"] = "亵渎",
+											["Type"] = "TALENTLEARNED",
+										}, -- [1]
+										["n"] = 1,
+									},
+									["Event"] = "WCSP",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
 							["States"] = {
 								{
 								}, -- [1]
@@ -10022,16 +10743,16 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["Name"] = "召唤石像鬼",
 							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -10057,9 +10778,9 @@ TellMeWhenDB = {
 									["Animation"] = "ACTVTNGLOW",
 									["OnConditionConditions"] = {
 										{
-											["Name"] = "黑暗援助",
-											["Type"] = "BUFFDUR",
 											["Checked"] = true,
+											["Type"] = "BUFFDUR",
+											["Name"] = "黑暗援助",
 											["Operator"] = "~=",
 										}, -- [1]
 										["n"] = 1,
@@ -10087,18 +10808,18 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFSTACKS",
 									["Checked"] = true,
-									["Name"] = "溃烂之伤",
-									["Level"] = 3,
-									["Operator"] = ">=",
 									["Unit"] = "target",
+									["Level"] = 3,
+									["Name"] = "溃烂之伤",
+									["Operator"] = ">=",
 								}, -- [1]
 								["n"] = 1,
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -10141,8 +10862,8 @@ TellMeWhenDB = {
 					["Locked"] = true,
 					["Conditions"] = {
 						{
-							["Unit"] = "target",
 							["Type"] = "EXISTS",
+							["Unit"] = "target",
 						}, -- [1]
 						{
 							["Type"] = "ALIVE",
@@ -10304,10 +11025,14 @@ TellMeWhenDB = {
 					},
 				}, -- [7]
 			},
+			["NumGroups"] = 3,
+			["Locked"] = true,
 		},
 		["舒耀星辰 - 雷克萨"] = {
 			["Version"] = 82405,
 			["Locked"] = true,
+			["ColorMSQ"] = true,
+			["NumGroups"] = 2,
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1ONkxzjM8dm5",
@@ -10323,8 +11048,8 @@ TellMeWhenDB = {
 							["Name"] = "灰烬觉醒",
 							["Conditions"] = {
 								{
-									["Type"] = "REACTIVE",
 									["Level"] = 1,
+									["Type"] = "REACTIVE",
 									["Name"] = "圣殿骑士的裁决",
 									["Operator"] = "~=",
 								}, -- [1]
@@ -10332,9 +11057,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -10377,10 +11102,10 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Operator"] = "~=",
+									["Unit"] = "target",
 									["Name"] = "审判",
 									["PrtsAfter"] = 2,
-									["Unit"] = "target",
+									["Operator"] = "~=",
 								}, -- [4]
 								{
 									["Type"] = "BUFFDUR",
@@ -10391,9 +11116,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -10436,10 +11161,10 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Operator"] = "~=",
+									["Unit"] = "target",
 									["Name"] = "审判",
 									["PrtsAfter"] = 2,
-									["Unit"] = "target",
+									["Operator"] = "~=",
 								}, -- [4]
 								{
 									["Type"] = "BUFFDUR",
@@ -10450,9 +11175,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -10498,9 +11223,9 @@ TellMeWhenDB = {
 							["Name"] = "审判",
 							["Conditions"] = {
 								{
-									["Checked"] = true,
-									["Type"] = "BUFFDUR",
 									["Name"] = "审判",
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
 									["Unit"] = "target",
 								}, -- [1]
 								{
@@ -10522,9 +11247,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -10546,9 +11271,9 @@ TellMeWhenDB = {
 							["Enabled"] = true,
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -10760,12 +11485,12 @@ TellMeWhenDB = {
 					["OnlyInCombat"] = true,
 				}, -- [2]
 			},
-			["NumGroups"] = 2,
-			["ColorMSQ"] = true,
 		},
 		["舒孑影 - 伊莫塔尔"] = {
 			["Version"] = 90201,
 			["Locked"] = true,
+			["ColorMSQ"] = true,
+			["NumGroups"] = 3,
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1NfUKFKXvbrw",
@@ -10791,11 +11516,19 @@ TellMeWhenDB = {
 									},
 								},
 							},
+							["ShowTimerText"] = true,
+							["Conditions"] = {
+								{
+									["Name"] = "锁喉",
+									["Type"] = "SPELLCD",
+								}, -- [1]
+								["n"] = 1,
+							},
 							["Events"] = {
 								{
-									["Event"] = "OnAlphaInc",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnAlphaInc",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								{
@@ -10805,14 +11538,6 @@ TellMeWhenDB = {
 								}, -- [2]
 								["n"] = 2,
 							},
-							["Conditions"] = {
-								{
-									["Name"] = "锁喉",
-									["Type"] = "SPELLCD",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["ShowTimerText"] = true,
 							["States"] = {
 								{
 									["Alpha"] = 0.5,
@@ -10832,11 +11557,13 @@ TellMeWhenDB = {
 							["BuffOrDebuff"] = "HARMFUL",
 							["Enabled"] = true,
 							["Unit"] = "target",
+							["Type"] = "buff",
+							["OnlyMine"] = true,
 							["Events"] = {
 								{
-									["Event"] = "OnAlphaInc",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnAlphaInc",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								{
@@ -10846,8 +11573,6 @@ TellMeWhenDB = {
 								}, -- [2]
 								["n"] = 2,
 							},
-							["OnlyMine"] = true,
-							["ShowTimerText"] = true,
 							["SettingsPerView"] = {
 								["icon"] = {
 									["Texts"] = {
@@ -10864,7 +11589,7 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Type"] = "buff",
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 									["Alpha"] = 0.5,
@@ -10894,8 +11619,8 @@ TellMeWhenDB = {
 								},
 							},
 							["Enabled"] = true,
-							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -10964,9 +11689,9 @@ TellMeWhenDB = {
 							["OnlyMine"] = true,
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -11047,9 +11772,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -11078,8 +11803,8 @@ TellMeWhenDB = {
 							["Type"] = "cooldown",
 							["Conditions"] = {
 								{
-									["Type"] = "COMBO",
 									["Operator"] = "~=",
+									["Type"] = "COMBO",
 								}, -- [1]
 								["n"] = 1,
 							},
@@ -11197,9 +11922,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -11232,17 +11957,17 @@ TellMeWhenDB = {
 							["ManaCheck"] = true,
 							["ShowTimer"] = true,
 							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["OnlyMine"] = true,
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["OnlyMine"] = true,
-							["ShowTimerText"] = true,
 							["SettingsPerView"] = {
 								["icon"] = {
 									["TextLayout"] = "TMW:textlayout:1RTDGDffU8PT",
@@ -11286,10 +12011,10 @@ TellMeWhenDB = {
 									["Name"] = "大乱斗",
 								}, -- [6]
 								{
-									["Name"] = "残忍精准",
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
 									["PrtsAfter"] = 1,
+									["Type"] = "BUFFDUR",
+									["Name"] = "残忍精准",
+									["Checked"] = true,
 								}, -- [7]
 								{
 									["Type"] = "BUFFDUR",
@@ -11315,10 +12040,10 @@ TellMeWhenDB = {
 									["Name"] = "大乱斗",
 								}, -- [11]
 								{
-									["Name"] = "残忍精准",
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
 									["PrtsAfter"] = 1,
+									["Type"] = "BUFFDUR",
+									["Name"] = "残忍精准",
+									["Checked"] = true,
 								}, -- [12]
 								{
 									["Type"] = "BUFFDUR",
@@ -11344,10 +12069,10 @@ TellMeWhenDB = {
 									["Name"] = "大乱斗",
 								}, -- [16]
 								{
-									["Name"] = "残忍精准",
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
 									["PrtsAfter"] = 1,
+									["Type"] = "BUFFDUR",
+									["Name"] = "残忍精准",
+									["Checked"] = true,
 								}, -- [17]
 								{
 									["Type"] = "BUFFDUR",
@@ -11373,10 +12098,10 @@ TellMeWhenDB = {
 									["Name"] = "精准定位",
 								}, -- [21]
 								{
-									["Name"] = "残忍精准",
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
 									["PrtsAfter"] = 1,
+									["Type"] = "BUFFDUR",
+									["Name"] = "残忍精准",
+									["Checked"] = true,
 								}, -- [22]
 								{
 									["Type"] = "BUFFDUR",
@@ -11401,14 +12126,14 @@ TellMeWhenDB = {
 									["Name"] = "大乱斗",
 								}, -- [26]
 								{
-									["Name"] = "残忍精准",
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
 									["PrtsAfter"] = 2,
+									["Type"] = "BUFFDUR",
+									["Name"] = "残忍精准",
+									["Checked"] = true,
 								}, -- [27]
 								["n"] = 27,
 							},
-							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -11424,8 +12149,8 @@ TellMeWhenDB = {
 							["GUID"] = "TMW:icon:1ROA_lMgUfKc",
 							["ShowTimer"] = true,
 							["Enabled"] = true,
+							["Type"] = "cooldown",
 							["Name"] = "正中眉心",
-							["ShowTimerText"] = true,
 							["SettingsPerView"] = {
 								["icon"] = {
 									["TextLayout"] = "icon1",
@@ -11436,21 +12161,21 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
 							["Conditions"] = {
 								{
-									["Type"] = "COMBO",
 									["Level"] = 5,
+									["Type"] = "COMBO",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -11515,7 +12240,7 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -11535,10 +12260,10 @@ TellMeWhenDB = {
 											["Operator"] = "~=",
 										}, -- [2]
 										{
-											["Name"] = "猩红之瓶",
-											["AndOr"] = "OR",
-											["PrtsAfter"] = 1,
 											["Type"] = "ITEMINBAGS",
+											["AndOr"] = "OR",
+											["Name"] = "猩红之瓶",
+											["PrtsAfter"] = 1,
 										}, -- [3]
 										{
 											["Type"] = "SPELLCD",
@@ -11578,9 +12303,9 @@ TellMeWhenDB = {
 											["Type"] = "ITEMCD",
 										}, -- [10]
 										{
-											["PrtsAfter"] = 1,
-											["Type"] = "ITEMINBAGS",
 											["Name"] = "猩红之瓶",
+											["Type"] = "ITEMINBAGS",
+											["PrtsAfter"] = 1,
 											["Operator"] = "~=",
 										}, -- [11]
 										["n"] = 11,
@@ -11603,7 +12328,7 @@ TellMeWhenDB = {
 								}, -- [2]
 								["n"] = 2,
 							},
-							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -11720,9 +12445,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -11827,16 +12552,16 @@ TellMeWhenDB = {
 								},
 							},
 							["Enabled"] = true,
+							["Type"] = "cooldown",
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -11851,7 +12576,6 @@ TellMeWhenDB = {
 							["GUID"] = "TMW:icon:1RUYRhQHG80P",
 							["ShowTimer"] = true,
 							["Enabled"] = true,
-							["Name"] = "冲动",
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -11882,8 +12606,8 @@ TellMeWhenDB = {
 											["Operator"] = ">=",
 										}, -- [1]
 										{
-											["Type"] = "SPELLCD",
 											["AndOr"] = "OR",
+											["Type"] = "SPELLCD",
 											["Name"] = "冲动",
 											["Operator"] = "~=",
 										}, -- [2]
@@ -11893,8 +12617,9 @@ TellMeWhenDB = {
 								}, -- [2]
 								["n"] = 2,
 							},
-							["OnlyMine"] = true,
 							["ShowTimerText"] = true,
+							["OnlyMine"] = true,
+							["Name"] = "冲动",
 							["SettingsPerView"] = {
 								["icon"] = {
 									["TextLayout"] = "TMW:textlayout:1RTDDaMEX8U9",
@@ -12019,8 +12744,8 @@ TellMeWhenDB = {
 									["OnlyShown"] = true,
 									["OnConditionConditions"] = {
 										{
-											["Type"] = "PVPFLAG",
 											["Unit"] = "target",
+											["Type"] = "PVPFLAG",
 										}, -- [1]
 										["n"] = 1,
 									},
@@ -12124,9 +12849,9 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["GUID"] = "TMW:icon:1RUYRhPPHu0z",
-							["Type"] = "buff",
 							["Name"] = "残忍精准; 骷髅黑帆; 大乱斗; 精准定位; 强势连击",
+							["Type"] = "buff",
+							["GUID"] = "TMW:icon:1RUYRhPPHu0z",
 							["States"] = {
 								{
 									["Alpha"] = 0.5,
@@ -12273,472 +12998,18 @@ TellMeWhenDB = {
 					},
 				}, -- [6]
 			},
-			["NumGroups"] = 3,
-			["ColorMSQ"] = true,
 		},
-		["舒耀星辰 - 伊莫塔尔"] = {
+		["舒孑影 - 瓦里安"] = {
+			["Version"] = 81209,
 			["Groups"] = {
 				{
-					["GUID"] = "TMW:group:1ONkxzjM8dm5",
-					["Columns"] = 5,
-					["Scale"] = 1.5,
-					["Rows"] = 2,
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "灰烬觉醒",
-							["Conditions"] = {
-								{
-									["Type"] = "REACTIVE",
-									["Level"] = 1,
-									["Name"] = "圣殿骑士的裁决",
-									["Operator"] = "~=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "公正之剑",
-							["Conditions"] = {
-								{
-									["PrtsBefore"] = 2,
-									["Type"] = "HOLY_POWER",
-									["Level"] = 3,
-									["Operator"] = "<=",
-								}, -- [1]
-								{
-									["Type"] = "DEBUFFDUR",
-									["Checked"] = true,
-									["Name"] = "审判",
-									["PrtsAfter"] = 1,
-									["Unit"] = "target",
-								}, -- [2]
-								{
-									["Type"] = "HOLY_POWER",
-									["PrtsBefore"] = 1,
-									["AndOr"] = "OR",
-									["Level"] = 2,
-									["Operator"] = "<=",
-								}, -- [3]
-								{
-									["Type"] = "DEBUFFDUR",
-									["Checked"] = true,
-									["Unit"] = "target",
-									["Name"] = "审判",
-									["PrtsAfter"] = 2,
-									["Operator"] = "~=",
-								}, -- [4]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "神圣意志",
-								}, -- [5]
-								["n"] = 5,
-							},
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "十字军打击",
-							["Conditions"] = {
-								{
-									["PrtsBefore"] = 2,
-									["Type"] = "HOLY_POWER",
-									["Level"] = 4,
-									["Operator"] = "<=",
-								}, -- [1]
-								{
-									["Type"] = "DEBUFFDUR",
-									["Checked"] = true,
-									["Name"] = "审判",
-									["PrtsAfter"] = 1,
-									["Unit"] = "target",
-								}, -- [2]
-								{
-									["Type"] = "HOLY_POWER",
-									["PrtsBefore"] = 1,
-									["AndOr"] = "OR",
-									["Level"] = 2,
-									["Operator"] = "<=",
-								}, -- [3]
-								{
-									["Type"] = "DEBUFFDUR",
-									["Checked"] = true,
-									["Unit"] = "target",
-									["Name"] = "审判",
-									["PrtsAfter"] = 2,
-									["Operator"] = "~=",
-								}, -- [4]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "神圣意志",
-								}, -- [5]
-								["n"] = 5,
-							},
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "复仇之怒",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "审判",
-							["Conditions"] = {
-								{
-									["Checked"] = true,
-									["Type"] = "BUFFDUR",
-									["Name"] = "审判",
-									["Unit"] = "target",
-								}, -- [1]
-								{
-									["Type"] = "HOLY_POWER",
-									["Name"] = "圣殿骑士的裁决",
-									["PrtsBefore"] = 1,
-									["Level"] = 3,
-									["Operator"] = ">=",
-								}, -- [2]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "神圣意志",
-									["AndOr"] = "OR",
-									["PrtsAfter"] = 1,
-									["Operator"] = "~=",
-								}, -- [3]
-								["n"] = 3,
-							},
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-						{
-							["ManaCheck"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "圣殿骑士的裁决",
-							["Enabled"] = true,
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-									["Alpha"] = 0,
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "盲目之光",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
-						{
-							["Type"] = "cooldown",
-							["Name"] = "保护祝福",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [9]
-						{
-							["Type"] = "cooldown",
-							["Name"] = "圣疗术",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [10]
-					},
-					["Role"] = 1,
-					["Name"] = "惩戒",
-					["Locked"] = true,
-					["Point"] = {
-						["y"] = -130,
-					},
-					["EnabledSpecs"] = {
-						[66] = false,
-						[65] = false,
-					},
-					["OnlyInCombat"] = true,
+					["GUID"] = "TMW:group:1Nyhn4U6tt1b",
 				}, -- [1]
-				{
-					["View"] = "bar",
-					["Point"] = {
-						["y"] = -90,
-						["x"] = -2.03450520833333e-05,
-					},
-					["Scale"] = 1.5,
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["Type"] = "value",
-							["SettingsPerView"] = {
-								["bar"] = {
-									["Texts"] = {
-										"[Value]", -- [1]
-									},
-								},
-							},
-							["PowerType"] = 9,
-							["CustomTex"] = "NONE",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [9]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [10]
-					},
-					["TextureName"] = "Solid",
-					["GUID"] = "TMW:group:1ONl4xbCZpdJ",
-					["Name"] = "神圣能量",
-					["SettingsPerView"] = {
-						["bar"] = {
-							["TextLayout"] = "TMW:textlayout:1ONlE7haQtDq",
-							["Icon"] = false,
-						},
-					},
-					["Locked"] = true,
-					["Columns"] = 1,
-					["TimerBar_EnableColors"] = true,
-					["OnlyInCombat"] = true,
-				}, -- [2]
 			},
-			["ColorMSQ"] = true,
-			["Version"] = 82405,
-			["NumGroups"] = 2,
-			["Locked"] = true,
 		},
 		["Jackiexu - 伊莫塔尔"] = {
 			["Version"] = 87203,
 			["ColorMSQ"] = true,
-			["Locked"] = true,
-			["NumGroups"] = 2,
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1ROA_3J3krum",
@@ -12766,27 +13037,27 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = "<=",
 									["Level"] = 2,
 									["Name"] = "月火术",
-									["Operator"] = "<=",
+									["Unit"] = "target",
 								}, -- [1]
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = "<=",
+									["Name"] = "阳炎术",
 									["AndOr"] = "OR",
 									["Level"] = 2,
-									["Name"] = "阳炎术",
-									["Operator"] = "<=",
+									["Unit"] = "target",
 								}, -- [2]
 								["n"] = 2,
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -12836,6 +13107,26 @@ TellMeWhenDB = {
 									},
 								},
 							},
+							["Unit"] = "target",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Name"] = "激怒",
+									["Level"] = 2,
+									["Operator"] = ">=",
+									["Unit"] = "target",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
 							["States"] = {
 								{
 								}, -- [1]
@@ -12845,26 +13136,6 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Name"] = "激怒",
-									["Level"] = 2,
-									["Unit"] = "target",
-									["Operator"] = ">=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Unit"] = "target",
 						}, -- [4]
 						{
 							["Enabled"] = true,
@@ -13090,19 +13361,19 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = "<=",
+									["Name"] = "月火术",
 									["Level"] = 2,
 									["AndOr"] = "OR",
-									["Name"] = "月火术",
-									["Operator"] = "<=",
+									["Unit"] = "target",
 								}, -- [2]
 								["n"] = 2,
 							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -13120,8 +13391,8 @@ TellMeWhenDB = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "痛击",
 							["ShowTimerText"] = true,
+							["Name"] = "痛击",
 							["SettingsPerView"] = {
 								["icon"] = {
 									["Texts"] = {
@@ -13129,27 +13400,27 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["Type"] = "cooldown",
-							["Conditions"] = {
-								{
-									["Type"] = "DEBUFFDUR",
-									["Checked"] = true,
-									["Unit"] = "target",
-									["Level"] = 2,
-									["Name"] = "痛击",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Conditions"] = {
+								{
+									["Type"] = "DEBUFFDUR",
+									["Checked"] = true,
+									["Operator"] = "<=",
+									["Level"] = 2,
+									["Name"] = "痛击",
+									["Unit"] = "target",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -13205,6 +13476,26 @@ TellMeWhenDB = {
 									},
 								},
 							},
+							["Unit"] = "target",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Name"] = "激怒",
+									["Level"] = 2,
+									["Operator"] = ">=",
+									["Unit"] = "target",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
 							["States"] = {
 								{
 								}, -- [1]
@@ -13214,26 +13505,6 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Name"] = "激怒",
-									["Level"] = 2,
-									["Unit"] = "target",
-									["Operator"] = ">=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Unit"] = "target",
 						}, -- [5]
 						{
 							["Enabled"] = true,
@@ -13316,16 +13587,16 @@ TellMeWhenDB = {
 								},
 							},
 							["Type"] = "cooldown",
+							["Name"] = "裂伤",
 							["Events"] = {
 								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
 									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Name"] = "裂伤",
 							["States"] = {
 								{
 								}, -- [1]
@@ -13527,1459 +13798,38 @@ TellMeWhenDB = {
 					},
 				}, -- [4]
 			},
-		},
-		["舒殉魂 - 伊森利恩"] = {
+			["NumGroups"] = 2,
 			["Locked"] = true,
-			["Version"] = 85102,
+		},
+		["舒孑影 - 安苏"] = {
 			["Groups"] = {
 				{
-					["GUID"] = "TMW:group:1NuuZutNRyGh",
-					["Columns"] = 5,
-					["Scale"] = 1.5,
+					["GUID"] = "TMW:group:1NfUKFKXvbrw",
+					["Columns"] = 7,
+					["Scale"] = 1.35,
 					["Rows"] = 2,
 					["Icons"] = {
 						{
 							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "火焰冲击",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Level"] = 2,
-									["Name"] = "热力迸发",
-									["Operator"] = ">=",
-								}, -- [1]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "炽热连击！",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["Events"] = {
-								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "烈焰飞舞",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Level"] = 2,
-									["Name"] = "热力迸发",
-									["Operator"] = ">=",
-								}, -- [1]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "炽热连击！",
-								}, -- [2]
-								{
-									["Name"] = "火焰冲击",
-									["Type"] = "SPELLCHARGES",
-								}, -- [3]
-								["n"] = 3,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "凤凰烈焰",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Level"] = 2,
-									["Name"] = "热力迸发",
-									["Operator"] = ">=",
-								}, -- [1]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "炽热连击！",
-								}, -- [2]
-								{
-									["Name"] = "火焰冲击",
-									["Type"] = "SPELLCHARGES",
-								}, -- [3]
-								{
-									["Type"] = "SPELLCD",
-									["Name"] = "烈焰飞舞",
-									["Operator"] = "~=",
-								}, -- [4]
-								["n"] = 4,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "燃烧",
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "炎爆术",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Level"] = 2,
-									["Name"] = "炽热连击！",
-									["Operator"] = ">=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "寒冰护体",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Level"] = 2,
-									["Name"] = "寒冰护体",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [9]
-						{
-							["Type"] = "cooldown",
-							["Name"] = "法术吸取",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [10]
-					},
-					["Role"] = 1,
-					["Name"] = "火法",
-					["Point"] = {
-						["y"] = 166,
-						["point"] = "BOTTOM",
-						["relativePoint"] = "BOTTOM",
-					},
-					["EnabledSpecs"] = {
-						[62] = false,
-						[64] = false,
-					},
-					["OnlyInCombat"] = true,
-				}, -- [1]
-				{
-					["GUID"] = "TMW:group:1O6b2jDdmvVs",
-					["Columns"] = 5,
-					["Scale"] = 1.5,
-					["Rows"] = 2,
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "冰枪术",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Level"] = 2,
-									["Name"] = "寒冰指",
-									["Operator"] = ">=",
-								}, -- [1]
-								{
-									["Type"] = "DEBUFFDUR",
-									["Checked"] = true,
-									["Unit"] = "target",
-									["AndOr"] = "OR",
-									["Level"] = 2,
-									["Name"] = "冰川尖刺",
-									["Operator"] = ">=",
-								}, -- [2]
-								{
-									["Type"] = "DEBUFFDUR",
-									["Checked"] = true,
-									["Unit"] = "target",
-									["AndOr"] = "OR",
-									["Level"] = 2,
-									["Name"] = "冰霜新星",
-									["Operator"] = ">=",
-								}, -- [3]
-								["n"] = 3,
-							},
-							["Events"] = {
-								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "冰风暴",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Level"] = 2,
-									["Name"] = "冰冷智慧",
-									["Operator"] = ">=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "寒冰宝珠",
-							["Events"] = {
-								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "冰冷血脉",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "黑冰箭",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "寒冰指",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "冰川尖刺",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFSTACKS",
-									["Level"] = 5,
-									["Name"] = "冰刺",
-									["Checked"] = true,
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "暴风雪",
-							["Events"] = {
-								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "寒冰护体",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Level"] = 2,
-									["Name"] = "寒冰护体",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [9]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [10]
-					},
-					["Role"] = 1,
-					["Point"] = {
-						["y"] = -130,
-					},
-					["Locked"] = true,
-					["Conditions"] = {
-						{
-							["Unit"] = "target",
-							["Type"] = "ALIVE",
-						}, -- [1]
-						["n"] = 1,
-					},
-					["EnabledSpecs"] = {
-						[62] = false,
-						[63] = false,
-					},
-					["OnlyInCombat"] = true,
-				}, -- [2]
-				{
-					["GUID"] = "TMW:group:1O6bxNNz=fNu",
-					["Columns"] = 5,
-					["Scale"] = 1.5,
-					["Rows"] = 2,
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["Type"] = "buff",
-							["Name"] = "虚空风暴",
+							["ShowTimer"] = true,
 							["BuffOrDebuff"] = "HARMFUL",
-							["States"] = {
-								{
-									["Alpha"] = 0,
-								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Events"] = {
-								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
 							["Unit"] = "target",
-						}, -- [1]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "奥术飞弹",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Level"] = 2,
-									["Name"] = "奥术飞弹！",
-									["Operator"] = ">=",
-								}, -- [1]
-								{
-									["Type"] = "BUFFSTACKS",
-									["Checked"] = true,
-									["PrtsBefore"] = 1,
-									["Level"] = 3,
-									["Name"] = "奥术飞弹！",
-								}, -- [2]
-								{
-									["Type"] = "ARCANE_CHARGES",
-									["AndOr"] = "OR",
-									["Level"] = 4,
-									["PrtsAfter"] = 1,
-									["Operator"] = ">=",
-								}, -- [3]
-								["n"] = 3,
-							},
 							["Events"] = {
 								{
 									["Infinite"] = true,
 									["Type"] = "Animations",
-									["Event"] = "OnShow",
+									["Event"] = "OnAlphaInc",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
 								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "唤醒",
-							["Conditions"] = {
-								{
-									["Type"] = "MANA",
-									["Level"] = 15,
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Infinite"] = true,
 									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "奥术强化",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "奥术弹幕",
-							["Conditions"] = {
-								{
-									["Type"] = "ARCANE_CHARGES",
-									["Checked"] = true,
-									["Level"] = 4,
-									["Name"] = "奥术充能",
-									["Operator"] = ">=",
-								}, -- [1]
-								{
-									["Type"] = "MANA",
-									["Level"] = 75,
-									["Operator"] = "<=",
+									["Event"] = "OnAlphaDec",
+									["Animation"] = "ICONCLEAR",
 								}, -- [2]
 								["n"] = 2,
 							},
-							["Events"] = {
-								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "寒冰护体",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Level"] = 2,
-									["Name"] = "寒冰护体",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "奥术魔宠",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Level"] = 2,
-									["Name"] = "210126",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Infinite"] = true,
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [9]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [10]
-					},
-					["Role"] = 1,
-					["Point"] = {
-						["y"] = -173.333302815755,
-						["x"] = -2.03450520833333e-05,
-					},
-					["Locked"] = true,
-					["Conditions"] = {
-						{
-							["Unit"] = "target",
-							["Type"] = "ALIVE",
-						}, -- [1]
-						["n"] = 1,
-					},
-					["EnabledSpecs"] = {
-						[64] = false,
-						[63] = false,
-					},
-					["OnlyInCombat"] = true,
-				}, -- [3]
-			},
-			["NumGroups"] = 3,
-		},
-		["舒墨兰 - 伊莫塔尔"] = {
-			["Locked"] = true,
-			["Groups"] = {
-				{
-					["GUID"] = "TMW:group:1Nstv93buWR=",
-					["Point"] = {
-						["y"] = -130,
-						["x"] = -2.03450520833333e-05,
-					},
-					["Scale"] = 1.5,
-					["Rows"] = 2,
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "献祭光环",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Level"] = 2,
-									["Name"] = "献祭光环",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["Enabled"] = true,
 							["OnlyMine"] = true,
-							["Name"] = "烈焰咒符; 地狱火撞击",
-							["Type"] = "cooldown",
-							["Conditions"] = {
-								{
-									["Name"] = "烈焰咒符",
-									["Type"] = "SPELLCD",
-								}, -- [1]
-								{
-									["Type"] = "SPELLCHARGES",
-									["Level"] = 2,
-									["Name"] = "地狱火撞击",
-									["AndOr"] = "OR",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["GUID"] = "TMW:icon:1PIDsFPfzowR",
-							["Type"] = "cooldown",
-							["Name"] = "灵魂壁障",
-							["Enabled"] = true,
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-								[102] = {
-									["Color"] = "ffff0000d",
-								},
-							},
-						}, -- [3]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "恶魔变形",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "强化结界",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["ManaCheck"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "灵魂裂劈",
-							["Enabled"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "DEBUFFDUR",
-									["Checked"] = true,
-									["Unit"] = "target",
-									["PrtsBefore"] = 1,
-									["Level"] = 2,
-									["Name"] = "脆弱",
-									["Operator"] = ">",
-								}, -- [1]
-								{
-									["Type"] = "TALENTLEARNED",
-									["Name"] = "幽魂炸弹",
-									["Level"] = 1,
-									["PrtsAfter"] = 1,
-									["AndOr"] = "OR",
-								}, -- [2]
-								{
-									["Type"] = "ICON",
-									["Icon"] = "TMW:icon:1PIDsFPfzowR",
-									["Level"] = 1,
-								}, -- [3]
-								["n"] = 3,
-							},
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-									["Color"] = "ff0c00ffd",
-									["Alpha"] = 0,
-								}, -- [4]
-								[102] = {
-									["Color"] = "ffff0000d",
-								},
-							},
-						}, -- [6]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "灵魂切削",
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "投掷利刃",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
-						{
-							["Type"] = "cooldown",
-							["Name"] = "地狱火撞击",
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCHARGES",
-									["Name"] = "地狱火撞击",
-									["Level"] = 2,
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [9]
-						{
-							["Type"] = "cooldown",
-							["Name"] = "幽魂炸弹",
-							["Conditions"] = {
-								{
-									["Checked"] = true,
-									["Type"] = "BUFFDUR",
-									["Name"] = "灵魂残片",
-									["Operator"] = "~=",
-								}, -- [1]
-								{
-									["Type"] = "DEBUFFDUR",
-									["Checked"] = true,
-									["Operator"] = "<=",
-									["Name"] = "脆弱",
-									["Unit"] = "target",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [10]
-					},
-					["Role"] = 4,
-					["Name"] = "复仇",
-					["Columns"] = 5,
-					["Locked"] = true,
-					["Conditions"] = {
-						{
-							["Type"] = "ALIVE",
-							["Unit"] = "target",
-						}, -- [1]
-						["n"] = 1,
-					},
-					["EnabledSpecs"] = {
-						[577] = false,
-					},
-					["OnlyInCombat"] = true,
-				}, -- [1]
-				{
-					["GUID"] = "TMW:group:1OArGZvXfW6m",
-					["Point"] = {
-						["y"] = -130,
-						["x"] = -2.03450520833333e-05,
-					},
-					["Scale"] = 1.5,
-					["Rows"] = 2,
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "邪能之刃",
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"E", -- [1]
-									},
-								},
-							},
-							["Conditions"] = {
-								{
-									["Type"] = "FURY",
-									["Level"] = 80,
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-									["Alpha"] = 0,
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["GUID"] = "TMW:icon:1Pdc4fRcNNxY",
-							["ShowTimer"] = true,
-							["Enabled"] = true,
-							["ManaCheck"] = true,
-							["Name"] = "刃舞; 死亡横扫",
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"AE", -- [1]
-									},
-								},
-							},
 							["ShowTimerText"] = true,
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-									["OnlyShown"] = true,
-									["OnConditionConditions"] = {
-										{
-											["Name"] = "第一滴血",
-											["Type"] = "TALENTLEARNED",
-										}, -- [1]
-										["n"] = 1,
-									},
-									["Event"] = "WCSP",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-									["Color"] = "ff0c00ffd",
-									["Alpha"] = 0,
-								}, -- [4]
-								[102] = {
-									["Color"] = "ffff0000d",
-								},
-							},
-						}, -- [2]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "火红烈焰",
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"A3", -- [1]
-									},
-								},
-							},
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["ShowTimerText"] = true,
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"Z", -- [1]
-									},
-								},
-							},
-							["Type"] = "cooldown",
-							["Name"] = "191427",
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Color"] = "ffff0000d",
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-						{
-							["ManaCheck"] = true,
-							["ShowTimer"] = true,
-							["Enabled"] = true,
-							["ShowTimerText"] = true,
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"R", -- [1]
-									},
-								},
-							},
-							["Name"] = "混乱新星",
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 5,
-									["Name"] = "混乱新星",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Color"] = "ffff0000d",
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-									["Color"] = "ff0c00ffd",
-									["Alpha"] = 1,
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["ShowTimerText"] = true,
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"A`", -- [1]
-									},
-								},
-							},
-							["Type"] = "cooldown",
-							["Name"] = "疾影",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.5,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["ShowTimerText"] = true,
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"A上", -- [1]
-									},
-								},
-							},
-							["Type"] = "cooldown",
-							["Name"] = "奥术洪流",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.5,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["ManaCheck"] = true,
-							["Type"] = "cooldown",
-							["Enabled"] = true,
-							["Name"] = "混乱打击; 毁灭",
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"A1", -- [1]
-									},
-								},
-							},
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Conditions"] = {
-								{
-									["Type"] = "FURY",
-									["Level"] = 55,
-									["Operator"] = ">=",
-								}, -- [1]
-								{
-									["Type"] = "ICON",
-									["Icon"] = "TMW:icon:1O=Et1E2vI6t",
-									["Level"] = 1,
-								}, -- [2]
-								["n"] = 2,
-							},
-							["GUID"] = "TMW:icon:1Pdc4fSd8a0o",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-									["Alpha"] = 0,
-								}, -- [4]
-							},
-						}, -- [8]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "185123",
 							["SettingsPerView"] = {
 								["icon"] = {
 									["Texts"] = {
@@ -14987,11 +13837,205 @@ TellMeWhenDB = {
 									},
 								},
 							},
+							["Type"] = "buff",
 							["Conditions"] = {
 								{
-									["Type"] = "ICON",
-									["Icon"] = "TMW:icon:1O=Et1E2vI6t",
+									["Name"] = "锁喉",
+									["Type"] = "SPELLCD",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Name"] = "锁喉",
+							["States"] = {
+								{
+									["Alpha"] = 0.5,
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["ManaCheck"] = true,
+							["ShowTimer"] = true,
+							["BuffOrDebuff"] = "HARMFUL",
+							["Enabled"] = true,
+							["Unit"] = "target",
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnAlphaInc",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								{
+									["Type"] = "Animations",
+									["Event"] = "OnAlphaDec",
+									["Animation"] = "ICONCLEAR",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["OnlyMine"] = true,
+							["Name"] = "割裂",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"A2", -- [1]
+									},
+								},
+							},
+							["Type"] = "buff",
+							["Conditions"] = {
+								{
+									["Type"] = "COMBO",
 									["Level"] = 1,
+									["Operator"] = ">=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["ShowTimerText"] = true,
+							["States"] = {
+								{
+									["Alpha"] = 0.5,
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+								[102] = {
+									["Color"] = "ff007a7f",
+									["Alpha"] = 0.5,
+								},
+							},
+						}, -- [2]
+						{
+							["ManaCheck"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"A3", -- [1]
+									},
+								},
+							},
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "肾击",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Color"] = "ffff0000",
+									["Alpha"] = 0.5,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+									["Color"] = "ff007a7f",
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"AQ", -- [1]
+									},
+								},
+							},
+							["Type"] = "cooldown",
+							["Name"] = "猩红之瓶",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.5,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [6]
+						{
+							["Enabled"] = true,
+							["Type"] = "buff",
+							["Name"] = "致命药膏",
+							["OnlyMine"] = true,
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+									["Alpha"] = 0,
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["ManaCheck"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "刺骨",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"A1", -- [1]
+									},
+								},
+							},
+							["Enabled"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Level"] = 1.5,
+									["Name"] = "深谋远虑",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
@@ -15000,11 +14044,11 @@ TellMeWhenDB = {
 									["Type"] = "Animations",
 									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
-									["OnlyShown"] = true,
 									["OnConditionConditions"] = {
 										{
-											["Name"] = "莫尔戈生化稳定器",
-											["Type"] = "ITEMEQUIPPED",
+											["Type"] = "COMBO",
+											["Level"] = 4,
+											["Operator"] = ">=",
 										}, -- [1]
 										["n"] = 1,
 									},
@@ -15019,34 +14063,30 @@ TellMeWhenDB = {
 								{
 								}, -- [3]
 								{
+									["Color"] = "ff007a7f",
 								}, -- [4]
 							},
-						}, -- [9]
+						}, -- [8]
 						{
-							["GUID"] = "TMW:icon:1O=Et1E2vI6t",
-							["ShowTimer"] = true,
 							["Enabled"] = true,
-							["ManaCheck"] = true,
-							["Name"] = "眼棱",
+							["Type"] = "cooldown",
+							["Name"] = "淬毒之刃",
 							["SettingsPerView"] = {
 								["icon"] = {
 									["Texts"] = {
-										"3", -- [1]
+										"Z", -- [1]
 									},
 								},
 							},
-							["ShowTimerText"] = true,
 							["Events"] = {
 								{
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
-									["OnlyShown"] = true,
-									["Event"] = "WCSP",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -15054,29 +14094,59 @@ TellMeWhenDB = {
 								{
 								}, -- [3]
 								{
-									["Color"] = "ff0c00ff",
-									["Alpha"] = 0,
 								}, -- [4]
 							},
-						}, -- [10]
+						}, -- [9]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "涅墨西斯",
+							["ShowTimerText"] = true,
 							["SettingsPerView"] = {
 								["icon"] = {
 									["Texts"] = {
-										"T", -- [1]
+										"4", -- [1]
 									},
 								},
 							},
 							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
+							["Conditions"] = {
+								{
+									["Operator"] = "~=",
+									["Type"] = "COMBO",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Name"] = "宿敌",
 							["States"] = {
 								{
 								}, -- [1]
 								{
-									["Color"] = "ffff0000d",
-									["Alpha"] = 1,
+									["Alpha"] = 0.5,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [10]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"AT", -- [1]
+									},
+								},
+							},
+							["Type"] = "cooldown",
+							["Name"] = "暗影步",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.5,
 								}, -- [2]
 								{
 								}, -- [3]
@@ -15085,24 +14155,10 @@ TellMeWhenDB = {
 							},
 						}, -- [11]
 						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "虚空行走",
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"5", -- [1]
-									},
-								},
-							},
-							["Type"] = "cooldown",
-							["CustomTex"] = "196555",
 							["States"] = {
 								{
 								}, -- [1]
-								{
-									["Alpha"] = 0.5,
-								}, -- [2]
+								nil, -- [2]
 								{
 								}, -- [3]
 								{
@@ -15124,15 +14180,8 @@ TellMeWhenDB = {
 							["Enabled"] = true,
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"AF", -- [1]
-									},
-								},
-							},
 							["Type"] = "cooldown",
-							["Name"] = "吞噬魔法",
+							["Name"] = "脚踢",
 							["States"] = {
 								{
 								}, -- [1]
@@ -15146,520 +14195,65 @@ TellMeWhenDB = {
 							},
 						}, -- [14]
 					},
+					["TextureName"] = "TukTex",
 					["Role"] = 1,
-					["Name"] = "浩劫",
-					["Columns"] = 7,
+					["Name"] = "刺杀",
 					["Locked"] = true,
-					["Conditions"] = {
-						{
-							["Type"] = "ALIVE",
-							["Unit"] = "target",
-						}, -- [1]
-						["n"] = 1,
+					["Point"] = {
+						["y"] = -150,
+						["x"] = 1.33680100769248e-05,
 					},
 					["EnabledSpecs"] = {
-						[581] = false,
+						[252] = false,
+						[261] = false,
+						[250] = false,
+						[260] = false,
 					},
 					["OnlyInCombat"] = true,
-				}, -- [2]
-				{
-					["View"] = "bar",
-					["Point"] = {
-						["y"] = 223.000015258789,
-						["x"] = 700.000183105469,
-						["relativePoint"] = "BOTTOMLEFT",
-					},
-					["Scale"] = 1.5,
-					["Icons"] = {
-						{
-							["Type"] = "value",
-							["SettingsPerView"] = {
-								["bar"] = {
-									["Texts"] = {
-										"[Value]", -- [1]
-									},
-								},
-							},
-							["PowerType"] = 17,
-							["TimerBar_EnableColors"] = true,
-							["CustomTex"] = "NONE",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-					},
-					["TextureName"] = "Solid",
-					["GUID"] = "TMW:group:1PC56h4tX5pM",
-					["Role"] = 5,
-					["Name"] = "恶魔之怒",
-					["SettingsPerView"] = {
-						["icon"] = {
-							["TextLayout"] = "icon2",
-						},
-						["bar"] = {
-							["TextLayout"] = "icon2",
-							["Icon"] = false,
-						},
-					},
-					["Locked"] = true,
-					["Columns"] = 1,
-					["TimerBar_EnableColors"] = true,
-					["OnlyInCombat"] = true,
-				}, -- [3]
-			},
-			["NumGroups"] = 3,
-			["Version"] = 87302,
-		},
-		["舒心情 - 伊森利恩"] = {
-			["Version"] = 82501,
-			["Groups"] = {
-				{
-					["GUID"] = "TMW:group:1NuufN9ZYbQQ",
-					["Icons"] = {
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-					},
 				}, -- [1]
-			},
-		},
-		["舒绿娥 - 埃德萨拉"] = {
-			["Locked"] = true,
-			["Version"] = 81209,
-			["Groups"] = {
 				{
-					["GUID"] = "TMW:group:1NuutwErQB8o",
-				}, -- [1]
-			},
-		},
-		["舒殉魂 - 安苏"] = {
-			["Locked"] = true,
-			["Version"] = 81209,
-			["Groups"] = {
-				{
-					["GUID"] = "TMW:group:1NsrfChhuNIJ",
-				}, -- [1]
-			},
-		},
-		["舒心情 - 安苏"] = {
-			["Version"] = 81209,
-			["Groups"] = {
-				{
-					["GUID"] = "TMW:group:1NuugFqGZgJp",
-				}, -- [1]
-			},
-		},
-		["舒殉魂 - 伊莫塔尔"] = {
-			["Groups"] = {
-				{
-					["Scale"] = 1.5,
+					["GUID"] = "TMW:group:1ROA_3J3krum",
+					["Columns"] = 8,
+					["Scale"] = 1.35,
 					["Rows"] = 2,
-					["Role"] = 1,
-					["EnabledSpecs"] = {
-						[62] = false,
-						[64] = false,
-					},
-					["OnlyInCombat"] = true,
-					["Columns"] = 5,
 					["Icons"] = {
 						{
-							["Type"] = "cooldown",
-							["Name"] = "火焰冲击",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Operator"] = ">=",
-									["Name"] = "热力迸发",
-									["Level"] = 2,
-								}, -- [1]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "炽热连击！",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Animation"] = "ACTVTNGLOW",
-									["Event"] = "OnShow",
-									["Infinite"] = true,
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
+							["GUID"] = "TMW:icon:1RUYRhQ6340e",
+							["Type"] = "buff",
 							["Enabled"] = true,
-						}, -- [1]
-						{
-							["Type"] = "cooldown",
-							["Name"] = "烈焰飞舞",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Operator"] = ">=",
-									["Name"] = "热力迸发",
-									["Level"] = 2,
-								}, -- [1]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "炽热连击！",
-								}, -- [2]
-								{
-									["Type"] = "SPELLCHARGES",
-									["Name"] = "火焰冲击",
-								}, -- [3]
-								["n"] = 3,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [2]
-						{
-							["Type"] = "cooldown",
-							["Name"] = "凤凰烈焰",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Operator"] = ">=",
-									["Name"] = "热力迸发",
-									["Level"] = 2,
-								}, -- [1]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "炽热连击！",
-								}, -- [2]
-								{
-									["Type"] = "SPELLCHARGES",
-									["Name"] = "火焰冲击",
-								}, -- [3]
-								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "~=",
-									["Name"] = "烈焰飞舞",
-								}, -- [4]
-								["n"] = 4,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [3]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-						{
-							["Type"] = "cooldown",
-							["Name"] = "燃烧",
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Animation"] = "ACTVTNGLOW",
-									["Event"] = "OnShow",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [5]
-						{
-							["Type"] = "cooldown",
-							["Name"] = "炎爆术",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Operator"] = ">=",
-									["Name"] = "炽热连击！",
-									["Level"] = 2,
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Animation"] = "ACTVTNGLOW",
-									["Event"] = "OnShow",
-									["Infinite"] = true,
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [6]
-						{
-							["Type"] = "cooldown",
-							["Name"] = "寒冰护体",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Operator"] = "<=",
-									["Name"] = "寒冰护体",
-									["Level"] = 2,
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Animation"] = "ACTVTNGLOW",
-									["Event"] = "OnShow",
-									["Infinite"] = true,
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [7]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [9]
-						{
-							["Type"] = "cooldown",
-							["Name"] = "法术吸取",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [10]
-					},
-					["Name"] = "火法",
-					["GUID"] = "TMW:group:1NuuZutNRyGh",
-					["Point"] = {
-						["y"] = 166,
-						["point"] = "BOTTOM",
-						["relativePoint"] = "BOTTOM",
-					},
-				}, -- [1]
-				{
-					["Point"] = {
-						["y"] = -130,
-					},
-					["Scale"] = 1.5,
-					["Rows"] = 2,
-					["Role"] = 1,
-					["Locked"] = true,
-					["EnabledSpecs"] = {
-						[62] = false,
-						[63] = false,
-					},
-					["OnlyInCombat"] = true,
-					["Columns"] = 6,
-					["Icons"] = {
-						{
-							["Type"] = "cooldown",
-							["Name"] = "冰川尖刺",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFSTACKS",
-									["Checked"] = true,
-									["Operator"] = ">=",
-									["Name"] = "冰刺",
-									["Level"] = 5,
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Animation"] = "ACTVTNGLOW",
-									["Event"] = "OnShow",
-									["Infinite"] = true,
-								}, -- [1]
-								["n"] = 1,
-							},
+							["OnlyMine"] = true,
+							["Name"] = "可乘之机; 阴险伎俩",
 							["SettingsPerView"] = {
 								["icon"] = {
+									["TextLayout"] = "icon1",
 									["Texts"] = {
 										"2", -- [1]
 									},
 								},
 							},
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Conditions"] = {
+								{
+									["Type"] = "ICON",
+									["Icon"] = "TMW:icon:1ROA_gifzi6e",
+									["Level"] = 1,
+								}, -- [1]
+								{
+									["Type"] = "ICON",
+									["Icon"] = "TMW:icon:1ROA_lMgUfKc",
+									["Level"] = 1,
+								}, -- [2]
+								["n"] = 2,
+							},
+							["CustomTex"] = "手枪射击",
 							["States"] = {
 								{
 								}, -- [1]
@@ -15669,71 +14263,188 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [1]
 						{
+							["ManaCheck"] = true,
+							["ShowTimer"] = true,
+							["Enabled"] = true,
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["OnlyMine"] = true,
+							["Name"] = "命运骨骰",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["TextLayout"] = "TMW:textlayout:1RTDGDffU8PT",
+									["Texts"] = {
+										"A2", -- [1]
+									},
+								},
+							},
 							["Type"] = "cooldown",
-							["Name"] = "冰枪术",
 							["Conditions"] = {
 								{
-									["Type"] = "DEBUFFDUR",
-									["Checked"] = true,
-									["Unit"] = "target",
-									["AndOr"] = "OR",
+									["Type"] = "COMBO",
+									["Level"] = 5,
 									["Operator"] = ">=",
-									["Name"] = "深冬之寒",
-									["Level"] = 2,
 								}, -- [1]
+								{
+									["Type"] = "ICON",
+									["Icon"] = "TMW:icon:1ROA_lMgUfKc",
+									["Level"] = 1,
+								}, -- [2]
 								{
 									["Type"] = "BUFFDUR",
 									["Checked"] = true,
-									["Operator"] = ">=",
-									["AndOr"] = "OR",
-									["Name"] = "寒冰指",
-									["Level"] = 2,
-								}, -- [2]
-								{
-									["Type"] = "DEBUFFDUR",
-									["Operator"] = ">=",
-									["AndOr"] = "OR",
-									["Unit"] = "target",
-									["Name"] = "冰冻术",
-									["Level"] = 2,
+									["PrtsBefore"] = 2,
+									["Name"] = "骷髅黑帆",
+									["Operator"] = "~=",
 								}, -- [3]
 								{
-									["Type"] = "DEBUFFDUR",
-									["Operator"] = ">=",
-									["AndOr"] = "OR",
-									["Unit"] = "target",
-									["Name"] = "冰霜新星",
-									["Level"] = 2,
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "强势连击",
 								}, -- [4]
 								{
-									["Type"] = "DEBUFFDUR",
-									["Unit"] = "target",
-									["AndOr"] = "OR",
-									["Operator"] = ">=",
-									["Name"] = "冰川尖刺",
-									["Level"] = 2,
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "精准定位",
 								}, -- [5]
-								["n"] = 5,
-							},
-							["Events"] = {
 								{
-									["Type"] = "Animations",
-									["Animation"] = "ACTVTNGLOW",
-									["Event"] = "OnShow",
-									["Infinite"] = true,
-								}, -- [1]
-								["n"] = 1,
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "大乱斗",
+								}, -- [6]
+								{
+									["Name"] = "残忍精准",
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["PrtsAfter"] = 1,
+								}, -- [7]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["PrtsBefore"] = 1,
+									["AndOr"] = "OR",
+									["Name"] = "强势连击",
+									["Operator"] = "~=",
+								}, -- [8]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "骷髅黑帆",
+								}, -- [9]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "精准定位",
+								}, -- [10]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "大乱斗",
+								}, -- [11]
+								{
+									["Name"] = "残忍精准",
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["PrtsAfter"] = 1,
+								}, -- [12]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["PrtsBefore"] = 1,
+									["AndOr"] = "OR",
+									["Name"] = "精准定位",
+									["Operator"] = "~=",
+								}, -- [13]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "骷髅黑帆",
+								}, -- [14]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "强势连击",
+								}, -- [15]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "大乱斗",
+								}, -- [16]
+								{
+									["Name"] = "残忍精准",
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["PrtsAfter"] = 1,
+								}, -- [17]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["PrtsBefore"] = 1,
+									["AndOr"] = "OR",
+									["Name"] = "大乱斗",
+									["Operator"] = "~=",
+								}, -- [18]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "强势连击",
+								}, -- [19]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "骷髅黑帆",
+								}, -- [20]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "精准定位",
+								}, -- [21]
+								{
+									["Name"] = "残忍精准",
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["PrtsAfter"] = 1,
+								}, -- [22]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["PrtsBefore"] = 1,
+									["AndOr"] = "OR",
+									["Name"] = "骷髅黑帆",
+								}, -- [23]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "精准定位",
+								}, -- [24]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "强势连击",
+								}, -- [25]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "大乱斗",
+								}, -- [26]
+								{
+									["Name"] = "残忍精准",
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["PrtsAfter"] = 2,
+								}, -- [27]
+								["n"] = 27,
 							},
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"A1", -- [1]
-									},
-								},
-							},
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -15741,28 +14452,40 @@ TellMeWhenDB = {
 								{
 								}, -- [3]
 								{
+									["Alpha"] = 0,
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [2]
 						{
+							["GUID"] = "TMW:icon:1ROA_lMgUfKc",
+							["ShowTimer"] = true,
+							["Enabled"] = true,
+							["ShowTimerText"] = true,
+							["Name"] = "正中眉心",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["TextLayout"] = "icon1",
+									["Texts"] = {
+										"AE", -- [1]
+									},
+								},
+							},
 							["Type"] = "cooldown",
-							["Name"] = "寒冰宝珠",
-							["Events"] = {
+							["Conditions"] = {
 								{
-									["Type"] = "Animations",
-									["Animation"] = "ACTVTNGLOW",
-									["Event"] = "OnShow",
-									["Infinite"] = true,
+									["Level"] = 5,
+									["Type"] = "COMBO",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"Z", -- [1]
-									},
-								},
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
 							},
 							["States"] = {
 								{
@@ -15771,22 +14494,152 @@ TellMeWhenDB = {
 								{
 								}, -- [3]
 								{
+									["Color"] = "ff007a7f",
+									["Alpha"] = 0,
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [3]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
+							["OnlyMine"] = true,
 							["ShowTimerText"] = true,
-							["Name"] = "法术吸取",
 							["SettingsPerView"] = {
 								["icon"] = {
+									["TextLayout"] = "TMW:textlayout:1RTDDaMEX8U9",
 									["Texts"] = {
-										"·", -- [1]
+										"Z", -- [1]
+										"[Stacks:Hide(0)]", -- [2]
 									},
 								},
 							},
+							["Type"] = "buff",
+							["Conditions"] = {
+								{
+									["Name"] = "剑刃乱舞",
+									["Type"] = "SPELLCD",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Name"] = "剑刃乱舞",
+							["States"] = {
+								{
+									["Alpha"] = 0.5,
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+								[102] = {
+									["Alpha"] = 0.5,
+								},
+							},
+						}, -- [4]
+						{
+							["GUID"] = "TMW:icon:1RYThe7v8WYE",
+							["ShowTimer"] = true,
+							["Enabled"] = true,
+							["ShowTimerText"] = true,
+							["SettingsPerView"] = {
+								["icon"] = {
+									["TextLayout"] = "icon1",
+									["Texts"] = {
+										"AQ", -- [1]
+									},
+								},
+							},
+							["Type"] = "cooldown",
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["OnlyShown"] = true,
+									["OnConditionConditions"] = {
+										{
+											["PrtsBefore"] = 1,
+											["Type"] = "HEALTH",
+											["Level"] = 70,
+											["Operator"] = "<=",
+										}, -- [1]
+										{
+											["PrtsBefore"] = 3,
+											["Type"] = "ITEMCD",
+											["Name"] = "猩红之瓶",
+											["Operator"] = "~=",
+										}, -- [2]
+										{
+											["AndOr"] = "OR",
+											["Type"] = "ITEMINBAGS",
+											["PrtsAfter"] = 1,
+											["Name"] = "猩红之瓶",
+										}, -- [3]
+										{
+											["Type"] = "SPELLCD",
+											["PrtsAfter"] = 1,
+											["Name"] = "猩红之瓶",
+										}, -- [4]
+										{
+											["Type"] = "SPELLCD",
+											["Name"] = "猩红之瓶",
+											["PrtsBefore"] = 1,
+											["AndOr"] = "OR",
+											["Operator"] = "~=",
+										}, -- [5]
+										{
+											["Type"] = "ITEMINBAGS",
+											["Name"] = "猩红之瓶",
+											["Operator"] = "~=",
+										}, -- [6]
+										{
+											["Type"] = "ITEMCD",
+											["PrtsAfter"] = 3,
+											["Name"] = "猩红之瓶",
+										}, -- [7]
+										{
+											["Type"] = "HEALTH",
+											["PrtsBefore"] = 1,
+											["AndOr"] = "OR",
+											["Level"] = 40,
+											["Operator"] = "<=",
+										}, -- [8]
+										{
+											["Name"] = "猩红之瓶",
+											["Type"] = "SPELLCD",
+										}, -- [9]
+										{
+											["Name"] = "猩红之瓶",
+											["Type"] = "ITEMCD",
+										}, -- [10]
+										{
+											["Name"] = "猩红之瓶",
+											["Type"] = "ITEMINBAGS",
+											["PrtsAfter"] = 1,
+											["Operator"] = "~=",
+										}, -- [11]
+										["n"] = 11,
+									},
+									["Event"] = "WCSP",
+								}, -- [1]
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ICONCLEAR",
+									["OnlyShown"] = true,
+									["OnConditionConditions"] = {
+										{
+											["Type"] = "HEALTH",
+											["Level"] = 70,
+											["Operator"] = ">",
+										}, -- [1]
+										["n"] = 1,
+									},
+									["Event"] = "WCSP",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["Name"] = "猩红之瓶",
 							["States"] = {
 								{
 								}, -- [1]
@@ -15798,86 +14651,47 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
-						}, -- [4]
-						{
-							["Type"] = "cooldown",
-							["Name"] = "寒冰护体",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "寒冰护体",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Animation"] = "ACTVTNGLOW",
-									["Event"] = "OnShow",
-									["Infinite"] = true,
-								}, -- [1]
-								["n"] = 1,
-							},
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"Q", -- [1]
-									},
-								},
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
 						}, -- [5]
 						{
-							["Type"] = "cooldown",
-							["Name"] = "召唤水元素",
-							["Conditions"] = {
-								{
-									["Type"] = "ALIVE",
-									["Unit"] = "pet",
-									["PrtsBefore"] = 1,
-									["Level"] = 1,
-								}, -- [1]
-								{
-									["Type"] = "EXISTS",
-									["PrtsAfter"] = 1,
-									["Unit"] = "pet",
-									["Level"] = 1,
-									["AndOr"] = "OR",
-								}, -- [2]
-								{
-									["Type"] = "TALENTLEARNED",
-									["Name"] = "孤寂寒冬",
-									["Level"] = 1,
-								}, -- [3]
-								["n"] = 3,
-							},
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Animation"] = "ACTVTNGLOW",
-									["Event"] = "OnShow",
-									["Infinite"] = true,
-								}, -- [1]
-								["n"] = 1,
-							},
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Unit"] = "target",
+							["OnlyMine"] = true,
+							["ShowTimerText"] = true,
 							["SettingsPerView"] = {
 								["icon"] = {
+									["TextLayout"] = "TMW:textlayout:1RTDDaMEX8U9",
 									["Texts"] = {
-										"=", -- [1]
+										"A·", -- [1]
 									},
 								},
 							},
+							["Type"] = "buff",
+							["Conditions"] = {
+								{
+									["Name"] = "暗影斗篷",
+									["Type"] = "SPELLCD",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Name"] = "暗影斗篷",
+							["States"] = {
+								{
+									["Alpha"] = 0.5,
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+								[102] = {
+									["Alpha"] = 0.5,
+								},
+							},
+						}, -- [6]
+						{
 							["States"] = {
 								{
 								}, -- [1]
@@ -15887,58 +14701,45 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
-						}, -- [6]
+						}, -- [7]
 						{
-							["Type"] = "cooldown",
-							["Name"] = "冰风暴",
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["OnlyMine"] = true,
+							["ShowTimerText"] = true,
+							["SettingsPerView"] = {
+								["icon"] = {
+									["TextLayout"] = "TMW:textlayout:1RTDDaMEX8U9",
+									["Texts"] = {
+										"T", -- [1]
+									},
+								},
+							},
+							["Type"] = "buff",
 							["Conditions"] = {
 								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Operator"] = ">=",
-									["Name"] = "冰冷智慧",
-									["PrtsBefore"] = 1,
-									["Level"] = 2,
-								}, -- [1]
-								{
-									["Type"] = "BUFFSTACKS",
-									["Checked"] = true,
-									["Operator"] = "<",
-									["Name"] = "冰刺",
-									["PrtsBefore"] = 1,
-									["Level"] = 3,
-								}, -- [2]
-								{
+									["Name"] = "还击",
 									["Type"] = "SPELLCD",
-									["Name"] = "黑冰箭",
-									["PrtsBefore"] = 1,
-									["AndOr"] = "OR",
-								}, -- [3]
-								{
-									["Type"] = "SPELLCD",
-									["PrtsAfter"] = 3,
-									["Operator"] = ">=",
-									["AndOr"] = "OR",
-									["Name"] = "黑冰箭",
-									["Level"] = 2,
-								}, -- [4]
-								{
-									["Type"] = "LASTCAST",
-									["Name"] = "黑冰箭",
-									["AndOr"] = "OR",
-								}, -- [5]
-								["n"] = 5,
-							},
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Animation"] = "ACTVTNGLOW",
-									["Event"] = "OnShow",
-									["Infinite"] = true,
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Name"] = "还击",
+							["States"] = {
+								{
+									["Alpha"] = 0.5,
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "聚能艾泽里特射线",
 							["SettingsPerView"] = {
 								["icon"] = {
 									["Texts"] = {
@@ -15946,437 +14747,22 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [7]
-						{
-							["Type"] = "cooldown",
-							["Name"] = "彗星风暴",
 							["Conditions"] = {
 								{
-									["Type"] = "BUFFSTACKS",
-									["Checked"] = true,
-									["Operator"] = ">=",
-									["Name"] = "咒术洪流",
-									["Level"] = 3,
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Animation"] = "ACTVTNGLOW",
-									["Event"] = "OnShow",
-									["Infinite"] = true,
-								}, -- [1]
-								["n"] = 1,
-							},
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"3", -- [1]
-									},
-								},
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [8]
-						{
-							["Type"] = "cooldown",
-							["Name"] = "黑冰箭",
-							["Conditions"] = {
-								{
+									["Name"] = "剑刃乱舞",
 									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "冰冷智慧",
 								}, -- [1]
 								["n"] = 1,
 							},
 							["Events"] = {
 								{
-									["Type"] = "Animations",
-									["Animation"] = "ACTVTNGLOW",
-									["Event"] = "OnShow",
 									["Infinite"] = true,
-								}, -- [1]
-								["n"] = 1,
-							},
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"4", -- [1]
-									},
-								},
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [9]
-						{
-							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
-							["Name"] = "暴风雪",
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"A2", -- [1]
-									},
-								},
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.5,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [10]
-						{
-							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "法术反制",
-							["ShowTimerText"] = true,
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"F", -- [1]
-									},
-								},
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.5,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [11]
-						{
-							["Type"] = "buff",
-							["Name"] = "奥术智慧",
-							["Events"] = {
-								{
 									["Type"] = "Animations",
-									["Animation"] = "ACTVTNGLOW",
 									["Event"] = "OnShow",
-									["Infinite"] = true,
-								}, -- [1]
-								["n"] = 1,
-							},
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"-", -- [1]
-									},
-								},
-							},
-							["States"] = {
-								{
-									["Alpha"] = 0,
-								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [12]
-					},
-					["Name"] = "冰法",
-					["Conditions"] = {
-						{
-							["Type"] = "ALIVE",
-							["Unit"] = "target",
-						}, -- [1]
-						["n"] = 1,
-					},
-					["GUID"] = "TMW:group:1O6b2jDdmvVs",
-				}, -- [2]
-				{
-					["Scale"] = 1.5,
-					["Rows"] = 2,
-					["Role"] = 1,
-					["Locked"] = true,
-					["EnabledSpecs"] = {
-						[64] = false,
-						[63] = false,
-					},
-					["OnlyInCombat"] = true,
-					["Columns"] = 5,
-					["Icons"] = {
-						{
-							["BuffOrDebuff"] = "HARMFUL",
-							["Unit"] = "target",
-							["Type"] = "buff",
-							["Name"] = "虚空风暴",
-							["Events"] = {
-								{
-									["Type"] = "Animations",
 									["Animation"] = "ACTVTNGLOW",
-									["Event"] = "OnShow",
-									["Infinite"] = true,
 								}, -- [1]
 								["n"] = 1,
 							},
-							["States"] = {
-								{
-									["Alpha"] = 0,
-								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [1]
-						{
-							["Type"] = "cooldown",
-							["Name"] = "奥术飞弹",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Operator"] = ">=",
-									["Name"] = "奥术飞弹！",
-									["Level"] = 2,
-								}, -- [1]
-								{
-									["Type"] = "BUFFSTACKS",
-									["Checked"] = true,
-									["Name"] = "奥术飞弹！",
-									["PrtsBefore"] = 1,
-									["Level"] = 3,
-								}, -- [2]
-								{
-									["Type"] = "ARCANE_CHARGES",
-									["PrtsAfter"] = 1,
-									["Operator"] = ">=",
-									["Level"] = 4,
-									["AndOr"] = "OR",
-								}, -- [3]
-								["n"] = 3,
-							},
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Animation"] = "ACTVTNGLOW",
-									["Event"] = "OnShow",
-									["Infinite"] = true,
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [2]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["Type"] = "cooldown",
-							["Name"] = "唤醒",
-							["Conditions"] = {
-								{
-									["Type"] = "MANA",
-									["Operator"] = "<=",
-									["Level"] = 15,
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Animation"] = "ACTVTNGLOW",
-									["Event"] = "OnShow",
-									["Infinite"] = true,
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [4]
-						{
-							["Type"] = "cooldown",
-							["Name"] = "奥术强化",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [5]
-						{
-							["Type"] = "cooldown",
-							["Name"] = "奥术弹幕",
-							["Conditions"] = {
-								{
-									["Type"] = "ARCANE_CHARGES",
-									["Checked"] = true,
-									["Operator"] = ">=",
-									["Name"] = "奥术充能",
-									["Level"] = 4,
-								}, -- [1]
-								{
-									["Type"] = "MANA",
-									["Operator"] = "<=",
-									["Level"] = 75,
-								}, -- [2]
-								["n"] = 2,
-							},
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Animation"] = "ACTVTNGLOW",
-									["Event"] = "OnShow",
-									["Infinite"] = true,
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [6]
-						{
-							["Type"] = "cooldown",
-							["Name"] = "寒冰护体",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Operator"] = "<=",
-									["Name"] = "寒冰护体",
-									["Level"] = 2,
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Animation"] = "ACTVTNGLOW",
-									["Event"] = "OnShow",
-									["Infinite"] = true,
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [7]
-						{
-							["Type"] = "cooldown",
-							["Name"] = "奥术魔宠",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Operator"] = "<=",
-									["Name"] = "210126",
-									["Level"] = 2,
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Animation"] = "ACTVTNGLOW",
-									["Event"] = "OnShow",
-									["Infinite"] = true,
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [8]
-						{
 							["States"] = {
 								{
 								}, -- [1]
@@ -16388,224 +14774,51 @@ TellMeWhenDB = {
 							},
 						}, -- [9]
 						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [10]
-					},
-					["Conditions"] = {
-						{
-							["Type"] = "ALIVE",
-							["Unit"] = "target",
-						}, -- [1]
-						["n"] = 1,
-					},
-					["GUID"] = "TMW:group:1O6bxNNz=fNu",
-					["Point"] = {
-						["y"] = -173.333302815755,
-						["x"] = -2.03450520833333e-05,
-					},
-				}, -- [3]
-			},
-			["NumGroups"] = 3,
-			["Version"] = 90201,
-			["Locked"] = true,
-		},
-		["舒炎 - 伊莫塔尔"] = {
-			["Groups"] = {
-				{
-					["GUID"] = "TMW:group:1NfUKFKXvbrw",
-					["Point"] = {
-						["y"] = -130,
-					},
-					["Scale"] = 1.5,
-					["Rows"] = 2,
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["BuffOrDebuff"] = "HARMFUL",
-							["Unit"] = "target",
-							["OnlyMine"] = true,
-							["ShowTimerText"] = true,
-							["Events"] = {
-								{
-									["Event"] = "OnAlphaInc",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								{
-									["Type"] = "Animations",
-									["Event"] = "OnAlphaDec",
-									["Animation"] = "ICONCLEAR",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["Name"] = "痛楚",
-							["Type"] = "buff",
-							["States"] = {
-								{
-									["Alpha"] = 0.5,
-								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-								[102] = {
-									["Color"] = "ffff0000d",
-									["Alpha"] = 1,
-								},
-							},
-						}, -- [1]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["BuffOrDebuff"] = "HARMFUL",
-							["Unit"] = "target",
-							["OnlyMine"] = true,
-							["Name"] = "生命虹吸",
-							["Events"] = {
-								{
-									["Event"] = "OnAlphaInc",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								{
-									["Type"] = "Animations",
-									["Event"] = "OnAlphaDec",
-									["Animation"] = "ICONCLEAR",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["ShowTimerText"] = true,
-							["Type"] = "buff",
-							["States"] = {
-								{
-									["Alpha"] = 0.5,
-								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["ManaCheck"] = true,
-							["ShowTimer"] = true,
-							["BuffOrDebuff"] = "HARMFUL",
-							["Unit"] = "target",
-							["OnlyMine"] = true,
-							["Name"] = "腐蚀术",
-							["Enabled"] = true,
-							["ShowTimerText"] = true,
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-									["OnlyShown"] = true,
-									["OnConditionConditions"] = {
-										{
-											["Type"] = "SPELLCD",
-											["Checked"] = true,
-											["PrtsBefore"] = 1,
-											["Level"] = 5,
-											["Name"] = "冷酷严冬",
-											["Operator"] = "<=",
-										}, -- [1]
-										{
-											["Type"] = "BUFFDUR",
-											["Checked"] = true,
-											["Name"] = "冷酷严冬",
-										}, -- [2]
-										{
-											["Type"] = "TALENTLEARNED",
-											["PrtsAfter"] = 1,
-											["Name"] = "风暴汇聚",
-										}, -- [3]
-										{
-											["Type"] = "TALENTLEARNED",
-											["Name"] = "风暴汇聚",
-											["PrtsBefore"] = 1,
-											["AndOr"] = "OR",
-											["PrtsAfter"] = 1,
-											["Level"] = 1,
-										}, -- [4]
-										["n"] = 4,
-									},
-									["Event"] = "OnAlphaInc",
-								}, -- [1]
-								{
-									["Type"] = "Animations",
-									["Event"] = "OnAlphaDec",
-									["Animation"] = "ICONCLEAR",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["Type"] = "buff",
-							["States"] = {
-								{
-									["Alpha"] = 0.5,
-								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-									["Color"] = "ff7f0000d",
-									["Alpha"] = 0,
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "召唤黑眼",
+							["GUID"] = "TMW:icon:1ROA_gifzi6e",
 							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
-							["ManaCheck"] = true,
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.5,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-								[102] = {
-									["Alpha"] = 0.5,
+							["Name"] = "斩击",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["TextLayout"] = "icon1",
+									["Texts"] = {
+										"A1", -- [1]
+									},
 								},
 							},
-						}, -- [4]
-						{
-							["ShowTimer"] = true,
-							["Name"] = "辛达苟萨之怒",
-							["ShowTimerText"] = true,
+							["Enabled"] = true,
 							["Conditions"] = {
 								{
 									["Type"] = "SPELLCD",
-									["Level"] = 8,
-									["Name"] = "辛达苟萨之怒",
-									["Operator"] = "<=",
+									["Name"] = "正中眉心",
+									["Level"] = 2,
+									["Icon"] = "TMW:icon:1ROA_lMgUfKc",
+									["Operator"] = ">",
 								}, -- [1]
-								["n"] = 1,
+								{
+									["Type"] = "ICON",
+									["Icon"] = "TMW:icon:1RPAby2qpP87",
+									["Level"] = 1,
+								}, -- [2]
+								{
+									["PrtsBefore"] = 1,
+									["Type"] = "COMBO",
+									["Level"] = 5,
+									["Operator"] = ">=",
+								}, -- [3]
+								{
+									["PrtsBefore"] = 1,
+									["Type"] = "COMBO",
+									["AndOr"] = "OR",
+									["Operator"] = "~=",
+								}, -- [4]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "钢铁风暴",
+									["PrtsAfter"] = 2,
+									["Operator"] = "~=",
+								}, -- [5]
+								["n"] = 5,
 							},
 							["Events"] = {
 								{
@@ -16615,145 +14828,16 @@ TellMeWhenDB = {
 									["OnlyShown"] = true,
 									["OnConditionConditions"] = {
 										{
-											["Checked"] = true,
-											["Type"] = "BUFFDUR",
-											["Name"] = "冰霜之柱",
-											["Operator"] = ">",
+											["Type"] = "COMBO",
+											["Level"] = 5,
+											["Operator"] = ">=",
 										}, -- [1]
 										["n"] = 1,
 									},
-									["Event"] = "OnCondition",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Color"] = "ffff0000d",
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["Type"] = "buff",
-							["Name"] = "牺牲魔典",
-							["Events"] = {
-								{
 									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["OnlyMine"] = true,
-							["States"] = {
-								{
-									["Alpha"] = 0,
-								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-						{
-							["GUID"] = "TMW:icon:1OuuFvMtj49G",
-							["ShowTimer"] = true,
-							["Name"] = "痛苦无常",
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-									["OnConditionConditions"] = {
-										{
-											["PrtsBefore"] = 1,
-											["Type"] = "SOUL_SHARDS",
-											["Level"] = 3,
-											["Operator"] = ">",
-										}, -- [1]
-										{
-											["Type"] = "SPELLCD",
-											["PrtsAfter"] = 1,
-											["Name"] = "召唤黑眼",
-										}, -- [2]
-										{
-											["Type"] = "BUFFDUR",
-											["Checked"] = true,
-											["AndOr"] = "OR",
-											["Name"] = "痛苦无常",
-											["Unit"] = "target",
-										}, -- [3]
-										["n"] = 3,
-									},
-									["Event"] = "WCSP",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["ShowTimerText"] = true,
-							["Enabled"] = true,
-							["ManaCheck"] = true,
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-									["Alpha"] = 0,
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "鬼影缠身; 死亡之箭; 诡异魅影",
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["ManaCheck"] = true,
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["ShowTimerText"] = true,
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Name"] = "死亡之箭",
-							["ManaCheck"] = true,
-							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -16765,15 +14849,116 @@ TellMeWhenDB = {
 									["Alpha"] = 1,
 								}, -- [4]
 							},
-						}, -- [9]
+						}, -- [10]
 						{
-							["GUID"] = "TMW:icon:1OuuFvMnhuPV",
-							["ShowTimer"] = true,
-							["ShowTimerText"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "暗影之怒",
+							["GUID"] = "TMW:icon:1RPAby2qpP87",
+							["OnlyMine"] = true,
+							["Name"] = "刀锋冲刺",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["TextLayout"] = "icon1",
+									["Texts"] = {
+										"3", -- [1]
+									},
+								},
+							},
 							["Enabled"] = true,
-							["ManaCheck"] = true,
+							["Type"] = "cooldown",
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["OnlyShown"] = true,
+									["OnConditionConditions"] = {
+										{
+											["Type"] = "BUFFDUR",
+											["Checked"] = true,
+											["Level"] = 2,
+											["Name"] = "剑刃乱舞",
+											["Operator"] = ">=",
+										}, -- [1]
+										["n"] = 1,
+									},
+									["Event"] = "WCSP",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [11]
+						{
+							["GUID"] = "TMW:icon:1RUYRhQHG80P",
+							["ShowTimer"] = true,
+							["Enabled"] = true,
+							["Name"] = "冲动",
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["OnlyShown"] = true,
+									["OnConditionConditions"] = {
+										{
+											["Type"] = "ENERGY_ABS",
+											["Level"] = 40,
+											["Operator"] = "<",
+										}, -- [1]
+										{
+											["Name"] = "冲动",
+											["Type"] = "SPELLCD",
+										}, -- [2]
+										["n"] = 2,
+									},
+									["Event"] = "WCSP",
+								}, -- [1]
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ICONCLEAR",
+									["OnlyShown"] = true,
+									["OnConditionConditions"] = {
+										{
+											["Type"] = "ENERGY_ABS",
+											["Level"] = 45,
+											["Operator"] = ">=",
+										}, -- [1]
+										{
+											["AndOr"] = "OR",
+											["Type"] = "SPELLCD",
+											["Name"] = "冲动",
+											["Operator"] = "~=",
+										}, -- [2]
+										["n"] = 2,
+									},
+									["Event"] = "WCSP",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["OnlyMine"] = true,
+							["ShowTimerText"] = true,
+							["SettingsPerView"] = {
+								["icon"] = {
+									["TextLayout"] = "TMW:textlayout:1RTDDaMEX8U9",
+									["Texts"] = {
+										"4", -- [1]
+									},
+								},
+							},
+							["Type"] = "cooldown",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "冲动",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["CustomTex"] = "冲动",
 							["States"] = {
 								{
 								}, -- [1]
@@ -16784,765 +14969,104 @@ TellMeWhenDB = {
 								}, -- [3]
 								{
 								}, -- [4]
-								[102] = {
-									["Color"] = "ff0c00ffd",
-								},
-							},
-						}, -- [10]
-						{
-							["ShowTimer"] = true,
-							["Name"] = "49998",
-							["ShowTimerText"] = true,
-							["Conditions"] = {
-								{
-									["Checked"] = true,
-									["Type"] = "BUFFDUR",
-									["Name"] = "黑暗援助",
-									["Operator"] = "~=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [11]
-						{
-							["Name"] = "冷酷之心",
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-									["OnConditionConditions"] = {
-										{
-											["Checked"] = true,
-											["Type"] = "BUFFDUR",
-											["Name"] = "冰霜之柱",
-											["Operator"] = "~=",
-										}, -- [1]
-										["n"] = 1,
-									},
-									["Event"] = "OnCondition",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-								[102] = {
-									["Color"] = "ffff0000d",
-									["Alpha"] = 1,
-								},
 							},
 						}, -- [12]
-					},
-					["Role"] = 1,
-					["Name"] = "痛苦",
-					["Locked"] = true,
-					["Columns"] = 6,
-					["EnabledSpecs"] = {
-						[252] = false,
-						[267] = false,
-						[250] = false,
-						[266] = false,
-					},
-					["OnlyInCombat"] = true,
-				}, -- [1]
-				{
-					["GUID"] = "TMW:group:1OdTrquWe9=z",
-					["Point"] = {
-						["y"] = -65,
-						["x"] = -60,
-					},
-					["Scale"] = 1.5,
-					["Icons"] = {
 						{
-							["Type"] = "item",
-							["Name"] = "13",
-							["Events"] = {
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "抓钩",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["TextLayout"] = "TMW:textlayout:1RTDDaMEX8U9",
+									["Texts"] = {
+										"上", -- [1]
+									},
+								},
+							},
+							["States"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [13]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["OnlyMine"] = true,
+							["ShowTimerText"] = true,
+							["SettingsPerView"] = {
+								["icon"] = {
+									["TextLayout"] = "TMW:textlayout:1RTDDaMEX8U9",
+									["Texts"] = {
+										"·", -- [1]
+									},
+								},
+							},
+							["Type"] = "buff",
+							["Conditions"] = {
+								{
+									["Name"] = "佯攻",
+									["Type"] = "SPELLCD",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Conditions"] = {
+							["Name"] = "佯攻",
+							["States"] = {
 								{
-									["Name"] = "阴影月刃",
-									["Type"] = "ITEMEQUIPPED",
+									["Alpha"] = 0.5,
 								}, -- [1]
 								{
-									["Type"] = "ITEMEQUIPPED",
-									["Name"] = "勇气号角",
-									["AndOr"] = "OR",
+									["Alpha"] = 1,
 								}, -- [2]
 								{
-									["Type"] = "ITEMEQUIPPED",
-									["Name"] = "勇气号角",
-									["AndOr"] = "OR",
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [14]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "致盲",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["TextLayout"] = "icon1",
+									["Texts"] = {
+										"R", -- [1]
+									},
+								},
+							},
+							["Conditions"] = {
+								{
+									["Type"] = "DEBUFFDUR",
+									["Name"] = "正中眉心",
+									["Unit"] = "target",
+								}, -- [1]
+								{
+									["Type"] = "DEBUFFDUR",
+									["Name"] = "偷袭",
+									["Unit"] = "target",
+								}, -- [2]
+								{
+									["Type"] = "DEBUFFDUR",
+									["Name"] = "昏迷",
+									["Unit"] = "target",
 								}, -- [3]
 								["n"] = 3,
 							},
-							["CustomTex"] = "$item.13",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [9]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [10]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [11]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [12]
-					},
-					["Role"] = 1,
-					["Name"] = "13",
-					["Locked"] = true,
-					["Conditions"] = {
-						{
-							["Type"] = "ALIVE",
-						}, -- [1]
-						["n"] = 1,
-					},
-					["Columns"] = 1,
-					["OnlyInCombat"] = true,
-				}, -- [2]
-				{
-					["GUID"] = "TMW:group:1OdTuan6krrX",
-					["Point"] = {
-						["y"] = -65,
-						["x"] = 60,
-					},
-					["Scale"] = 1.5,
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["LoseControlTypes"] = {
-								["FEAR"] = true,
-							},
-							["ShowTimerText"] = true,
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "item",
-							["Name"] = "14",
-							["Conditions"] = {
-								{
-									["Name"] = "阴影月刃",
-									["Type"] = "ITEMEQUIPPED",
-								}, -- [1]
-								{
-									["Type"] = "ITEMEQUIPPED",
-									["Name"] = "基尔加丹的炽燃决心",
-									["AndOr"] = "OR",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["CustomTex"] = "$item.14",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [9]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [10]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [11]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [12]
-					},
-					["Role"] = 5,
-					["Name"] = "14",
-					["Locked"] = true,
-					["Conditions"] = {
-						{
-							["Type"] = "ALIVE",
-						}, -- [1]
-						["n"] = 1,
-					},
-					["Columns"] = 1,
-					["OnlyInCombat"] = true,
-				}, -- [3]
-				{
-					["GUID"] = "TMW:group:1OcBVw3mdotG",
-					["Columns"] = 5,
-					["Point"] = {
-						["y"] = -34.7435302734375,
-						["x"] = 494.160980224609,
-						["point"] = "LEFT",
-						["relativePoint"] = "LEFT",
-					},
-					["Scale"] = 1,
-					["Name"] = "M魔剑士冰霜印记喊话TMW",
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["BuffOrDebuff"] = "EITHER",
-							["Name"] = "212647",
-							["Events"] = {
-								{
-									["Type"] = "Announcements",
-									["CndtJustPassed"] = true,
-									["Text"] = "111我",
-									["Event"] = "OnStack",
-									["Operator"] = "==",
-									["PassingCndt"] = true,
-									["Channel"] = "SAY",
-									["OnlyShown"] = true,
-									["Value"] = 1,
-								}, -- [1]
-								{
-									["Type"] = "Announcements",
-									["CndtJustPassed"] = true,
-									["Text"] = "222很",
-									["Event"] = "OnStack",
-									["Operator"] = "==",
-									["PassingCndt"] = true,
-									["Channel"] = "SAY",
-									["OnlyShown"] = true,
-									["Value"] = 2,
-								}, -- [2]
-								{
-									["Type"] = "Announcements",
-									["CndtJustPassed"] = true,
-									["Text"] = "333绝",
-									["Event"] = "OnStack",
-									["Operator"] = "==",
-									["PassingCndt"] = true,
-									["Channel"] = "SAY",
-									["OnlyShown"] = true,
-									["Value"] = 3,
-								}, -- [3]
-								{
-									["Type"] = "Announcements",
-									["CndtJustPassed"] = true,
-									["Text"] = "444望",
-									["Event"] = "OnStack",
-									["Operator"] = "==",
-									["PassingCndt"] = true,
-									["Channel"] = "SAY",
-									["OnlyShown"] = true,
-									["Value"] = 4,
-								}, -- [4]
-								{
-									["Type"] = "Announcements",
-									["CndtJustPassed"] = true,
-									["Text"] = "555我",
-									["Event"] = "OnStack",
-									["Operator"] = "==",
-									["PassingCndt"] = true,
-									["Channel"] = "SAY",
-									["OnlyShown"] = true,
-									["Value"] = 5,
-								}, -- [5]
-								{
-									["Type"] = "Announcements",
-									["CndtJustPassed"] = true,
-									["Text"] = "666还",
-									["Event"] = "OnStack",
-									["Operator"] = "==",
-									["PassingCndt"] = true,
-									["Channel"] = "SAY",
-									["OnlyShown"] = true,
-									["Value"] = 6,
-								}, -- [6]
-								{
-									["Type"] = "Announcements",
-									["CndtJustPassed"] = true,
-									["Text"] = "777不",
-									["Event"] = "OnStack",
-									["Operator"] = "==",
-									["PassingCndt"] = true,
-									["Channel"] = "SAY",
-									["OnlyShown"] = true,
-									["Value"] = 7,
-								}, -- [7]
-								{
-									["Type"] = "Announcements",
-									["CndtJustPassed"] = true,
-									["Text"] = "888想",
-									["Event"] = "OnStack",
-									["Operator"] = "==",
-									["PassingCndt"] = true,
-									["Channel"] = "SAY",
-									["OnlyShown"] = true,
-									["Value"] = 8,
-								}, -- [8]
-								{
-									["Type"] = "Announcements",
-									["CndtJustPassed"] = true,
-									["Text"] = "999死",
-									["Event"] = "OnStack",
-									["Operator"] = "==",
-									["PassingCndt"] = true,
-									["Channel"] = "SAY",
-									["OnlyShown"] = true,
-									["Value"] = 9,
-								}, -- [9]
-								{
-									["Type"] = "Announcements",
-									["CndtJustPassed"] = true,
-									["Text"] = "10层撞撞撞",
-									["Event"] = "OnStack",
-									["Operator"] = "==",
-									["PassingCndt"] = true,
-									["Channel"] = "SAY",
-									["OnlyShown"] = true,
-									["Value"] = 10,
-								}, -- [10]
-								{
-									["Type"] = "Announcements",
-									["CndtJustPassed"] = true,
-									["Text"] = "11层撞撞撞",
-									["Event"] = "OnStack",
-									["Operator"] = "==",
-									["PassingCndt"] = true,
-									["Channel"] = "SAY",
-									["OnlyShown"] = true,
-									["Value"] = 11,
-								}, -- [11]
-								{
-									["Type"] = "Announcements",
-									["CndtJustPassed"] = true,
-									["Text"] = "12层撞撞撞",
-									["Event"] = "OnStack",
-									["Operator"] = "==",
-									["PassingCndt"] = true,
-									["Channel"] = "SAY",
-									["OnlyShown"] = true,
-									["Value"] = 12,
-								}, -- [12]
-								{
-									["Type"] = "Announcements",
-									["CndtJustPassed"] = true,
-									["Text"] = "13层撞撞撞",
-									["Event"] = "OnStack",
-									["Operator"] = "==",
-									["PassingCndt"] = true,
-									["Channel"] = "SAY",
-									["OnlyShown"] = true,
-									["Value"] = 13,
-								}, -- [13]
-								{
-									["Type"] = "Announcements",
-									["CndtJustPassed"] = true,
-									["Text"] = "14层撞撞撞",
-									["Event"] = "OnStack",
-									["Operator"] = "==",
-									["PassingCndt"] = true,
-									["Channel"] = "SAY",
-									["OnlyShown"] = true,
-									["Value"] = 14,
-								}, -- [14]
-								{
-									["Type"] = "Announcements",
-									["CndtJustPassed"] = true,
-									["Text"] = "我基本已经死了！",
-									["Event"] = "OnStack",
-									["Operator"] = ">=",
-									["PassingCndt"] = true,
-									["Channel"] = "SAY",
-									["OnlyShown"] = true,
-									["Value"] = 15,
-								}, -- [15]
-								["n"] = 15,
-							},
-							["SettingsPerView"] = {
-								["icon"] = {
-									["TextLayout"] = ",Rr\\)h/,f.i[",
-									["Texts"] = {
-										[2] = "10层靠近：[Stacks:Hide(0)]",
-									},
-								},
-							},
-							["Type"] = "buff",
-							["ShowTimerText"] = true,
-							["CustomTex"] = "none",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["Enabled"] = true,
-							["Type"] = "unitcondition",
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Unit"] = "group 1-40",
-							["Conditions"] = {
-								{
-									["Name"] = "147009",
-									["Type"] = "ITEMEQUIPPED",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["CustomTex"] = "242215",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-						{
-							["GUID"] = "TMW:icon:1POLeDS9JnME",
-							["Type"] = "buff",
-							["Name"] = "寒冰刀锋",
-							["Enabled"] = true,
-							["States"] = {
-								{
-									["Alpha"] = 0,
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-					},
-					["OnlyInCombat"] = true,
-				}, -- [4]
-				{
-					["GUID"] = "TMW:group:1RKsrfl1fE2g",
-					["Point"] = {
-						["y"] = -172,
-					},
-					["Scale"] = 1.5,
-					["Icons"] = {
-						{
-							["ManaCheck"] = true,
-							["Type"] = "value",
-							["Enabled"] = true,
-							["PowerType"] = 7,
-							["Name"] = "冰霜之镰",
-							["SettingsPerView"] = {
-								["bar"] = {
-									["TextLayout"] = "TMW:textlayout:1ONlE7haQtDq",
-									["Texts"] = {
-										"[Value]", -- [1]
-									},
-								},
-							},
 							["Events"] = {
 								{
 									["Type"] = "Animations",
-									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
+									["OnlyShown"] = true,
 									["OnConditionConditions"] = {
 										{
-											["Checked"] = true,
-											["Type"] = "BUFFDUR",
-											["Name"] = "杀戮机器",
-											["Operator"] = "~=",
+											["Unit"] = "target",
+											["Type"] = "PVPFLAG",
 										}, -- [1]
 										["n"] = 1,
 									},
@@ -17550,32 +15074,109 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Conditions"] = {
+							["States"] = {
 								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "冰龙吐息",
 								}, -- [1]
+								nil, -- [2]
 								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "饥饿符文武器",
-								}, -- [2]
-								["n"] = 2,
+								}, -- [3]
+								{
+								}, -- [4]
 							},
-							["CustomTex"] = "NONE",
+						}, -- [15]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"F", -- [1]
+									},
+								},
+							},
+							["Type"] = "cooldown",
+							["Name"] = "脚踢",
 							["States"] = {
 								{
 								}, -- [1]
 								{
-									["Color"] = "ffff0000",
-									["Alpha"] = 1,
+									["Alpha"] = 0.5,
 								}, -- [2]
 								{
 								}, -- [3]
 								{
-									["Color"] = "ff0c00ff",
-									["Alpha"] = 1,
+								}, -- [4]
+							},
+						}, -- [16]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [17]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [18]
+					},
+					["TextureName"] = "Solid",
+					["Role"] = 1,
+					["Name"] = "狂徒",
+					["Locked"] = true,
+					["Point"] = {
+						["y"] = -150,
+					},
+					["EnabledSpecs"] = {
+						[259] = false,
+						[261] = false,
+					},
+					["OnlyInCombat"] = true,
+				}, -- [2]
+				{
+					["GUID"] = "TMW:group:1TSvIjlDaOry",
+					["Strata"] = "LOW",
+					["Columns"] = 1,
+					["Scale"] = 1.35,
+					["Icons"] = {
+						{
+							["ManaCheck"] = true,
+							["ShowTimer"] = true,
+							["Enabled"] = true,
+							["OnlyMine"] = true,
+							["ShowTimerText"] = true,
+							["SettingsPerView"] = {
+								["icon"] = {
+									["TextLayout"] = "TMW:textlayout:1RTDGDffU8PT",
+									["Texts"] = {
+										"", -- [1]
+									},
+								},
+							},
+							["Name"] = "残忍精准; 骷髅黑帆; 大乱斗; 精准定位; 强势连击",
+							["Type"] = "buff",
+							["GUID"] = "TMW:icon:1RUYRhPPHu0z",
+							["States"] = {
+								{
+									["Alpha"] = 0.5,
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+									["Alpha"] = 0,
 								}, -- [4]
 							},
 						}, -- [1]
@@ -17624,23 +15225,83 @@ TellMeWhenDB = {
 							},
 						}, -- [5]
 					},
-					["TextureName"] = "TukTex",
+					["TextureName"] = "Solid",
 					["Role"] = 1,
-					["View"] = "bar",
-					["SettingsPerView"] = {
-						["bar"] = {
-							["Icon"] = false,
-						},
-					},
 					["Locked"] = true,
-					["Columns"] = 1,
+					["Point"] = {
+						["y"] = 44.66598510742188,
+						["relativeTo"] = "TMW:group:1ROA_3J3krum",
+						["x"] = 45.4447021484375,
+						["relativePoint"] = "BOTTOMLEFT",
+					},
 					["EnabledSpecs"] = {
-						[252] = false,
-						[267] = false,
-						[250] = false,
-						[266] = false,
+						[259] = false,
+						[261] = false,
 					},
 					["OnlyInCombat"] = true,
+				}, -- [3]
+				{
+					["Icons"] = {
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+					},
+				}, -- [4]
+				{
+					["Icons"] = {
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+					},
 				}, -- [5]
 				{
 					["Icons"] = {
@@ -17655,61 +15316,13 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						}, -- [1]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
 					},
 				}, -- [6]
-				{
-					["Icons"] = {
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-					},
-				}, -- [7]
 			},
-			["Locked"] = true,
-			["Version"] = 85102,
-			["NumGroups"] = 5,
 			["ColorMSQ"] = true,
+			["Locked"] = true,
+			["NumGroups"] = 3,
+			["Version"] = 87302,
 		},
 		["舒预言 - 死亡之翼"] = {
 			["Groups"] = {
@@ -17722,8 +15335,8 @@ TellMeWhenDB = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["ShowTimerText"] = true,
 							["Name"] = "仇敌之血",
+							["ShowTimerText"] = true,
 							["SettingsPerView"] = {
 								["icon"] = {
 									["Texts"] = {
@@ -17731,25 +15344,25 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
+							["Type"] = "cooldown",
 							["Conditions"] = {
 								{
-									["Checked"] = true,
-									["Type"] = "BUFFDUR",
 									["Name"] = "仇敌",
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
 									["Unit"] = "target",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Type"] = "cooldown",
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
 							["States"] = {
 								{
 								}, -- [1]
@@ -17774,9 +15387,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -17843,8 +15456,8 @@ TellMeWhenDB = {
 								{
 									["Type"] = "BUFFSTACKS",
 									["Checked"] = true,
-									["Level"] = 15,
 									["AndOr"] = "OR",
+									["Level"] = 15,
 									["Name"] = "冷酷之心",
 									["Operator"] = ">=",
 								}, -- [1]
@@ -17865,10 +15478,10 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFSTACKS",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = ">=",
 									["Level"] = 5,
 									["Name"] = "锋锐之霜",
-									["Operator"] = ">=",
+									["Unit"] = "target",
 								}, -- [4]
 								{
 									["Name"] = "冷酷之心",
@@ -17878,9 +15491,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -17902,7 +15515,56 @@ TellMeWhenDB = {
 							["ManaCheck"] = true,
 							["ShowTimer"] = true,
 							["Enabled"] = true,
+							["ShowTimerText"] = true,
 							["Name"] = "冰霜打击",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"AE", -- [1]
+									},
+								},
+							},
+							["Type"] = "cooldown",
+							["Conditions"] = {
+								{
+									["PrtsBefore"] = 2,
+									["Type"] = "RUNES2",
+									["Level"] = 3,
+									["Operator"] = "<",
+								}, -- [1]
+								{
+									["Checked"] = true,
+									["Type"] = "BUFFDUR",
+									["PrtsAfter"] = 1,
+									["Name"] = "杀戮机器",
+								}, -- [2]
+								{
+									["Type"] = "RUNES2",
+									["AndOr"] = "OR",
+									["Level"] = 1,
+									["PrtsAfter"] = 1,
+									["Operator"] = "<=",
+								}, -- [3]
+								{
+									["PrtsBefore"] = 2,
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "冰龙吐息",
+								}, -- [4]
+								{
+									["Type"] = "TALENTLEARNED",
+									["PrtsAfter"] = 1,
+									["Name"] = "冰龙吐息",
+								}, -- [5]
+								{
+									["Type"] = "RUNIC_POWER_ABS",
+									["AndOr"] = "OR",
+									["Level"] = 50,
+									["PrtsAfter"] = 1,
+									["Operator"] = ">=",
+								}, -- [6]
+								["n"] = 6,
+							},
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -17942,55 +15604,6 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"AE", -- [1]
-									},
-								},
-							},
-							["Type"] = "cooldown",
-							["Conditions"] = {
-								{
-									["PrtsBefore"] = 2,
-									["Type"] = "RUNES2",
-									["Level"] = 3,
-									["Operator"] = "<",
-								}, -- [1]
-								{
-									["PrtsAfter"] = 1,
-									["Type"] = "BUFFDUR",
-									["Name"] = "杀戮机器",
-									["Checked"] = true,
-								}, -- [2]
-								{
-									["Type"] = "RUNES2",
-									["Level"] = 1,
-									["AndOr"] = "OR",
-									["PrtsAfter"] = 1,
-									["Operator"] = "<=",
-								}, -- [3]
-								{
-									["PrtsBefore"] = 2,
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "冰龙吐息",
-								}, -- [4]
-								{
-									["Type"] = "TALENTLEARNED",
-									["PrtsAfter"] = 1,
-									["Name"] = "冰龙吐息",
-								}, -- [5]
-								{
-									["Type"] = "RUNIC_POWER_ABS",
-									["Level"] = 50,
-									["AndOr"] = "OR",
-									["PrtsAfter"] = 1,
-									["Operator"] = ">=",
-								}, -- [6]
-								["n"] = 6,
-							},
-							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -18017,28 +15630,6 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["ShowTimerText"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Name"] = "湮没",
-									["PrtsBefore"] = 1,
-									["Level"] = 20,
-									["Operator"] = ">=",
-								}, -- [1]
-								{
-									["Type"] = "TALENTLEARNED",
-									["PrtsAfter"] = 1,
-									["Name"] = "湮没",
-								}, -- [2]
-								{
-									["AndOr"] = "OR",
-									["Level"] = 1,
-									["Name"] = "湮没",
-									["Type"] = "TALENTLEARNED",
-								}, -- [3]
-								["n"] = 3,
-							},
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -18062,10 +15653,10 @@ TellMeWhenDB = {
 											["Name"] = "湮没",
 										}, -- [3]
 										{
-											["AndOr"] = "OR",
-											["Level"] = 1,
-											["Name"] = "湮没",
 											["Type"] = "TALENTLEARNED",
+											["AndOr"] = "OR",
+											["Name"] = "湮没",
+											["Level"] = 1,
 										}, -- [4]
 										["n"] = 4,
 									},
@@ -18073,6 +15664,28 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Name"] = "湮没",
+									["PrtsBefore"] = 1,
+									["Level"] = 20,
+									["Operator"] = ">=",
+								}, -- [1]
+								{
+									["Type"] = "TALENTLEARNED",
+									["PrtsAfter"] = 1,
+									["Name"] = "湮没",
+								}, -- [2]
+								{
+									["Type"] = "TALENTLEARNED",
+									["AndOr"] = "OR",
+									["Name"] = "湮没",
+									["Level"] = 1,
+								}, -- [3]
+								["n"] = 3,
+							},
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -18092,7 +15705,27 @@ TellMeWhenDB = {
 							["ManaCheck"] = true,
 							["ShowTimer"] = true,
 							["Enabled"] = true,
+							["ShowTimerText"] = true,
 							["Name"] = "冰龙吐息",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"Z", -- [1]
+									},
+								},
+							},
+							["Type"] = "cooldown",
+							["Conditions"] = {
+								{
+									["Type"] = "DEBUFFSTACKS",
+									["Checked"] = true,
+									["Operator"] = ">=",
+									["Level"] = 5,
+									["Name"] = "锋锐之霜",
+									["Unit"] = "target",
+								}, -- [1]
+								["n"] = 1,
+							},
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -18119,8 +15752,8 @@ TellMeWhenDB = {
 											["Type"] = "BUFFDUR",
 											["Checked"] = true,
 											["Name"] = "冰霜之柱",
-											["Level"] = 5,
 											["AndOr"] = "OR",
+											["Level"] = 5,
 											["PrtsAfter"] = 1,
 											["Operator"] = ">=",
 										}, -- [4]
@@ -18139,8 +15772,8 @@ TellMeWhenDB = {
 											["Operator"] = "<",
 										}, -- [1]
 										{
-											["Type"] = "SPELLCD",
 											["AndOr"] = "OR",
+											["Type"] = "SPELLCD",
 											["Name"] = "冰龙吐息",
 											["Operator"] = "~=",
 										}, -- [2]
@@ -18165,26 +15798,6 @@ TellMeWhenDB = {
 								}, -- [2]
 								["n"] = 2,
 							},
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"Z", -- [1]
-									},
-								},
-							},
-							["Type"] = "cooldown",
-							["Conditions"] = {
-								{
-									["Type"] = "DEBUFFSTACKS",
-									["Checked"] = true,
-									["Unit"] = "target",
-									["Level"] = 5,
-									["Name"] = "锋锐之霜",
-									["Operator"] = ">=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -18231,16 +15844,16 @@ TellMeWhenDB = {
 							["GUID"] = "TMW:icon:1OuuFvMnhuPV",
 							["ShowTimer"] = true,
 							["Enabled"] = true,
+							["ShowTimerText"] = true,
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Name"] = "冷酷严冬",
 							["SettingsPerView"] = {
 								["icon"] = {
 									["Texts"] = {
@@ -18259,7 +15872,7 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["ShowTimerText"] = true,
+							["Name"] = "冷酷严冬",
 							["States"] = {
 								{
 								}, -- [1]
@@ -18280,8 +15893,8 @@ TellMeWhenDB = {
 							["GUID"] = "TMW:icon:1OuuFvMtj49G",
 							["ShowTimer"] = true,
 							["Enabled"] = true,
+							["Type"] = "cooldown",
 							["Name"] = "湮灭",
-							["ShowTimerText"] = true,
 							["SettingsPerView"] = {
 								["icon"] = {
 									["Texts"] = {
@@ -18291,9 +15904,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -18326,7 +15939,7 @@ TellMeWhenDB = {
 								}, -- [4]
 								["n"] = 4,
 							},
-							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -18356,9 +15969,9 @@ TellMeWhenDB = {
 									["OnlyShown"] = true,
 									["OnConditionConditions"] = {
 										{
-											["Checked"] = true,
-											["Type"] = "BUFFDUR",
 											["Name"] = "杀戮机器",
+											["Type"] = "BUFFDUR",
+											["Checked"] = true,
 											["Operator"] = "~=",
 										}, -- [1]
 										{
@@ -18397,25 +16010,25 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["ShowTimerText"] = true,
-							["Conditions"] = {
-								{
-									["Checked"] = true,
-									["Type"] = "BUFFDUR",
-									["Name"] = "黑暗援助",
-									["Operator"] = "~=",
-								}, -- [1]
-								["n"] = 1,
-							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Conditions"] = {
+								{
+									["Name"] = "黑暗援助",
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Operator"] = "~=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -18430,17 +16043,8 @@ TellMeWhenDB = {
 							["ManaCheck"] = true,
 							["ShowTimer"] = true,
 							["Enabled"] = true,
+							["ShowTimerText"] = true,
 							["Name"] = "冰霜巨龙之怒; 冰川突进",
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-									["OnlyShown"] = true,
-									["Event"] = "OnShow",
-								}, -- [1]
-								["n"] = 1,
-							},
 							["SettingsPerView"] = {
 								["icon"] = {
 									["Texts"] = {
@@ -18471,14 +16075,23 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFSTACKS",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = ">=",
 									["Level"] = 5,
 									["Name"] = "锋锐之霜",
-									["Operator"] = ">=",
+									["Unit"] = "target",
 								}, -- [4]
 								["n"] = 4,
 							},
-							["ShowTimerText"] = true,
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+									["OnlyShown"] = true,
+									["Event"] = "OnShow",
+								}, -- [1]
+								["n"] = 1,
+							},
 							["States"] = {
 								{
 								}, -- [1]
@@ -18502,7 +16115,6 @@ TellMeWhenDB = {
 								},
 							},
 							["Type"] = "cooldown",
-							["Name"] = "符文武器增效",
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -18518,6 +16130,7 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Name"] = "符文武器增效",
 							["States"] = {
 								{
 								}, -- [1]
@@ -18588,7 +16201,23 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["ShowTimerText"] = true,
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+									["OnConditionConditions"] = {
+										{
+											["Type"] = "RUNES2",
+											["Level"] = 3,
+											["Operator"] = ">=",
+										}, -- [1]
+										["n"] = 1,
+									},
+									["Event"] = "OnCondition",
+								}, -- [1]
+								["n"] = 1,
+							},
 							["Conditions"] = {
 								{
 									["Type"] = "BUFFDUR",
@@ -18616,23 +16245,7 @@ TellMeWhenDB = {
 								}, -- [4]
 								["n"] = 4,
 							},
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-									["OnConditionConditions"] = {
-										{
-											["Type"] = "RUNES2",
-											["Level"] = 3,
-											["Operator"] = ">=",
-										}, -- [1]
-										["n"] = 1,
-									},
-									["Event"] = "OnCondition",
-								}, -- [1]
-								["n"] = 1,
-							},
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -18657,22 +16270,6 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["ShowTimerText"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "守陵者",
-								}, -- [1]
-								{
-									["Type"] = "SPELLCHARGES",
-									["Name"] = "血液沸腾",
-									["AndOr"] = "OR",
-									["Level"] = 1,
-									["Operator"] = ">=",
-								}, -- [2]
-								["n"] = 2,
-							},
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -18689,6 +16286,22 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "守陵者",
+								}, -- [1]
+								{
+									["Type"] = "SPELLCHARGES",
+									["Name"] = "血液沸腾",
+									["AndOr"] = "OR",
+									["Level"] = 1,
+									["Operator"] = ">=",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -18714,23 +16327,6 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["ShowTimerText"] = true,
-							["Conditions"] = {
-								{
-									["Unit"] = "target",
-									["Type"] = "CLASSIFICATION2",
-									["Checked"] = true,
-									["BitFlags"] = {
-										["worldboss"] = true,
-									},
-								}, -- [1]
-								{
-									["Type"] = "RUNIC_POWER_ABS",
-									["Level"] = 80,
-									["Operator"] = ">=",
-								}, -- [2]
-								["n"] = 2,
-							},
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -18749,6 +16345,23 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Conditions"] = {
+								{
+									["BitFlags"] = {
+										["worldboss"] = true,
+									},
+									["Type"] = "CLASSIFICATION2",
+									["Checked"] = true,
+									["Unit"] = "target",
+								}, -- [1]
+								{
+									["Type"] = "RUNIC_POWER_ABS",
+									["Level"] = 80,
+									["Operator"] = ">=",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -18776,7 +16389,6 @@ TellMeWhenDB = {
 								},
 							},
 							["Type"] = "cooldown",
-							["Name"] = "吞噬",
 							["Events"] = {
 								{
 									["OnlyShown"] = true,
@@ -18793,6 +16405,7 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Name"] = "吞噬",
 							["States"] = {
 								{
 								}, -- [1]
@@ -18818,7 +16431,6 @@ TellMeWhenDB = {
 								},
 							},
 							["Type"] = "cooldown",
-							["Name"] = "吸血鬼之血",
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -18837,6 +16449,7 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Name"] = "吸血鬼之血",
 							["States"] = {
 								{
 								}, -- [1]
@@ -18881,27 +16494,7 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["StackMin"] = 6,
 							["StackMax"] = 5,
-							["Type"] = "cooldown",
-							["DurationMin"] = 2,
-							["Name"] = "骨髓分裂",
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"A1", -- [1]
-									},
-								},
-							},
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["DurationMax"] = 2,
-							["ShowTimerText"] = true,
+							["Enabled"] = true,
 							["Conditions"] = {
 								{
 									["Type"] = "BUFFSTACKS",
@@ -18915,8 +16508,8 @@ TellMeWhenDB = {
 									["Type"] = "BUFFDUR",
 									["Checked"] = true,
 									["Name"] = "白骨之盾",
-									["Level"] = 3,
 									["AndOr"] = "OR",
+									["Level"] = 3,
 									["PrtsAfter"] = 1,
 									["Operator"] = "<=",
 								}, -- [2]
@@ -18943,7 +16536,27 @@ TellMeWhenDB = {
 								}, -- [5]
 								["n"] = 5,
 							},
-							["Enabled"] = true,
+							["ShowTimerText"] = true,
+							["DurationMax"] = 2,
+							["Name"] = "骨髓分裂",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"A1", -- [1]
+									},
+								},
+							},
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["DurationMin"] = 2,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -18967,16 +16580,8 @@ TellMeWhenDB = {
 							["ManaCheck"] = true,
 							["ShowTimer"] = true,
 							["Enabled"] = true,
+							["ShowTimerText"] = true,
 							["Name"] = "灵界打击",
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
 							["SettingsPerView"] = {
 								["icon"] = {
 									["Texts"] = {
@@ -18987,8 +16592,8 @@ TellMeWhenDB = {
 							["Type"] = "cooldown",
 							["Conditions"] = {
 								{
-									["Type"] = "HEALTH",
 									["Level"] = 75,
+									["Type"] = "HEALTH",
 									["AndOr"] = "OR",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -19024,7 +16629,15 @@ TellMeWhenDB = {
 								}, -- [5]
 								["n"] = 5,
 							},
-							["ShowTimerText"] = true,
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
 							["States"] = {
 								{
 								}, -- [1]
@@ -19052,7 +16665,6 @@ TellMeWhenDB = {
 								},
 							},
 							["Type"] = "cooldown",
-							["Name"] = "枯萎凋零",
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -19061,9 +16673,9 @@ TellMeWhenDB = {
 									["OnlyShown"] = true,
 									["OnConditionConditions"] = {
 										{
-											["Checked"] = true,
-											["Type"] = "BUFFDUR",
 											["Name"] = "赤色天灾",
+											["Type"] = "BUFFDUR",
+											["Checked"] = true,
 											["Operator"] = "~=",
 										}, -- [1]
 										["n"] = 1,
@@ -19071,7 +16683,6 @@ TellMeWhenDB = {
 									["Event"] = "OnCondition",
 								}, -- [1]
 								{
-									["Type"] = "Animations",
 									["OnConditionConditions"] = {
 										{
 											["Type"] = "BUFFDUR",
@@ -19080,11 +16691,13 @@ TellMeWhenDB = {
 										}, -- [1]
 										["n"] = 1,
 									},
+									["Type"] = "Animations",
 									["Event"] = "OnCondition",
 									["Animation"] = "ICONCLEAR",
 								}, -- [2]
 								["n"] = 2,
 							},
+							["Name"] = "枯萎凋零",
 							["States"] = {
 								{
 								}, -- [1]
@@ -19180,8 +16793,8 @@ TellMeWhenDB = {
 					["Locked"] = true,
 					["Conditions"] = {
 						{
-							["Type"] = "ALIVE",
 							["Unit"] = "target",
+							["Type"] = "ALIVE",
 						}, -- [1]
 						["n"] = 1,
 					},
@@ -19207,22 +16820,22 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = "<=",
 									["Level"] = 2,
 									["Name"] = "恶性瘟疫",
-									["Operator"] = "<=",
+									["Unit"] = "target",
 								}, -- [1]
 								{
-									["Type"] = "ALIVE",
 									["Unit"] = "target",
+									["Type"] = "ALIVE",
 								}, -- [2]
 								["n"] = 2,
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -19250,14 +16863,14 @@ TellMeWhenDB = {
 									["Operator"] = "~=",
 								}, -- [1]
 								{
-									["Unit"] = "target",
+									["Operator"] = "<=",
 									["Type"] = "RUNES2",
 									["Checked"] = true,
 									["Name"] = "诸界之灾",
-									["Level"] = 2,
 									["AndOr"] = "OR",
+									["Level"] = 2,
 									["PrtsAfter"] = 1,
-									["Operator"] = "<=",
+									["Unit"] = "target",
 								}, -- [2]
 								{
 									["Type"] = "TALENTLEARNED",
@@ -19291,8 +16904,8 @@ TellMeWhenDB = {
 											["Operator"] = "<",
 										}, -- [1]
 										{
-											["Type"] = "RUNIC_POWER_ABS",
 											["Level"] = 100,
+											["Type"] = "RUNIC_POWER_ABS",
 											["AndOr"] = "OR",
 											["Operator"] = ">=",
 										}, -- [2]
@@ -19343,22 +16956,22 @@ TellMeWhenDB = {
 									["Operator"] = "~=",
 								}, -- [3]
 								{
-									["Unit"] = "target",
+									["Operator"] = "<=",
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Name"] = "死亡",
+									["Level"] = 3,
 									["PrtsBefore"] = 1,
 									["AndOr"] = "OR",
-									["Level"] = 3,
-									["Operator"] = "<=",
+									["Name"] = "死亡",
+									["Unit"] = "target",
 								}, -- [4]
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = "~=",
 									["Name"] = "死亡",
 									["PrtsAfter"] = 1,
-									["Operator"] = "~=",
+									["Unit"] = "target",
 								}, -- [5]
 								{
 									["Type"] = "BUFFDUR",
@@ -19403,8 +17016,8 @@ TellMeWhenDB = {
 								{
 									["Type"] = "BUFFSTACKS",
 									["Checked"] = true,
-									["Level"] = 18,
 									["AndOr"] = "OR",
+									["Level"] = 18,
 									["Name"] = "冷酷之心",
 									["Operator"] = ">=",
 								}, -- [11]
@@ -19412,9 +17025,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -19434,7 +17047,25 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
-							["Name"] = "黑暗突变",
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+									["OnlyShown"] = true,
+									["OnConditionConditions"] = {
+										{
+											["Level"] = 60,
+											["Type"] = "SPELLCD",
+											["Name"] = "召唤石像鬼",
+											["Operator"] = ">=",
+										}, -- [1]
+										["n"] = 1,
+									},
+									["Event"] = "WCSP",
+								}, -- [1]
+								["n"] = 1,
+							},
 							["Conditions"] = {
 								{
 									["PrtsBefore"] = 1,
@@ -19455,25 +17086,7 @@ TellMeWhenDB = {
 								}, -- [3]
 								["n"] = 3,
 							},
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-									["OnlyShown"] = true,
-									["OnConditionConditions"] = {
-										{
-											["Type"] = "SPELLCD",
-											["Level"] = 60,
-											["Name"] = "召唤石像鬼",
-											["Operator"] = ">=",
-										}, -- [1]
-										["n"] = 1,
-									},
-									["Event"] = "WCSP",
-								}, -- [1]
-								["n"] = 1,
-							},
+							["Name"] = "黑暗突变",
 							["States"] = {
 								{
 								}, -- [1]
@@ -19495,18 +17108,6 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
-							["Name"] = "天启",
-							["Conditions"] = {
-								{
-									["Type"] = "DEBUFFSTACKS",
-									["Checked"] = true,
-									["Unit"] = "target",
-									["Level"] = 6,
-									["Name"] = "溃烂之伤",
-									["Operator"] = ">=",
-								}, -- [1]
-								["n"] = 1,
-							},
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -19538,11 +17139,11 @@ TellMeWhenDB = {
 										{
 											["Type"] = "DEBUFFSTACKS",
 											["Checked"] = true,
-											["Unit"] = "target",
+											["Operator"] = ">=",
 											["Name"] = "溃烂之伤",
 											["Level"] = 6,
 											["PrtsAfter"] = 1,
-											["Operator"] = ">=",
+											["Unit"] = "target",
 										}, -- [5]
 										["n"] = 5,
 									},
@@ -19550,6 +17151,18 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Conditions"] = {
+								{
+									["Type"] = "DEBUFFSTACKS",
+									["Checked"] = true,
+									["Operator"] = ">=",
+									["Level"] = 6,
+									["Name"] = "溃烂之伤",
+									["Unit"] = "target",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Name"] = "天启",
 							["States"] = {
 								{
 								}, -- [1]
@@ -19571,10 +17184,6 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
-							["Name"] = "亡者大军",
-							["Conditions"] = {
-								["n"] = 1,
-							},
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -19587,6 +17196,10 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Conditions"] = {
+								["n"] = 1,
+							},
+							["Name"] = "亡者大军",
 							["States"] = {
 								{
 								}, -- [1]
@@ -19614,26 +17227,26 @@ TellMeWhenDB = {
 							["GUID"] = "TMW:icon:1OrHijmFByGp",
 							["ShowTimer"] = true,
 							["Enabled"] = true,
-							["Name"] = "脓疮打击",
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Name"] = "脓疮打击",
 							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
 							["Conditions"] = {
 								{
 									["Type"] = "DEBUFFSTACKS",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = "<=",
 									["Level"] = 1,
 									["Name"] = "溃烂之伤",
-									["Operator"] = "<=",
+									["Unit"] = "target",
 								}, -- [1]
 								["n"] = 1,
 							},
@@ -19671,10 +17284,10 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFSTACKS",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = ">=",
 									["Level"] = 2,
 									["Name"] = "溃烂之伤",
-									["Operator"] = ">=",
+									["Unit"] = "target",
 								}, -- [3]
 								{
 									["Type"] = "RUNES2",
@@ -19685,9 +17298,9 @@ TellMeWhenDB = {
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -19707,7 +17320,21 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
-							["Name"] = "枯萎凋零",
+							["Events"] = {
+								{
+									["OnConditionConditions"] = {
+										{
+											["Name"] = "亵渎",
+											["Type"] = "TALENTLEARNED",
+										}, -- [1]
+										["n"] = 1,
+									},
+									["Type"] = "Animations",
+									["Event"] = "WCSP",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
 							["Conditions"] = {
 								{
 									["Type"] = "DEBUFFDUR",
@@ -19717,10 +17344,10 @@ TellMeWhenDB = {
 									["Unit"] = "target",
 								}, -- [1]
 								{
-									["Level"] = 1,
-									["Type"] = "ICON",
-									["Icon"] = "TMW:icon:1OrHijmFByGp",
 									["PrtsAfter"] = 1,
+									["Level"] = 1,
+									["Icon"] = "TMW:icon:1OrHijmFByGp",
+									["Type"] = "ICON",
 								}, -- [2]
 								{
 									["Type"] = "TALENTLEARNED",
@@ -19729,21 +17356,7 @@ TellMeWhenDB = {
 								}, -- [3]
 								["n"] = 3,
 							},
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["OnConditionConditions"] = {
-										{
-											["Name"] = "亵渎",
-											["Type"] = "TALENTLEARNED",
-										}, -- [1]
-										["n"] = 1,
-									},
-									["Event"] = "WCSP",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
+							["Name"] = "枯萎凋零",
 							["States"] = {
 								{
 								}, -- [1]
@@ -19761,16 +17374,16 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["Name"] = "召唤石像鬼",
 							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -19796,9 +17409,9 @@ TellMeWhenDB = {
 									["Animation"] = "ACTVTNGLOW",
 									["OnConditionConditions"] = {
 										{
-											["Checked"] = true,
-											["Type"] = "BUFFDUR",
 											["Name"] = "黑暗援助",
+											["Type"] = "BUFFDUR",
+											["Checked"] = true,
 											["Operator"] = "~=",
 										}, -- [1]
 										["n"] = 1,
@@ -19826,18 +17439,18 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFSTACKS",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = ">=",
 									["Level"] = 3,
 									["Name"] = "溃烂之伤",
-									["Operator"] = ">=",
+									["Unit"] = "target",
 								}, -- [1]
 								["n"] = 1,
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -19880,8 +17493,8 @@ TellMeWhenDB = {
 					["Locked"] = true,
 					["Conditions"] = {
 						{
-							["Type"] = "EXISTS",
 							["Unit"] = "target",
+							["Type"] = "EXISTS",
 						}, -- [1]
 						{
 							["Type"] = "ALIVE",
@@ -19904,9 +17517,9 @@ TellMeWhenDB = {
 							["Name"] = "13",
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -19990,15 +17603,15 @@ TellMeWhenDB = {
 				}, -- [4]
 				{
 					["GUID"] = "TMW:group:1OcBVw3mdotG",
+					["Name"] = "喊话及数据库",
 					["Point"] = {
 						["y"] = -34.7435302734375,
 						["x"] = 494.160980224609,
 						["point"] = "LEFT",
 						["relativePoint"] = "LEFT",
 					},
-					["Name"] = "喊话及数据库",
-					["Scale"] = 1,
 					["Locked"] = true,
+					["Scale"] = 1,
 					["Columns"] = 5,
 					["Icons"] = {
 						{
@@ -20217,9 +17830,9 @@ TellMeWhenDB = {
 									["Event"] = "OnCondition",
 									["OnConditionConditions"] = {
 										{
-											["Checked"] = true,
-											["Type"] = "LASTCAST",
 											["Name"] = "冰龙吐息",
+											["Type"] = "LASTCAST",
+											["Checked"] = true,
 											["Operator"] = "~=",
 										}, -- [1]
 										["n"] = 1,
@@ -20289,22 +17902,13 @@ TellMeWhenDB = {
 						{
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Unit"] = "group 1-40",
-							["Conditions"] = {
-								{
-									["Name"] = "147009",
-									["Type"] = "ITEMEQUIPPED",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["CustomTex"] = "242215",
 							["States"] = {
 								{
 								}, -- [1]
@@ -20314,6 +17918,15 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Conditions"] = {
+								{
+									["Name"] = "147009",
+									["Type"] = "ITEMEQUIPPED",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["CustomTex"] = "242215",
+							["Unit"] = "group 1-40",
 						}, -- [4]
 						{
 							["GUID"] = "TMW:icon:1POLeDS9JnME",
@@ -20344,9 +17957,9 @@ TellMeWhenDB = {
 							["Type"] = "totem",
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -20490,10 +18103,8 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["Name"] = "狂暴",
 							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
 							["Events"] = {
 								{
-									["Type"] = "Animations",
 									["OnConditionConditions"] = {
 										{
 											["Name"] = "狂暴",
@@ -20501,11 +18112,13 @@ TellMeWhenDB = {
 										}, -- [1]
 										["n"] = 1,
 									},
+									["Type"] = "Animations",
 									["Event"] = "WCSP",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -20630,38 +18243,367 @@ TellMeWhenDB = {
 				}, -- [10]
 			},
 			["Locked"] = true,
-			["Version"] = 87401,
-			["NumGroups"] = 8,
 			["ColorMSQ"] = true,
+			["NumGroups"] = 8,
+			["Version"] = 87401,
 		},
-		["舒孑影 - 安苏"] = {
+		["舒心情 - 伊森利恩"] = {
+			["Version"] = 82501,
 			["Groups"] = {
 				{
-					["GUID"] = "TMW:group:1NfUKFKXvbrw",
-					["Columns"] = 7,
-					["Scale"] = 1.35,
-					["Rows"] = 2,
+					["GUID"] = "TMW:group:1NuufN9ZYbQQ",
 					["Icons"] = {
 						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["BuffOrDebuff"] = "HARMFUL",
-							["Unit"] = "target",
-							["ShowTimerText"] = true,
-							["OnlyMine"] = true,
-							["Events"] = {
+							["States"] = {
 								{
-									["Event"] = "OnAlphaInc",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+					},
+				}, -- [1]
+			},
+		},
+		["舒殉魂 - 伊莫塔尔"] = {
+			["Version"] = 90201,
+			["NumGroups"] = 3,
+			["Groups"] = {
+				{
+					["Point"] = {
+						["y"] = 166,
+						["point"] = "BOTTOM",
+						["relativePoint"] = "BOTTOM",
+					},
+					["Scale"] = 1.5,
+					["Rows"] = 2,
+					["Role"] = 1,
+					["EnabledSpecs"] = {
+						[62] = false,
+						[64] = false,
+					},
+					["OnlyInCombat"] = true,
+					["Columns"] = 5,
+					["Icons"] = {
+						{
+							["Type"] = "cooldown",
+							["Name"] = "火焰冲击",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Operator"] = ">=",
+									["Name"] = "热力迸发",
+									["Level"] = 2,
 								}, -- [1]
 								{
-									["Type"] = "Animations",
-									["Event"] = "OnAlphaDec",
-									["Animation"] = "ICONCLEAR",
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "炽热连击！",
 								}, -- [2]
 								["n"] = 2,
+							},
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["Event"] = "OnShow",
+									["Infinite"] = true,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [1]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "烈焰飞舞",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Operator"] = ">=",
+									["Name"] = "热力迸发",
+									["Level"] = 2,
+								}, -- [1]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "炽热连击！",
+								}, -- [2]
+								{
+									["Type"] = "SPELLCHARGES",
+									["Name"] = "火焰冲击",
+								}, -- [3]
+								["n"] = 3,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [2]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "凤凰烈焰",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Operator"] = ">=",
+									["Name"] = "热力迸发",
+									["Level"] = 2,
+								}, -- [1]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "炽热连击！",
+								}, -- [2]
+								{
+									["Type"] = "SPELLCHARGES",
+									["Name"] = "火焰冲击",
+								}, -- [3]
+								{
+									["Type"] = "SPELLCD",
+									["Operator"] = "~=",
+									["Name"] = "烈焰飞舞",
+								}, -- [4]
+								["n"] = 4,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "燃烧",
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["Event"] = "OnShow",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [5]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "炎爆术",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Operator"] = ">=",
+									["Name"] = "炽热连击！",
+									["Level"] = 2,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["Event"] = "OnShow",
+									["Infinite"] = true,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [6]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "寒冰护体",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Operator"] = "<=",
+									["Name"] = "寒冰护体",
+									["Level"] = 2,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["Event"] = "OnShow",
+									["Infinite"] = true,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [7]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [9]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "法术吸取",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [10]
+					},
+					["Name"] = "火法",
+					["GUID"] = "TMW:group:1NuuZutNRyGh",
+				}, -- [1]
+				{
+					["Point"] = {
+						["y"] = -130,
+					},
+					["Scale"] = 1.5,
+					["Rows"] = 2,
+					["Role"] = 1,
+					["Locked"] = true,
+					["EnabledSpecs"] = {
+						[62] = false,
+						[63] = false,
+					},
+					["OnlyInCombat"] = true,
+					["Columns"] = 6,
+					["Icons"] = {
+						{
+							["Type"] = "cooldown",
+							["Name"] = "冰川尖刺",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFSTACKS",
+									["Checked"] = true,
+									["Operator"] = ">=",
+									["Name"] = "冰刺",
+									["Level"] = 5,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["Event"] = "OnShow",
+									["Infinite"] = true,
+								}, -- [1]
+								["n"] = 1,
 							},
 							["SettingsPerView"] = {
 								["icon"] = {
@@ -20670,37 +18612,386 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["Name"] = "锁喉",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [1]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "冰枪术",
 							["Conditions"] = {
 								{
-									["Name"] = "锁喉",
-									["Type"] = "SPELLCD",
+									["Type"] = "DEBUFFDUR",
+									["Checked"] = true,
+									["Unit"] = "target",
+									["Operator"] = ">=",
+									["Level"] = 2,
+									["Name"] = "深冬之寒",
+									["AndOr"] = "OR",
+								}, -- [1]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Operator"] = ">=",
+									["Level"] = 2,
+									["Name"] = "寒冰指",
+									["AndOr"] = "OR",
+								}, -- [2]
+								{
+									["Type"] = "DEBUFFDUR",
+									["Operator"] = ">=",
+									["Unit"] = "target",
+									["Level"] = 2,
+									["Name"] = "冰冻术",
+									["AndOr"] = "OR",
+								}, -- [3]
+								{
+									["Type"] = "DEBUFFDUR",
+									["Operator"] = ">=",
+									["Unit"] = "target",
+									["Level"] = 2,
+									["Name"] = "冰霜新星",
+									["AndOr"] = "OR",
+								}, -- [4]
+								{
+									["Type"] = "DEBUFFDUR",
+									["Unit"] = "target",
+									["Operator"] = ">=",
+									["Level"] = 2,
+									["Name"] = "冰川尖刺",
+									["AndOr"] = "OR",
+								}, -- [5]
+								["n"] = 5,
+							},
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["Event"] = "OnShow",
+									["Infinite"] = true,
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Type"] = "buff",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"A1", -- [1]
+									},
+								},
+							},
 							["States"] = {
 								{
-									["Alpha"] = 0.5,
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [2]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "寒冰宝珠",
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["Event"] = "OnShow",
+									["Infinite"] = true,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"Z", -- [1]
+									},
+								},
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [3]
+						{
+							["ShowTimer"] = true,
+							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
+							["Name"] = "法术吸取",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"·", -- [1]
+									},
+								},
+							},
+							["States"] = {
+								{
 								}, -- [1]
 								{
-									["Alpha"] = 1,
+									["Alpha"] = 0.5,
 								}, -- [2]
 								{
 								}, -- [3]
 								{
 								}, -- [4]
 							},
-						}, -- [1]
-						{
-							["ManaCheck"] = true,
-							["ShowTimer"] = true,
-							["BuffOrDebuff"] = "HARMFUL",
 							["Enabled"] = true,
-							["Unit"] = "target",
-							["Name"] = "割裂",
-							["OnlyMine"] = true,
+						}, -- [4]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "寒冰护体",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "寒冰护体",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["Event"] = "OnShow",
+									["Infinite"] = true,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"Q", -- [1]
+									},
+								},
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [5]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "召唤水元素",
+							["Conditions"] = {
+								{
+									["Type"] = "ALIVE",
+									["Unit"] = "pet",
+									["PrtsBefore"] = 1,
+									["Level"] = 1,
+								}, -- [1]
+								{
+									["Type"] = "EXISTS",
+									["PrtsAfter"] = 1,
+									["Unit"] = "pet",
+									["AndOr"] = "OR",
+									["Level"] = 1,
+								}, -- [2]
+								{
+									["Type"] = "TALENTLEARNED",
+									["Name"] = "孤寂寒冬",
+									["Level"] = 1,
+								}, -- [3]
+								["n"] = 3,
+							},
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["Event"] = "OnShow",
+									["Infinite"] = true,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"=", -- [1]
+									},
+								},
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [6]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "冰风暴",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Operator"] = ">=",
+									["Name"] = "冰冷智慧",
+									["PrtsBefore"] = 1,
+									["Level"] = 2,
+								}, -- [1]
+								{
+									["Type"] = "BUFFSTACKS",
+									["Checked"] = true,
+									["Operator"] = "<",
+									["Name"] = "冰刺",
+									["PrtsBefore"] = 1,
+									["Level"] = 3,
+								}, -- [2]
+								{
+									["Type"] = "SPELLCD",
+									["Name"] = "黑冰箭",
+									["PrtsBefore"] = 1,
+									["AndOr"] = "OR",
+								}, -- [3]
+								{
+									["Type"] = "SPELLCD",
+									["PrtsAfter"] = 3,
+									["Operator"] = ">=",
+									["Level"] = 2,
+									["Name"] = "黑冰箭",
+									["AndOr"] = "OR",
+								}, -- [4]
+								{
+									["Type"] = "LASTCAST",
+									["Name"] = "黑冰箭",
+									["AndOr"] = "OR",
+								}, -- [5]
+								["n"] = 5,
+							},
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["Event"] = "OnShow",
+									["Infinite"] = true,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"1", -- [1]
+									},
+								},
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [7]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "彗星风暴",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFSTACKS",
+									["Checked"] = true,
+									["Operator"] = ">=",
+									["Name"] = "咒术洪流",
+									["Level"] = 3,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["Event"] = "OnShow",
+									["Infinite"] = true,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"3", -- [1]
+									},
+								},
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [8]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "黑冰箭",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "冰冷智慧",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["Event"] = "OnShow",
+									["Infinite"] = true,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"4", -- [1]
+									},
+								},
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [9]
+						{
+							["ShowTimer"] = true,
+							["Type"] = "cooldown",
 							["ShowTimerText"] = true,
+							["Name"] = "暴风雪",
 							["SettingsPerView"] = {
 								["icon"] = {
 									["Texts"] = {
@@ -20708,32 +18999,66 @@ TellMeWhenDB = {
 									},
 								},
 							},
-							["Type"] = "buff",
-							["Conditions"] = {
+							["States"] = {
 								{
-									["Type"] = "COMBO",
-									["Level"] = 1,
-									["Operator"] = ">=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Event"] = "OnAlphaInc",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								{
-									["Type"] = "Animations",
-									["Event"] = "OnAlphaDec",
-									["Animation"] = "ICONCLEAR",
+									["Alpha"] = 0.5,
 								}, -- [2]
-								["n"] = 2,
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [10]
+						{
+							["ShowTimer"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "法术反制",
+							["ShowTimerText"] = true,
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"F", -- [1]
+									},
+								},
 							},
 							["States"] = {
 								{
+								}, -- [1]
+								{
 									["Alpha"] = 0.5,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [11]
+						{
+							["Type"] = "buff",
+							["Name"] = "奥术智慧",
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["Event"] = "OnShow",
+									["Infinite"] = true,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"-", -- [1]
+									},
+								},
+							},
+							["States"] = {
+								{
+									["Alpha"] = 0,
 								}, -- [1]
 								{
 									["Alpha"] = 1,
@@ -20742,98 +19067,47 @@ TellMeWhenDB = {
 								}, -- [3]
 								{
 								}, -- [4]
-								[102] = {
-									["Color"] = "ff007a7f",
-									["Alpha"] = 0.5,
-								},
-							},
-						}, -- [2]
-						{
-							["ManaCheck"] = true,
-							["ShowTimer"] = true,
-							["ShowTimerText"] = true,
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"A3", -- [1]
-									},
-								},
 							},
 							["Enabled"] = true,
-							["Name"] = "肾击",
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Color"] = "ffff0000",
-									["Alpha"] = 0.5,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-									["Color"] = "ff007a7f",
-								}, -- [4]
-							},
-						}, -- [3]
+						}, -- [12]
+					},
+					["Name"] = "冰法",
+					["Conditions"] = {
 						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["ShowTimerText"] = true,
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"AQ", -- [1]
-									},
-								},
-							},
-							["Type"] = "cooldown",
-							["Name"] = "猩红之瓶",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.5,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
+							["Type"] = "ALIVE",
+							["Unit"] = "target",
+						}, -- [1]
+						["n"] = 1,
+					},
+					["GUID"] = "TMW:group:1O6b2jDdmvVs",
+				}, -- [2]
+				{
+					["Point"] = {
+						["y"] = -173.333302815755,
+						["x"] = -2.03450520833333e-05,
+					},
+					["Scale"] = 1.5,
+					["Rows"] = 2,
+					["Role"] = 1,
+					["Locked"] = true,
+					["EnabledSpecs"] = {
+						[64] = false,
+						[63] = false,
+					},
+					["OnlyInCombat"] = true,
+					["Columns"] = 5,
+					["Icons"] = {
 						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-						{
-							["Enabled"] = true,
+							["BuffOrDebuff"] = "HARMFUL",
+							["Unit"] = "target",
 							["Type"] = "buff",
-							["Name"] = "致命药膏",
-							["OnlyMine"] = true,
+							["Name"] = "虚空风暴",
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
 									["Type"] = "Animations",
-									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
+									["Event"] = "OnShow",
+									["Infinite"] = true,
 								}, -- [1]
 								["n"] = 1,
 							},
@@ -20849,25 +19123,462 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-						}, -- [7]
-						{
-							["ManaCheck"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "刺骨",
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"A1", -- [1]
-									},
-								},
-							},
 							["Enabled"] = true,
+						}, -- [1]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "奥术飞弹",
 							["Conditions"] = {
 								{
 									["Type"] = "BUFFDUR",
 									["Checked"] = true,
-									["Level"] = 1.5,
-									["Name"] = "深谋远虑",
+									["Operator"] = ">=",
+									["Name"] = "奥术飞弹！",
+									["Level"] = 2,
+								}, -- [1]
+								{
+									["Type"] = "BUFFSTACKS",
+									["Checked"] = true,
+									["Name"] = "奥术飞弹！",
+									["PrtsBefore"] = 1,
+									["Level"] = 3,
+								}, -- [2]
+								{
+									["Type"] = "ARCANE_CHARGES",
+									["PrtsAfter"] = 1,
+									["Operator"] = ">=",
+									["AndOr"] = "OR",
+									["Level"] = 4,
+								}, -- [3]
+								["n"] = 3,
+							},
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["Event"] = "OnShow",
+									["Infinite"] = true,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "唤醒",
+							["Conditions"] = {
+								{
+									["Type"] = "MANA",
+									["Operator"] = "<=",
+									["Level"] = 15,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["Event"] = "OnShow",
+									["Infinite"] = true,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [4]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "奥术强化",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [5]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "奥术弹幕",
+							["Conditions"] = {
+								{
+									["Type"] = "ARCANE_CHARGES",
+									["Checked"] = true,
+									["Operator"] = ">=",
+									["Name"] = "奥术充能",
+									["Level"] = 4,
+								}, -- [1]
+								{
+									["Type"] = "MANA",
+									["Operator"] = "<=",
+									["Level"] = 75,
+								}, -- [2]
+								["n"] = 2,
+							},
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["Event"] = "OnShow",
+									["Infinite"] = true,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [6]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "寒冰护体",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Operator"] = "<=",
+									["Name"] = "寒冰护体",
+									["Level"] = 2,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["Event"] = "OnShow",
+									["Infinite"] = true,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [7]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "奥术魔宠",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Operator"] = "<=",
+									["Name"] = "210126",
+									["Level"] = 2,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["Event"] = "OnShow",
+									["Infinite"] = true,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [8]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [9]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [10]
+					},
+					["Conditions"] = {
+						{
+							["Type"] = "ALIVE",
+							["Unit"] = "target",
+						}, -- [1]
+						["n"] = 1,
+					},
+					["GUID"] = "TMW:group:1O6bxNNz=fNu",
+				}, -- [3]
+			},
+			["Locked"] = true,
+		},
+		["舒殉魂 - 安苏"] = {
+			["Locked"] = true,
+			["Version"] = 81209,
+			["Groups"] = {
+				{
+					["GUID"] = "TMW:group:1NsrfChhuNIJ",
+				}, -- [1]
+			},
+		},
+		["舒心情 - 安苏"] = {
+			["Version"] = 81209,
+			["Groups"] = {
+				{
+					["GUID"] = "TMW:group:1NuugFqGZgJp",
+				}, -- [1]
+			},
+		},
+		["舒绿娥 - 埃德萨拉"] = {
+			["Locked"] = true,
+			["Version"] = 81209,
+			["Groups"] = {
+				{
+					["GUID"] = "TMW:group:1NuutwErQB8o",
+				}, -- [1]
+			},
+		},
+		["舒炎 - 伊莫塔尔"] = {
+			["Groups"] = {
+				{
+					["GUID"] = "TMW:group:1NfUKFKXvbrw",
+					["Point"] = {
+						["y"] = -130,
+					},
+					["Scale"] = 1.5,
+					["Rows"] = 2,
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["BuffOrDebuff"] = "HARMFUL",
+							["Unit"] = "target",
+							["OnlyMine"] = true,
+							["ShowTimerText"] = true,
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnAlphaInc",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								{
+									["Type"] = "Animations",
+									["Event"] = "OnAlphaDec",
+									["Animation"] = "ICONCLEAR",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["Type"] = "buff",
+							["Name"] = "痛楚",
+							["States"] = {
+								{
+									["Alpha"] = 0.5,
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+								[102] = {
+									["Color"] = "ffff0000d",
+									["Alpha"] = 1,
+								},
+							},
+						}, -- [1]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["BuffOrDebuff"] = "HARMFUL",
+							["Unit"] = "target",
+							["OnlyMine"] = true,
+							["Name"] = "生命虹吸",
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnAlphaInc",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								{
+									["Type"] = "Animations",
+									["Event"] = "OnAlphaDec",
+									["Animation"] = "ICONCLEAR",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["Type"] = "buff",
+							["ShowTimerText"] = true,
+							["States"] = {
+								{
+									["Alpha"] = 0.5,
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["ManaCheck"] = true,
+							["ShowTimer"] = true,
+							["BuffOrDebuff"] = "HARMFUL",
+							["Unit"] = "target",
+							["OnlyMine"] = true,
+							["Name"] = "腐蚀术",
+							["Enabled"] = true,
+							["Type"] = "buff",
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+									["OnlyShown"] = true,
+									["OnConditionConditions"] = {
+										{
+											["Type"] = "SPELLCD",
+											["Checked"] = true,
+											["PrtsBefore"] = 1,
+											["Level"] = 5,
+											["Name"] = "冷酷严冬",
+											["Operator"] = "<=",
+										}, -- [1]
+										{
+											["Type"] = "BUFFDUR",
+											["Checked"] = true,
+											["Name"] = "冷酷严冬",
+										}, -- [2]
+										{
+											["Type"] = "TALENTLEARNED",
+											["PrtsAfter"] = 1,
+											["Name"] = "风暴汇聚",
+										}, -- [3]
+										{
+											["Type"] = "TALENTLEARNED",
+											["Name"] = "风暴汇聚",
+											["PrtsBefore"] = 1,
+											["AndOr"] = "OR",
+											["PrtsAfter"] = 1,
+											["Level"] = 1,
+										}, -- [4]
+										["n"] = 4,
+									},
+									["Event"] = "OnAlphaInc",
+								}, -- [1]
+								{
+									["Type"] = "Animations",
+									["Event"] = "OnAlphaDec",
+									["Animation"] = "ICONCLEAR",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["ShowTimerText"] = true,
+							["States"] = {
+								{
+									["Alpha"] = 0.5,
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+									["Color"] = "ff7f0000d",
+									["Alpha"] = 0,
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "召唤黑眼",
+							["Type"] = "cooldown",
+							["ManaCheck"] = true,
+							["ShowTimerText"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.5,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+								[102] = {
+									["Alpha"] = 0.5,
+								},
+							},
+						}, -- [4]
+						{
+							["ShowTimer"] = true,
+							["Name"] = "辛达苟萨之怒",
+							["ShowTimerText"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 8,
+									["Type"] = "SPELLCD",
+									["Name"] = "辛达苟萨之怒",
 									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
@@ -20877,18 +19588,148 @@ TellMeWhenDB = {
 									["Type"] = "Animations",
 									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
+									["OnlyShown"] = true,
 									["OnConditionConditions"] = {
 										{
-											["Type"] = "COMBO",
-											["Level"] = 4,
-											["Operator"] = ">=",
+											["Name"] = "冰霜之柱",
+											["Type"] = "BUFFDUR",
+											["Checked"] = true,
+											["Operator"] = ">",
 										}, -- [1]
 										["n"] = 1,
+									},
+									["Event"] = "OnCondition",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Color"] = "ffff0000d",
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+						{
+							["Type"] = "buff",
+							["Name"] = "牺牲魔典",
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["OnlyMine"] = true,
+							["States"] = {
+								{
+									["Alpha"] = 0,
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [6]
+						{
+							["GUID"] = "TMW:icon:1OuuFvMtj49G",
+							["ShowTimer"] = true,
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+									["OnConditionConditions"] = {
+										{
+											["PrtsBefore"] = 1,
+											["Type"] = "SOUL_SHARDS",
+											["Level"] = 3,
+											["Operator"] = ">",
+										}, -- [1]
+										{
+											["Type"] = "SPELLCD",
+											["PrtsAfter"] = 1,
+											["Name"] = "召唤黑眼",
+										}, -- [2]
+										{
+											["Type"] = "BUFFDUR",
+											["Checked"] = true,
+											["AndOr"] = "OR",
+											["Name"] = "痛苦无常",
+											["Unit"] = "target",
+										}, -- [3]
+										["n"] = 3,
 									},
 									["Event"] = "WCSP",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Name"] = "痛苦无常",
+							["Type"] = "cooldown",
+							["ManaCheck"] = true,
+							["Enabled"] = true,
+							["ShowTimerText"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+									["Alpha"] = 0,
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "鬼影缠身; 死亡之箭; 诡异魅影",
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["ManaCheck"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["ManaCheck"] = true,
+							["Name"] = "死亡之箭",
 							["States"] = {
 								{
 								}, -- [1]
@@ -20897,25 +19738,51 @@ TellMeWhenDB = {
 								}, -- [3]
 								{
 									["Color"] = "ff007a7f",
+									["Alpha"] = 1,
 								}, -- [4]
 							},
-						}, -- [8]
+						}, -- [9]
 						{
-							["Enabled"] = true,
+							["GUID"] = "TMW:icon:1OuuFvMnhuPV",
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
-							["Name"] = "淬毒之刃",
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"Z", -- [1]
-									},
+							["ManaCheck"] = true,
+							["Enabled"] = true,
+							["Name"] = "暗影之怒",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.5,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+								[102] = {
+									["Color"] = "ff0c00ffd",
 								},
+							},
+						}, -- [10]
+						{
+							["ShowTimer"] = true,
+							["Name"] = "49998",
+							["ShowTimerText"] = true,
+							["Conditions"] = {
+								{
+									["Name"] = "黑暗援助",
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Operator"] = "~=",
+								}, -- [1]
+								["n"] = 1,
 							},
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -20924,63 +19791,6 @@ TellMeWhenDB = {
 								{
 								}, -- [1]
 								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [9]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["ShowTimerText"] = true,
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"4", -- [1]
-									},
-								},
-							},
-							["Type"] = "cooldown",
-							["Conditions"] = {
-								{
-									["Type"] = "COMBO",
-									["Operator"] = "~=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Name"] = "宿敌",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.5,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [10]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["ShowTimerText"] = true,
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"AT", -- [1]
-									},
-								},
-							},
-							["Type"] = "cooldown",
-							["Name"] = "暗影步",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.5,
-								}, -- [2]
 								{
 								}, -- [3]
 								{
@@ -20988,6 +19798,25 @@ TellMeWhenDB = {
 							},
 						}, -- [11]
 						{
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+									["OnConditionConditions"] = {
+										{
+											["Name"] = "冰霜之柱",
+											["Type"] = "BUFFDUR",
+											["Checked"] = true,
+											["Operator"] = "~=",
+										}, -- [1]
+										["n"] = 1,
+									},
+									["Event"] = "OnCondition",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Name"] = "冷酷之心",
 							["States"] = {
 								{
 								}, -- [1]
@@ -20996,97 +19825,63 @@ TellMeWhenDB = {
 								}, -- [3]
 								{
 								}, -- [4]
+								[102] = {
+									["Color"] = "ffff0000d",
+									["Alpha"] = 1,
+								},
 							},
 						}, -- [12]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [13]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["ShowTimerText"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "脚踢",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.5,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [14]
 					},
-					["TextureName"] = "TukTex",
 					["Role"] = 1,
-					["Name"] = "刺杀",
+					["Name"] = "痛苦",
 					["Locked"] = true,
-					["Point"] = {
-						["y"] = -150,
-						["x"] = 1.33680100769248e-05,
-					},
+					["Columns"] = 6,
 					["EnabledSpecs"] = {
 						[252] = false,
-						[261] = false,
+						[267] = false,
 						[250] = false,
-						[260] = false,
+						[266] = false,
 					},
 					["OnlyInCombat"] = true,
 				}, -- [1]
 				{
-					["GUID"] = "TMW:group:1ROA_3J3krum",
-					["Columns"] = 8,
-					["Scale"] = 1.35,
-					["Rows"] = 2,
+					["GUID"] = "TMW:group:1OdTrquWe9=z",
+					["Point"] = {
+						["y"] = -65,
+						["x"] = -60,
+					},
+					["Scale"] = 1.5,
 					["Icons"] = {
 						{
-							["GUID"] = "TMW:icon:1RUYRhQ6340e",
-							["Type"] = "buff",
-							["Enabled"] = true,
-							["OnlyMine"] = true,
-							["Name"] = "可乘之机; 阴险伎俩",
-							["SettingsPerView"] = {
-								["icon"] = {
-									["TextLayout"] = "icon1",
-									["Texts"] = {
-										"2", -- [1]
-									},
-								},
-							},
+							["Type"] = "item",
+							["Name"] = "13",
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
 							["Conditions"] = {
 								{
-									["Type"] = "ICON",
-									["Icon"] = "TMW:icon:1ROA_gifzi6e",
-									["Level"] = 1,
+									["Name"] = "阴影月刃",
+									["Type"] = "ITEMEQUIPPED",
 								}, -- [1]
 								{
-									["Type"] = "ICON",
-									["Icon"] = "TMW:icon:1ROA_lMgUfKc",
-									["Level"] = 1,
+									["Type"] = "ITEMEQUIPPED",
+									["Name"] = "勇气号角",
+									["AndOr"] = "OR",
 								}, -- [2]
-								["n"] = 2,
+								{
+									["Type"] = "ITEMEQUIPPED",
+									["Name"] = "勇气号角",
+									["AndOr"] = "OR",
+								}, -- [3]
+								["n"] = 3,
 							},
-							["CustomTex"] = "手枪射击",
+							["CustomTex"] = "$item.13",
 							["States"] = {
 								{
 								}, -- [1]
@@ -21098,186 +19893,6 @@ TellMeWhenDB = {
 							},
 						}, -- [1]
 						{
-							["ManaCheck"] = true,
-							["ShowTimer"] = true,
-							["Enabled"] = true,
-							["Name"] = "命运骨骰",
-							["OnlyMine"] = true,
-							["ShowTimerText"] = true,
-							["SettingsPerView"] = {
-								["icon"] = {
-									["TextLayout"] = "TMW:textlayout:1RTDGDffU8PT",
-									["Texts"] = {
-										"A2", -- [1]
-									},
-								},
-							},
-							["Type"] = "cooldown",
-							["Conditions"] = {
-								{
-									["Type"] = "COMBO",
-									["Level"] = 5,
-									["Operator"] = ">=",
-								}, -- [1]
-								{
-									["Type"] = "ICON",
-									["Icon"] = "TMW:icon:1ROA_lMgUfKc",
-									["Level"] = 1,
-								}, -- [2]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["PrtsBefore"] = 2,
-									["Name"] = "骷髅黑帆",
-									["Operator"] = "~=",
-								}, -- [3]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "强势连击",
-								}, -- [4]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "精准定位",
-								}, -- [5]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "大乱斗",
-								}, -- [6]
-								{
-									["Checked"] = true,
-									["Type"] = "BUFFDUR",
-									["PrtsAfter"] = 1,
-									["Name"] = "残忍精准",
-								}, -- [7]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["PrtsBefore"] = 1,
-									["AndOr"] = "OR",
-									["Name"] = "强势连击",
-									["Operator"] = "~=",
-								}, -- [8]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "骷髅黑帆",
-								}, -- [9]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "精准定位",
-								}, -- [10]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "大乱斗",
-								}, -- [11]
-								{
-									["Checked"] = true,
-									["Type"] = "BUFFDUR",
-									["PrtsAfter"] = 1,
-									["Name"] = "残忍精准",
-								}, -- [12]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["PrtsBefore"] = 1,
-									["AndOr"] = "OR",
-									["Name"] = "精准定位",
-									["Operator"] = "~=",
-								}, -- [13]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "骷髅黑帆",
-								}, -- [14]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "强势连击",
-								}, -- [15]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "大乱斗",
-								}, -- [16]
-								{
-									["Checked"] = true,
-									["Type"] = "BUFFDUR",
-									["PrtsAfter"] = 1,
-									["Name"] = "残忍精准",
-								}, -- [17]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["PrtsBefore"] = 1,
-									["AndOr"] = "OR",
-									["Name"] = "大乱斗",
-									["Operator"] = "~=",
-								}, -- [18]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "强势连击",
-								}, -- [19]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "骷髅黑帆",
-								}, -- [20]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "精准定位",
-								}, -- [21]
-								{
-									["Checked"] = true,
-									["Type"] = "BUFFDUR",
-									["PrtsAfter"] = 1,
-									["Name"] = "残忍精准",
-								}, -- [22]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["PrtsBefore"] = 1,
-									["AndOr"] = "OR",
-									["Name"] = "骷髅黑帆",
-								}, -- [23]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "精准定位",
-								}, -- [24]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "强势连击",
-								}, -- [25]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "大乱斗",
-								}, -- [26]
-								{
-									["Checked"] = true,
-									["Type"] = "BUFFDUR",
-									["PrtsAfter"] = 2,
-									["Name"] = "残忍精准",
-								}, -- [27]
-								["n"] = 27,
-							},
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
 							["States"] = {
 								{
 								}, -- [1]
@@ -21285,41 +19900,10 @@ TellMeWhenDB = {
 								{
 								}, -- [3]
 								{
-									["Alpha"] = 0,
 								}, -- [4]
 							},
 						}, -- [2]
 						{
-							["GUID"] = "TMW:icon:1ROA_lMgUfKc",
-							["ShowTimer"] = true,
-							["Enabled"] = true,
-							["Name"] = "正中眉心",
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["SettingsPerView"] = {
-								["icon"] = {
-									["TextLayout"] = "icon1",
-									["Texts"] = {
-										"AE", -- [1]
-									},
-								},
-							},
-							["Type"] = "cooldown",
-							["Conditions"] = {
-								{
-									["Type"] = "COMBO",
-									["Level"] = 5,
-								}, -- [1]
-								["n"] = 1,
-							},
-							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -21327,158 +19911,25 @@ TellMeWhenDB = {
 								{
 								}, -- [3]
 								{
-									["Color"] = "ff007a7f",
-									["Alpha"] = 0,
 								}, -- [4]
 							},
 						}, -- [3]
 						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["OnlyMine"] = true,
-							["ShowTimerText"] = true,
-							["SettingsPerView"] = {
-								["icon"] = {
-									["TextLayout"] = "TMW:textlayout:1RTDDaMEX8U9",
-									["Texts"] = {
-										"Z", -- [1]
-										"[Stacks:Hide(0)]", -- [2]
-									},
-								},
-							},
-							["Type"] = "buff",
-							["Conditions"] = {
-								{
-									["Name"] = "剑刃乱舞",
-									["Type"] = "SPELLCD",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Name"] = "剑刃乱舞",
 							["States"] = {
 								{
-									["Alpha"] = 0.5,
 								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
+								nil, -- [2]
 								{
 								}, -- [3]
 								{
 								}, -- [4]
-								[102] = {
-									["Alpha"] = 0.5,
-								},
 							},
 						}, -- [4]
 						{
-							["GUID"] = "TMW:icon:1RYThe7v8WYE",
-							["ShowTimer"] = true,
-							["Enabled"] = true,
-							["ShowTimerText"] = true,
-							["SettingsPerView"] = {
-								["icon"] = {
-									["TextLayout"] = "icon1",
-									["Texts"] = {
-										"AQ", -- [1]
-									},
-								},
-							},
-							["Name"] = "猩红之瓶",
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Animation"] = "ACTVTNGLOW",
-									["OnlyShown"] = true,
-									["OnConditionConditions"] = {
-										{
-											["PrtsBefore"] = 1,
-											["Type"] = "HEALTH",
-											["Level"] = 70,
-											["Operator"] = "<=",
-										}, -- [1]
-										{
-											["PrtsBefore"] = 3,
-											["Type"] = "ITEMCD",
-											["Name"] = "猩红之瓶",
-											["Operator"] = "~=",
-										}, -- [2]
-										{
-											["PrtsAfter"] = 1,
-											["Type"] = "ITEMINBAGS",
-											["Name"] = "猩红之瓶",
-											["AndOr"] = "OR",
-										}, -- [3]
-										{
-											["Type"] = "SPELLCD",
-											["PrtsAfter"] = 1,
-											["Name"] = "猩红之瓶",
-										}, -- [4]
-										{
-											["Type"] = "SPELLCD",
-											["Name"] = "猩红之瓶",
-											["PrtsBefore"] = 1,
-											["AndOr"] = "OR",
-											["Operator"] = "~=",
-										}, -- [5]
-										{
-											["Type"] = "ITEMINBAGS",
-											["Name"] = "猩红之瓶",
-											["Operator"] = "~=",
-										}, -- [6]
-										{
-											["Type"] = "ITEMCD",
-											["PrtsAfter"] = 3,
-											["Name"] = "猩红之瓶",
-										}, -- [7]
-										{
-											["Type"] = "HEALTH",
-											["PrtsBefore"] = 1,
-											["AndOr"] = "OR",
-											["Level"] = 40,
-											["Operator"] = "<=",
-										}, -- [8]
-										{
-											["Name"] = "猩红之瓶",
-											["Type"] = "SPELLCD",
-										}, -- [9]
-										{
-											["Name"] = "猩红之瓶",
-											["Type"] = "ITEMCD",
-										}, -- [10]
-										{
-											["PrtsAfter"] = 1,
-											["Type"] = "ITEMINBAGS",
-											["Name"] = "猩红之瓶",
-											["Operator"] = "~=",
-										}, -- [11]
-										["n"] = 11,
-									},
-									["Event"] = "WCSP",
-								}, -- [1]
-								{
-									["Type"] = "Animations",
-									["Animation"] = "ICONCLEAR",
-									["OnlyShown"] = true,
-									["OnConditionConditions"] = {
-										{
-											["Type"] = "HEALTH",
-											["Level"] = 70,
-											["Operator"] = ">",
-										}, -- [1]
-										["n"] = 1,
-									},
-									["Event"] = "WCSP",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
-								{
-									["Alpha"] = 0.5,
-								}, -- [2]
+								nil, -- [2]
 								{
 								}, -- [3]
 								{
@@ -21486,42 +19937,14 @@ TellMeWhenDB = {
 							},
 						}, -- [5]
 						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Unit"] = "target",
-							["OnlyMine"] = true,
-							["ShowTimerText"] = true,
-							["SettingsPerView"] = {
-								["icon"] = {
-									["TextLayout"] = "TMW:textlayout:1RTDDaMEX8U9",
-									["Texts"] = {
-										"A·", -- [1]
-									},
-								},
-							},
-							["Type"] = "buff",
-							["Conditions"] = {
-								{
-									["Name"] = "暗影斗篷",
-									["Type"] = "SPELLCD",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Name"] = "暗影斗篷",
 							["States"] = {
 								{
-									["Alpha"] = 0.5,
 								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
+								nil, -- [2]
 								{
 								}, -- [3]
 								{
 								}, -- [4]
-								[102] = {
-									["Alpha"] = 0.5,
-								},
 							},
 						}, -- [6]
 						{
@@ -21536,34 +19959,10 @@ TellMeWhenDB = {
 							},
 						}, -- [7]
 						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["OnlyMine"] = true,
-							["ShowTimerText"] = true,
-							["SettingsPerView"] = {
-								["icon"] = {
-									["TextLayout"] = "TMW:textlayout:1RTDDaMEX8U9",
-									["Texts"] = {
-										"T", -- [1]
-									},
-								},
-							},
-							["Type"] = "buff",
-							["Conditions"] = {
-								{
-									["Name"] = "还击",
-									["Type"] = "SPELLCD",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Name"] = "还击",
 							["States"] = {
 								{
-									["Alpha"] = 0.5,
 								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
+								nil, -- [2]
 								{
 								}, -- [3]
 								{
@@ -21571,31 +19970,6 @@ TellMeWhenDB = {
 							},
 						}, -- [8]
 						{
-							["Type"] = "cooldown",
-							["Name"] = "聚能艾泽里特射线",
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"1", -- [1]
-									},
-								},
-							},
-							["Conditions"] = {
-								{
-									["Name"] = "剑刃乱舞",
-									["Type"] = "BUFFDUR",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
 							["States"] = {
 								{
 								}, -- [1]
@@ -21607,70 +19981,6 @@ TellMeWhenDB = {
 							},
 						}, -- [9]
 						{
-							["GUID"] = "TMW:icon:1ROA_gifzi6e",
-							["Type"] = "cooldown",
-							["Name"] = "斩击",
-							["SettingsPerView"] = {
-								["icon"] = {
-									["TextLayout"] = "icon1",
-									["Texts"] = {
-										"A1", -- [1]
-									},
-								},
-							},
-							["Enabled"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Name"] = "正中眉心",
-									["Level"] = 2,
-									["Icon"] = "TMW:icon:1ROA_lMgUfKc",
-									["Operator"] = ">",
-								}, -- [1]
-								{
-									["Type"] = "ICON",
-									["Icon"] = "TMW:icon:1RPAby2qpP87",
-									["Level"] = 1,
-								}, -- [2]
-								{
-									["PrtsBefore"] = 1,
-									["Type"] = "COMBO",
-									["Level"] = 5,
-									["Operator"] = ">=",
-								}, -- [3]
-								{
-									["PrtsBefore"] = 1,
-									["Type"] = "COMBO",
-									["AndOr"] = "OR",
-									["Operator"] = "~=",
-								}, -- [4]
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "钢铁风暴",
-									["PrtsAfter"] = 2,
-									["Operator"] = "~=",
-								}, -- [5]
-								["n"] = 5,
-							},
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Infinite"] = true,
-									["Animation"] = "ACTVTNGLOW",
-									["OnlyShown"] = true,
-									["OnConditionConditions"] = {
-										{
-											["Type"] = "COMBO",
-											["Level"] = 5,
-											["Operator"] = ">=",
-										}, -- [1]
-										["n"] = 1,
-									},
-									["Event"] = "OnShow",
-								}, -- [1]
-								["n"] = 1,
-							},
 							["States"] = {
 								{
 								}, -- [1]
@@ -21678,44 +19988,10 @@ TellMeWhenDB = {
 								{
 								}, -- [3]
 								{
-									["Color"] = "ff007a7f",
-									["Alpha"] = 1,
 								}, -- [4]
 							},
 						}, -- [10]
 						{
-							["GUID"] = "TMW:icon:1RPAby2qpP87",
-							["OnlyMine"] = true,
-							["Name"] = "刀锋冲刺",
-							["SettingsPerView"] = {
-								["icon"] = {
-									["TextLayout"] = "icon1",
-									["Texts"] = {
-										"3", -- [1]
-									},
-								},
-							},
-							["Enabled"] = true,
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Animation"] = "ACTVTNGLOW",
-									["OnlyShown"] = true,
-									["OnConditionConditions"] = {
-										{
-											["Type"] = "BUFFDUR",
-											["Checked"] = true,
-											["Level"] = 2,
-											["Name"] = "剑刃乱舞",
-											["Operator"] = ">=",
-										}, -- [1]
-										["n"] = 1,
-									},
-									["Event"] = "WCSP",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -21727,94 +20003,429 @@ TellMeWhenDB = {
 							},
 						}, -- [11]
 						{
-							["GUID"] = "TMW:icon:1RUYRhQHG80P",
-							["ShowTimer"] = true,
-							["Enabled"] = true,
-							["ShowTimerText"] = true,
-							["Name"] = "冲动",
-							["OnlyMine"] = true,
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Animation"] = "ACTVTNGLOW",
-									["OnlyShown"] = true,
-									["OnConditionConditions"] = {
-										{
-											["Type"] = "ENERGY_ABS",
-											["Level"] = 40,
-											["Operator"] = "<",
-										}, -- [1]
-										{
-											["Name"] = "冲动",
-											["Type"] = "SPELLCD",
-										}, -- [2]
-										["n"] = 2,
-									},
-									["Event"] = "WCSP",
-								}, -- [1]
-								{
-									["Type"] = "Animations",
-									["Animation"] = "ICONCLEAR",
-									["OnlyShown"] = true,
-									["OnConditionConditions"] = {
-										{
-											["Type"] = "ENERGY_ABS",
-											["Level"] = 45,
-											["Operator"] = ">=",
-										}, -- [1]
-										{
-											["Type"] = "SPELLCD",
-											["AndOr"] = "OR",
-											["Name"] = "冲动",
-											["Operator"] = "~=",
-										}, -- [2]
-										["n"] = 2,
-									},
-									["Event"] = "WCSP",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["SettingsPerView"] = {
-								["icon"] = {
-									["TextLayout"] = "TMW:textlayout:1RTDDaMEX8U9",
-									["Texts"] = {
-										"4", -- [1]
-									},
-								},
-							},
-							["Type"] = "cooldown",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFDUR",
-									["Checked"] = true,
-									["Name"] = "冲动",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["CustomTex"] = "冲动",
 							["States"] = {
 								{
 								}, -- [1]
-								{
-									["Alpha"] = 0.5,
-								}, -- [2]
+								nil, -- [2]
 								{
 								}, -- [3]
 								{
 								}, -- [4]
 							},
 						}, -- [12]
+					},
+					["Role"] = 1,
+					["Name"] = "13",
+					["Locked"] = true,
+					["Conditions"] = {
+						{
+							["Type"] = "ALIVE",
+						}, -- [1]
+						["n"] = 1,
+					},
+					["Columns"] = 1,
+					["OnlyInCombat"] = true,
+				}, -- [2]
+				{
+					["GUID"] = "TMW:group:1OdTuan6krrX",
+					["Point"] = {
+						["y"] = -65,
+						["x"] = 60,
+					},
+					["Scale"] = 1.5,
+					["Icons"] = {
 						{
 							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "抓钩",
+							["ShowTimer"] = true,
+							["LoseControlTypes"] = {
+								["FEAR"] = true,
+							},
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["ShowTimerText"] = true,
+							["Type"] = "item",
+							["Name"] = "14",
+							["Conditions"] = {
+								{
+									["Name"] = "阴影月刃",
+									["Type"] = "ITEMEQUIPPED",
+								}, -- [1]
+								{
+									["Type"] = "ITEMEQUIPPED",
+									["Name"] = "基尔加丹的炽燃决心",
+									["AndOr"] = "OR",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["CustomTex"] = "$item.14",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [6]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [9]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [10]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [11]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [12]
+					},
+					["Role"] = 5,
+					["Name"] = "14",
+					["Locked"] = true,
+					["Conditions"] = {
+						{
+							["Type"] = "ALIVE",
+						}, -- [1]
+						["n"] = 1,
+					},
+					["Columns"] = 1,
+					["OnlyInCombat"] = true,
+				}, -- [3]
+				{
+					["GUID"] = "TMW:group:1OcBVw3mdotG",
+					["Columns"] = 5,
+					["Point"] = {
+						["y"] = -34.7435302734375,
+						["x"] = 494.160980224609,
+						["point"] = "LEFT",
+						["relativePoint"] = "LEFT",
+					},
+					["Scale"] = 1,
+					["Name"] = "M魔剑士冰霜印记喊话TMW",
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["BuffOrDebuff"] = "EITHER",
+							["Events"] = {
+								{
+									["Type"] = "Announcements",
+									["CndtJustPassed"] = true,
+									["Text"] = "111我",
+									["Event"] = "OnStack",
+									["Operator"] = "==",
+									["PassingCndt"] = true,
+									["Channel"] = "SAY",
+									["OnlyShown"] = true,
+									["Value"] = 1,
+								}, -- [1]
+								{
+									["Type"] = "Announcements",
+									["CndtJustPassed"] = true,
+									["Text"] = "222很",
+									["Event"] = "OnStack",
+									["Operator"] = "==",
+									["PassingCndt"] = true,
+									["Channel"] = "SAY",
+									["OnlyShown"] = true,
+									["Value"] = 2,
+								}, -- [2]
+								{
+									["Type"] = "Announcements",
+									["CndtJustPassed"] = true,
+									["Text"] = "333绝",
+									["Event"] = "OnStack",
+									["Operator"] = "==",
+									["PassingCndt"] = true,
+									["Channel"] = "SAY",
+									["OnlyShown"] = true,
+									["Value"] = 3,
+								}, -- [3]
+								{
+									["Type"] = "Announcements",
+									["CndtJustPassed"] = true,
+									["Text"] = "444望",
+									["Event"] = "OnStack",
+									["Operator"] = "==",
+									["PassingCndt"] = true,
+									["Channel"] = "SAY",
+									["OnlyShown"] = true,
+									["Value"] = 4,
+								}, -- [4]
+								{
+									["Type"] = "Announcements",
+									["CndtJustPassed"] = true,
+									["Text"] = "555我",
+									["Event"] = "OnStack",
+									["Operator"] = "==",
+									["PassingCndt"] = true,
+									["Channel"] = "SAY",
+									["OnlyShown"] = true,
+									["Value"] = 5,
+								}, -- [5]
+								{
+									["Type"] = "Announcements",
+									["CndtJustPassed"] = true,
+									["Text"] = "666还",
+									["Event"] = "OnStack",
+									["Operator"] = "==",
+									["PassingCndt"] = true,
+									["Channel"] = "SAY",
+									["OnlyShown"] = true,
+									["Value"] = 6,
+								}, -- [6]
+								{
+									["Type"] = "Announcements",
+									["CndtJustPassed"] = true,
+									["Text"] = "777不",
+									["Event"] = "OnStack",
+									["Operator"] = "==",
+									["PassingCndt"] = true,
+									["Channel"] = "SAY",
+									["OnlyShown"] = true,
+									["Value"] = 7,
+								}, -- [7]
+								{
+									["Type"] = "Announcements",
+									["CndtJustPassed"] = true,
+									["Text"] = "888想",
+									["Event"] = "OnStack",
+									["Operator"] = "==",
+									["PassingCndt"] = true,
+									["Channel"] = "SAY",
+									["OnlyShown"] = true,
+									["Value"] = 8,
+								}, -- [8]
+								{
+									["Type"] = "Announcements",
+									["CndtJustPassed"] = true,
+									["Text"] = "999死",
+									["Event"] = "OnStack",
+									["Operator"] = "==",
+									["PassingCndt"] = true,
+									["Channel"] = "SAY",
+									["OnlyShown"] = true,
+									["Value"] = 9,
+								}, -- [9]
+								{
+									["Type"] = "Announcements",
+									["CndtJustPassed"] = true,
+									["Text"] = "10层撞撞撞",
+									["Event"] = "OnStack",
+									["Operator"] = "==",
+									["PassingCndt"] = true,
+									["Channel"] = "SAY",
+									["OnlyShown"] = true,
+									["Value"] = 10,
+								}, -- [10]
+								{
+									["Type"] = "Announcements",
+									["CndtJustPassed"] = true,
+									["Text"] = "11层撞撞撞",
+									["Event"] = "OnStack",
+									["Operator"] = "==",
+									["PassingCndt"] = true,
+									["Channel"] = "SAY",
+									["OnlyShown"] = true,
+									["Value"] = 11,
+								}, -- [11]
+								{
+									["Type"] = "Announcements",
+									["CndtJustPassed"] = true,
+									["Text"] = "12层撞撞撞",
+									["Event"] = "OnStack",
+									["Operator"] = "==",
+									["PassingCndt"] = true,
+									["Channel"] = "SAY",
+									["OnlyShown"] = true,
+									["Value"] = 12,
+								}, -- [12]
+								{
+									["Type"] = "Announcements",
+									["CndtJustPassed"] = true,
+									["Text"] = "13层撞撞撞",
+									["Event"] = "OnStack",
+									["Operator"] = "==",
+									["PassingCndt"] = true,
+									["Channel"] = "SAY",
+									["OnlyShown"] = true,
+									["Value"] = 13,
+								}, -- [13]
+								{
+									["Type"] = "Announcements",
+									["CndtJustPassed"] = true,
+									["Text"] = "14层撞撞撞",
+									["Event"] = "OnStack",
+									["Operator"] = "==",
+									["PassingCndt"] = true,
+									["Channel"] = "SAY",
+									["OnlyShown"] = true,
+									["Value"] = 14,
+								}, -- [14]
+								{
+									["Type"] = "Announcements",
+									["CndtJustPassed"] = true,
+									["Text"] = "我基本已经死了！",
+									["Event"] = "OnStack",
+									["Operator"] = ">=",
+									["PassingCndt"] = true,
+									["Channel"] = "SAY",
+									["OnlyShown"] = true,
+									["Value"] = 15,
+								}, -- [15]
+								["n"] = 15,
+							},
+							["Name"] = "212647",
 							["SettingsPerView"] = {
 								["icon"] = {
-									["TextLayout"] = "TMW:textlayout:1RTDDaMEX8U9",
+									["TextLayout"] = ",Rr\\)h/,f.i[",
 									["Texts"] = {
-										"上", -- [1]
+										[2] = "10层靠近：[Stacks:Hide(0)]",
 									},
 								},
+							},
+							["Type"] = "buff",
+							["ShowTimerText"] = true,
+							["CustomTex"] = "none",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["Enabled"] = true,
+							["Type"] = "unitcondition",
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
 							},
 							["States"] = {
 								{
@@ -21825,81 +20436,89 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-						}, -- [13]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["OnlyMine"] = true,
-							["ShowTimerText"] = true,
-							["SettingsPerView"] = {
-								["icon"] = {
-									["TextLayout"] = "TMW:textlayout:1RTDDaMEX8U9",
-									["Texts"] = {
-										"·", -- [1]
-									},
-								},
-							},
-							["Type"] = "buff",
 							["Conditions"] = {
 								{
-									["Name"] = "佯攻",
-									["Type"] = "SPELLCD",
+									["Name"] = "147009",
+									["Type"] = "ITEMEQUIPPED",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Name"] = "佯攻",
+							["CustomTex"] = "242215",
+							["Unit"] = "group 1-40",
+						}, -- [2]
+						{
 							["States"] = {
 								{
-									["Alpha"] = 0.5,
 								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
+								nil, -- [2]
 								{
 								}, -- [3]
 								{
 								}, -- [4]
 							},
-						}, -- [14]
+						}, -- [3]
 						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+						{
+							["GUID"] = "TMW:icon:1POLeDS9JnME",
+							["Type"] = "buff",
+							["Name"] = "寒冰刀锋",
 							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "致盲",
+							["States"] = {
+								{
+									["Alpha"] = 0,
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+					},
+					["OnlyInCombat"] = true,
+				}, -- [4]
+				{
+					["GUID"] = "TMW:group:1RKsrfl1fE2g",
+					["Point"] = {
+						["y"] = -172,
+					},
+					["Scale"] = 1.5,
+					["Icons"] = {
+						{
+							["ManaCheck"] = true,
+							["Type"] = "value",
+							["Enabled"] = true,
+							["PowerType"] = 7,
+							["Name"] = "冰霜之镰",
 							["SettingsPerView"] = {
-								["icon"] = {
-									["TextLayout"] = "icon1",
+								["bar"] = {
+									["TextLayout"] = "TMW:textlayout:1ONlE7haQtDq",
 									["Texts"] = {
-										"R", -- [1]
+										"[Value]", -- [1]
 									},
 								},
-							},
-							["Conditions"] = {
-								{
-									["Type"] = "DEBUFFDUR",
-									["Name"] = "正中眉心",
-									["Unit"] = "target",
-								}, -- [1]
-								{
-									["Type"] = "DEBUFFDUR",
-									["Name"] = "偷袭",
-									["Unit"] = "target",
-								}, -- [2]
-								{
-									["Type"] = "DEBUFFDUR",
-									["Name"] = "昏迷",
-									["Unit"] = "target",
-								}, -- [3]
-								["n"] = 3,
 							},
 							["Events"] = {
 								{
 									["Type"] = "Animations",
+									["Infinite"] = true,
 									["Animation"] = "ACTVTNGLOW",
-									["OnlyShown"] = true,
 									["OnConditionConditions"] = {
 										{
-											["Type"] = "PVPFLAG",
-											["Unit"] = "target",
+											["Name"] = "杀戮机器",
+											["Type"] = "BUFFDUR",
+											["Checked"] = true,
+											["Operator"] = "~=",
 										}, -- [1]
 										["n"] = 1,
 									},
@@ -21907,109 +20526,32 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["States"] = {
+							["Conditions"] = {
 								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "冰龙吐息",
 								}, -- [1]
-								nil, -- [2]
 								{
-								}, -- [3]
-								{
-								}, -- [4]
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "饥饿符文武器",
+								}, -- [2]
+								["n"] = 2,
 							},
-						}, -- [15]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["ShowTimerText"] = true,
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										"F", -- [1]
-									},
-								},
-							},
-							["Type"] = "cooldown",
-							["Name"] = "脚踢",
+							["CustomTex"] = "NONE",
 							["States"] = {
 								{
 								}, -- [1]
 								{
-									["Alpha"] = 0.5,
+									["Color"] = "ffff0000",
+									["Alpha"] = 1,
 								}, -- [2]
 								{
 								}, -- [3]
 								{
-								}, -- [4]
-							},
-						}, -- [16]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [17]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [18]
-					},
-					["TextureName"] = "Solid",
-					["Role"] = 1,
-					["Name"] = "狂徒",
-					["Locked"] = true,
-					["Point"] = {
-						["y"] = -150,
-					},
-					["EnabledSpecs"] = {
-						[259] = false,
-						[261] = false,
-					},
-					["OnlyInCombat"] = true,
-				}, -- [2]
-				{
-					["GUID"] = "TMW:group:1TSvIjlDaOry",
-					["Strata"] = "LOW",
-					["Columns"] = 1,
-					["Scale"] = 1.35,
-					["Icons"] = {
-						{
-							["ManaCheck"] = true,
-							["ShowTimer"] = true,
-							["Enabled"] = true,
-							["OnlyMine"] = true,
-							["ShowTimerText"] = true,
-							["SettingsPerView"] = {
-								["icon"] = {
-									["TextLayout"] = "TMW:textlayout:1RTDGDffU8PT",
-									["Texts"] = {
-										"", -- [1]
-									},
-								},
-							},
-							["GUID"] = "TMW:icon:1RUYRhPPHu0z",
-							["Type"] = "buff",
-							["Name"] = "残忍精准; 骷髅黑帆; 大乱斗; 精准定位; 强势连击",
-							["States"] = {
-								{
-									["Alpha"] = 0.5,
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-									["Alpha"] = 0,
+									["Color"] = "ff0c00ff",
+									["Alpha"] = 1,
 								}, -- [4]
 							},
 						}, -- [1]
@@ -22058,83 +20600,23 @@ TellMeWhenDB = {
 							},
 						}, -- [5]
 					},
-					["TextureName"] = "Solid",
+					["TextureName"] = "TukTex",
 					["Role"] = 1,
-					["Locked"] = true,
-					["Point"] = {
-						["y"] = 44.66598510742188,
-						["relativeTo"] = "TMW:group:1ROA_3J3krum",
-						["x"] = 45.4447021484375,
-						["relativePoint"] = "BOTTOMLEFT",
+					["View"] = "bar",
+					["SettingsPerView"] = {
+						["bar"] = {
+							["Icon"] = false,
+						},
 					},
+					["Locked"] = true,
+					["Columns"] = 1,
 					["EnabledSpecs"] = {
-						[259] = false,
-						[261] = false,
+						[252] = false,
+						[267] = false,
+						[250] = false,
+						[266] = false,
 					},
 					["OnlyInCombat"] = true,
-				}, -- [3]
-				{
-					["Icons"] = {
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-					},
-				}, -- [4]
-				{
-					["Icons"] = {
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-					},
 				}, -- [5]
 				{
 					["Icons"] = {
@@ -22149,21 +20631,2262 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						}, -- [1]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
 					},
 				}, -- [6]
+				{
+					["Icons"] = {
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+					},
+				}, -- [7]
 			},
-			["ColorMSQ"] = true,
-			["Version"] = 87302,
-			["NumGroups"] = 3,
 			["Locked"] = true,
+			["ColorMSQ"] = true,
+			["NumGroups"] = 5,
+			["Version"] = 85102,
 		},
-		["舒孑影 - 瓦里安"] = {
-			["Version"] = 81209,
+		["舒墨兰 - 伊莫塔尔"] = {
+			["Locked"] = true,
+			["Version"] = 87302,
 			["Groups"] = {
 				{
-					["GUID"] = "TMW:group:1Nyhn4U6tt1b",
+					["GUID"] = "TMW:group:1Nstv93buWR=",
+					["Point"] = {
+						["y"] = -130,
+						["x"] = -2.03450520833333e-05,
+					},
+					["Scale"] = 1.5,
+					["Rows"] = 2,
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "献祭光环",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Level"] = 2,
+									["Name"] = "献祭光环",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["Enabled"] = true,
+							["OnlyMine"] = true,
+							["Name"] = "烈焰咒符; 地狱火撞击",
+							["Type"] = "cooldown",
+							["Conditions"] = {
+								{
+									["Name"] = "烈焰咒符",
+									["Type"] = "SPELLCD",
+								}, -- [1]
+								{
+									["AndOr"] = "OR",
+									["Type"] = "SPELLCHARGES",
+									["Name"] = "地狱火撞击",
+									["Level"] = 2,
+								}, -- [2]
+								["n"] = 2,
+							},
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["GUID"] = "TMW:icon:1PIDsFPfzowR",
+							["Type"] = "cooldown",
+							["Name"] = "灵魂壁障",
+							["Enabled"] = true,
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+								[102] = {
+									["Color"] = "ffff0000d",
+								},
+							},
+						}, -- [3]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "恶魔变形",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "强化结界",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+						{
+							["ManaCheck"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "灵魂裂劈",
+							["Enabled"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "DEBUFFDUR",
+									["Checked"] = true,
+									["Operator"] = ">",
+									["PrtsBefore"] = 1,
+									["Level"] = 2,
+									["Name"] = "脆弱",
+									["Unit"] = "target",
+								}, -- [1]
+								{
+									["Type"] = "TALENTLEARNED",
+									["Name"] = "幽魂炸弹",
+									["Level"] = 1,
+									["PrtsAfter"] = 1,
+									["AndOr"] = "OR",
+								}, -- [2]
+								{
+									["Type"] = "ICON",
+									["Icon"] = "TMW:icon:1PIDsFPfzowR",
+									["Level"] = 1,
+								}, -- [3]
+								["n"] = 3,
+							},
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+									["Color"] = "ff0c00ffd",
+									["Alpha"] = 0,
+								}, -- [4]
+								[102] = {
+									["Color"] = "ffff0000d",
+								},
+							},
+						}, -- [6]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "灵魂切削",
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "投掷利刃",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "地狱火撞击",
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCHARGES",
+									["Name"] = "地狱火撞击",
+									["Level"] = 2,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [9]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "幽魂炸弹",
+							["Conditions"] = {
+								{
+									["Name"] = "灵魂残片",
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Operator"] = "~=",
+								}, -- [1]
+								{
+									["Type"] = "DEBUFFDUR",
+									["Checked"] = true,
+									["Unit"] = "target",
+									["Name"] = "脆弱",
+									["Operator"] = "<=",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [10]
+					},
+					["Role"] = 4,
+					["Name"] = "复仇",
+					["Columns"] = 5,
+					["Locked"] = true,
+					["Conditions"] = {
+						{
+							["Unit"] = "target",
+							["Type"] = "ALIVE",
+						}, -- [1]
+						["n"] = 1,
+					},
+					["EnabledSpecs"] = {
+						[577] = false,
+					},
+					["OnlyInCombat"] = true,
 				}, -- [1]
+				{
+					["GUID"] = "TMW:group:1OArGZvXfW6m",
+					["Point"] = {
+						["y"] = -130,
+						["x"] = -2.03450520833333e-05,
+					},
+					["Scale"] = 1.5,
+					["Rows"] = 2,
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "邪能之刃",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"E", -- [1]
+									},
+								},
+							},
+							["Conditions"] = {
+								{
+									["Type"] = "FURY",
+									["Level"] = 80,
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+									["Alpha"] = 0,
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["GUID"] = "TMW:icon:1Pdc4fRcNNxY",
+							["ShowTimer"] = true,
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "刃舞; 死亡横扫",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"AE", -- [1]
+									},
+								},
+							},
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+									["OnlyShown"] = true,
+									["OnConditionConditions"] = {
+										{
+											["Name"] = "第一滴血",
+											["Type"] = "TALENTLEARNED",
+										}, -- [1]
+										["n"] = 1,
+									},
+									["Event"] = "WCSP",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["ShowTimerText"] = true,
+							["ManaCheck"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+									["Color"] = "ff0c00ffd",
+									["Alpha"] = 0,
+								}, -- [4]
+								[102] = {
+									["Color"] = "ffff0000d",
+								},
+							},
+						}, -- [2]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "火红烈焰",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"A3", -- [1]
+									},
+								},
+							},
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"Z", -- [1]
+									},
+								},
+							},
+							["Type"] = "cooldown",
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Name"] = "191427",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Color"] = "ffff0000d",
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+						{
+							["ManaCheck"] = true,
+							["ShowTimer"] = true,
+							["Enabled"] = true,
+							["ShowTimerText"] = true,
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"R", -- [1]
+									},
+								},
+							},
+							["Type"] = "cooldown",
+							["Conditions"] = {
+								{
+									["Level"] = 5,
+									["Type"] = "SPELLCD",
+									["Name"] = "混乱新星",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Name"] = "混乱新星",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Color"] = "ffff0000d",
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+									["Color"] = "ff0c00ffd",
+									["Alpha"] = 1,
+								}, -- [4]
+							},
+						}, -- [5]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"A`", -- [1]
+									},
+								},
+							},
+							["Type"] = "cooldown",
+							["Name"] = "疾影",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.5,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [6]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"A上", -- [1]
+									},
+								},
+							},
+							["Type"] = "cooldown",
+							["Name"] = "奥术洪流",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.5,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["ManaCheck"] = true,
+							["Type"] = "cooldown",
+							["Enabled"] = true,
+							["Name"] = "混乱打击; 毁灭",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"A1", -- [1]
+									},
+								},
+							},
+							["GUID"] = "TMW:icon:1Pdc4fSd8a0o",
+							["Conditions"] = {
+								{
+									["Type"] = "FURY",
+									["Level"] = 55,
+									["Operator"] = ">=",
+								}, -- [1]
+								{
+									["Type"] = "ICON",
+									["Icon"] = "TMW:icon:1O=Et1E2vI6t",
+									["Level"] = 1,
+								}, -- [2]
+								["n"] = 2,
+							},
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+									["Alpha"] = 0,
+								}, -- [4]
+							},
+						}, -- [8]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "185123",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"2", -- [1]
+									},
+								},
+							},
+							["Conditions"] = {
+								{
+									["Type"] = "ICON",
+									["Icon"] = "TMW:icon:1O=Et1E2vI6t",
+									["Level"] = 1,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+									["OnlyShown"] = true,
+									["OnConditionConditions"] = {
+										{
+											["Name"] = "莫尔戈生化稳定器",
+											["Type"] = "ITEMEQUIPPED",
+										}, -- [1]
+										["n"] = 1,
+									},
+									["Event"] = "WCSP",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [9]
+						{
+							["GUID"] = "TMW:icon:1O=Et1E2vI6t",
+							["ShowTimer"] = true,
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "眼棱",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"3", -- [1]
+									},
+								},
+							},
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+									["OnlyShown"] = true,
+									["Event"] = "WCSP",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["ShowTimerText"] = true,
+							["ManaCheck"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+									["Color"] = "ff0c00ff",
+									["Alpha"] = 0,
+								}, -- [4]
+							},
+						}, -- [10]
+						{
+							["ShowTimer"] = true,
+							["Name"] = "涅墨西斯",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"T", -- [1]
+									},
+								},
+							},
+							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Color"] = "ffff0000d",
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [11]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "虚空行走",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"5", -- [1]
+									},
+								},
+							},
+							["Type"] = "cooldown",
+							["CustomTex"] = "196555",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.5,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [12]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [13]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										"AF", -- [1]
+									},
+								},
+							},
+							["Type"] = "cooldown",
+							["Name"] = "吞噬魔法",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.5,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [14]
+					},
+					["Role"] = 1,
+					["Name"] = "浩劫",
+					["Columns"] = 7,
+					["Locked"] = true,
+					["Conditions"] = {
+						{
+							["Unit"] = "target",
+							["Type"] = "ALIVE",
+						}, -- [1]
+						["n"] = 1,
+					},
+					["EnabledSpecs"] = {
+						[581] = false,
+					},
+					["OnlyInCombat"] = true,
+				}, -- [2]
+				{
+					["View"] = "bar",
+					["Point"] = {
+						["y"] = 223.000015258789,
+						["x"] = 700.000183105469,
+						["relativePoint"] = "BOTTOMLEFT",
+					},
+					["Scale"] = 1.5,
+					["Icons"] = {
+						{
+							["Type"] = "value",
+							["SettingsPerView"] = {
+								["bar"] = {
+									["Texts"] = {
+										"[Value]", -- [1]
+									},
+								},
+							},
+							["PowerType"] = 17,
+							["CustomTex"] = "NONE",
+							["TimerBar_EnableColors"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [6]
+					},
+					["TextureName"] = "Solid",
+					["GUID"] = "TMW:group:1PC56h4tX5pM",
+					["Role"] = 5,
+					["Name"] = "恶魔之怒",
+					["SettingsPerView"] = {
+						["icon"] = {
+							["TextLayout"] = "icon2",
+						},
+						["bar"] = {
+							["TextLayout"] = "icon2",
+							["Icon"] = false,
+						},
+					},
+					["Locked"] = true,
+					["Columns"] = 1,
+					["TimerBar_EnableColors"] = true,
+					["OnlyInCombat"] = true,
+				}, -- [3]
 			},
+			["NumGroups"] = 3,
+		},
+		["舒殉魂 - 伊森利恩"] = {
+			["Locked"] = true,
+			["NumGroups"] = 3,
+			["Version"] = 85102,
+			["Groups"] = {
+				{
+					["GUID"] = "TMW:group:1NuuZutNRyGh",
+					["Columns"] = 5,
+					["Scale"] = 1.5,
+					["Rows"] = 2,
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "火焰冲击",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Level"] = 2,
+									["Name"] = "热力迸发",
+									["Operator"] = ">=",
+								}, -- [1]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "炽热连击！",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["Events"] = {
+								{
+									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "烈焰飞舞",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Level"] = 2,
+									["Name"] = "热力迸发",
+									["Operator"] = ">=",
+								}, -- [1]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "炽热连击！",
+								}, -- [2]
+								{
+									["Name"] = "火焰冲击",
+									["Type"] = "SPELLCHARGES",
+								}, -- [3]
+								["n"] = 3,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "凤凰烈焰",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Level"] = 2,
+									["Name"] = "热力迸发",
+									["Operator"] = ">=",
+								}, -- [1]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "炽热连击！",
+								}, -- [2]
+								{
+									["Name"] = "火焰冲击",
+									["Type"] = "SPELLCHARGES",
+								}, -- [3]
+								{
+									["Type"] = "SPELLCD",
+									["Name"] = "烈焰飞舞",
+									["Operator"] = "~=",
+								}, -- [4]
+								["n"] = 4,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "燃烧",
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "炎爆术",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Level"] = 2,
+									["Name"] = "炽热连击！",
+									["Operator"] = ">=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [6]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "寒冰护体",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Level"] = 2,
+									["Name"] = "寒冰护体",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [9]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "法术吸取",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [10]
+					},
+					["Role"] = 1,
+					["Name"] = "火法",
+					["Point"] = {
+						["y"] = 166,
+						["point"] = "BOTTOM",
+						["relativePoint"] = "BOTTOM",
+					},
+					["EnabledSpecs"] = {
+						[62] = false,
+						[64] = false,
+					},
+					["OnlyInCombat"] = true,
+				}, -- [1]
+				{
+					["GUID"] = "TMW:group:1O6b2jDdmvVs",
+					["Columns"] = 5,
+					["Scale"] = 1.5,
+					["Rows"] = 2,
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "冰枪术",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Level"] = 2,
+									["Name"] = "寒冰指",
+									["Operator"] = ">=",
+								}, -- [1]
+								{
+									["Type"] = "DEBUFFDUR",
+									["Checked"] = true,
+									["Operator"] = ">=",
+									["Name"] = "冰川尖刺",
+									["AndOr"] = "OR",
+									["Level"] = 2,
+									["Unit"] = "target",
+								}, -- [2]
+								{
+									["Type"] = "DEBUFFDUR",
+									["Checked"] = true,
+									["Operator"] = ">=",
+									["Name"] = "冰霜新星",
+									["AndOr"] = "OR",
+									["Level"] = 2,
+									["Unit"] = "target",
+								}, -- [3]
+								["n"] = 3,
+							},
+							["Events"] = {
+								{
+									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "冰风暴",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Level"] = 2,
+									["Name"] = "冰冷智慧",
+									["Operator"] = ">=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "寒冰宝珠",
+							["Events"] = {
+								{
+									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "冰冷血脉",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "黑冰箭",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "寒冰指",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [6]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "冰川尖刺",
+							["Conditions"] = {
+								{
+									["Checked"] = true,
+									["Type"] = "BUFFSTACKS",
+									["Name"] = "冰刺",
+									["Level"] = 5,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "暴风雪",
+							["Events"] = {
+								{
+									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "寒冰护体",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Level"] = 2,
+									["Name"] = "寒冰护体",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [9]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [10]
+					},
+					["Role"] = 1,
+					["Point"] = {
+						["y"] = -130,
+					},
+					["Locked"] = true,
+					["Conditions"] = {
+						{
+							["Type"] = "ALIVE",
+							["Unit"] = "target",
+						}, -- [1]
+						["n"] = 1,
+					},
+					["EnabledSpecs"] = {
+						[62] = false,
+						[63] = false,
+					},
+					["OnlyInCombat"] = true,
+				}, -- [2]
+				{
+					["GUID"] = "TMW:group:1O6bxNNz=fNu",
+					["Columns"] = 5,
+					["Scale"] = 1.5,
+					["Rows"] = 2,
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["Type"] = "buff",
+							["Name"] = "虚空风暴",
+							["BuffOrDebuff"] = "HARMFUL",
+							["Unit"] = "target",
+							["Events"] = {
+								{
+									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+									["Alpha"] = 0,
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "奥术飞弹",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Level"] = 2,
+									["Name"] = "奥术飞弹！",
+									["Operator"] = ">=",
+								}, -- [1]
+								{
+									["Type"] = "BUFFSTACKS",
+									["Checked"] = true,
+									["PrtsBefore"] = 1,
+									["Level"] = 3,
+									["Name"] = "奥术飞弹！",
+								}, -- [2]
+								{
+									["Type"] = "ARCANE_CHARGES",
+									["Level"] = 4,
+									["AndOr"] = "OR",
+									["PrtsAfter"] = 1,
+									["Operator"] = ">=",
+								}, -- [3]
+								["n"] = 3,
+							},
+							["Events"] = {
+								{
+									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "唤醒",
+							["Conditions"] = {
+								{
+									["Type"] = "MANA",
+									["Level"] = 15,
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "奥术强化",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "奥术弹幕",
+							["Conditions"] = {
+								{
+									["Type"] = "ARCANE_CHARGES",
+									["Checked"] = true,
+									["Level"] = 4,
+									["Name"] = "奥术充能",
+									["Operator"] = ">=",
+								}, -- [1]
+								{
+									["Type"] = "MANA",
+									["Level"] = 75,
+									["Operator"] = "<=",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["Events"] = {
+								{
+									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [6]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "寒冰护体",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Level"] = 2,
+									["Name"] = "寒冰护体",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "奥术魔宠",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Level"] = 2,
+									["Name"] = "210126",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Event"] = "OnShow",
+									["Type"] = "Animations",
+									["Infinite"] = true,
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [9]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [10]
+					},
+					["Role"] = 1,
+					["Point"] = {
+						["y"] = -173.333302815755,
+						["x"] = -2.03450520833333e-05,
+					},
+					["Locked"] = true,
+					["Conditions"] = {
+						{
+							["Type"] = "ALIVE",
+							["Unit"] = "target",
+						}, -- [1]
+						["n"] = 1,
+					},
+					["EnabledSpecs"] = {
+						[64] = false,
+						[63] = false,
+					},
+					["OnlyInCombat"] = true,
+				}, -- [3]
+			},
+		},
+		["舒耀星辰 - 伊莫塔尔"] = {
+			["Groups"] = {
+				{
+					["GUID"] = "TMW:group:1ONkxzjM8dm5",
+					["Columns"] = 5,
+					["Scale"] = 1.5,
+					["Rows"] = 2,
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "灰烬觉醒",
+							["Conditions"] = {
+								{
+									["Level"] = 1,
+									["Type"] = "REACTIVE",
+									["Name"] = "圣殿骑士的裁决",
+									["Operator"] = "~=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "公正之剑",
+							["Conditions"] = {
+								{
+									["PrtsBefore"] = 2,
+									["Type"] = "HOLY_POWER",
+									["Level"] = 3,
+									["Operator"] = "<=",
+								}, -- [1]
+								{
+									["Type"] = "DEBUFFDUR",
+									["Checked"] = true,
+									["Name"] = "审判",
+									["PrtsAfter"] = 1,
+									["Unit"] = "target",
+								}, -- [2]
+								{
+									["Type"] = "HOLY_POWER",
+									["PrtsBefore"] = 1,
+									["AndOr"] = "OR",
+									["Level"] = 2,
+									["Operator"] = "<=",
+								}, -- [3]
+								{
+									["Type"] = "DEBUFFDUR",
+									["Checked"] = true,
+									["Operator"] = "~=",
+									["Name"] = "审判",
+									["PrtsAfter"] = 2,
+									["Unit"] = "target",
+								}, -- [4]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "神圣意志",
+								}, -- [5]
+								["n"] = 5,
+							},
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "十字军打击",
+							["Conditions"] = {
+								{
+									["PrtsBefore"] = 2,
+									["Type"] = "HOLY_POWER",
+									["Level"] = 4,
+									["Operator"] = "<=",
+								}, -- [1]
+								{
+									["Type"] = "DEBUFFDUR",
+									["Checked"] = true,
+									["Name"] = "审判",
+									["PrtsAfter"] = 1,
+									["Unit"] = "target",
+								}, -- [2]
+								{
+									["Type"] = "HOLY_POWER",
+									["PrtsBefore"] = 1,
+									["AndOr"] = "OR",
+									["Level"] = 2,
+									["Operator"] = "<=",
+								}, -- [3]
+								{
+									["Type"] = "DEBUFFDUR",
+									["Checked"] = true,
+									["Operator"] = "~=",
+									["Name"] = "审判",
+									["PrtsAfter"] = 2,
+									["Unit"] = "target",
+								}, -- [4]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "神圣意志",
+								}, -- [5]
+								["n"] = 5,
+							},
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "复仇之怒",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "审判",
+							["Conditions"] = {
+								{
+									["Name"] = "审判",
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Unit"] = "target",
+								}, -- [1]
+								{
+									["Type"] = "HOLY_POWER",
+									["Name"] = "圣殿骑士的裁决",
+									["PrtsBefore"] = 1,
+									["Level"] = 3,
+									["Operator"] = ">=",
+								}, -- [2]
+								{
+									["Type"] = "BUFFDUR",
+									["Checked"] = true,
+									["Name"] = "神圣意志",
+									["AndOr"] = "OR",
+									["PrtsAfter"] = 1,
+									["Operator"] = "~=",
+								}, -- [3]
+								["n"] = 3,
+							},
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [6]
+						{
+							["ManaCheck"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "圣殿骑士的裁决",
+							["Enabled"] = true,
+							["Events"] = {
+								{
+									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+									["Alpha"] = 0,
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "盲目之光",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "保护祝福",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [9]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "圣疗术",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [10]
+					},
+					["Role"] = 1,
+					["Name"] = "惩戒",
+					["Locked"] = true,
+					["Point"] = {
+						["y"] = -130,
+					},
+					["EnabledSpecs"] = {
+						[66] = false,
+						[65] = false,
+					},
+					["OnlyInCombat"] = true,
+				}, -- [1]
+				{
+					["View"] = "bar",
+					["Point"] = {
+						["y"] = -90,
+						["x"] = -2.03450520833333e-05,
+					},
+					["Scale"] = 1.5,
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["Type"] = "value",
+							["SettingsPerView"] = {
+								["bar"] = {
+									["Texts"] = {
+										"[Value]", -- [1]
+									},
+								},
+							},
+							["PowerType"] = 9,
+							["CustomTex"] = "NONE",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [6]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [9]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [10]
+					},
+					["TextureName"] = "Solid",
+					["GUID"] = "TMW:group:1ONl4xbCZpdJ",
+					["Name"] = "神圣能量",
+					["SettingsPerView"] = {
+						["bar"] = {
+							["TextLayout"] = "TMW:textlayout:1ONlE7haQtDq",
+							["Icon"] = false,
+						},
+					},
+					["Locked"] = true,
+					["Columns"] = 1,
+					["TimerBar_EnableColors"] = true,
+					["OnlyInCombat"] = true,
+				}, -- [2]
+			},
+			["ColorMSQ"] = true,
+			["Locked"] = true,
+			["NumGroups"] = 2,
+			["Version"] = 82405,
 		},
 	},
 }

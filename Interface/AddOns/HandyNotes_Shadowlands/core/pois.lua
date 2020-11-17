@@ -107,7 +107,7 @@ function Path:Draw(pin, type, xy1, xy2)
     t:SetTexture(type)
 
     -- constant size for minimaps, variable size for world maps
-    local size = pin.minimap and 5 or (pin.parentHeight * 0.005)
+    local size = pin.minimap and 4 or (pin.parentHeight * 0.003)
     local line_width = pin.minimap and 60 or (pin.parentHeight * 0.05)
 
     -- apply user scaling
@@ -210,11 +210,11 @@ function Arrow:Render(map, template)
     Line.Render(self, map, template)
 
     -- draw the head of the arrow
-    map:AcquirePin(template, self, CIRCLE, self.corner1)
-    map:AcquirePin(template, self, CIRCLE, self.corner2)
+    --map:AcquirePin(template, self, CIRCLE, self.corner1) --abyui
+    --map:AcquirePin(template, self, CIRCLE, self.corner2)
     map:AcquirePin(template, self, LINE, self.corner1, self.path[#self.path])
     map:AcquirePin(template, self, LINE, self.corner2, self.path[#self.path])
-    map:AcquirePin(template, self, LINE, self.corner1, self.corner2)
+    --map:AcquirePin(template, self, LINE, self.corner1, self.corner2)
 end
 
 -------------------------------------------------------------------------------

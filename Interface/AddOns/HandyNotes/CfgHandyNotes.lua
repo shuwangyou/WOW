@@ -4,6 +4,7 @@
     defaultEnable = 0,
     load = "LATER",
     optionsAfterLogin = 1,
+    bundleSim = true,
 
     icon = [[Interface\Icons\Ability_Hunter_MarkedForDeath]],
     desc = "一个小巧且全能的地图标记注释功能类插件.``ALT+右键 添加一个注释标记`Ctrl+Shift+拖拽 移动已经添加的注释标记```设置口令：/handynotes",
@@ -12,7 +13,17 @@
     toggle = function(name, info, enable, justload)
         if justload then
             local function hook(overlayFrame)
-                local plugins = { "HandyNotes_MechagonAndNazjatar", "HandyNotesArgus", "HandyNotes_VisionsOfNZoth", "LegionRaresTreasures", "BattleForAzerothTreasures" }
+                --aby-patch-work search for HandyNotes:RegisterPluginDB(
+                local plugins = {
+                    "HandyNotes_Shadowlands",
+                    "HandyNotes_BattleForAzeroth",
+                    "DraenorTreasures",
+                    "HandyNotesArgus",
+                    "LegionRaresTreasures",
+                    "HallowsEnd",
+                    "LunarFestival",
+                    "SummerFestival",
+                }
                 if not overlayFrame or not overlayFrame.InitializeDropDown then return end
                 hooksecurefunc(overlayFrame, 'InitializeDropDown', function(self)
                     local function OnSelection(button)
@@ -96,26 +107,8 @@ U1RegisterAddon("HandyNotes_Shadowlands", {
     desc = "在9.0新地图上显示宝藏和稀有精英的位置, 数据量很大, 可能会造成卡顿, 请在需要时开启.",
 })
 
-U1RegisterAddon("HandyNotes_VisionsOfNZoth", {
-    title = "恩佐斯幻象(8.3)",
-    defaultEnable = 1,
-    load = "LATER",
-});
-
-U1RegisterAddon("HandyNotes_MechagonAndNazjatar", {
-    title = "麦卡贡和纳沙塔尔(8.2)",
-    defaultEnable = 1,
-    load = "LATER",
-});
-
-U1RegisterAddon("HandyNotes_WarfrontRares", {
-    title = "战争前线稀有位置(8.1)",
-    defaultEnable = 1,
-    load = "LATER",
-})
-
-U1RegisterAddon("HandyNotes_BattleForAzerothTreasures", {
-    title = "争霸艾酱地图宝箱(8.0)",
+U1RegisterAddon("HandyNotes_BattleForAzeroth", {
+    title = "争霸艾泽拉斯宝箱(8.0)",
     defaultEnable = 1,
     load = "LATER",
     desc = "在8.0新地图上显示宝藏和稀有精英的位置, 数据量很大, 可能会造成卡顿, 请在需要时开启.",
@@ -152,26 +145,15 @@ U1RegisterAddon("HandyNotes_DraenorTreasures", {
     modifier = "Vincero@NGA汉化",
 })
 
-U1RegisterAddon("HandyNotes_HallowsEnd", {
-    title = "万圣节糖罐位置",
-    defaultEnable = 1,
-    load = "LATER",
-})
+U1RegisterAddon("HandyNotes_HallowsEnd", { title = "万圣节糖罐位置", defaultEnable = 1, load = "LATER", })
+U1RegisterAddon("HandyNotes_SummerFestival", { title = "仲夏节篝火位置", defaultEnable = 1, load = "LATER", })
+U1RegisterAddon("HandyNotes_LunarFestival", { title = "春节长者位置", defaultEnable = 1, load = "LATER", })
+U1RegisterAddon("HandyNotes_DungeonLocations", { title = "老地图副本入口", defaultEnable = 1, load = "LATER",})
 
-U1RegisterAddon("HandyNotes_SummerFestival", {
-    title = "仲夏节篝火位置",
-    defaultEnable = 1,
-    load = "LATER",
-})
+--[[
+U1RegisterAddon("HandyNotes_VisionsOfNZoth", { title = "恩佐斯幻象(8.3)", defaultEnable = 1, load = "LATER", });
+U1RegisterAddon("HandyNotes_MechagonAndNazjatar", { title = "麦卡贡和纳沙塔尔(8.2)", defaultEnable = 1, load = "LATER", });
+U1RegisterAddon("HandyNotes_WarfrontRares", { title = "战争前线稀有位置(8.1)", defaultEnable = 1, load = "LATER", })
+U1RegisterAddon("HandyNotes_BattleForAzerothTreasures", { title = "争霸艾酱地图宝箱(8.0)", defaultEnable = 1, load = "LATER", desc = "在8.0新地图上显示宝藏和稀有精英的位置, 数据量很大, 可能会造成卡顿, 请在需要时开启.", })
+--]]
 
-U1RegisterAddon("HandyNotes_LunarFestival", {
-    title = "春节长者位置",
-    defaultEnable = 1,
-    load = "LATER",
-})
-
-U1RegisterAddon("HandyNotes_DungeonLocations", {
-    title = "老地图副本入口",
-    defaultEnable = 1,
-    load = "LATER",
-})

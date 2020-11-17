@@ -1675,12 +1675,16 @@ function UUI.OnUpdate(self, elapsed)
         end
     end
 
+    --[[ --only update when change option or show
     self.timer = self.timer + elapsed;
     if(self.timer > 3) then
         self.timer = 0;
-        UpdateAddOnMemoryUsage()
-        UUI.Center.Refresh();
+        if not U1DB.sortByName then
+            UpdateAddOnMemoryUsage()
+            UUI.Center.Refresh();
+        end
     end
+    ]]
 end
 
 function UUI.OnSizeChanged(self)
@@ -1689,7 +1693,9 @@ end
 
 function UUI.OnShow(self)
     --self:SetSize(840, 465)
-    UpdateAddOnMemoryUsage();
+    --打开就更新内存情况太卡，但是不更新又无法显示占用内存，所以等一秒
+    if not U1DB.sortByName then UpdateAddOnMemoryUsage(); end
+    CoreScheduleTimer(false, 1, UpdateAddOnMemoryUsage);
     self.left:SetWidth(UUI.LEFT_WIDTH); --没有这句就会出问题！
 
     U1UpdateTags(); --为什么要在这里UpdateTags? 因为除此之外只有一个事件在Update了
@@ -1917,7 +1923,6 @@ function U1_CreateMinimapButton()
         type = "launcher",
         label = L["爱不易"],
         icon = UUI.Tex'UI2-icon',
-        iconCoords = {0.04+0.05, 26/32-0.06+0.05, 0.06, 26/32-0.10},
         OnEnter = CoreUIShowTooltip,
         OnClick = function(self, button)
             GameTooltip:Hide();
