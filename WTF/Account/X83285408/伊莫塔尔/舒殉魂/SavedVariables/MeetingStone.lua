@@ -8,7 +8,18 @@ MEETINGSTONE_CHARACTER_DB = {
 			["searchHistoryList"] = {
 				"6-0-0-0", -- [1]
 			},
-			["version"] = "80300.01",
+			["settings"] = {
+				["panelLock"] = true,
+				["storage"] = {
+					["y"] = -151.153518676758,
+					["x"] = 308.376190185547,
+					["point"] = "LEFT",
+					["scale"] = 1,
+				},
+			},
+			["lastSearchCode"] = "6-0-0-0",
+			["version"] = "90001.01",
+			["advShine"] = "80000.04",
 			["recent"] = {
 				["3-269-657-0"] = {
 					{
@@ -130,17 +141,6 @@ MEETINGSTONE_CHARACTER_DB = {
 					}, -- [15]
 				},
 			},
-			["settings"] = {
-				["panelLock"] = true,
-				["storage"] = {
-					["y"] = -151.153518676758,
-					["x"] = 308.376190185547,
-					["point"] = "LEFT",
-					["scale"] = 1,
-				},
-			},
-			["advShine"] = "80000.04",
-			["lastSearchCode"] = "6-0-0-0",
 		},
 	},
 }

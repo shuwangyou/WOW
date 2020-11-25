@@ -73,6 +73,7 @@ MethodDungeonToolsDB = {
 				}, -- [12]
 			},
 		},
+		["version"] = 302,
 		["presets"] = {
 			[15] = {
 				{
@@ -82,30 +83,29 @@ MethodDungeonToolsDB = {
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
-						["riftOffsets"] = {
-							[4] = {
-							},
+						["pulls"] = {
+							{
+								["color"] = "228b22",
+							}, -- [1]
 						},
 						["currentDungeonIdx"] = 15,
 						["teeming"] = false,
 						["selection"] = {
 							1, -- [1]
 						},
-						["pulls"] = {
-							{
-								["color"] = "228b22",
-							}, -- [1]
+						["riftOffsets"] = {
+							[4] = {
+							},
 						},
 					},
+					["difficulty"] = 10,
 					["mdi"] = {
 						["freeholdJoined"] = false,
-						["beguiling"] = 1,
 						["freehold"] = 1,
+						["beguiling"] = 1,
 					},
-					["difficulty"] = 10,
 				}, -- [1]
 			},
 		},
-		["version"] = 302,
 	},
 }

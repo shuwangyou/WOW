@@ -274,6 +274,15 @@ EA_Items = {
 			["name"] = "希望象徵",
 		},
 	},
+	["DEMONHUNTER"] = {
+		[163073] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[188501] = {
+			["enable"] = true,
+		},
+	},
 	["MAGE"] = {
 		[12042] = {
 			["enable"] = true,
@@ -294,12 +303,20 @@ EA_Items = {
 			["enable"] = true,
 		},
 	},
-	["DEMONHUNTER"] = {
-		[163073] = {
+	["ROGUE"] = {
+		[1966] = {
 			["enable"] = true,
-			["self"] = true,
 		},
-		[188501] = {
+		[59628] = {
+			["enable"] = true,
+		},
+		[57934] = {
+			["enable"] = true,
+		},
+		[58427] = {
+			["enable"] = true,
+		},
+		[5171] = {
 			["enable"] = true,
 		},
 	},
@@ -307,9 +324,11 @@ EA_Items = {
 EA_AltItems = {
 	["DEATHKNIGHT"] = {
 	},
+	["DEMONHUNTER"] = {
+	},
 	["MAGE"] = {
 	},
-	["DEMONHUNTER"] = {
+	["ROGUE"] = {
 	},
 }
 EA_TarItems = {
@@ -340,6 +359,8 @@ EA_TarItems = {
 			["self"] = true,
 		},
 	},
+	["DEMONHUNTER"] = {
+	},
 	["MAGE"] = {
 		[31589] = {
 			["enable"] = true,
@@ -354,7 +375,11 @@ EA_TarItems = {
 			["self"] = true,
 		},
 	},
-	["DEMONHUNTER"] = {
+	["ROGUE"] = {
+		[1943] = {
+			["enable"] = true,
+			["self"] = true,
+		},
 	},
 }
 EA_ScdItems = {
@@ -465,23 +490,6 @@ EA_ScdItems = {
 			["enable"] = false,
 		},
 	},
-	["MAGE"] = {
-		[12042] = {
-			["enable"] = false,
-		},
-		[122] = {
-			["enable"] = false,
-		},
-		[12051] = {
-			["enable"] = false,
-		},
-		[1953] = {
-			["enable"] = false,
-		},
-		[45438] = {
-			["enable"] = false,
-		},
-	},
 	["DEMONHUNTER"] = {
 		[131347] = {
 			["enable"] = false,
@@ -529,9 +537,36 @@ EA_ScdItems = {
 			["enable"] = false,
 		},
 	},
+	["MAGE"] = {
+		[12042] = {
+			["enable"] = false,
+		},
+		[122] = {
+			["enable"] = false,
+		},
+		[12051] = {
+			["enable"] = false,
+		},
+		[1953] = {
+			["enable"] = false,
+		},
+		[45438] = {
+			["enable"] = false,
+		},
+	},
+	["ROGUE"] = {
+		[65961] = {
+			["enable"] = false,
+		},
+		[79140] = {
+			["enable"] = false,
+		},
+	},
 }
 EA_GrpItems = {
 	["DEATHKNIGHT"] = {
+	},
+	["DEMONHUNTER"] = {
 	},
 	["MAGE"] = {
 		{
@@ -574,7 +609,54 @@ EA_GrpItems = {
 			["IconRelatePoint"] = "Top",
 		}, -- [1]
 	},
-	["DEMONHUNTER"] = {
+	["ROGUE"] = {
+		{
+			["IconAlpha"] = 0.5,
+			["GroupIconID"] = 0,
+			["enable"] = false,
+			["Spells"] = {
+				{
+					["SpellIconPath"] = 132090,
+					["Checks"] = {
+						{
+							["SubChecks"] = {
+								{
+									["CheckCD"] = 53,
+									["EventType"] = "UNIT_POWER_UPDATE",
+									["SubCheckResult"] = false,
+									["PowerType"] = "ENERGY",
+									["PowerTypeNum"] = 3,
+									["SubCheckAndOp"] = true,
+									["PowerLessThanValue"] = 40,
+									["UnitType"] = "player",
+									["PowerCompType"] = 4,
+								}, -- [1]
+								{
+									["HealthLessThanPercent"] = 35,
+									["UnitType"] = "target",
+									["SubCheckAndOp"] = true,
+									["HealthCompType"] = 2,
+									["EventType"] = "UNIT_HEALTH",
+									["SubCheckResult"] = false,
+								}, -- [2]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [1]
+					},
+					["SpellResult"] = false,
+					["SpellIconID"] = 53,
+					["SpellName"] = "背刺",
+				}, -- [1]
+			},
+			["LocX"] = 0,
+			["GroupResult"] = false,
+			["LocY"] = -200,
+			["IconSize"] = 80,
+			["IconPoint"] = "Top",
+			["GroupIndex"] = 1,
+			["IconRelatePoint"] = "Top",
+		}, -- [1]
 	},
 }
 EA_Pos = {

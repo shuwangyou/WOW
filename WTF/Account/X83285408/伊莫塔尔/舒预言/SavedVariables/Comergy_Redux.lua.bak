@@ -27,7 +27,7 @@ Comergy_Config = {
 			1, -- [2]
 			1, -- [3]
 		},
-		["RuneHeight"] = 10,
+		["DurationScale"] = 0.800000011920929,
 		["UnifiedEnergyColor"] = false,
 		["ChiColor6"] = {
 			0, -- [1]
@@ -40,7 +40,7 @@ Comergy_Config = {
 			1, -- [2]
 			0, -- [3]
 		},
-		["EnergyFlash"] = false,
+		["RuneHeight"] = 10,
 		["SplitEnergy4"] = true,
 		["SoundMana3"] = false,
 		["SoundRune2"] = false,
@@ -61,10 +61,10 @@ Comergy_Config = {
 			0, -- [3]
 			0.75, -- [4]
 		},
-		["SoundEnergy4"] = false,
+		["BarTexture"] = 9,
 		["FlipOrientation"] = false,
 		["RuneFlash"] = true,
-		["ShowTargetHealthBar"] = false,
+		["SoundMana5"] = false,
 		["SplitEnergy1"] = true,
 		["ChiColor8"] = {
 			0, -- [1]
@@ -90,19 +90,19 @@ Comergy_Config = {
 			0, -- [2]
 			0, -- [3]
 		},
-		["BarTexture"] = 9,
-		["SoundMana5"] = false,
+		["GradientEnergyColor"] = true,
+		["EnergyColor0"] = {
+			1, -- [1]
+			0, -- [2]
+			0, -- [3]
+		},
 		["ManaColor3"] = {
 			1, -- [1]
 			1, -- [2]
 			0, -- [3]
 		},
 		["SoundRune1"] = false,
-		["EnergyColor0"] = {
-			1, -- [1]
-			0, -- [2]
-			0, -- [3]
-		},
+		["ShowTargetHealthBar"] = false,
 		["EnergyBGColorAlpha"] = {
 			0.3, -- [1]
 			0.3, -- [2]
@@ -146,11 +146,7 @@ Comergy_Config = {
 			1, -- [3]
 			0.5, -- [4]
 		},
-		["ChiColor0"] = {
-			0.5, -- [1]
-			0.5, -- [2]
-			0.5, -- [3]
-		},
+		["SoundChi4"] = false,
 		["SoundChi2"] = false,
 		["RuneBGAlpha"] = 0.4,
 		["GradientManaColor"] = true,
@@ -165,7 +161,7 @@ Comergy_Config = {
 			0, -- [3]
 			0.5, -- [4]
 		},
-		["SoundChi4"] = false,
+		["ShowInStealth"] = true,
 		["TextCenter"] = false,
 		["Spacing"] = 3,
 		["UnifiedChiColor"] = false,
@@ -233,7 +229,11 @@ Comergy_Config = {
 		["ManaThreshold3"] = 175000,
 		["ShowOnlyInCombat"] = false,
 		["ShowWhenEnergyNotFull"] = false,
-		["ShowInStealth"] = true,
+		["ChiColor0"] = {
+			0.5, -- [1]
+			0.5, -- [2]
+			0.5, -- [3]
+		},
 		["SplitEnergy2"] = false,
 		["SoundRune3"] = false,
 		["ManaThreshold2"] = 125000,
@@ -250,7 +250,7 @@ Comergy_Config = {
 			0, -- [3]
 		},
 		["TargetHeight"] = 1,
-		["GradientEnergyColor"] = true,
+		["SoundEnergy4"] = false,
 		["SoundEnergy3"] = false,
 		["ChiFlash"] = true,
 		["Y"] = -260,
@@ -261,7 +261,7 @@ Comergy_Config = {
 			1, -- [2]
 			0, -- [3]
 		},
-		["DurationScale"] = 0.800000011920929,
+		["EnergyFlash"] = false,
 		["ChiBGAlpha"] = 0.09999999403953552,
 		["AnticipationCombo"] = true,
 		["ShowPlayerHealthBar"] = false,

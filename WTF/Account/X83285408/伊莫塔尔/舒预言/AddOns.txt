@@ -289,3 +289,5 @@ dbm-castlenathria: enabled
 dbm-shadowlands: enabled
 dbm-party-shadowlands: enabled
 handynotes_shadowlands: enabled
+handynotes_battleforazeroth: enabled
+dbm-bfa: enabled

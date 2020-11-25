@@ -932,6 +932,352 @@ TradeLog_TradesHistory = {
 		["result"] = "complete",
 		["where"] = "尼奥罗萨",
 	}, -- [38]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 39,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			{
+				["name"] = "魔石战靴",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:140884::::::::50:251::6:4:3445:1472:5855:3336:1:28:621:::|h[魔石战靴]|h|r",
+				["isUsable"] = true,
+				["texture"] = 1346142,
+			}, -- [1]
+			{
+				["name"] = "锯齿甲壳护腕",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:140902::::::::50:251::6:3:3445:1472:3528:1:28:621:::|h[锯齿甲壳护腕]|h|r",
+				["isUsable"] = true,
+				["texture"] = 1346143,
+			}, -- [2]
+			{
+				["name"] = "魔石战靴",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:140884::::::::50:251::6:3:3445:1472:3528:1:28:621:::|h[魔石战靴]|h|r",
+				["isUsable"] = true,
+				["texture"] = 1346142,
+			}, -- [3]
+		},
+		["player"] = "舒预言",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "雪風",
+		["when"] = "2020-11-19 21:30:03",
+		["result"] = "complete",
+		["where"] = "暗夜要塞",
+	}, -- [39]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 40,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			{
+				["name"] = "破碎纪元手甲",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:140879::::::::50:251::6:4:3445:42:1472:3528:1:28:621:::|h[破碎纪元手甲]|h|r",
+				["isUsable"] = true,
+				["texture"] = 1316218,
+			}, -- [1]
+		},
+		["player"] = "舒预言",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "雪風",
+		["when"] = "2020-11-19 21:33:39",
+		["result"] = "complete",
+		["where"] = "暗夜要塞",
+	}, -- [40]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 41,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			{
+				["name"] = "夜之子镀金腰带",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:140880::::::::50:251::6:3:3445:1472:3528:1:28:621:::|h[夜之子镀金腰带]|h|r",
+				["isUsable"] = true,
+				["texture"] = 1316214,
+			}, -- [1]
+		},
+		["player"] = "舒预言",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "雪風",
+		["when"] = "2020-11-19 21:36:38",
+		["result"] = "complete",
+		["where"] = "暗夜要塞",
+	}, -- [41]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 42,
+		["playerItems"] = {
+			{
+				["numItems"] = 1,
+				["name"] = "燃烧之步战靴",
+				["itemLink"] = "|cffa335ee|Hitem:140867::::::::50:251::6:3:3518:1472:3528:1:28:621:::|h[燃烧之步战靴]|h|r",
+				["texture"] = 1339444,
+			}, -- [1]
+		},
+		["targetItems"] = {
+			{
+				["name"] = "暮色卫队板甲护腕",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:140878::::::::50:251::6:3:3518:1472:3528:1:28:621:::|h[暮色卫队板甲护腕]|h|r",
+				["isUsable"] = true,
+				["texture"] = 1316216,
+			}, -- [1]
+		},
+		["player"] = "舒预言",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "雪風",
+		["when"] = "2020-11-19 21:40:44",
+		["result"] = "complete",
+		["where"] = "暗夜要塞",
+	}, -- [42]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 43,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			{
+				["name"] = "日暮战盔",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:140881::::::::50:251::6:3:3518:1472:3528:1:28:621:::|h[日暮战盔]|h|r",
+				["isUsable"] = true,
+				["texture"] = 1357387,
+			}, -- [1]
+		},
+		["player"] = "舒预言",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "雪風",
+		["when"] = "2020-11-19 21:58:54",
+		["result"] = "complete",
+		["where"] = "暗夜要塞",
+	}, -- [43]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 44,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			{
+				["name"] = "恐惧之龙胸甲",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:138349::::::::50:251::6:4:3518:1472:5855:3336:1:28:619:::|h[恐惧之龙胸甲]|h|r",
+				["isUsable"] = true,
+				["texture"] = 1346144,
+			}, -- [1]
+		},
+		["player"] = "舒预言",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "雪風",
+		["when"] = "2020-11-19 22:05:28",
+		["result"] = "complete",
+		["where"] = "暗夜要塞",
+	}, -- [44]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 45,
+		["playerItems"] = {
+			{
+				["numItems"] = 1,
+				["name"] = "元素之缚头盔",
+				["itemLink"] = "|cffa335ee|Hitem:138343::::::::50:251::6:3:3518:1472:3528:1:28:621:::|h[元素之缚头盔]|h|r",
+				["texture"] = 1339448,
+			}, -- [1]
+		},
+		["targetItems"] = {
+		},
+		["player"] = "舒预言",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "雪風",
+		["when"] = "2020-11-19 22:11:18",
+		["result"] = "complete",
+		["where"] = "暗夜要塞",
+	}, -- [45]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 46,
+		["playerItems"] = {
+			{
+				["numItems"] = 1,
+				["name"] = "灰白龙鳞头盔",
+				["itemLink"] = "|cffa335ee|Hitem:139214::::::::50:251::6:3:1806:1472:3528:1:28:626:::|h[灰白龙鳞头盔]|h|r",
+				["texture"] = 1318373,
+			}, -- [1]
+		},
+		["targetItems"] = {
+		},
+		["player"] = "舒预言",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "雪風",
+		["when"] = "2020-11-19 22:37:10",
+		["result"] = "complete",
+		["where"] = "翡翠梦魇",
+	}, -- [46]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 47,
+		["playerItems"] = {
+			{
+				["numItems"] = 1,
+				["name"] = "乌毒战靴",
+				["itemLink"] = "|cffa335ee|Hitem:139219::::::::50:251::6:3:1806:1472:3528:1:28:626:::|h[乌毒战靴]|h|r",
+				["texture"] = 1339444,
+			}, -- [1]
+			{
+				["numItems"] = 1,
+				["name"] = "乌毒战靴",
+				["itemLink"] = "|cffa335ee|Hitem:139219::::::::50:251::6:3:1806:1472:3528:1:28:626:::|h[乌毒战靴]|h|r",
+				["texture"] = 1339444,
+			}, -- [2]
+		},
+		["targetItems"] = {
+			{
+				["name"] = "风痕腿甲",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:139230::::::::50:251::6:3:1806:1472:3528:1:28:626:::|h[风痕腿甲]|h|r",
+				["isUsable"] = true,
+				["texture"] = 1346147,
+			}, -- [1]
+		},
+		["player"] = "舒预言",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "雪風",
+		["when"] = "2020-11-19 22:46:19",
+		["result"] = "complete",
+		["where"] = "翡翠梦魇",
+	}, -- [47]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 48,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			{
+				["name"] = "原始怒火手甲",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:139226::::::::50:251::6:3:1806:1472:3528:1:28:626:::|h[原始怒火手甲]|h|r",
+				["isUsable"] = true,
+				["texture"] = 1357447,
+			}, -- [1]
+		},
+		["player"] = "舒预言",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "雪風",
+		["when"] = "2020-11-19 22:51:28",
+		["result"] = "complete",
+		["where"] = "翡翠梦魇",
+	}, -- [48]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 49,
+		["playerItems"] = {
+			{
+				["numItems"] = 1,
+				["name"] = "欢笑姐妹的腰带",
+				["itemLink"] = "|cffa335ee|Hitem:139211::::::::50:251::6:3:1806:1472:3528:1:28:624:::|h[欢笑姐妹的腰带]|h|r",
+				["texture"] = 1318368,
+			}, -- [1]
+		},
+		["targetItems"] = {
+		},
+		["player"] = "舒预言",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "雪風",
+		["when"] = "2020-11-19 22:54:41",
+		["result"] = "complete",
+		["where"] = "翡翠梦魇",
+	}, -- [49]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 50,
+		["playerItems"] = {
+			{
+				["numItems"] = 1,
+				["name"] = "林地守护者长袍",
+				["itemLink"] = "|cffa335ee|Hitem:139207::::::::50:251::6:3:1806:1472:3528:1:28:624:::|h[林地守护者长袍]|h|r",
+				["texture"] = 1337283,
+			}, -- [1]
+			{
+				["numItems"] = 1,
+				["name"] = "梦魇巨像镣铐",
+				["itemLink"] = "|cffa335ee|Hitem:139222::::::::50:251::6:3:1806:1472:3528:1:28:626:::|h[梦魇巨像镣铐]|h|r",
+				["texture"] = 1339445,
+			}, -- [2]
+		},
+		["targetItems"] = {
+		},
+		["player"] = "舒预言",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "雪風",
+		["when"] = "2020-11-19 22:58:00",
+		["result"] = "complete",
+		["where"] = "翡翠梦魇",
+	}, -- [50]
 	["minimapPos"] = 338,
 }
 TradeLog_Announce_Checked = true

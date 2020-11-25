@@ -38,8 +38,8 @@ GridClickSetsForTalents = {
 		},
 		["2"] = {
 			[""] = {
-				["type"] = "spell",
 				["arg"] = "解除诅咒",
+				["type"] = "spell",
 			},
 		},
 		["5"] = {

@@ -274,6 +274,15 @@ EA_Items = {
 			["self"] = true,
 		},
 	},
+	["DEMONHUNTER"] = {
+		[163073] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[188501] = {
+			["enable"] = true,
+		},
+	},
 	["MAGE"] = {
 		[12042] = {
 			["enable"] = true,
@@ -294,18 +303,28 @@ EA_Items = {
 			["enable"] = true,
 		},
 	},
-	["DEMONHUNTER"] = {
-		[163073] = {
+	["ROGUE"] = {
+		[1966] = {
 			["enable"] = true,
-			["self"] = true,
 		},
-		[188501] = {
+		[57934] = {
+			["enable"] = true,
+		},
+		[5171] = {
+			["enable"] = true,
+		},
+		[58427] = {
+			["enable"] = true,
+		},
+		[59628] = {
 			["enable"] = true,
 		},
 	},
 }
 EA_AltItems = {
 	["DEATHKNIGHT"] = {
+	},
+	["ROGUE"] = {
 	},
 	["MAGE"] = {
 	},
@@ -337,6 +356,12 @@ EA_TarItems = {
 		[297108] = {
 			["enable"] = true,
 			["name"] = "仇敌之血",
+			["self"] = true,
+		},
+	},
+	["ROGUE"] = {
+		[1943] = {
+			["enable"] = true,
 			["self"] = true,
 		},
 	},
@@ -465,6 +490,14 @@ EA_ScdItems = {
 			["enable"] = false,
 		},
 	},
+	["ROGUE"] = {
+		[65961] = {
+			["enable"] = false,
+		},
+		[79140] = {
+			["enable"] = false,
+		},
+	},
 	["MAGE"] = {
 		[12042] = {
 			["enable"] = false,
@@ -532,6 +565,55 @@ EA_ScdItems = {
 }
 EA_GrpItems = {
 	["DEATHKNIGHT"] = {
+	},
+	["ROGUE"] = {
+		{
+			["IconAlpha"] = 0.5,
+			["GroupIconID"] = 0,
+			["enable"] = false,
+			["Spells"] = {
+				{
+					["SpellIconPath"] = 132090,
+					["Checks"] = {
+						{
+							["SubChecks"] = {
+								{
+									["CheckCD"] = 53,
+									["EventType"] = "UNIT_POWER_UPDATE",
+									["SubCheckResult"] = false,
+									["PowerType"] = "ENERGY",
+									["PowerTypeNum"] = 3,
+									["SubCheckAndOp"] = true,
+									["UnitType"] = "player",
+									["PowerLessThanValue"] = 40,
+									["PowerCompType"] = 4,
+								}, -- [1]
+								{
+									["HealthLessThanPercent"] = 35,
+									["UnitType"] = "target",
+									["SubCheckAndOp"] = true,
+									["SubCheckResult"] = false,
+									["EventType"] = "UNIT_HEALTH",
+									["HealthCompType"] = 2,
+								}, -- [2]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [1]
+					},
+					["SpellResult"] = false,
+					["SpellIconID"] = 53,
+					["SpellName"] = "背刺",
+				}, -- [1]
+			},
+			["LocX"] = 0,
+			["GroupResult"] = false,
+			["GroupIndex"] = 1,
+			["IconSize"] = 80,
+			["IconPoint"] = "Top",
+			["LocY"] = -200,
+			["IconRelatePoint"] = "Top",
+		}, -- [1]
 	},
 	["MAGE"] = {
 		{

@@ -356,3 +356,6 @@ tomcats-mechagon: enabled
 details_vanguard: disabled
 handynotes_battleforazeroth: enabled
 zperl_raidmonitor: disabled
+dbm-bfa: enabled
+PlexusStatusRaidDebuff: disabled
+dbm_mods_bfa: enabled

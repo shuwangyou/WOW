@@ -58,7 +58,7 @@ Dominos_Config: enabled
 Dominos_Progress: enabled
 EN_UnitFrames: enabled
 ErrorFilter: enabled
-EventAlertMod: disabled
+EventAlertMod: enabled
 ExtraActionBar: disabled
 GarrisonMissionManager: enabled
 GatherMate2: disabled
@@ -285,7 +285,7 @@ MagicRunes: disabled
 TradeSkillMaster_Additions: disabled
 TradeSkillMaster_ItemTracker: disabled
 TradeSkillMaster_WoWuction: disabled
-TradeSkillMaster: disabled
+TradeSkillMaster: enabled
 WorldQuestTracker: enabled
 Rematch: enabled
 PitBull4Facade: disabled
@@ -302,7 +302,7 @@ TradeSkillMaster_Destroying: disabled
 TradeSkillMaster_Mailing: disabled
 TradeSkillMaster_Warehousing: disabled
 DBM-Argus: enabled
-ZPerl: enabled
+ZPerl: disabled
 ZPerl_ArcaneBar: enabled
 SexyMap: disabled
 BigFootBar: disabled
@@ -370,7 +370,7 @@ zperl_customhighlight: enabled
 abybossguide: enabled
 paku_totems: enabled
 azeritetooltip: enabled
-shadowedunitframes: disabled
+shadowedunitframes: enabled
 shadoweduf_options: enabled
 dbm_mods_legion: enabled
 handynotes_arathi: enabled
@@ -395,7 +395,7 @@ details_streamer: disabled
 tomcats-mechagon: enabled
 details_vanguard: disabled
 details: disabled
-rarescanner: disabled
+rarescanner: enabled
 details_datastorage: enabled
 dbm-eternalpalace: enabled
 masque_cirque: enabled
@@ -423,3 +423,15 @@ mythicdungeontools: disabled
 dbm-castlenathria: enabled
 dbm-shadowlands: enabled
 dbm-party-shadowlands: enabled
+handynotes_shadowlands: enabled
+handynotes_battleforazeroth: enabled
+dbm-bfa: enabled
+exrt: disabled
+zperl_raidframes: disabled
+tradeskillmaster_pricechecker: enabled
+zperl_party: disabled
+zperl_raidpets: disabled
+zperl_raidhelper: disabled
+zperl_raidadmin: disabled
+163ui_plugins: disabled
+zperl_partypet: disabled

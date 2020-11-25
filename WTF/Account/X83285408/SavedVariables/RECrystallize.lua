@@ -3,9 +3,9 @@ RECrystallizeSettings = {
 	["LastScan"] = 0,
 	["DatabaseCleanup"] = 432000,
 	["GuildChatPC"] = false,
-	["SlowScan"] = false,
-	["DatabaseVersion"] = 1,
 	["ScanPulse"] = 1,
+	["DatabaseVersion"] = 1,
+	["SlowScan"] = false,
 	["AlwaysShowAll"] = false,
 }
 RECrystallizeDatabase = {

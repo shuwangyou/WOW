@@ -35,8 +35,8 @@ Comergy_Config = {
 			1, -- [3]
 		},
 		["SoundMana1"] = false,
+		["EnergyFlash"] = false,
 		["DurationScale"] = 0.800000011920929,
-		["RuneHeight"] = 10,
 		["SplitEnergy4"] = true,
 		["SoundMana3"] = false,
 		["SoundRune2"] = false,
@@ -56,10 +56,14 @@ Comergy_Config = {
 			1, -- [3]
 		},
 		["SplitMana4"] = false,
-		["BarTexture"] = 9,
+		["GradientEnergyColor"] = true,
 		["FlipOrientation"] = false,
 		["RuneFlash"] = true,
-		["SoundMana5"] = false,
+		["EnergyColor0"] = {
+			1, -- [1]
+			0, -- [2]
+			0, -- [3]
+		},
 		["SplitEnergy1"] = true,
 		["EnergyColor5"] = {
 			0, -- [1]
@@ -86,19 +90,15 @@ Comergy_Config = {
 			0, -- [2]
 			0, -- [3]
 		},
-		["GradientEnergyColor"] = true,
-		["EnergyColor0"] = {
-			1, -- [1]
-			0, -- [2]
-			0, -- [3]
-		},
+		["SoundEnergy4"] = false,
+		["ShowTargetHealthBar"] = false,
 		["ManaColor3"] = {
 			1, -- [1]
 			1, -- [2]
 			0, -- [3]
 		},
 		["SoundChi3"] = false,
-		["ShowTargetHealthBar"] = false,
+		["SoundMana5"] = false,
 		["ManaColor5"] = {
 			0, -- [1]
 			1, -- [2]
@@ -137,7 +137,7 @@ Comergy_Config = {
 			1, -- [3]
 			0.5, -- [4]
 		},
-		["SoundChi4"] = false,
+		["ShowInStealth"] = true,
 		["UnifiedManaColor"] = true,
 		["RuneBGAlpha"] = 0.4,
 		["ManaThreshold2"] = 125000,
@@ -152,7 +152,11 @@ Comergy_Config = {
 			0, -- [3]
 			0.5, -- [4]
 		},
-		["ShowInStealth"] = true,
+		["ChiColor0"] = {
+			0.5, -- [1]
+			0.5, -- [2]
+			0.5, -- [3]
+		},
 		["GradientManaColor"] = true,
 		["Spacing"] = 3,
 		["ShowWhenEnergyNotFull"] = false,
@@ -220,11 +224,7 @@ Comergy_Config = {
 		["ManaThreshold3"] = 175000,
 		["ShowOnlyInCombat"] = false,
 		["UnifiedChiColor"] = false,
-		["ChiColor0"] = {
-			0.5, -- [1]
-			0.5, -- [2]
-			0.5, -- [3]
-		},
+		["SoundChi4"] = false,
 		["EnergyThreshold1"] = 25,
 		["SoundRune3"] = false,
 		["TextCenter"] = false,
@@ -246,7 +246,7 @@ Comergy_Config = {
 			0.5, -- [4]
 		},
 		["TargetHeight"] = 1,
-		["SoundEnergy4"] = false,
+		["BarTexture"] = 9,
 		["ChiColor3"] = {
 			1, -- [1]
 			1, -- [2]
@@ -262,7 +262,7 @@ Comergy_Config = {
 			1, -- [2]
 			1, -- [3]
 		},
-		["EnergyFlash"] = false,
+		["RuneHeight"] = 10,
 		["AnticipationCombo"] = true,
 		["ShowPlayerHealthBar"] = false,
 	}, -- [1]

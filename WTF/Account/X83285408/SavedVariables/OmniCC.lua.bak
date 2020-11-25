@@ -1,19 +1,19 @@
 
 OmniCCDB = {
+	["global"] = {
+		["addonVersion"] = "9.0.4",
+		["dbVersion"] = 5,
+	},
 	["profileKeys"] = {
 		["舒预言 - 伊莫塔尔"] = "默认",
 		["舒孑影 - 伊莫塔尔"] = "默认",
 		["Jackiexu - 伊莫塔尔"] = "默认",
 		["花菜的巴巴 - 伊莫塔尔"] = "默认",
-		["舒殉魂 - 伊莫塔尔"] = "默认",
-		["舒预言 - 死亡之翼"] = "默认",
-		["舒墨兰 - 伊莫塔尔"] = "默认",
-		["舒孑影 - 安苏"] = "默认",
 		["舒春丽 - 伊莫塔尔"] = "默认",
-	},
-	["global"] = {
-		["addonVersion"] = "9.0.3",
-		["dbVersion"] = 5,
+		["舒墨兰 - 伊莫塔尔"] = "默认",
+		["舒预言 - 死亡之翼"] = "默认",
+		["舒孑影 - 安苏"] = "默认",
+		["舒殉魂 - 伊莫塔尔"] = "默认",
 	},
 	["profiles"] = {
 		["默认"] = {
@@ -61,47 +61,13 @@ OmniCCDB = {
 						},
 					},
 					["minDuration"] = 3,
-					["minSize"] = 0.1,
+					["anchor"] = "TOPRIGHT",
 					["effect"] = "none",
 					["spiralOpacity"] = 0.6,
 					["yOff"] = 5,
 					["xOff"] = 10,
 					["fontSize"] = 26,
-					["anchor"] = "TOPRIGHT",
-				},
-				["Aby_Grid"] = {
-					["textStyles"] = {
-						["soon"] = {
-							["scale"] = 1,
-						},
-						["seconds"] = {
-							["a"] = 0.9,
-						},
-						["minutes"] = {
-							["a"] = 0.8,
-						},
-						["hours"] = {
-							["a"] = 0.7,
-							["scale"] = 1,
-						},
-						["charging"] = {
-							["a"] = 0.9,
-							["scale"] = 1,
-						},
-						["controlled"] = {
-							["scale"] = 1,
-						},
-					},
-					["minDuration"] = 3,
 					["minSize"] = 0.1,
-					["effect"] = "none",
-					["spiralOpacity"] = 0.6,
-					["yOff"] = 5,
-					["xOff"] = 10,
-					["name"] = "Aby_Grid",
-					["fontSize"] = 26,
-					["version"] = "20191126",
-					["anchor"] = "TOPRIGHT",
 				},
 				["默认"] = {
 					["textStyles"] = {
@@ -129,11 +95,46 @@ OmniCCDB = {
 					["spiralOpacity"] = 1.00999997742474,
 					["fontSize"] = 30,
 				},
+				["Aby_Grid"] = {
+					["textStyles"] = {
+						["soon"] = {
+							["scale"] = 1,
+						},
+						["seconds"] = {
+							["a"] = 0.9,
+						},
+						["minutes"] = {
+							["a"] = 0.8,
+						},
+						["hours"] = {
+							["a"] = 0.7,
+							["scale"] = 1,
+						},
+						["charging"] = {
+							["a"] = 0.9,
+							["scale"] = 1,
+						},
+						["controlled"] = {
+							["scale"] = 1,
+						},
+					},
+					["minDuration"] = 3,
+					["anchor"] = "TOPRIGHT",
+					["effect"] = "none",
+					["spiralOpacity"] = 0.6,
+					["yOff"] = 5,
+					["xOff"] = 10,
+					["version"] = "20191126",
+					["fontSize"] = 26,
+					["name"] = "Aby_Grid",
+					["minSize"] = 0.1,
+				},
 			},
 		},
 	},
 }
 OmniCC4Config = {
+	["version"] = "8.2.5",
 	["groupSettings"] = {
 		["base"] = {
 			["styles"] = {
@@ -156,21 +157,34 @@ OmniCC4Config = {
 					["scale"] = 1.00000000745058,
 				},
 			},
-			["fontSize"] = 30,
-			["minDuration"] = 2,
+			["fontFace"] = "Fonts\\ARKai_T.TTF",
+			["minEffectDuration"] = 30,
 			["spiralOpacity"] = 1.00999997742474,
-			["yOff"] = 0,
+			["minDuration"] = 2,
 			["xOff"] = 0,
 			["tenthsDuration"] = 0,
 			["fontOutline"] = "OUTLINE",
 			["minSize"] = 0.5,
 			["mmSSDuration"] = 0,
-			["minEffectDuration"] = 30,
-			["fontFace"] = "Fonts\\ARKai_T.TTF",
+			["yOff"] = 0,
+			["fontSize"] = 30,
 		},
 		["163UI_Grid"] = {
 			["enabled"] = true,
 			["fontFace"] = "Fonts\\ARKai_T.ttf",
+			["fontSize"] = 26,
+			["effect"] = "none",
+			["yOff"] = 5,
+			["mmSSDuration"] = 0,
+			["minSize"] = 0.1,
+			["spiralOpacity"] = 0.6,
+			["scaleText"] = true,
+			["xOff"] = 10,
+			["tenthsDuration"] = 0,
+			["fontOutline"] = "OUTLINE",
+			["anchor"] = "TOPRIGHT",
+			["minEffectDuration"] = 30,
+			["minDuration"] = 3,
 			["styles"] = {
 				["soon"] = {
 					["a"] = 1,
@@ -215,19 +229,6 @@ OmniCC4Config = {
 					["b"] = 0.1,
 				},
 			},
-			["effect"] = "none",
-			["scaleText"] = true,
-			["minEffectDuration"] = 30,
-			["anchor"] = "TOPRIGHT",
-			["spiralOpacity"] = 0.6,
-			["minDuration"] = 3,
-			["xOff"] = 10,
-			["tenthsDuration"] = 0,
-			["fontOutline"] = "OUTLINE",
-			["minSize"] = 0.1,
-			["mmSSDuration"] = 0,
-			["yOff"] = 5,
-			["fontSize"] = 26,
 		},
 	},
 	["groups"] = {
@@ -240,5 +241,4 @@ OmniCC4Config = {
 			["enabled"] = true,
 		}, -- [1]
 	},
-	["version"] = "8.2.5",
 }
